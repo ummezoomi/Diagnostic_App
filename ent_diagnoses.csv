@@ -1,0 +1,1121 @@
+Diagnosis,Symptoms,MEDICATION,Specialty
+A186    Tuberculosis of (inner) (middle) ear,,,ENT
+A380    Scarlet fever with otitis media,,,ENT
+A5003   Early congenital syphilitic pharyngitis,,,ENT
+A5005   Early congenital syphilitic rhinitis,,,ENT
+A5057   Syphilitic saddle nose,,,ENT
+A545    Gonococcal pharyngitis,,,ENT
+A881    Epidemic vertigo,,,ENT
+B053    Measles complicated by otitis media,,,ENT
+B085    Enteroviral vesicular pharyngitis,,,ENT
+B3784   Candidal otitis externa,,,ENT
+C301    Malignant neoplasm of middle ear,,,ENT
+C4320   Malignant melanoma of unspecified ear and external auricular canal,,,ENT
+C4321   Malignant melanoma of right ear and external auricular canal,,,ENT
+C4322   Malignant melanoma of left ear and external auricular canal,,,ENT
+C4331   Malignant melanoma of nose,,,ENT
+C4A20   Merkel cell carcinoma of unspecified ear and external auricular canal,,,ENT
+C4A21   Merkel cell carcinoma of right ear and external auricular canal,,,ENT
+C4A22   Merkel cell carcinoma of left ear and external auricular canal,,,ENT
+C4A31   Merkel cell carcinoma of nose,,,ENT
+C44201  Unspecified malignant neoplasm of skin of unspecified ear and external auricular canal,,,ENT
+C44202  Unspecified malignant neoplasm of skin of right ear and external auricular canal,,,ENT
+C44209  Unspecified malignant neoplasm of skin of left ear and external auricular canal,,,ENT
+C44211  Basal cell carcinoma of skin of unspecified ear and external auricular canal,,,ENT
+C44212  Basal cell carcinoma of skin of right ear and external auricular canal,,,ENT
+C44219  Basal cell carcinoma of skin of left ear and external auricular canal,,,ENT
+C44221  Squamous cell carcinoma of skin of unspecified ear and external auricular canal,,,ENT
+C44222  Squamous cell carcinoma of skin of right ear and external auricular canal,,,ENT
+C44229  Squamous cell carcinoma of skin of left ear and external auricular canal,,,ENT
+C44291  Other specified malignant neoplasm of skin of unspecified ear and external auricular canal,,,ENT
+C44292  Other specified malignant neoplasm of skin of right ear and external auricular canal,,,ENT
+C44299  Other specified malignant neoplasm of skin of left ear and external auricular canal,,,ENT
+C44301  Unspecified malignant neoplasm of skin of nose,,,ENT
+C44311  Basal cell carcinoma of skin of nose,,,ENT
+C44321  Squamous cell carcinoma of skin of nose,,,ENT
+C44391  Other specified malignant neoplasm of skin of nose,,,ENT
+D0320   Melanoma in situ of unspecified ear and external auricular canal,,,ENT
+D0321   Melanoma in situ of right ear and external auricular canal,,,ENT
+D0322   Melanoma in situ of left ear and external auricular canal,,,ENT
+D0420   Carcinoma in situ of skin of unspecified ear and external auricular canal,,,ENT
+D0421   Carcinoma in situ of skin of right ear and external auricular canal,,,ENT
+D0422   Carcinoma in situ of skin of left ear and external auricular canal,,,ENT
+"D140    Benign neoplasm of middle ear, nasal cavity and accessory sinuses",,,ENT
+D2220   Melanocytic nevi of unspecified ear and external auricular canal,,,ENT
+D2221   Melanocytic nevi of right ear and external auricular canal,,,ENT
+D2222   Melanocytic nevi of left ear and external auricular canal,,,ENT
+D2320   Other benign neoplasm of skin of unspecified ear and external auricular canal,,,ENT
+D2321   Other benign neoplasm of skin of right ear and external auricular canal,,,ENT
+D2322   Other benign neoplasm of skin of left ear and external auricular canal,,,ENT
+"H6000   Abscess of external ear, unspecified ear",,,ENT
+H6001   Abscess of right external ear,,,ENT
+H6002   Abscess of left external ear,,,ENT
+"H6003   Abscess of external ear, bilateral",,,ENT
+"H6010   Cellulitis of external ear, unspecified ear",,,ENT
+H6011   Cellulitis of right external ear,,,ENT
+H6012   Cellulitis of left external ear,,,ENT
+"H6013   Cellulitis of external ear, bilateral",,,ENT
+"H6020   Malignant otitis externa, unspecified ear",,,ENT
+"H6021   Malignant otitis externa, right ear",,,ENT
+"H6022   Malignant otitis externa, left ear",,,ENT
+"H6023   Malignant otitis externa, bilateral",,,ENT
+"H60311  Diffuse otitis externa, right ear",,,ENT
+"H60312  Diffuse otitis externa, left ear",,,ENT
+"H60313  Diffuse otitis externa, bilateral",,,ENT
+"H60319  Diffuse otitis externa, unspecified ear",,,ENT
+"H60321  Hemorrhagic otitis externa, right ear",,,ENT
+"H60322  Hemorrhagic otitis externa, left ear",,,ENT
+"H60323  Hemorrhagic otitis externa, bilateral",,,ENT
+"H60329  Hemorrhagic otitis externa, unspecified ear",,,ENT
+"H60331  Swimmer's ear, right ear",,,ENT
+"H60332  Swimmer's ear, left ear",,,ENT
+"H60333  Swimmer's ear, bilateral",,,ENT
+"H60339  Swimmer's ear, unspecified ear",,,ENT
+"H60391  Other infective otitis externa, right ear",,,ENT
+"H60392  Other infective otitis externa, left ear",,,ENT
+"H60393  Other infective otitis externa, bilateral",,,ENT
+"H60399  Other infective otitis externa, unspecified ear",,,ENT
+"H6040   Cholesteatoma of external ear, unspecified ear",,,ENT
+H6041   Cholesteatoma of right external ear,,,ENT
+H6042   Cholesteatoma of left external ear,,,ENT
+"H6043   Cholesteatoma of external ear, bilateral",,,ENT
+"H60501  Unspecified acute noninfective otitis externa, right ear",,,ENT
+"H60502  Unspecified acute noninfective otitis externa, left ear",,,ENT
+"H60503  Unspecified acute noninfective otitis externa, bilateral",,,ENT
+"H60509  Unspecified acute noninfective otitis externa, unspecified ear",,,ENT
+"H60511  Acute actinic otitis externa, right ear",,,ENT
+"H60512  Acute actinic otitis externa, left ear",,,ENT
+"H60513  Acute actinic otitis externa, bilateral",,,ENT
+"H60519  Acute actinic otitis externa, unspecified ear",,,ENT
+"H60521  Acute chemical otitis externa, right ear",,,ENT
+"H60522  Acute chemical otitis externa, left ear",,,ENT
+"H60523  Acute chemical otitis externa, bilateral",,,ENT
+"H60529  Acute chemical otitis externa, unspecified ear",,,ENT
+"H60531  Acute contact otitis externa, right ear",,,ENT
+"H60532  Acute contact otitis externa, left ear",,,ENT
+"H60533  Acute contact otitis externa, bilateral",,,ENT
+"H60539  Acute contact otitis externa, unspecified ear",,,ENT
+"H60541  Acute eczematoid otitis externa, right ear",,,ENT
+"H60542  Acute eczematoid otitis externa, left ear",,,ENT
+"H60543  Acute eczematoid otitis externa, bilateral",,,ENT
+"H60549  Acute eczematoid otitis externa, unspecified ear",,,ENT
+"H60551  Acute reactive otitis externa, right ear",,,ENT
+"H60552  Acute reactive otitis externa, left ear",,,ENT
+"H60553  Acute reactive otitis externa, bilateral",,,ENT
+"H60559  Acute reactive otitis externa, unspecified ear",,,ENT
+"H60591  Other noninfective acute otitis externa, right ear",,,ENT
+"H60592  Other noninfective acute otitis externa, left ear",,,ENT
+"H60593  Other noninfective acute otitis externa, bilateral",,,ENT
+"H60599  Other noninfective acute otitis externa, unspecified ear",,,ENT
+"H6060   Unspecified chronic otitis externa, unspecified ear",,,ENT
+"H6061   Unspecified chronic otitis externa, right ear",,,ENT
+"H6062   Unspecified chronic otitis externa, left ear",,,ENT
+"H6063   Unspecified chronic otitis externa, bilateral",,,ENT
+"H608X1  Other otitis externa, right ear",,,ENT
+"H608X2  Other otitis externa, left ear",,,ENT
+"H608X3  Other otitis externa, bilateral",,,ENT
+"H608X9  Other otitis externa, unspecified ear",,,ENT
+"H6090   Unspecified otitis externa, unspecified ear",,,ENT
+"H6091   Unspecified otitis externa, right ear",,,ENT
+"H6092   Unspecified otitis externa, left ear",,,ENT
+"H6093   Unspecified otitis externa, bilateral",,,ENT
+H61001  Unspecified perichondritis of right external ear,,,ENT
+H61002  Unspecified perichondritis of left external ear,,,ENT
+"H61003  Unspecified perichondritis of external ear, bilateral",,,ENT
+"H61009  Unspecified perichondritis of external ear, unspecified ear",,,ENT
+H61011  Acute perichondritis of right external ear,,,ENT
+H61012  Acute perichondritis of left external ear,,,ENT
+"H61013  Acute perichondritis of external ear, bilateral",,,ENT
+"H61019  Acute perichondritis of external ear, unspecified ear",,,ENT
+H61021  Chronic perichondritis of right external ear,,,ENT
+H61022  Chronic perichondritis of left external ear,,,ENT
+"H61023  Chronic perichondritis of external ear, bilateral",,,ENT
+"H61029  Chronic perichondritis of external ear, unspecified ear",,,ENT
+H61031  Chondritis of right external ear,,,ENT
+H61032  Chondritis of left external ear,,,ENT
+"H61033  Chondritis of external ear, bilateral",,,ENT
+"H61039  Chondritis of external ear, unspecified ear",,,ENT
+"H61101  Unspecified noninfective disorders of pinna, right ear",,,ENT
+"H61102  Unspecified noninfective disorders of pinna, left ear",,,ENT
+"H61109  Unspecified noninfective disorders of pinna, unspecified ear",,,ENT
+"H61111  Acquired deformity of pinna, right ear",,,ENT
+"H61112  Acquired deformity of pinna, left ear",,,ENT
+"H61119  Acquired deformity of pinna, unspecified ear",,,ENT
+"H61121  Hematoma of pinna, right ear",,,ENT
+"H61122  Hematoma of pinna, left ear",,,ENT
+"H61129  Hematoma of pinna, unspecified ear",,,ENT
+"H61191  Noninfective disorders of pinna, right ear",,,ENT
+"H61192  Noninfective disorders of pinna, left ear",,,ENT
+"H61199  Noninfective disorders of pinna, unspecified ear",,,ENT
+"H6120   Impacted cerumen, unspecified ear",,,ENT
+"H6121   Impacted cerumen, right ear",,,ENT
+"H6122   Impacted cerumen, left ear",,,ENT
+"H61301  Acquired stenosis of right external ear canal, unspecified",,,ENT
+"H61302  Acquired stenosis of left external ear canal, unspecified",,,ENT
+"H61303  Acquired stenosis of external ear canal, unspecified, bilateral",,,ENT
+"H61309  Acquired stenosis of external ear canal, unspecified, unspecified ear",,,ENT
+H61311  Acquired stenosis of right external ear canal secondary to trauma,,,ENT
+H61312  Acquired stenosis of left external ear canal secondary to trauma,,,ENT
+"H61313  Acquired stenosis of external ear canal secondary to trauma, bilateral",,,ENT
+"H61319  Acquired stenosis of external ear canal secondary to trauma, unspecified ear",,,ENT
+H61321  Acquired stenosis of right external ear canal secondary to inflammation and infection,,,ENT
+H61322  Acquired stenosis of left external ear canal secondary to inflammation and infection,,,ENT
+"H61323  Acquired stenosis of external ear canal secondary to inflammation and infection, bilateral",,,ENT
+"H61329  Acquired stenosis of external ear canal secondary to inflammation and infection, unspecified
+ear",,,ENT
+H61391  Other acquired stenosis of right external ear canal,,,ENT
+H61392  Other acquired stenosis of left external ear canal,,,ENT
+"H61393  Other acquired stenosis of external ear canal, bilateral",,,ENT
+"H61399  Other acquired stenosis of external ear canal, unspecified ear",,,ENT
+"H61819  Exostosis of external canal, unspecified ear",,,ENT
+H61891  Other specified disorders of right external ear,,,ENT
+H61892  Other specified disorders of left external ear,,,ENT
+"H61893  Other specified disorders of external ear, bilateral",,,ENT
+"H61899  Other specified disorders of external ear, unspecified ear",,,ENT
+"H6190   Disorder of external ear, unspecified, unspecified ear",,,ENT
+"H6191   Disorder of right external ear, unspecified",,,ENT
+"H6192   Disorder of left external ear, unspecified",,,ENT
+"H6193   Disorder of external ear, unspecified, bilateral",,,ENT
+"H6240   Otitis externa in other diseases classified elsewhere, unspecified ear",,,ENT
+"H6241   Otitis externa in other diseases classified elsewhere, right ear",,,ENT
+"H6242   Otitis externa in other diseases classified elsewhere, left ear",,,ENT
+"H6243   Otitis externa in other diseases classified elsewhere, bilateral",,,ENT
+H628X1  Other disorders of right external ear in diseases classified elsewhere,,,ENT
+H628X2  Other disorders of left external ear in diseases classified elsewhere,,,ENT
+"H628X3  Other disorders of external ear in diseases classified elsewhere, bilateral",,,ENT
+"H628X9  Other disorders of external ear in diseases classified elsewhere, unspecified ear",,,ENT
+"H6500   Acute serous otitis media, unspecified ear",,,ENT
+"H6501   Acute serous otitis media, right ear",,,ENT
+"H6502   Acute serous otitis media, left ear",,,ENT
+"H6503   Acute serous otitis media, bilateral",,,ENT
+"H6504   Acute serous otitis media, recurrent, right ear",,,ENT
+"H6505   Acute serous otitis media, recurrent, left ear",,,ENT
+"H6506   Acute serous otitis media, recurrent, bilateral",,,ENT
+"H6507   Acute serous otitis media, recurrent, unspecified ear",,,ENT
+"H65111  Acute and subacute allergic otitis media (mucoid) (sanguinous) (serous), right ear",,,ENT
+"H65112  Acute and subacute allergic otitis media (mucoid) (sanguinous) (serous), left ear",,,ENT
+"H65113  Acute and subacute allergic otitis media (mucoid) (sanguinous) (serous), bilateral",,,ENT
+"H65114  Acute and subacute allergic otitis media (mucoid) (sanguinous) (serous), recurrent, right ear",,,ENT
+"H65115  Acute and subacute allergic otitis media (mucoid) (sanguinous) (serous), recurrent, left ear",,,ENT
+"H65116  Acute and subacute allergic otitis media (mucoid) (sanguinous) (serous), recurrent, bilateral",,,ENT
+"H65117  Acute and subacute allergic otitis media (mucoid) (sanguinous) (serous), recurrent, unspecified
+ear",,,ENT
+"H65119  Acute and subacute allergic otitis media (mucoid) (sanguinous) (serous), unspecified ear",,,ENT
+"H65191  Other acute nonsuppurative otitis media, right ear",,,ENT
+"H65192  Other acute nonsuppurative otitis media, left ear",,,ENT
+"H65193  Other acute nonsuppurative otitis media, bilateral",,,ENT
+"H65194  Other acute nonsuppurative otitis media, recurrent, right ear",,,ENT
+"H65195  Other acute nonsuppurative otitis media, recurrent, left ear",,,ENT
+"H65196  Other acute nonsuppurative otitis media, recurrent, bilateral",,,ENT
+"H65197  Other acute nonsuppurative otitis media recurrent, unspecified ear",,,ENT
+"H65199  Other acute nonsuppurative otitis media, unspecified ear",,,ENT
+"H6520   Chronic serous otitis media, unspecified ear",,,ENT
+"H6521   Chronic serous otitis media, right ear",,,ENT
+"H6522   Chronic serous otitis media, left ear",,,ENT
+"H6523   Chronic serous otitis media, bilateral",,,ENT
+"H6530   Chronic mucoid otitis media, unspecified ear",,,ENT
+"H6531   Chronic mucoid otitis media, right ear",,,ENT
+"H6532   Chronic mucoid otitis media, left ear",,,ENT
+"H6533   Chronic mucoid otitis media, bilateral",,,ENT
+"H65411  Chronic allergic otitis media, right ear",,,ENT
+"H65412  Chronic allergic otitis media, left ear",,,ENT
+"H65413  Chronic allergic otitis media, bilateral",,,ENT
+"H65419  Chronic allergic otitis media, unspecified ear",,,ENT
+"H65491  Other chronic nonsuppurative otitis media, right ear",,,ENT
+"H65492  Other chronic nonsuppurative otitis media, left ear",,,ENT
+"H65493  Other chronic nonsuppurative otitis media, bilateral",,,ENT
+"H65499  Other chronic nonsuppurative otitis media, unspecified ear",,,ENT
+"H6590   Unspecified nonsuppurative otitis media, unspecified ear",,,ENT
+"H6591   Unspecified nonsuppurative otitis media, right ear",,,ENT
+"H6592   Unspecified nonsuppurative otitis media, left ear",,,ENT
+"H6593   Unspecified nonsuppurative otitis media, bilateral",,,ENT
+"H66001  Acute suppurative otitis media without spontaneous rupture of ear drum, right ear",,,ENT
+"H66002  Acute suppurative otitis media without spontaneous rupture of ear drum, left ear",,,ENT
+"H66003  Acute suppurative otitis media without spontaneous rupture of ear drum, bilateral",,,ENT
+"H66004  Acute suppurative otitis media without spontaneous rupture of ear drum, recurrent, right ear",,,ENT
+"H66005  Acute suppurative otitis media without spontaneous rupture of ear drum, recurrent, left ear",,,ENT
+"H66006  Acute suppurative otitis media without spontaneous rupture of ear drum, recurrent, bilateral",,,ENT
+"H66007  Acute suppurative otitis media without spontaneous rupture of ear drum, recurrent,
+unspecified ear",,,ENT
+"H66009  Acute suppurative otitis media without spontaneous rupture of ear drum, unspecified ear",,,ENT
+"H66011  Acute suppurative otitis media with spontaneous rupture of ear drum, right ear",,,ENT
+"H66012  Acute suppurative otitis media with spontaneous rupture of ear drum, left ear",,,ENT
+"H66013  Acute suppurative otitis media with spontaneous rupture of ear drum, bilateral",,,ENT
+"H66014  Acute suppurative otitis media with spontaneous rupture of ear drum, recurrent, right ear",,,ENT
+"H66015  Acute suppurative otitis media with spontaneous rupture of ear drum, recurrent, left ear",,,ENT
+"H66016  Acute suppurative otitis media with spontaneous rupture of ear drum, recurrent, bilateral",,,ENT
+"H66017  Acute suppurative otitis media with spontaneous rupture of ear drum, recurrent, unspecified
+ear",,,ENT
+"H66019  Acute suppurative otitis media with spontaneous rupture of ear drum, unspecified ear",,,ENT
+"H6610   Chronic tubotympanic suppurative otitis media, unspecified",,,ENT
+"H6611   Chronic tubotympanic suppurative otitis media, right ear",,,ENT
+"H6612   Chronic tubotympanic suppurative otitis media, left ear",,,ENT
+"H6613   Chronic tubotympanic suppurative otitis media, bilateral",,,ENT
+"H6620   Chronic atticoantral suppurative otitis media, unspecified ear",,,ENT
+"H6621   Chronic atticoantral suppurative otitis media, right ear",,,ENT
+"H6622   Chronic atticoantral suppurative otitis media, left ear",,,ENT
+"H6623   Chronic atticoantral suppurative otitis media, bilateral",,,ENT
+"H663X1  Other chronic suppurative otitis media, right ear",,,ENT
+"H663X2  Other chronic suppurative otitis media, left ear",,,ENT
+"H663X3  Other chronic suppurative otitis media, bilateral",,,ENT
+"H663X9  Other chronic suppurative otitis media, unspecified ear",,,ENT
+"H6640   Suppurative otitis media, unspecified, unspecified ear",,,ENT
+"H6641   Suppurative otitis media, unspecified, right ear",,,ENT
+"H6642   Suppurative otitis media, unspecified, left ear",,,ENT
+"H6643   Suppurative otitis media, unspecified, bilateral",,,ENT
+"H6690   Otitis media, unspecified, unspecified ear",,,ENT
+"H6691   Otitis media, unspecified, right ear",,,ENT
+"H6692   Otitis media, unspecified, left ear",,,ENT
+"H6693   Otitis media, unspecified, bilateral",,,ENT
+"H671    Otitis media in diseases classified elsewhere, right ear",,,ENT
+"H672    Otitis media in diseases classified elsewhere, left ear",,,ENT
+"H673    Otitis media in diseases classified elsewhere, bilateral",,,ENT
+"H679    Otitis media in diseases classified elsewhere, unspecified ear",,,ENT
+"H68001  Unspecified Eustachian salpingitis, right ear",,,ENT
+"H68002  Unspecified Eustachian salpingitis, left ear",,,ENT
+"H68009  Unspecified Eustachian salpingitis, unspecified ear",,,ENT
+"H68011  Acute Eustachian salpingitis, right ear",,,ENT
+"H68012  Acute Eustachian salpingitis, left ear",,,ENT
+"H68019  Acute Eustachian salpingitis, unspecified ear",,,ENT
+"H68021  Chronic Eustachian salpingitis, right ear",,,ENT
+"H68022  Chronic Eustachian salpingitis, left ear",,,ENT
+"H68029  Chronic Eustachian salpingitis, unspecified ear",,,ENT
+"H68101  Unspecified obstruction of Eustachian tube, right ear",,,ENT
+"H68102  Unspecified obstruction of Eustachian tube, left ear",,,ENT
+"H68109  Unspecified obstruction of Eustachian tube, unspecified ear",,,ENT
+"H68111  Osseous obstruction of Eustachian tube, right ear",,,ENT
+"H68112  Osseous obstruction of Eustachian tube, left ear",,,ENT
+"H68119  Osseous obstruction of Eustachian tube, unspecified ear",,,ENT
+"H68121  Intrinsic cartilagenous obstruction of Eustachian tube, right ear",,,ENT
+"H68122  Intrinsic cartilagenous obstruction of Eustachian tube, left ear",,,ENT
+"H68129  Intrinsic cartilagenous obstruction of Eustachian tube, unspecified ear",,,ENT
+"H68131  Extrinsic cartilagenous obstruction of Eustachian tube, right ear",,,ENT
+"H68132  Extrinsic cartilagenous obstruction of Eustachian tube, left ear",,,ENT
+"H68139  Extrinsic cartilagenous obstruction of Eustachian tube, unspecified ear",,,ENT
+"H6900   Patulous Eustachian tube, unspecified ear",,,ENT
+"H6901   Patulous Eustachian tube, right ear",,,ENT
+"H6902   Patulous Eustachian tube, left ear",,,ENT
+"H6980   Other specified disorders of Eustachian tube, unspecified ear",,,ENT
+"H6981   Other specified disorders of Eustachian tube, right ear",,,ENT
+"H6982   Other specified disorders of Eustachian tube, left ear",,,ENT
+"H6990   Unspecified Eustachian tube disorder, unspecified ear",,,ENT
+"H6991   Unspecified Eustachian tube disorder, right ear",,,ENT
+"H6992   Unspecified Eustachian tube disorder, left ear",,,ENT
+"H70001  Acute mastoiditis without complications, right ear",,,ENT
+"H70002  Acute mastoiditis without complications, left ear",,,ENT
+"H70009  Acute mastoiditis without complications, unspecified ear",,,ENT
+"H70011  Subperiosteal abscess of mastoid, right ear",,,ENT
+"H70012  Subperiosteal abscess of mastoid, left ear",,,ENT
+"H70019  Subperiosteal abscess of mastoid, unspecified ear",,,ENT
+"H70091  Acute mastoiditis with other complications, right ear",,,ENT
+"H70092  Acute mastoiditis with other complications, left ear",,,ENT
+"H70099  Acute mastoiditis with other complications, unspecified ear",,,ENT
+"H7010   Chronic mastoiditis, unspecified ear",,,ENT
+"H7011   Chronic mastoiditis, right ear",,,ENT
+"H7012   Chronic mastoiditis, left ear",,,ENT
+"H70201  Unspecified petrositis, right ear",,,ENT
+"H70202  Unspecified petrositis, left ear",,,ENT
+"H70209  Unspecified petrositis, unspecified ear",,,ENT
+"H70211  Acute petrositis, right ear",,,ENT
+"H70212  Acute petrositis, left ear",,,ENT
+"H70219  Acute petrositis, unspecified ear",,,ENT
+"H70221  Chronic petrositis, right ear",,,ENT
+"H70222  Chronic petrositis, left ear",,,ENT
+"H70229  Chronic petrositis, unspecified ear",,,ENT
+"H70811  Postauricular fistula, right ear",,,ENT
+"H70812  Postauricular fistula, left ear",,,ENT
+"H70819  Postauricular fistula, unspecified ear",,,ENT
+"H70891  Other mastoiditis and related conditions, right ear",,,ENT
+"H70892  Other mastoiditis and related conditions, left ear",,,ENT
+"H70899  Other mastoiditis and related conditions, unspecified ear",,,ENT
+"H7090   Unspecified mastoiditis, unspecified ear",,,ENT
+"H7091   Unspecified mastoiditis, right ear",,,ENT
+"H7092   Unspecified mastoiditis, left ear",,,ENT
+"H7100   Cholesteatoma of attic, unspecified ear",,,ENT
+"H7101   Cholesteatoma of attic, right ear",,,ENT
+"H7102   Cholesteatoma of attic, left ear",,,ENT
+"H7110   Cholesteatoma of tympanum, unspecified ear",,,ENT
+"H7111   Cholesteatoma of tympanum, right ear",,,ENT
+"H7112   Cholesteatoma of tympanum, left ear",,,ENT
+"H7120   Cholesteatoma of mastoid, unspecified ear",,,ENT
+"H7121   Cholesteatoma of mastoid, right ear",,,ENT
+"H7122   Cholesteatoma of mastoid, left ear",,,ENT
+"H7130   Diffuse cholesteatosis, unspecified ear",,,ENT
+"H7131   Diffuse cholesteatosis, right ear",,,ENT
+"H7132   Diffuse cholesteatosis, left ear",,,ENT
+"H7190   Unspecified cholesteatoma, unspecified ear",,,ENT
+"H7191   Unspecified cholesteatoma, right ear",,,ENT
+"H7192   Unspecified cholesteatoma, left ear",,,ENT
+"H7200   Central perforation of tympanic membrane, unspecified ear",,,ENT
+"H7201   Central perforation of tympanic membrane, right ear",,,ENT
+"H7202   Central perforation of tympanic membrane, left ear",,,ENT
+"H7210   Attic perforation of tympanic membrane, unspecified ear",,,ENT
+"H7211   Attic perforation of tympanic membrane, right ear",,,ENT
+"H7212   Attic perforation of tympanic membrane, left ear",,,ENT
+"H722X1  Other marginal perforations of tympanic membrane, right ear",,,ENT
+"H722X2  Other marginal perforations of tympanic membrane, left ear",,,ENT
+"H722X9  Other marginal perforations of tympanic membrane, unspecified ear",,,ENT
+"H72811  Multiple perforations of tympanic membrane, right ear",,,ENT
+"H72812  Multiple perforations of tympanic membrane, left ear",,,ENT
+"H72819  Multiple perforations of tympanic membrane, unspecified ear",,,ENT
+"H72821  Total perforations of tympanic membrane, right ear",,,ENT
+"H72822  Total perforations of tympanic membrane, left ear",,,ENT
+"H72829  Total perforations of tympanic membrane, unspecified ear",,,ENT
+"H7290   Unspecified perforation of tympanic membrane, unspecified ear",,,ENT
+"H7291   Unspecified perforation of tympanic membrane, right ear",,,ENT
+"H7292   Unspecified perforation of tympanic membrane, left ear",,,ENT
+"H73001  Acute myringitis, right ear",,,ENT
+"H73002  Acute myringitis, left ear",,,ENT
+"H73009  Acute myringitis, unspecified ear",,,ENT
+"H73011  Bullous myringitis, right ear",,,ENT
+"H73012  Bullous myringitis, left ear",,,ENT
+"H73019  Bullous myringitis, unspecified ear",,,ENT
+"H73091  Other acute myringitis, right ear",,,ENT
+"H73092  Other acute myringitis, left ear",,,ENT
+"H73099  Other acute myringitis, unspecified ear",,,ENT
+"H7310   Chronic myringitis, unspecified ear",,,ENT
+"H7311   Chronic myringitis, right ear",,,ENT
+"H7312   Chronic myringitis, left ear",,,ENT
+"H7320   Unspecified myringitis, unspecified ear",,,ENT
+"H7321   Unspecified myringitis, right ear",,,ENT
+"H7322   Unspecified myringitis, left ear",,,ENT
+"H73811  Atrophic flaccid tympanic membrane, right ear",,,ENT
+"H73812  Atrophic flaccid tympanic membrane, left ear",,,ENT
+"H73819  Atrophic flaccid tympanic membrane, unspecified ear",,,ENT
+"H73821  Atrophic nonflaccid tympanic membrane, right ear",,,ENT
+"H73822  Atrophic nonflaccid tympanic membrane, left ear",,,ENT
+"H73829  Atrophic nonflaccid tympanic membrane, unspecified ear",,,ENT
+"H73891  Other specified disorders of tympanic membrane, right ear",,,ENT
+"H73892  Other specified disorders of tympanic membrane, left ear",,,ENT
+"H73899  Other specified disorders of tympanic membrane, unspecified ear",,,ENT
+"H7390   Unspecified disorder of tympanic membrane, unspecified ear",,,ENT
+"H7391   Unspecified disorder of tympanic membrane, right ear",,,ENT
+"H7392   Unspecified disorder of tympanic membrane, left ear",,,ENT
+"H7401   Tympanosclerosis, right ear",,,ENT
+"H7402   Tympanosclerosis, left ear",,,ENT
+"H7409   Tympanosclerosis, unspecified ear",,,ENT
+H7411   Adhesive right middle ear disease,,,ENT
+H7412   Adhesive left middle ear disease,,,ENT
+"H7413   Adhesive middle ear disease, bilateral",,,ENT
+"H7419   Adhesive middle ear disease, unspecified ear",,,ENT
+"H7420   Discontinuity and dislocation of ear ossicles, unspecified ear",,,ENT
+H7421   Discontinuity and dislocation of right ear ossicles,,,ENT
+H7422   Discontinuity and dislocation of left ear ossicles,,,ENT
+"H7423   Discontinuity and dislocation of ear ossicles, bilateral",,,ENT
+"H74311  Ankylosis of ear ossicles, right ear",,,ENT
+"H74312  Ankylosis of ear ossicles, left ear",,,ENT
+"H74313  Ankylosis of ear ossicles, bilateral",,,ENT
+"H74319  Ankylosis of ear ossicles, unspecified ear",,,ENT
+"H74321  Partial loss of ear ossicles, right ear",,,ENT
+"H74322  Partial loss of ear ossicles, left ear",,,ENT
+"H74323  Partial loss of ear ossicles, bilateral",,,ENT
+"H74329  Partial loss of ear ossicles, unspecified ear",,,ENT
+H74391  Other acquired abnormalities of right ear ossicles,,,ENT
+H74392  Other acquired abnormalities of left ear ossicles,,,ENT
+"H74393  Other acquired abnormalities of ear ossicles, bilateral",,,ENT
+"H74399  Other acquired abnormalities of ear ossicles, unspecified ear",,,ENT
+"H7440   Polyp of middle ear, unspecified ear",,,ENT
+H7441   Polyp of right middle ear,,,ENT
+H7442   Polyp of left middle ear,,,ENT
+"H7443   Polyp of middle ear, bilateral",,,ENT
+H748X1  Other specified disorders of right middle ear and mastoid,,,ENT
+H748X2  Other specified disorders of left middle ear and mastoid,,,ENT
+"H748X3  Other specified disorders of middle ear and mastoid, bilateral",,,ENT
+"H748X9  Other specified disorders of middle ear and mastoid, unspecified ear",,,ENT
+"H7490   Unspecified disorder of middle ear and mastoid, unspecified ear",,,ENT
+H7491   Unspecified disorder of right middle ear and mastoid,,,ENT
+H7492   Unspecified disorder of left middle ear and mastoid,,,ENT
+"H7493   Unspecified disorder of middle ear and mastoid, bilateral",,,ENT
+"H7500   Mastoiditis in infectious and parasitic diseases classified elsewhere, unspecified ear",,,ENT
+"H7501   Mastoiditis in infectious and parasitic diseases classified elsewhere, right ear",,,ENT
+"H7502   Mastoiditis in infectious and parasitic diseases classified elsewhere, left ear",,,ENT
+"H7580   Other specified disorders of middle ear and mastoid in diseases classified elsewhere,
+unspecified ear",,,ENT
+H7581   Other specified disorders of right middle ear and mastoid in diseases classified elsewhere,,,ENT
+H7582   Other specified disorders of left middle ear and mastoid in diseases classified elsewhere,,,ENT
+"H7583   Other specified disorders of middle ear and mastoid in diseases classified elsewhere, bilateral",,,ENT
+"H8000   Otosclerosis involving oval window, nonobliterative, unspecified ear",,,ENT
+"H8001   Otosclerosis involving oval window, nonobliterative, right ear",,,ENT
+"H8002   Otosclerosis involving oval window, nonobliterative, left ear",,,ENT
+"H8010   Otosclerosis involving oval window, obliterative, unspecified ear",,,ENT
+"H8011   Otosclerosis involving oval window, obliterative, right ear",,,ENT
+"H8012   Otosclerosis involving oval window, obliterative, left ear",,,ENT
+"H8020   Cochlear otosclerosis, unspecified ear",,,ENT
+"H8021   Cochlear otosclerosis, right ear",,,ENT
+"H8022   Cochlear otosclerosis, left ear",,,ENT
+"H8080   Other otosclerosis, unspecified ear",,,ENT
+"H8081   Other otosclerosis, right ear",,,ENT
+"H8082   Other otosclerosis, left ear",,,ENT
+"H8090   Unspecified otosclerosis, unspecified ear",,,ENT
+"H8091   Unspecified otosclerosis, right ear",,,ENT
+"H8092   Unspecified otosclerosis, left ear",,,ENT
+"H8101   Meniere's disease, right ear",,,ENT
+"H8102   Meniere's disease, left ear",,,ENT
+"H8109   Meniere's disease, unspecified ear",,,ENT
+"H8110   Benign paroxysmal vertigo, unspecified ear",,,ENT
+"H8111   Benign paroxysmal vertigo, right ear",,,ENT
+"H8112   Benign paroxysmal vertigo, left ear",,,ENT
+"H8113   Benign paroxysmal vertigo, bilateral",,,ENT
+"H8120   Vestibular neuronitis, unspecified ear",,,ENT
+"H8121   Vestibular neuronitis, right ear",,,ENT
+"H8122   Vestibular neuronitis, left ear",,,ENT
+"H81311  Aural vertigo, right ear",,,ENT
+"H81312  Aural vertigo, left ear",,,ENT
+"H81313  Aural vertigo, bilateral",,,ENT
+"H81319  Aural vertigo, unspecified ear",,,ENT
+"H81391  Other peripheral vertigo, right ear",,,ENT
+"H81392  Other peripheral vertigo, left ear",,,ENT
+"H81393  Other peripheral vertigo, bilateral",,,ENT
+"H81399  Other peripheral vertigo, unspecified ear",,,ENT
+"H8141   Vertigo of central origin, right ear",,,ENT
+"H8142   Vertigo of central origin, left ear",,,ENT
+"H8143   Vertigo of central origin, bilateral",,,ENT
+"H8149   Vertigo of central origin, unspecified ear",,,ENT
+"H818X1  Other disorders of vestibular function, right ear",,,ENT
+"H818X2  Other disorders of vestibular function, left ear",,,ENT
+"H818X9  Other disorders of vestibular function, unspecified ear",,,ENT
+"H8190   Unspecified disorder of vestibular function, unspecified ear",,,ENT
+"H8191   Unspecified disorder of vestibular function, right ear",,,ENT
+"H8192   Unspecified disorder of vestibular function, left ear",,,ENT
+"H821    Vertiginous syndromes in diseases classified elsewhere, right ear",,,ENT
+"H822    Vertiginous syndromes in diseases classified elsewhere, left ear",,,ENT
+"H829    Vertiginous syndromes in diseases classified elsewhere, unspecified ear",,,ENT
+"H8301   Labyrinthitis, right ear",,,ENT
+"H8302   Labyrinthitis, left ear",,,ENT
+"H8309   Labyrinthitis, unspecified ear",,,ENT
+"H8311   Labyrinthine fistula, right ear",,,ENT
+"H8312   Labyrinthine fistula, left ear",,,ENT
+"H8319   Labyrinthine fistula, unspecified ear",,,ENT
+"H832X1  Labyrinthine dysfunction, right ear",,,ENT
+"H832X2  Labyrinthine dysfunction, left ear",,,ENT
+"H832X9  Labyrinthine dysfunction, unspecified ear",,,ENT
+H833X1  Noise effects on right inner ear,,,ENT
+H833X2  Noise effects on left inner ear,,,ENT
+"H833X3  Noise effects on inner ear, bilateral",,,ENT
+"H833X9  Noise effects on inner ear, unspecified ear",,,ENT
+H838X1  Other specified diseases of right inner ear,,,ENT
+H838X2  Other specified diseases of left inner ear,,,ENT
+"H838X3  Other specified diseases of inner ear, bilateral",,,ENT
+"H838X9  Other specified diseases of inner ear, unspecified ear",,,ENT
+"H8390   Unspecified disease of inner ear, unspecified ear",,,ENT
+H8391   Unspecified disease of right inner ear,,,ENT
+H8392   Unspecified disease of left inner ear,,,ENT
+"H8393   Unspecified disease of inner ear, bilateral",,,ENT
+"H9011   Conductive hearing loss, unilateral, right ear, with unrestricted hearing on the contralateral side",,,ENT
+"H9012   Conductive hearing loss, unilateral, left ear, with unrestricted hearing on the contralateral side",,,ENT
+"H9041   Sensorineural hearing loss, unilateral, right ear, with unrestricted hearing on the contralateral
+side",,,ENT
+"H9042   Sensorineural hearing loss, unilateral, left ear, with unrestricted hearing on the contralateral
+side",,,ENT
+"H9071   Mixed conductive and sensorineural hearing loss, unilateral, right ear, with unrestricted hearing
+on the contralateral side",,,ENT
+"H9072   Mixed conductive and sensorineural hearing loss, unilateral, left ear, with unrestricted hearing
+on the contralateral side",,,ENT
+"H90A11  Conductive hearing loss, unilateral, right ear with restricted hearing on the contralateral side",,,ENT
+"H90A12  Conductive hearing loss, unilateral, left ear with restricted hearing on the contralateral side",,,ENT
+"H90A21  Sensorineural hearing loss, unilateral, right ear, with restricted hearing on the contralateral
+side",,,ENT
+"H90A22  Sensorineural hearing loss, unilateral, left ear, with restricted hearing on the contralateral side",,,ENT
+"H90A31  Mixed conductive and sensorineural hearing loss, unilateral, right ear with restricted hearing on
+the contralateral side",,,ENT
+"H90A32  Mixed conductive and sensorineural hearing loss, unilateral, left ear with restricted hearing on
+the contralateral side",,,ENT
+"H9101   Ototoxic hearing loss, right ear",,,ENT
+"H9102   Ototoxic hearing loss, left ear",,,ENT
+"H9109   Ototoxic hearing loss, unspecified ear",,,ENT
+"H9110   Presbycusis, unspecified ear",,,ENT
+"H9111   Presbycusis, right ear",,,ENT
+"H9112   Presbycusis, left ear",,,ENT
+"H9120   Sudden idiopathic hearing loss, unspecified ear",,,ENT
+"H9121   Sudden idiopathic hearing loss, right ear",,,ENT
+"H9122   Sudden idiopathic hearing loss, left ear",,,ENT
+"H918X1  Other specified hearing loss, right ear",,,ENT
+"H918X2  Other specified hearing loss, left ear",,,ENT
+"H918X9  Other specified hearing loss, unspecified ear",,,ENT
+"H9190   Unspecified hearing loss, unspecified ear",,,ENT
+"H9191   Unspecified hearing loss, right ear",,,ENT
+"H9192   Unspecified hearing loss, left ear",,,ENT
+"H9201   Otalgia, right ear",,,ENT
+"H9202   Otalgia, left ear",,,ENT
+"H9209   Otalgia, unspecified ear",,,ENT
+"H9210   Otorrhea, unspecified ear",,,ENT
+"H9211   Otorrhea, right ear",,,ENT
+"H9212   Otorrhea, left ear",,,ENT
+"H9220   Otorrhagia, unspecified ear",,,ENT
+"H9221   Otorrhagia, right ear",,,ENT
+"H9222   Otorrhagia, left ear",,,ENT
+"H93011  Transient ischemic deafness, right ear",,,ENT
+"H93012  Transient ischemic deafness, left ear",,,ENT
+"H93019  Transient ischemic deafness, unspecified ear",,,ENT
+H93091  Unspecified degenerative and vascular disorders of right ear,,,ENT
+H93092  Unspecified degenerative and vascular disorders of left ear,,,ENT
+"H93093  Unspecified degenerative and vascular disorders of ear, bilateral",,,ENT
+H93099  Unspecified degenerative and vascular disorders of unspecified ear,,,ENT
+"H9311   Tinnitus, right ear",,,ENT
+"H9312   Tinnitus, left ear",,,ENT
+"H9319   Tinnitus, unspecified ear",,,ENT
+"H93A1   Pulsatile tinnitus, right ear",,,ENT
+"H93A2   Pulsatile tinnitus, left ear",,,ENT
+"H93A9   Pulsatile tinnitus, unspecified ear",,,ENT
+"H93211  Auditory recruitment, right ear",,,ENT
+"H93212  Auditory recruitment, left ear",,,ENT
+"H93219  Auditory recruitment, unspecified ear",,,ENT
+"H93221  Diplacusis, right ear",,,ENT
+"H93222  Diplacusis, left ear",,,ENT
+"H93229  Diplacusis, unspecified ear",,,ENT
+"H93231  Hyperacusis, right ear",,,ENT
+"H93232  Hyperacusis, left ear",,,ENT
+"H93239  Hyperacusis, unspecified ear",,,ENT
+"H93241  Temporary auditory threshold shift, right ear",,,ENT
+"H93242  Temporary auditory threshold shift, left ear",,,ENT
+"H93249  Temporary auditory threshold shift, unspecified ear",,,ENT
+"H93291  Other abnormal auditory perceptions, right ear",,,ENT
+"H93292  Other abnormal auditory perceptions, left ear",,,ENT
+"H93299  Other abnormal auditory perceptions, unspecified ear",,,ENT
+H938X1  Other specified disorders of right ear,,,ENT
+H938X2  Other specified disorders of left ear,,,ENT
+"H938X3  Other specified disorders of ear, bilateral",,,ENT
+"H938X9  Other specified disorders of ear, unspecified ear",,,ENT
+"H9390   Unspecified disorder of ear, unspecified ear",,,ENT
+H9391   Unspecified disorder of right ear,,,ENT
+H9392   Unspecified disorder of left ear,,,ENT
+"H9393   Unspecified disorder of ear, bilateral",,,ENT
+"H9400   Acoustic neuritis in infectious and parasitic diseases classified elsewhere, unspecified ear",,,ENT
+"H9401   Acoustic neuritis in infectious and parasitic diseases classified elsewhere, right ear",,,ENT
+"H9402   Acoustic neuritis in infectious and parasitic diseases classified elsewhere, left ear",,,ENT
+"H9480   Other specified disorders of ear in diseases classified elsewhere, unspecified ear",,,ENT
+H9481   Other specified disorders of right ear in diseases classified elsewhere,,,ENT
+H9482   Other specified disorders of left ear in diseases classified elsewhere,,,ENT
+"H9483   Other specified disorders of ear in diseases classified elsewhere, bilateral",,,ENT
+"H9500   Recurrent cholesteatoma of postmastoidectomy cavity, unspecified ear",,,ENT
+"H9501   Recurrent cholesteatoma of postmastoidectomy cavity, right ear",,,ENT
+"H9502   Recurrent cholesteatoma of postmastoidectomy cavity, left ear",,,ENT
+"H95111  Chronic inflammation of postmastoidectomy cavity, right ear",,,ENT
+"H95112  Chronic inflammation of postmastoidectomy cavity, left ear",,,ENT
+"H95119  Chronic inflammation of postmastoidectomy cavity, unspecified ear",,,ENT
+"H95121  Granulation of postmastoidectomy cavity, right ear",,,ENT
+"H95122  Granulation of postmastoidectomy cavity, left ear",,,ENT
+"H95129  Granulation of postmastoidectomy cavity, unspecified ear",,,ENT
+"H95131  Mucosal cyst of postmastoidectomy cavity, right ear",,,ENT
+"H95132  Mucosal cyst of postmastoidectomy cavity, left ear",,,ENT
+"H95139  Mucosal cyst of postmastoidectomy cavity, unspecified ear",,,ENT
+"H95191  Other disorders following mastoidectomy, right ear",,,ENT
+"H95192  Other disorders following mastoidectomy, left ear",,,ENT
+"H95199  Other disorders following mastoidectomy, unspecified ear",,,ENT
+"H9521   Intraoperative hemorrhage and hematoma of ear and mastoid process complicating a
+procedure on the ear and mastoid process",,,ENT
+"H9522   Intraoperative hemorrhage and hematoma of ear and mastoid process complicating other
+procedure",,,ENT
+"H9531   Accidental puncture and laceration of the ear and mastoid process during a procedure on the
+ear and mastoid process",,,ENT
+H9532   Accidental puncture and laceration of the ear and mastoid process during other procedure,,,ENT
+"H9541   Postprocedural hemorrhage of ear and mastoid process following a procedure on the ear and
+mastoid process",,,ENT
+H9542   Postprocedural hemorrhage of ear and mastoid process following other procedure,,,ENT
+"H9551   Postprocedural hematoma of ear and mastoid process following a procedure on the ear and
+mastoid process",,,ENT
+H9552   Postprocedural hematoma of ear and mastoid process following other procedure,,,ENT
+"H9553   Postprocedural seroma of ear and mastoid process following a procedure on the ear and
+mastoid process",,,ENT
+H9554   Postprocedural seroma of ear and mastoid process following other procedure,,,ENT
+H95811  Postprocedural stenosis of right external ear canal,,,ENT
+H95812  Postprocedural stenosis of left external ear canal,,,ENT
+"H95813  Postprocedural stenosis of external ear canal, bilateral",,,ENT
+H95819  Postprocedural stenosis of unspecified external ear canal,,,ENT
+"H9588   Other intraoperative complications and disorders of the ear and mastoid process, not elsewhere
+classified",,,ENT
+"H9589   Other postprocedural complications and disorders of the ear and mastoid process, not
+elsewhere classified",,,ENT
+"J0100   Acute maxillary sinusitis, unspecified",,,ENT
+J0101   Acute recurrent maxillary sinusitis,,,ENT
+"J0110   Acute frontal sinusitis, unspecified",,,ENT
+J0111   Acute recurrent frontal sinusitis,,,ENT
+"J0120   Acute ethmoidal sinusitis, unspecified",,,ENT
+J0121   Acute recurrent ethmoidal sinusitis,,,ENT
+"J0130   Acute sphenoidal sinusitis, unspecified",,,ENT
+J0131   Acute recurrent sphenoidal sinusitis,,,ENT
+J0180   Other acute sinusitis,,,ENT
+J0181   Other acute recurrent sinusitis,,,ENT
+"J0190   Acute sinusitis, unspecified",,,ENT
+"J0191   Acute recurrent sinusitis, unspecified",,,ENT
+J020    Streptococcal pharyngitis,,,ENT
+J028    Acute pharyngitis due to other specified organisms,,,ENT
+"J029    Acute pharyngitis, unspecified",,,ENT
+"J0300   Acute streptococcal tonsillitis, unspecified",,,ENT
+J0301   Acute recurrent streptococcal tonsillitis,,,ENT
+J0380   Acute tonsillitis due to other specified organisms,,,ENT
+J0381   Acute recurrent tonsillitis due to other specified organisms,,,ENT
+"J0390   Acute tonsillitis, unspecified",,,ENT
+"J0391   Acute recurrent tonsillitis, unspecified",,,ENT
+J040    Acute laryngitis,,,ENT
+J050    Acute obstructive laryngitis [croup],,,ENT
+J1083   Influenza due to other identified influenza virus with otitis media,,,ENT
+J1183   Influenza due to unidentified influenza virus with otitis media,,,ENT
+J300    Vasomotor rhinitis,,,ENT
+J301    Allergic rhinitis due to pollen,,,ENT
+J302    Other seasonal allergic rhinitis,,,ENT
+J305    Allergic rhinitis due to food,,,ENT
+J3081   Allergic rhinitis due to animal (cat) (dog) hair and dander,,,ENT
+J3089   Other allergic rhinitis,,,ENT
+"J309    Allergic rhinitis, unspecified",,,ENT
+J310    Chronic rhinitis,,,ENT
+J312    Chronic pharyngitis,,,ENT
+J320    Chronic maxillary sinusitis,,,ENT
+J321    Chronic frontal sinusitis,,,ENT
+J322    Chronic ethmoidal sinusitis,,,ENT
+J323    Chronic sphenoidal sinusitis,,,ENT
+J328    Other chronic sinusitis,,,ENT
+"J329    Chronic sinusitis, unspecified",,,ENT
+"J340    Abscess, furuncle and carbuncle of nose",,,ENT
+J341    Cyst and mucocele of nose and nasal sinus,,,ENT
+J3489   Other specified disorders of nose and nasal sinuses,,,ENT
+J349    Unspecified disorder of nose and nasal sinuses,,,ENT
+J3501   Chronic tonsillitis,,,ENT
+J3503   Chronic tonsillitis and adenoiditis,,,ENT
+J370    Chronic laryngitis,,,ENT
+M950    Acquired deformity of nose,,,ENT
+"M9510   Cauliflower ear, unspecified ear",,,ENT
+"M9511   Cauliflower ear, right ear",,,ENT
+"M9512   Cauliflower ear, left ear",,,ENT
+Q160    Congenital absence of (ear) auricle,,,ENT
+Q163    Congenital malformation of ear ossicles,,,ENT
+Q164    Other congenital malformations of middle ear,,,ENT
+Q165    Congenital malformation of inner ear,,,ENT
+"Q169    Congenital malformation of ear causing impairment of hearing, unspecified",,,ENT
+Q173    Other misshapen ear,,,ENT
+Q174    Misplaced ear,,,ENT
+Q175    Prominent ear,,,ENT
+Q178    Other specified congenital malformations of ear,,,ENT
+"Q179    Congenital malformation of ear, unspecified",,,ENT
+Q301    Agenesis and underdevelopment of nose,,,ENT
+"Q302    Fissured, notched and cleft nose",,,ENT
+Q308    Other congenital malformations of nose,,,ENT
+"Q309    Congenital malformation of nose, unspecified",,,ENT
+R041    Hemorrhage from throat,,,ENT
+R070    Pain in throat,,,ENT
+R94128  Abnormal results of other function studies of ear and other special senses,,,ENT
+"S0030XA Unspecified superficial injury of nose, initial encounter",,,ENT
+"S0030XD Unspecified superficial injury of nose, subsequent encounter",,,ENT
+"S0030XS Unspecified superficial injury of nose, sequela",,,ENT
+"S0031XA Abrasion of nose, initial encounter",,,ENT
+"S0031XD Abrasion of nose, subsequent encounter",,,ENT
+"S0031XS Abrasion of nose, sequela",,,ENT
+"S0032XA Blister (nonthermal) of nose, initial encounter",,,ENT
+"S0032XD Blister (nonthermal) of nose, subsequent encounter",,,ENT
+"S0032XS Blister (nonthermal) of nose, sequela",,,ENT
+"S0033XA Contusion of nose, initial encounter",,,ENT
+"S0033XD Contusion of nose, subsequent encounter",,,ENT
+"S0033XS Contusion of nose, sequela",,,ENT
+"S0034XA External constriction of nose, initial encounter",,,ENT
+"S0034XD External constriction of nose, subsequent encounter",,,ENT
+"S0034XS External constriction of nose, sequela",,,ENT
+"S0035XA Superficial foreign body of nose, initial encounter",,,ENT
+"S0035XD Superficial foreign body of nose, subsequent encounter",,,ENT
+"S0035XS Superficial foreign body of nose, sequela",,,ENT
+"S0036XA Insect bite (nonvenomous) of nose, initial encounter",,,ENT
+"S0036XD Insect bite (nonvenomous) of nose, subsequent encounter",,,ENT
+"S0036XS Insect bite (nonvenomous) of nose, sequela",,,ENT
+"S0037XA Other superficial bite of nose, initial encounter",,,ENT
+"S0037XD Other superficial bite of nose, subsequent encounter",,,ENT
+"S0037XS Other superficial bite of nose, sequela",,,ENT
+"S00401A Unspecified superficial injury of right ear, initial encounter",,,ENT
+"S00401D Unspecified superficial injury of right ear, subsequent encounter",,,ENT
+"S00401S Unspecified superficial injury of right ear, sequela",,,ENT
+"S00402A Unspecified superficial injury of left ear, initial encounter",,,ENT
+"S00402D Unspecified superficial injury of left ear, subsequent encounter",,,ENT
+"S00402S Unspecified superficial injury of left ear, sequela",,,ENT
+"S00409A Unspecified superficial injury of unspecified ear, initial encounter",,,ENT
+"S00409D Unspecified superficial injury of unspecified ear, subsequent encounter",,,ENT
+"S00409S Unspecified superficial injury of unspecified ear, sequela",,,ENT
+"S00411A Abrasion of right ear, initial encounter",,,ENT
+"S00411D Abrasion of right ear, subsequent encounter",,,ENT
+"S00411S Abrasion of right ear, sequela",,,ENT
+"S00412A Abrasion of left ear, initial encounter",,,ENT
+"S00412D Abrasion of left ear, subsequent encounter",,,ENT
+"S00412S Abrasion of left ear, sequela",,,ENT
+"S00419A Abrasion of unspecified ear, initial encounter",,,ENT
+"S00419D Abrasion of unspecified ear, subsequent encounter",,,ENT
+"S00419S Abrasion of unspecified ear, sequela",,,ENT
+"S00421A Blister (nonthermal) of right ear, initial encounter",,,ENT
+"S00421D Blister (nonthermal) of right ear, subsequent encounter",,,ENT
+"S00421S Blister (nonthermal) of right ear, sequela",,,ENT
+"S00422A Blister (nonthermal) of left ear, initial encounter",,,ENT
+"S00422D Blister (nonthermal) of left ear, subsequent encounter",,,ENT
+"S00422S Blister (nonthermal) of left ear, sequela",,,ENT
+"S00429A Blister (nonthermal) of unspecified ear, initial encounter",,,ENT
+"S00429D Blister (nonthermal) of unspecified ear, subsequent encounter",,,ENT
+"S00429S Blister (nonthermal) of unspecified ear, sequela",,,ENT
+"S00431A Contusion of right ear, initial encounter",,,ENT
+"S00431D Contusion of right ear, subsequent encounter",,,ENT
+"S00431S Contusion of right ear, sequela",,,ENT
+"S00432A Contusion of left ear, initial encounter",,,ENT
+"S00432D Contusion of left ear, subsequent encounter",,,ENT
+"S00432S Contusion of left ear, sequela",,,ENT
+"S00439A Contusion of unspecified ear, initial encounter",,,ENT
+"S00439D Contusion of unspecified ear, subsequent encounter",,,ENT
+"S00439S Contusion of unspecified ear, sequela",,,ENT
+"S00441A External constriction of right ear, initial encounter",,,ENT
+"S00441D External constriction of right ear, subsequent encounter",,,ENT
+"S00441S External constriction of right ear, sequela",,,ENT
+"S00442A External constriction of left ear, initial encounter",,,ENT
+"S00442D External constriction of left ear, subsequent encounter",,,ENT
+"S00442S External constriction of left ear, sequela",,,ENT
+"S00449A External constriction of unspecified ear, initial encounter",,,ENT
+"S00449D External constriction of unspecified ear, subsequent encounter",,,ENT
+"S00449S External constriction of unspecified ear, sequela",,,ENT
+"S00451A Superficial foreign body of right ear, initial encounter",,,ENT
+"S00451D Superficial foreign body of right ear, subsequent encounter",,,ENT
+"S00451S Superficial foreign body of right ear, sequela",,,ENT
+"S00452A Superficial foreign body of left ear, initial encounter",,,ENT
+"S00452D Superficial foreign body of left ear, subsequent encounter",,,ENT
+"S00452S Superficial foreign body of left ear, sequela",,,ENT
+"S00459A Superficial foreign body of unspecified ear, initial encounter",,,ENT
+"S00459D Superficial foreign body of unspecified ear, subsequent encounter",,,ENT
+"S00459S Superficial foreign body of unspecified ear, sequela",,,ENT
+"S00461A Insect bite (nonvenomous) of right ear, initial encounter",,,ENT
+"S00461D Insect bite (nonvenomous) of right ear, subsequent encounter",,,ENT
+"S00461S Insect bite (nonvenomous) of right ear, sequela",,,ENT
+"S00462A Insect bite (nonvenomous) of left ear, initial encounter",,,ENT
+"S00462D Insect bite (nonvenomous) of left ear, subsequent encounter",,,ENT
+"S00462S Insect bite (nonvenomous) of left ear, sequela",,,ENT
+"S00469A Insect bite (nonvenomous) of unspecified ear, initial encounter",,,ENT
+"S00469D Insect bite (nonvenomous) of unspecified ear, subsequent encounter",,,ENT
+"S00469S Insect bite (nonvenomous) of unspecified ear, sequela",,,ENT
+"S00471A Other superficial bite of right ear, initial encounter",,,ENT
+"S00471D Other superficial bite of right ear, subsequent encounter",,,ENT
+"S00471S Other superficial bite of right ear, sequela",,,ENT
+"S00472A Other superficial bite of left ear, initial encounter",,,ENT
+"S00472D Other superficial bite of left ear, subsequent encounter",,,ENT
+"S00472S Other superficial bite of left ear, sequela",,,ENT
+"S00479A Other superficial bite of unspecified ear, initial encounter",,,ENT
+"S00479D Other superficial bite of unspecified ear, subsequent encounter",,,ENT
+"S00479S Other superficial bite of unspecified ear, sequela",,,ENT
+"S0120XA Unspecified open wound of nose, initial encounter",,,ENT
+"S0120XD Unspecified open wound of nose, subsequent encounter",,,ENT
+"S0120XS Unspecified open wound of nose, sequela",,,ENT
+"S0121XA Laceration without foreign body of nose, initial encounter",,,ENT
+"S0121XD Laceration without foreign body of nose, subsequent encounter",,,ENT
+"S0121XS Laceration without foreign body of nose, sequela",,,ENT
+"S0122XA Laceration with foreign body of nose, initial encounter",,,ENT
+"S0122XD Laceration with foreign body of nose, subsequent encounter",,,ENT
+"S0122XS Laceration with foreign body of nose, sequela",,,ENT
+"S0123XA Puncture wound without foreign body of nose, initial encounter",,,ENT
+"S0123XD Puncture wound without foreign body of nose, subsequent encounter",,,ENT
+"S0123XS Puncture wound without foreign body of nose, sequela",,,ENT
+"S0124XA Puncture wound with foreign body of nose, initial encounter",,,ENT
+"S0124XD Puncture wound with foreign body of nose, subsequent encounter",,,ENT
+"S0124XS Puncture wound with foreign body of nose, sequela",,,ENT
+"S0125XA Open bite of nose, initial encounter",,,ENT
+"S0125XD Open bite of nose, subsequent encounter",,,ENT
+"S0125XS Open bite of nose, sequela",,,ENT
+"S01301A Unspecified open wound of right ear, initial encounter",,,ENT
+"S01301D Unspecified open wound of right ear, subsequent encounter",,,ENT
+"S01301S Unspecified open wound of right ear, sequela",,,ENT
+"S01302A Unspecified open wound of left ear, initial encounter",,,ENT
+"S01302D Unspecified open wound of left ear, subsequent encounter",,,ENT
+"S01302S Unspecified open wound of left ear, sequela",,,ENT
+"S01309A Unspecified open wound of unspecified ear, initial encounter",,,ENT
+"S01309D Unspecified open wound of unspecified ear, subsequent encounter",,,ENT
+"S01309S Unspecified open wound of unspecified ear, sequela",,,ENT
+"S01311A Laceration without foreign body of right ear, initial encounter",,,ENT
+"S01311D Laceration without foreign body of right ear, subsequent encounter",,,ENT
+"S01311S Laceration without foreign body of right ear, sequela",,,ENT
+"S01312A Laceration without foreign body of left ear, initial encounter",,,ENT
+"S01312D Laceration without foreign body of left ear, subsequent encounter",,,ENT
+"S01312S Laceration without foreign body of left ear, sequela",,,ENT
+"S01319A Laceration without foreign body of unspecified ear, initial encounter",,,ENT
+"S01319D Laceration without foreign body of unspecified ear, subsequent encounter",,,ENT
+"S01319S Laceration without foreign body of unspecified ear, sequela",,,ENT
+"S01321A Laceration with foreign body of right ear, initial encounter",,,ENT
+"S01321D Laceration with foreign body of right ear, subsequent encounter",,,ENT
+"S01321S Laceration with foreign body of right ear, sequela",,,ENT
+"S01322A Laceration with foreign body of left ear, initial encounter",,,ENT
+"S01322D Laceration with foreign body of left ear, subsequent encounter",,,ENT
+"S01322S Laceration with foreign body of left ear, sequela",,,ENT
+"S01329A Laceration with foreign body of unspecified ear, initial encounter",,,ENT
+"S01329D Laceration with foreign body of unspecified ear, subsequent encounter",,,ENT
+"S01329S Laceration with foreign body of unspecified ear, sequela",,,ENT
+"S01331A Puncture wound without foreign body of right ear, initial encounter",,,ENT
+"S01331D Puncture wound without foreign body of right ear, subsequent encounter",,,ENT
+"S01331S Puncture wound without foreign body of right ear, sequela",,,ENT
+"S01332A Puncture wound without foreign body of left ear, initial encounter",,,ENT
+"S01332D Puncture wound without foreign body of left ear, subsequent encounter",,,ENT
+"S01332S Puncture wound without foreign body of left ear, sequela",,,ENT
+"S01339A Puncture wound without foreign body of unspecified ear, initial encounter",,,ENT
+"S01339D Puncture wound without foreign body of unspecified ear, subsequent encounter",,,ENT
+"S01339S Puncture wound without foreign body of unspecified ear, sequela",,,ENT
+"S01341A Puncture wound with foreign body of right ear, initial encounter",,,ENT
+"S01341D Puncture wound with foreign body of right ear, subsequent encounter",,,ENT
+"S01341S Puncture wound with foreign body of right ear, sequela",,,ENT
+"S01342A Puncture wound with foreign body of left ear, initial encounter",,,ENT
+"S01342D Puncture wound with foreign body of left ear, subsequent encounter",,,ENT
+"S01342S Puncture wound with foreign body of left ear, sequela",,,ENT
+"S01349A Puncture wound with foreign body of unspecified ear, initial encounter",,,ENT
+"S01349D Puncture wound with foreign body of unspecified ear, subsequent encounter",,,ENT
+"S01349S Puncture wound with foreign body of unspecified ear, sequela",,,ENT
+"S01351A Open bite of right ear, initial encounter",,,ENT
+"S01351D Open bite of right ear, subsequent encounter",,,ENT
+"S01351S Open bite of right ear, sequela",,,ENT
+"S01352A Open bite of left ear, initial encounter",,,ENT
+"S01352D Open bite of left ear, subsequent encounter",,,ENT
+"S01352S Open bite of left ear, sequela",,,ENT
+"S01359A Open bite of unspecified ear, initial encounter",,,ENT
+"S01359D Open bite of unspecified ear, subsequent encounter",,,ENT
+"S01359S Open bite of unspecified ear, sequela",,,ENT
+"S031XXA Dislocation of septal cartilage of nose, initial encounter",,,ENT
+"S031XXD Dislocation of septal cartilage of nose, subsequent encounter",,,ENT
+"S031XXS Dislocation of septal cartilage of nose, sequela",,,ENT
+"S08111A Complete traumatic amputation of right ear, initial encounter",,,ENT
+"S08111D Complete traumatic amputation of right ear, subsequent encounter",,,ENT
+"S08111S Complete traumatic amputation of right ear, sequela",,,ENT
+"S08112A Complete traumatic amputation of left ear, initial encounter",,,ENT
+"S08112D Complete traumatic amputation of left ear, subsequent encounter",,,ENT
+"S08112S Complete traumatic amputation of left ear, sequela",,,ENT
+"S08119A Complete traumatic amputation of unspecified ear, initial encounter",,,ENT
+"S08119D Complete traumatic amputation of unspecified ear, subsequent encounter",,,ENT
+"S08119S Complete traumatic amputation of unspecified ear, sequela",,,ENT
+"S08121A Partial traumatic amputation of right ear, initial encounter",,,ENT
+"S08121D Partial traumatic amputation of right ear, subsequent encounter",,,ENT
+"S08121S Partial traumatic amputation of right ear, sequela",,,ENT
+"S08122A Partial traumatic amputation of left ear, initial encounter",,,ENT
+"S08122D Partial traumatic amputation of left ear, subsequent encounter",,,ENT
+"S08122S Partial traumatic amputation of left ear, sequela",,,ENT
+"S08129A Partial traumatic amputation of unspecified ear, initial encounter",,,ENT
+"S08129D Partial traumatic amputation of unspecified ear, subsequent encounter",,,ENT
+"S08129S Partial traumatic amputation of unspecified ear, sequela",,,ENT
+"S08811A Complete traumatic amputation of nose, initial encounter",,,ENT
+"S08811D Complete traumatic amputation of nose, subsequent encounter",,,ENT
+"S08811S Complete traumatic amputation of nose, sequela",,,ENT
+"S08812A Partial traumatic amputation of nose, initial encounter",,,ENT
+"S08812D Partial traumatic amputation of nose, subsequent encounter",,,ENT
+"S08812S Partial traumatic amputation of nose, sequela",,,ENT
+"S0920XA Traumatic rupture of unspecified ear drum, initial encounter",,,ENT
+"S0920XD Traumatic rupture of unspecified ear drum, subsequent encounter",,,ENT
+"S0920XS Traumatic rupture of unspecified ear drum, sequela",,,ENT
+"S0921XA Traumatic rupture of right ear drum, initial encounter",,,ENT
+"S0921XD Traumatic rupture of right ear drum, subsequent encounter",,,ENT
+"S0921XS Traumatic rupture of right ear drum, sequela",,,ENT
+"S0922XA Traumatic rupture of left ear drum, initial encounter",,,ENT
+"S0922XD Traumatic rupture of left ear drum, subsequent encounter",,,ENT
+"S0922XS Traumatic rupture of left ear drum, sequela",,,ENT
+"S09301A Unspecified injury of right middle and inner ear, initial encounter",,,ENT
+"S09301D Unspecified injury of right middle and inner ear, subsequent encounter",,,ENT
+"S09301S Unspecified injury of right middle and inner ear, sequela",,,ENT
+"S09302A Unspecified injury of left middle and inner ear, initial encounter",,,ENT
+"S09302D Unspecified injury of left middle and inner ear, subsequent encounter",,,ENT
+"S09302S Unspecified injury of left middle and inner ear, sequela",,,ENT
+"S09309A Unspecified injury of unspecified middle and inner ear, initial encounter",,,ENT
+"S09309D Unspecified injury of unspecified middle and inner ear, subsequent encounter",,,ENT
+"S09309S Unspecified injury of unspecified middle and inner ear, sequela",,,ENT
+"S09311A Primary blast injury of right ear, initial encounter",,,ENT
+"S09311D Primary blast injury of right ear, subsequent encounter",,,ENT
+"S09311S Primary blast injury of right ear, sequela",,,ENT
+"S09312A Primary blast injury of left ear, initial encounter",,,ENT
+"S09312D Primary blast injury of left ear, subsequent encounter",,,ENT
+"S09312S Primary blast injury of left ear, sequela",,,ENT
+"S09313A Primary blast injury of ear, bilateral, initial encounter",,,ENT
+"S09313D Primary blast injury of ear, bilateral, subsequent encounter",,,ENT
+"S09313S Primary blast injury of ear, bilateral, sequela",,,ENT
+"S09319A Primary blast injury of unspecified ear, initial encounter",,,ENT
+"S09319D Primary blast injury of unspecified ear, subsequent encounter",,,ENT
+"S09319S Primary blast injury of unspecified ear, sequela",,,ENT
+"S09391A Other specified injury of right middle and inner ear, initial encounter",,,ENT
+"S09391D Other specified injury of right middle and inner ear, subsequent encounter",,,ENT
+"S09391S Other specified injury of right middle and inner ear, sequela",,,ENT
+"S09392A Other specified injury of left middle and inner ear, initial encounter",,,ENT
+"S09392D Other specified injury of left middle and inner ear, subsequent encounter",,,ENT
+"S09392S Other specified injury of left middle and inner ear, sequela",,,ENT
+"S09399A Other specified injury of unspecified middle and inner ear, initial encounter",,,ENT
+"S09399D Other specified injury of unspecified middle and inner ear, subsequent encounter",,,ENT
+"S09399S Other specified injury of unspecified middle and inner ear, sequela",,,ENT
+"S0991XA Unspecified injury of ear, initial encounter",,,ENT
+"S0991XD Unspecified injury of ear, subsequent encounter",,,ENT
+"S0991XS Unspecified injury of ear, sequela",,,ENT
+"S0992XA Unspecified injury of nose, initial encounter",,,ENT
+"S0992XD Unspecified injury of nose, subsequent encounter",,,ENT
+"S0992XS Unspecified injury of nose, sequela",,,ENT
+"S100XXA Contusion of throat, initial encounter",,,ENT
+"S100XXD Contusion of throat, subsequent encounter",,,ENT
+"S100XXS Contusion of throat, sequela",,,ENT
+"S1010XA Unspecified superficial injuries of throat, initial encounter",,,ENT
+"S1010XD Unspecified superficial injuries of throat, subsequent encounter",,,ENT
+"S1010XS Unspecified superficial injuries of throat, sequela",,,ENT
+"S1011XA Abrasion of throat, initial encounter",,,ENT
+"S1011XD Abrasion of throat, subsequent encounter",,,ENT
+"S1011XS Abrasion of throat, sequela",,,ENT
+"S1012XA Blister (nonthermal) of throat, initial encounter",,,ENT
+"S1012XD Blister (nonthermal) of throat, subsequent encounter",,,ENT
+"S1012XS Blister (nonthermal) of throat, sequela",,,ENT
+"S1014XA External constriction of part of throat, initial encounter",,,ENT
+"S1014XD External constriction of part of throat, subsequent encounter",,,ENT
+"S1014XS External constriction of part of throat, sequela",,,ENT
+"S1015XA Superficial foreign body of throat, initial encounter",,,ENT
+"S1015XD Superficial foreign body of throat, subsequent encounter",,,ENT
+"S1015XS Superficial foreign body of throat, sequela",,,ENT
+"S1016XA Insect bite (nonvenomous) of throat, initial encounter",,,ENT
+"S1016XD Insect bite (nonvenomous) of throat, subsequent encounter",,,ENT
+"S1016XS Insect bite (nonvenomous) of throat, sequela",,,ENT
+"S1017XA Other superficial bite of throat, initial encounter",,,ENT
+"S1017XD Other superficial bite of throat, subsequent encounter",,,ENT
+"S1017XS Other superficial bite of throat, sequela",,,ENT
+"T161XXA Foreign body in right ear, initial encounter",,,ENT
+"T161XXD Foreign body in right ear, subsequent encounter",,,ENT
+"T161XXS Foreign body in right ear, sequela",,,ENT
+"T162XXA Foreign body in left ear, initial encounter",,,ENT
+"T162XXD Foreign body in left ear, subsequent encounter",,,ENT
+"T162XXS Foreign body in left ear, sequela",,,ENT
+"T169XXA Foreign body in ear, unspecified ear, initial encounter",,,ENT
+"T169XXD Foreign body in ear, unspecified ear, subsequent encounter",,,ENT
+"T169XXS Foreign body in ear, unspecified ear, sequela",,,ENT
+"T20011A Burn of unspecified degree of right ear [any part, except ear drum], initial encounter",,,ENT
+"T20011D Burn of unspecified degree of right ear [any part, except ear drum], subsequent encounter",,,ENT
+"T20011S Burn of unspecified degree of right ear [any part, except ear drum], sequela",,,ENT
+"T20012A Burn of unspecified degree of left ear [any part, except ear drum], initial encounter",,,ENT
+"T20012D Burn of unspecified degree of left ear [any part, except ear drum], subsequent encounter",,,ENT
+"T20012S Burn of unspecified degree of left ear [any part, except ear drum], sequela",,,ENT
+"T20019A Burn of unspecified degree of unspecified ear [any part, except ear drum], initial encounter",,,ENT
+"T20019D Burn of unspecified degree of unspecified ear [any part, except ear drum], subsequent
+encounter",,,ENT
+"T20019S Burn of unspecified degree of unspecified ear [any part, except ear drum], sequela",,,ENT
+"T2004XA Burn of unspecified degree of nose (septum), initial encounter",,,ENT
+"T2004XD Burn of unspecified degree of nose (septum), subsequent encounter",,,ENT
+"T2004XS Burn of unspecified degree of nose (septum), sequela",,,ENT
+"T20111A Burn of first degree of right ear [any part, except ear drum], initial encounter",,,ENT
+"T20111D Burn of first degree of right ear [any part, except ear drum], subsequent encounter",,,ENT
+"T20111S Burn of first degree of right ear [any part, except ear drum], sequela",,,ENT
+"T20112A Burn of first degree of left ear [any part, except ear drum], initial encounter",,,ENT
+"T20112D Burn of first degree of left ear [any part, except ear drum], subsequent encounter",,,ENT
+"T20112S Burn of first degree of left ear [any part, except ear drum], sequela",,,ENT
+"T20119A Burn of first degree of unspecified ear [any part, except ear drum], initial encounter",,,ENT
+"T20119D Burn of first degree of unspecified ear [any part, except ear drum], subsequent encounter",,,ENT
+"T20119S Burn of first degree of unspecified ear [any part, except ear drum], sequela",,,ENT
+"T2014XA Burn of first degree of nose (septum), initial encounter",,,ENT
+"T2014XD Burn of first degree of nose (septum), subsequent encounter",,,ENT
+"T2014XS Burn of first degree of nose (septum), sequela",,,ENT
+"T20211A Burn of second degree of right ear [any part, except ear drum], initial encounter",,,ENT
+"T20211D Burn of second degree of right ear [any part, except ear drum], subsequent encounter",,,ENT
+"T20211S Burn of second degree of right ear [any part, except ear drum], sequela",,,ENT
+"T20212A Burn of second degree of left ear [any part, except ear drum], initial encounter",,,ENT
+"T20212D Burn of second degree of left ear [any part, except ear drum], subsequent encounter",,,ENT
+"T20212S Burn of second degree of left ear [any part, except ear drum], sequela",,,ENT
+"T20219A Burn of second degree of unspecified ear [any part, except ear drum], initial encounter",,,ENT
+"T20219D Burn of second degree of unspecified ear [any part, except ear drum], subsequent encounter",,,ENT
+"T20219S Burn of second degree of unspecified ear [any part, except ear drum], sequela",,,ENT
+"T2024XA Burn of second degree of nose (septum), initial encounter",,,ENT
+"T2024XD Burn of second degree of nose (septum), subsequent encounter",,,ENT
+"T2024XS Burn of second degree of nose (septum), sequela",,,ENT
+"T20311A Burn of third degree of right ear [any part, except ear drum], initial encounter",,,ENT
+"T20311D Burn of third degree of right ear [any part, except ear drum], subsequent encounter",,,ENT
+"T20311S Burn of third degree of right ear [any part, except ear drum], sequela",,,ENT
+"T20312A Burn of third degree of left ear [any part, except ear drum], initial encounter",,,ENT
+"T20312D Burn of third degree of left ear [any part, except ear drum], subsequent encounter",,,ENT
+"T20312S Burn of third degree of left ear [any part, except ear drum], sequela",,,ENT
+"T20319A Burn of third degree of unspecified ear [any part, except ear drum], initial encounter",,,ENT
+"T20319D Burn of third degree of unspecified ear [any part, except ear drum], subsequent encounter",,,ENT
+"T20319S Burn of third degree of unspecified ear [any part, except ear drum], sequela",,,ENT
+"T2034XA Burn of third degree of nose (septum), initial encounter",,,ENT
+"T2034XD Burn of third degree of nose (septum), subsequent encounter",,,ENT
+"T2034XS Burn of third degree of nose (septum), sequela",,,ENT
+"T20411A Corrosion of unspecified degree of right ear [any part, except ear drum], initial encounter",,,ENT
+"T20411D Corrosion of unspecified degree of right ear [any part, except ear drum], subsequent
+encounter",,,ENT
+"T20411S Corrosion of unspecified degree of right ear [any part, except ear drum], sequela",,,ENT
+"T20412A Corrosion of unspecified degree of left ear [any part, except ear drum], initial encounter",,,ENT
+"T20412D Corrosion of unspecified degree of left ear [any part, except ear drum], subsequent encounter",,,ENT
+"T20412S Corrosion of unspecified degree of left ear [any part, except ear drum], sequela",,,ENT
+"T20419A Corrosion of unspecified degree of unspecified ear [any part, except ear drum], initial
+encounter",,,ENT
+"T20419D Corrosion of unspecified degree of unspecified ear [any part, except ear drum], subsequent
+encounter",,,ENT
+"T20419S Corrosion of unspecified degree of unspecified ear [any part, except ear drum], sequela",,,ENT
+"T2044XA Corrosion of unspecified degree of nose (septum), initial encounter",,,ENT
+"T2044XD Corrosion of unspecified degree of nose (septum), subsequent encounter",,,ENT
+"T2044XS Corrosion of unspecified degree of nose (septum), sequela",,,ENT
+"T20511A Corrosion of first degree of right ear [any part, except ear drum], initial encounter",,,ENT
+"T20511D Corrosion of first degree of right ear [any part, except ear drum], subsequent encounter",,,ENT
+"T20511S Corrosion of first degree of right ear [any part, except ear drum], sequela",,,ENT
+"T20512A Corrosion of first degree of left ear [any part, except ear drum], initial encounter",,,ENT
+"T20512D Corrosion of first degree of left ear [any part, except ear drum], subsequent encounter",,,ENT
+"T20512S Corrosion of first degree of left ear [any part, except ear drum], sequela",,,ENT
+"T20519A Corrosion of first degree of unspecified ear [any part, except ear drum], initial encounter",,,ENT
+"T20519D Corrosion of first degree of unspecified ear [any part, except ear drum], subsequent encounter",,,ENT
+"T20519S Corrosion of first degree of unspecified ear [any part, except ear drum], sequela",,,ENT
+"T2054XA Corrosion of first degree of nose (septum), initial encounter",,,ENT
+"T2054XD Corrosion of first degree of nose (septum), subsequent encounter",,,ENT
+"T2054XS Corrosion of first degree of nose (septum), sequela",,,ENT
+"T20611A Corrosion of second degree of right ear [any part, except ear drum], initial encounter",,,ENT
+"T20611D Corrosion of second degree of right ear [any part, except ear drum], subsequent encounter",,,ENT
+"T20611S Corrosion of second degree of right ear [any part, except ear drum], sequela",,,ENT
+"T20612A Corrosion of second degree of left ear [any part, except ear drum], initial encounter",,,ENT
+"T20612D Corrosion of second degree of left ear [any part, except ear drum], subsequent encounter",,,ENT
+"T20612S Corrosion of second degree of left ear [any part, except ear drum], sequela",,,ENT
+"T20619A Corrosion of second degree of unspecified ear [any part, except ear drum], initial encounter",,,ENT
+"T20619D Corrosion of second degree of unspecified ear [any part, except ear drum], subsequent
+encounter",,,ENT
+"T20619S Corrosion of second degree of unspecified ear [any part, except ear drum], sequela",,,ENT
+"T2064XA Corrosion of second degree of nose (septum), initial encounter",,,ENT
+"T2064XD Corrosion of second degree of nose (septum), subsequent encounter",,,ENT
+"T2064XS Corrosion of second degree of nose (septum), sequela",,,ENT
+"T20711A Corrosion of third degree of right ear [any part, except ear drum], initial encounter",,,ENT
+"T20711D Corrosion of third degree of right ear [any part, except ear drum], subsequent encounter",,,ENT
+"T20711S Corrosion of third degree of right ear [any part, except ear drum], sequela",,,ENT
+"T20712A Corrosion of third degree of left ear [any part, except ear drum], initial encounter",,,ENT
+"T20712D Corrosion of third degree of left ear [any part, except ear drum], subsequent encounter",,,ENT
+"T20712S Corrosion of third degree of left ear [any part, except ear drum], sequela",,,ENT
+"T20719A Corrosion of third degree of unspecified ear [any part, except ear drum], initial encounter",,,ENT
+"T20719D Corrosion of third degree of unspecified ear [any part, except ear drum], subsequent
+encounter",,,ENT
+"T20719S Corrosion of third degree of unspecified ear [any part, except ear drum], sequela",,,ENT
+"T2074XA Corrosion of third degree of nose (septum), initial encounter",,,ENT
+"T2074XD Corrosion of third degree of nose (septum), subsequent encounter",,,ENT
+"T2074XS Corrosion of third degree of nose (septum), sequela",,,ENT
+"T28411A Burn of right ear drum, initial encounter",,,ENT
+"T28411D Burn of right ear drum, subsequent encounter",,,ENT
+"T28411S Burn of right ear drum, sequela",,,ENT
+"T28412A Burn of left ear drum, initial encounter",,,ENT
+"T28412D Burn of left ear drum, subsequent encounter",,,ENT
+"T28412S Burn of left ear drum, sequela",,,ENT
+"T28419A Burn of unspecified ear drum, initial encounter",,,ENT
+"T28419D Burn of unspecified ear drum, subsequent encounter",,,ENT
+"T28419S Burn of unspecified ear drum, sequela",,,ENT
+"T28911A Corrosions of right ear drum, initial encounter",,,ENT
+"T28911D Corrosions of right ear drum, subsequent encounter",,,ENT
+"T28911S Corrosions of right ear drum, sequela",,,ENT
+"T28912A Corrosions of left ear drum, initial encounter",,,ENT
+"T28912D Corrosions of left ear drum, subsequent encounter",,,ENT
+"T28912S Corrosions of left ear drum, sequela",,,ENT
+"T28919A Corrosions of unspecified ear drum, initial encounter",,,ENT
+"T28919D Corrosions of unspecified ear drum, subsequent encounter",,,ENT
+"T28919S Corrosions of unspecified ear drum, sequela",,,ENT
+"T33011A Superficial frostbite of right ear, initial encounter",,,ENT
+"T33011D Superficial frostbite of right ear, subsequent encounter",,,ENT
+"T33011S Superficial frostbite of right ear, sequela",,,ENT
+"T33012A Superficial frostbite of left ear, initial encounter",,,ENT
+"T33012D Superficial frostbite of left ear, subsequent encounter",,,ENT
+"T33012S Superficial frostbite of left ear, sequela",,,ENT
+"T33019A Superficial frostbite of unspecified ear, initial encounter",,,ENT
+"T33019D Superficial frostbite of unspecified ear, subsequent encounter",,,ENT
+"T33019S Superficial frostbite of unspecified ear, sequela",,,ENT
+"T3302XA Superficial frostbite of nose, initial encounter",,,ENT
+"T3302XD Superficial frostbite of nose, subsequent encounter",,,ENT
+"T3302XS Superficial frostbite of nose, sequela",,,ENT
+"T34011A Frostbite with tissue necrosis of right ear, initial encounter",,,ENT
+"T34011D Frostbite with tissue necrosis of right ear, subsequent encounter",,,ENT
+"T34011S Frostbite with tissue necrosis of right ear, sequela",,,ENT
+"T34012A Frostbite with tissue necrosis of left ear, initial encounter",,,ENT
+"T34012D Frostbite with tissue necrosis of left ear, subsequent encounter",,,ENT
+"T34012S Frostbite with tissue necrosis of left ear, sequela",,,ENT
+"T34019A Frostbite with tissue necrosis of unspecified ear, initial encounter",,,ENT
+"T34019D Frostbite with tissue necrosis of unspecified ear, subsequent encounter",,,ENT
+"T34019S Frostbite with tissue necrosis of unspecified ear, sequela",,,ENT
+"T3402XA Frostbite with tissue necrosis of nose, initial encounter",,,ENT
+"T3402XD Frostbite with tissue necrosis of nose, subsequent encounter",,,ENT
+"T3402XS Frostbite with tissue necrosis of nose, sequela",,,ENT
+"T7523XA Vertigo from infrasound, initial encounter",,,ENT
+"T7523XD Vertigo from infrasound, subsequent encounter",,,ENT
+"T7523XS Vertigo from infrasound, sequela",,,ENT
+Z135    Encounter for screening for eye and ear disorders,,,ENT
+Z413    Encounter for ear piercing,,,ENT
+Z8352   Family history of ear disorders,,,ENT
+"Z8522   Personal history of malignant neoplasm of nasal cavities, middle ear, and accessory sinuses",,,ENT
+Z87721  Personal history of (corrected) congenital malformations of ear,,,ENT

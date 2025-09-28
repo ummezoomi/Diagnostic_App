@@ -1,0 +1,1728 @@
+Diagnosis,Symptoms,MEDICATION,Specialty
+A184    Tuberculosis of skin and subcutaneous tissue,,,Dermatology
+A5132   Syphilitic alopecia,,,Dermatology
+A5139   Other secondary syphilis of skin,,,Dermatology
+A601    Herpesviral infection of perianal skin and rectum,,,Dermatology
+A662    Other early skin lesions of yaws,,,Dermatology
+B000    Eczema herpeticum,,,Dermatology
+B001    Herpesviral vesicular dermatitis,,,Dermatology
+B088    Other specified viral infections characterized by skin and mucous membrane lesions,,,Dermatology
+B09     Unspecified viral infection characterized by skin and mucous membrane lesions,,,Dermatology
+B372    Candidiasis of skin and nail,,,Dermatology
+B653    Cercarial dermatitis,,,Dermatology
+C4351   Malignant melanoma of anal skin,,,Dermatology
+C438    Malignant melanoma of overlapping sites of skin,,,Dermatology
+"C439    Malignant melanoma of skin, unspecified",,,Dermatology
+C4A51   Merkel cell carcinoma of anal skin,,,Dermatology
+C4400   Unspecified malignant neoplasm of skin of lip,,,Dermatology
+C4401   Basal cell carcinoma of skin of lip,,,Dermatology
+C4402   Squamous cell carcinoma of skin of lip,,,Dermatology
+C4409   Other specified malignant neoplasm of skin of lip,,,Dermatology
+"C44101  Unspecified malignant neoplasm of skin of unspecified eyelid, including canthus",,,Dermatology
+"C44102  Unspecified malignant neoplasm of skin of right eyelid, including canthus",,,Dermatology
+"C44109  Unspecified malignant neoplasm of skin of left eyelid, including canthus",,,Dermatology
+"C44111  Basal cell carcinoma of skin of unspecified eyelid, including canthus",,,Dermatology
+"C44112  Basal cell carcinoma of skin of right eyelid, including canthus",,,Dermatology
+"C44119  Basal cell carcinoma of skin of left eyelid, including canthus",,,Dermatology
+"C44121  Squamous cell carcinoma of skin of unspecified eyelid, including canthus",,,Dermatology
+"C44122  Squamous cell carcinoma of skin of right eyelid, including canthus",,,Dermatology
+"C44129  Squamous cell carcinoma of skin of left eyelid, including canthus",,,Dermatology
+"C44191  Other specified malignant neoplasm of skin of unspecified eyelid, including canthus",,,Dermatology
+"C44192  Other specified malignant neoplasm of skin of right eyelid, including canthus",,,Dermatology
+"C44199  Other specified malignant neoplasm of skin of left eyelid, including canthus",,,Dermatology
+C44300  Unspecified malignant neoplasm of skin of unspecified part of face,,,Dermatology
+C44309  Unspecified malignant neoplasm of skin of other parts of face,,,Dermatology
+C44310  Basal cell carcinoma of skin of unspecified parts of face,,,Dermatology
+C44319  Basal cell carcinoma of skin of other parts of face,,,Dermatology
+C44320  Squamous cell carcinoma of skin of unspecified parts of face,,,Dermatology
+C44329  Squamous cell carcinoma of skin of other parts of face,,,Dermatology
+C44390  Other specified malignant neoplasm of skin of unspecified parts of face,,,Dermatology
+C44399  Other specified malignant neoplasm of skin of other parts of face,,,Dermatology
+C4440   Unspecified malignant neoplasm of skin of scalp and neck,,,Dermatology
+C4441   Basal cell carcinoma of skin of scalp and neck,,,Dermatology
+C4442   Squamous cell carcinoma of skin of scalp and neck,,,Dermatology
+C4449   Other specified malignant neoplasm of skin of scalp and neck,,,Dermatology
+C44500  Unspecified malignant neoplasm of anal skin,,,Dermatology
+C44509  Unspecified malignant neoplasm of skin of other part of trunk,,,Dermatology
+C44510  Basal cell carcinoma of anal skin,,,Dermatology
+C44519  Basal cell carcinoma of skin of other part of trunk,,,Dermatology
+C44520  Squamous cell carcinoma of anal skin,,,Dermatology
+C44529  Squamous cell carcinoma of skin of other part of trunk,,,Dermatology
+C44590  Other specified malignant neoplasm of anal skin,,,Dermatology
+C44599  Other specified malignant neoplasm of skin of other part of trunk,,,Dermatology
+"C44601  Unspecified malignant neoplasm of skin of unspecified upper limb, including shoulder",,,Dermatology
+"C44602  Unspecified malignant neoplasm of skin of right upper limb, including shoulder",,,Dermatology
+"C44609  Unspecified malignant neoplasm of skin of left upper limb, including shoulder",,,Dermatology
+"C44611  Basal cell carcinoma of skin of unspecified upper limb, including shoulder",,,Dermatology
+"C44612  Basal cell carcinoma of skin of right upper limb, including shoulder",,,Dermatology
+"C44619  Basal cell carcinoma of skin of left upper limb, including shoulder",,,Dermatology
+"C44621  Squamous cell carcinoma of skin of unspecified upper limb, including shoulder",,,Dermatology
+"C44622  Squamous cell carcinoma of skin of right upper limb, including shoulder",,,Dermatology
+"C44629  Squamous cell carcinoma of skin of left upper limb, including shoulder",,,Dermatology
+"C44691  Other specified malignant neoplasm of skin of unspecified upper limb, including shoulder",,,Dermatology
+"C44692  Other specified malignant neoplasm of skin of right upper limb, including shoulder",,,Dermatology
+"C44699  Other specified malignant neoplasm of skin of left upper limb, including shoulder",,,Dermatology
+"C44701  Unspecified malignant neoplasm of skin of unspecified lower limb, including hip",,,Dermatology
+"C44702  Unspecified malignant neoplasm of skin of right lower limb, including hip",,,Dermatology
+"C44709  Unspecified malignant neoplasm of skin of left lower limb, including hip",,,Dermatology
+"C44711  Basal cell carcinoma of skin of unspecified lower limb, including hip",,,Dermatology
+"C44712  Basal cell carcinoma of skin of right lower limb, including hip",,,Dermatology
+"C44719  Basal cell carcinoma of skin of left lower limb, including hip",,,Dermatology
+"C44721  Squamous cell carcinoma of skin of unspecified lower limb, including hip",,,Dermatology
+"C44722  Squamous cell carcinoma of skin of right lower limb, including hip",,,Dermatology
+"C44729  Squamous cell carcinoma of skin of left lower limb, including hip",,,Dermatology
+"C44791  Other specified malignant neoplasm of skin of unspecified lower limb, including hip",,,Dermatology
+"C44792  Other specified malignant neoplasm of skin of right lower limb, including hip",,,Dermatology
+"C44799  Other specified malignant neoplasm of skin of left lower limb, including hip",,,Dermatology
+C4480   Unspecified malignant neoplasm of overlapping sites of skin,,,Dermatology
+C4481   Basal cell carcinoma of overlapping sites of skin,,,Dermatology
+C4482   Squamous cell carcinoma of overlapping sites of skin,,,Dermatology
+C4489   Other specified malignant neoplasm of overlapping sites of skin,,,Dermatology
+"C4490   Unspecified malignant neoplasm of skin, unspecified",,,Dermatology
+"C4491   Basal cell carcinoma of skin, unspecified",,,Dermatology
+"C4492   Squamous cell carcinoma of skin, unspecified",,,Dermatology
+"C4499   Other specified malignant neoplasm of skin, unspecified",,,Dermatology
+C460    Kaposi's sarcoma of skin,,,Dermatology
+C792    Secondary malignant neoplasm of skin,,,Dermatology
+D0351   Melanoma in situ of anal skin,,,Dermatology
+D040    Carcinoma in situ of skin of lip,,,Dermatology
+"D0410   Carcinoma in situ of skin of unspecified eyelid, including canthus",,,Dermatology
+"D0411   Carcinoma in situ of skin of right eyelid, including canthus",,,Dermatology
+"D0412   Carcinoma in situ of skin of left eyelid, including canthus",,,Dermatology
+D0430   Carcinoma in situ of skin of unspecified part of face,,,Dermatology
+D0439   Carcinoma in situ of skin of other parts of face,,,Dermatology
+D044    Carcinoma in situ of skin of scalp and neck,,,Dermatology
+D045    Carcinoma in situ of skin of trunk,,,Dermatology
+"D0460   Carcinoma in situ of skin of unspecified upper limb, including shoulder",,,Dermatology
+"D0461   Carcinoma in situ of skin of right upper limb, including shoulder",,,Dermatology
+"D0462   Carcinoma in situ of skin of left upper limb, including shoulder",,,Dermatology
+"D0470   Carcinoma in situ of skin of unspecified lower limb, including hip",,,Dermatology
+"D0471   Carcinoma in situ of skin of right lower limb, including hip",,,Dermatology
+"D0472   Carcinoma in situ of skin of left lower limb, including hip",,,Dermatology
+D048    Carcinoma in situ of skin of other sites,,,Dermatology
+"D049    Carcinoma in situ of skin, unspecified",,,Dermatology
+"D170    Benign lipomatous neoplasm of skin and subcutaneous tissue of head, face and neck",,,Dermatology
+D171    Benign lipomatous neoplasm of skin and subcutaneous tissue of trunk,,,Dermatology
+D1720   Benign lipomatous neoplasm of skin and subcutaneous tissue of unspecified limb,,,Dermatology
+D1721   Benign lipomatous neoplasm of skin and subcutaneous tissue of right arm,,,Dermatology
+D1722   Benign lipomatous neoplasm of skin and subcutaneous tissue of left arm,,,Dermatology
+D1723   Benign lipomatous neoplasm of skin and subcutaneous tissue of right leg,,,Dermatology
+D1724   Benign lipomatous neoplasm of skin and subcutaneous tissue of left leg,,,Dermatology
+D1730   Benign lipomatous neoplasm of skin and subcutaneous tissue of unspecified sites,,,Dermatology
+D1739   Benign lipomatous neoplasm of skin and subcutaneous tissue of other sites,,,Dermatology
+D1801   Hemangioma of skin and subcutaneous tissue,,,Dermatology
+D230    Other benign neoplasm of skin of lip,,,Dermatology
+"D2310   Other benign neoplasm of skin of unspecified eyelid, including canthus",,,Dermatology
+"D2311   Other benign neoplasm of skin of right eyelid, including canthus",,,Dermatology
+"D2312   Other benign neoplasm of skin of left eyelid, including canthus",,,Dermatology
+D2330   Other benign neoplasm of skin of unspecified part of face,,,Dermatology
+D2339   Other benign neoplasm of skin of other parts of face,,,Dermatology
+D234    Other benign neoplasm of skin of scalp and neck,,,Dermatology
+D235    Other benign neoplasm of skin of trunk,,,Dermatology
+"D2360   Other benign neoplasm of skin of unspecified upper limb, including shoulder",,,Dermatology
+"D2361   Other benign neoplasm of skin of right upper limb, including shoulder",,,Dermatology
+"D2362   Other benign neoplasm of skin of left upper limb, including shoulder",,,Dermatology
+"D2370   Other benign neoplasm of skin of unspecified lower limb, including hip",,,Dermatology
+"D2371   Other benign neoplasm of skin of right lower limb, including hip",,,Dermatology
+"D2372   Other benign neoplasm of skin of left lower limb, including hip",,,Dermatology
+"D239    Other benign neoplasm of skin, unspecified",,,Dermatology
+D485    Neoplasm of uncertain behavior of skin,,,Dermatology
+D863    Sarcoidosis of skin,,,Dermatology
+E08620  Diabetes mellitus due to underlying condition with diabetic dermatitis,,,Dermatology
+E08628  Diabetes mellitus due to underlying condition with other skin complications,,,Dermatology
+E09620  Drug or chemical induced diabetes mellitus with diabetic dermatitis,,,Dermatology
+E09628  Drug or chemical induced diabetes mellitus with other skin complications,,,Dermatology
+E10620  Type 1 diabetes mellitus with diabetic dermatitis,,,Dermatology
+E10628  Type 1 diabetes mellitus with other skin complications,,,Dermatology
+E11620  Type 2 diabetes mellitus with diabetic dermatitis,,,Dermatology
+E11628  Type 2 diabetes mellitus with other skin complications,,,Dermatology
+E13620  Other specified diabetes mellitus with diabetic dermatitis,,,Dermatology
+E13628  Other specified diabetes mellitus with other skin complications,,,Dermatology
+F424    Excoriation (skin-picking) disorder,,,Dermatology
+H01111  Allergic dermatitis of right upper eyelid,,,Dermatology
+H01112  Allergic dermatitis of right lower eyelid,,,Dermatology
+"H01113  Allergic dermatitis of right eye, unspecified eyelid",,,Dermatology
+H01114  Allergic dermatitis of left upper eyelid,,,Dermatology
+H01115  Allergic dermatitis of left lower eyelid,,,Dermatology
+"H01116  Allergic dermatitis of left eye, unspecified eyelid",,,Dermatology
+"H01119  Allergic dermatitis of unspecified eye, unspecified eyelid",,,Dermatology
+H01131  Eczematous dermatitis of right upper eyelid,,,Dermatology
+H01132  Eczematous dermatitis of right lower eyelid,,,Dermatology
+"H01133  Eczematous dermatitis of right eye, unspecified eyelid",,,Dermatology
+H01134  Eczematous dermatitis of left upper eyelid,,,Dermatology
+H01135  Eczematous dermatitis of left lower eyelid,,,Dermatology
+"H01136  Eczematous dermatitis of left eye, unspecified eyelid",,,Dermatology
+"H01139  Eczematous dermatitis of unspecified eye, unspecified eyelid",,,Dermatology
+H05011  Cellulitis of right orbit,,,Dermatology
+H05012  Cellulitis of left orbit,,,Dermatology
+H05013  Cellulitis of bilateral orbits,,,Dermatology
+H05019  Cellulitis of unspecified orbit,,,Dermatology
+K122    Cellulitis and abscess of mouth,,,Dermatology
+K644    Residual hemorrhoidal skin tags,,,Dermatology
+L00     Staphylococcal scalded skin syndrome,,,Dermatology
+L03011  Cellulitis of right finger,,,Dermatology
+L03012  Cellulitis of left finger,,,Dermatology
+L03019  Cellulitis of unspecified finger,,,Dermatology
+L03031  Cellulitis of right toe,,,Dermatology
+L03032  Cellulitis of left toe,,,Dermatology
+L03039  Cellulitis of unspecified toe,,,Dermatology
+L03111  Cellulitis of right axilla,,,Dermatology
+L03112  Cellulitis of left axilla,,,Dermatology
+L03113  Cellulitis of right upper limb,,,Dermatology
+L03114  Cellulitis of left upper limb,,,Dermatology
+L03115  Cellulitis of right lower limb,,,Dermatology
+L03116  Cellulitis of left lower limb,,,Dermatology
+L03119  Cellulitis of unspecified part of limb,,,Dermatology
+L03211  Cellulitis of face,,,Dermatology
+L03213  Periorbital cellulitis,,,Dermatology
+L03221  Cellulitis of neck,,,Dermatology
+L03311  Cellulitis of abdominal wall,,,Dermatology
+L03312  Cellulitis of back [any part except buttock],,,Dermatology
+L03313  Cellulitis of chest wall,,,Dermatology
+L03314  Cellulitis of groin,,,Dermatology
+L03315  Cellulitis of perineum,,,Dermatology
+L03316  Cellulitis of umbilicus,,,Dermatology
+L03317  Cellulitis of buttock,,,Dermatology
+"L03319  Cellulitis of trunk, unspecified",,,Dermatology
+"L03811  Cellulitis of head [any part, except face]",,,Dermatology
+L03818  Cellulitis of other sites,,,Dermatology
+"L0390   Cellulitis, unspecified",,,Dermatology
+L0889   Other specified local infections of the skin and subcutaneous tissue,,,Dermatology
+"L089    Local infection of the skin and subcutaneous tissue, unspecified",,,Dermatology
+L130    Dermatitis herpetiformis,,,Dermatology
+L131    Subcorneal pustular dermatitis,,,Dermatology
+L2082   Flexural eczema,,,Dermatology
+L2083   Infantile (acute) (chronic) eczema,,,Dermatology
+L2084   Intrinsic (allergic) eczema,,,Dermatology
+L2089   Other atopic dermatitis,,,Dermatology
+"L209    Atopic dermatitis, unspecified",,,Dermatology
+L211    Seborrheic infantile dermatitis,,,Dermatology
+L218    Other seborrheic dermatitis,,,Dermatology
+"L219    Seborrheic dermatitis, unspecified",,,Dermatology
+L22     Diaper dermatitis,,,Dermatology
+L230    Allergic contact dermatitis due to metals,,,Dermatology
+L231    Allergic contact dermatitis due to adhesives,,,Dermatology
+L232    Allergic contact dermatitis due to cosmetics,,,Dermatology
+L233    Allergic contact dermatitis due to drugs in contact with skin,,,Dermatology
+L234    Allergic contact dermatitis due to dyes,,,Dermatology
+L235    Allergic contact dermatitis due to other chemical products,,,Dermatology
+L236    Allergic contact dermatitis due to food in contact with the skin,,,Dermatology
+"L237    Allergic contact dermatitis due to plants, except food",,,Dermatology
+L2381   Allergic contact dermatitis due to animal (cat) (dog) dander,,,Dermatology
+L2389   Allergic contact dermatitis due to other agents,,,Dermatology
+"L239    Allergic contact dermatitis, unspecified cause",,,Dermatology
+L240    Irritant contact dermatitis due to detergents,,,Dermatology
+L241    Irritant contact dermatitis due to oils and greases,,,Dermatology
+L242    Irritant contact dermatitis due to solvents,,,Dermatology
+L243    Irritant contact dermatitis due to cosmetics,,,Dermatology
+L244    Irritant contact dermatitis due to drugs in contact with skin,,,Dermatology
+L245    Irritant contact dermatitis due to other chemical products,,,Dermatology
+L246    Irritant contact dermatitis due to food in contact with skin,,,Dermatology
+"L247    Irritant contact dermatitis due to plants, except food",,,Dermatology
+L2481   Irritant contact dermatitis due to metals,,,Dermatology
+L2489   Irritant contact dermatitis due to other agents,,,Dermatology
+"L249    Irritant contact dermatitis, unspecified cause",,,Dermatology
+L250    Unspecified contact dermatitis due to cosmetics,,,Dermatology
+L251    Unspecified contact dermatitis due to drugs in contact with skin,,,Dermatology
+L252    Unspecified contact dermatitis due to dyes,,,Dermatology
+L253    Unspecified contact dermatitis due to other chemical products,,,Dermatology
+L254    Unspecified contact dermatitis due to food in contact with skin,,,Dermatology
+"L255    Unspecified contact dermatitis due to plants, except food",,,Dermatology
+L258    Unspecified contact dermatitis due to other agents,,,Dermatology
+"L259    Unspecified contact dermatitis, unspecified cause",,,Dermatology
+L26     Exfoliative dermatitis,,,Dermatology
+L270    Generalized skin eruption due to drugs and medicaments taken internally,,,Dermatology
+L271    Localized skin eruption due to drugs and medicaments taken internally,,,Dermatology
+L272    Dermatitis due to ingested food,,,Dermatology
+L278    Dermatitis due to other substances taken internally,,,Dermatology
+L279    Dermatitis due to unspecified substance taken internally,,,Dermatology
+L300    Nummular dermatitis,,,Dermatology
+L303    Infective dermatitis,,,Dermatology
+L308    Other specified dermatitis,,,Dermatology
+"L309    Dermatitis, unspecified",,,Dermatology
+L400    Psoriasis vulgaris,,,Dermatology
+L401    Generalized pustular psoriasis,,,Dermatology
+L404    Guttate psoriasis,,,Dermatology
+"L4050   Arthropathic psoriasis, unspecified",,,Dermatology
+L408    Other psoriasis,,,Dermatology
+"L409    Psoriasis, unspecified",,,Dermatology
+L562    Photocontact dermatitis [berloque dermatitis],,,Dermatology
+L568    Other specified acute skin changes due to ultraviolet radiation,,,Dermatology
+"L569    Acute skin change due to ultraviolet radiation, unspecified",,,Dermatology
+L578    Other skin changes due to chronic exposure to nonionizing radiation,,,Dermatology
+"L579    Skin changes due to chronic exposure to nonionizing radiation, unspecified",,,Dermatology
+L590    Erythema ab igne [dermatitis ab igne],,,Dermatology
+L598    Other specified disorders of the skin and subcutaneous tissue related to radiation,,,Dermatology
+"L599    Disorder of the skin and subcutaneous tissue related to radiation, unspecified",,,Dermatology
+L630    Alopecia (capitis) totalis,,,Dermatology
+L631    Alopecia universalis,,,Dermatology
+L638    Other alopecia areata,,,Dermatology
+"L639    Alopecia areata, unspecified",,,Dermatology
+L640    Drug-induced androgenic alopecia,,,Dermatology
+L648    Other androgenic alopecia,,,Dermatology
+"L649    Androgenic alopecia, unspecified",,,Dermatology
+L652    Alopecia mucinosa,,,Dermatology
+L668    Other cicatricial alopecia,,,Dermatology
+"L669    Cicatricial alopecia, unspecified",,,Dermatology
+L700    Acne vulgaris,,,Dermatology
+L701    Acne conglobata,,,Dermatology
+L702    Acne varioliformis,,,Dermatology
+L703    Acne tropica,,,Dermatology
+L704    Infantile acne,,,Dermatology
+L705    Acne excoriee,,,Dermatology
+L708    Other acne,,,Dermatology
+"L709    Acne, unspecified",,,Dermatology
+L710    Perioral dermatitis,,,Dermatology
+L728    Other follicular cysts of the skin and subcutaneous tissue,,,Dermatology
+"L729    Follicular cyst of the skin and subcutaneous tissue, unspecified",,,Dermatology
+L730    Acne keloid,,,Dermatology
+"L7601   Intraoperative hemorrhage and hematoma of skin and subcutaneous tissue complicating a
+dermatologic procedure",,,Dermatology
+"L7602   Intraoperative hemorrhage and hematoma of skin and subcutaneous tissue complicating other
+procedure",,,Dermatology
+"L7611   Accidental puncture and laceration of skin and subcutaneous tissue during a dermatologic
+procedure",,,Dermatology
+L7612   Accidental puncture and laceration of skin and subcutaneous tissue during other procedure,,,Dermatology
+L7621   Postprocedural hemorrhage of skin and subcutaneous tissue following a dermatologic procedure,,,Dermatology
+L7622   Postprocedural hemorrhage of skin and subcutaneous tissue following other procedure,,,Dermatology
+L7631   Postprocedural hematoma of skin and subcutaneous tissue following a dermatologic procedure,,,Dermatology
+L7632   Postprocedural hematoma of skin and subcutaneous tissue following other procedure,,,Dermatology
+L7633   Postprocedural seroma of skin and subcutaneous tissue following a dermatologic procedure,,,Dermatology
+L7634   Postprocedural seroma of skin and subcutaneous tissue following other procedure,,,Dermatology
+L7681   Other intraoperative complications of skin and subcutaneous tissue,,,Dermatology
+L7682   Other postprocedural complications of skin and subcutaneous tissue,,,Dermatology
+L905    Scar conditions and fibrosis of skin,,,Dermatology
+L908    Other atrophic disorders of skin,,,Dermatology
+"L909    Atrophic disorder of skin, unspecified",,,Dermatology
+L918    Other hypertrophic disorders of the skin,,,Dermatology
+"L919    Hypertrophic disorder of the skin, unspecified",,,Dermatology
+L922    Granuloma faciale [eosinophilic granuloma of skin],,,Dermatology
+L923    Foreign body granuloma of the skin and subcutaneous tissue,,,Dermatology
+L928    Other granulomatous disorders of the skin and subcutaneous tissue,,,Dermatology
+"L929    Granulomatous disorder of the skin and subcutaneous tissue, unspecified",,,Dermatology
+L958    Other vasculitis limited to the skin,,,Dermatology
+"L959    Vasculitis limited to the skin, unspecified",,,Dermatology
+L981    Factitial dermatitis,,,Dermatology
+L983    Eosinophilic cellulitis [Wells],,,Dermatology
+L985    Mucinosis of the skin,,,Dermatology
+L986    Other infiltrative disorders of the skin and subcutaneous tissue,,,Dermatology
+L987    Excessive and redundant skin and subcutaneous tissue,,,Dermatology
+L988    Other specified disorders of the skin and subcutaneous tissue,,,Dermatology
+"L989    Disorder of the skin and subcutaneous tissue, unspecified",,,Dermatology
+L99     Other disorders of skin and subcutaneous tissue in diseases classified elsewhere,,,Dermatology
+N4822   Cellulitis of corpus cavernosum and penis,,,Dermatology
+N825    Female genital tract-skin fistulae,,,Dermatology
+O9972   Diseases of the skin and subcutaneous tissue complicating childbirth,,,Dermatology
+O9973   Diseases of the skin and subcutaneous tissue complicating the puerperium,,,Dermatology
+P394    Neonatal skin infection,,,Dermatology
+Q828    Other specified congenital malformations of skin,,,Dermatology
+"Q829    Congenital malformation of skin, unspecified",,,Dermatology
+Q840    Congenital alopecia,,,Dermatology
+R200    Anesthesia of skin,,,Dermatology
+R201    Hypoesthesia of skin,,,Dermatology
+R202    Paresthesia of skin,,,Dermatology
+R208    Other disturbances of skin sensation,,,Dermatology
+R209    Unspecified disturbances of skin sensation,,,Dermatology
+R21     Rash and other nonspecific skin eruption,,,Dermatology
+R234    Changes in skin texture,,,Dermatology
+R238    Other skin changes,,,Dermatology
+R239    Unspecified skin changes,,,Dermatology
+R7611   Nonspecific reaction to tuberculin skin test without active tuberculosis,,,Dermatology
+"T2000XA Burn of unspecified degree of head, face, and neck, unspecified site, initial encounter",,,Dermatology
+"T2000XD Burn of unspecified degree of head, face, and neck, unspecified site, subsequent encounter",,,Dermatology
+"T2000XS Burn of unspecified degree of head, face, and neck, unspecified site, sequela",,,Dermatology
+"T2002XA Burn of unspecified degree of lip(s), initial encounter",,,Dermatology
+"T2002XD Burn of unspecified degree of lip(s), subsequent encounter",,,Dermatology
+"T2002XS Burn of unspecified degree of lip(s), sequela",,,Dermatology
+"T2003XA Burn of unspecified degree of chin, initial encounter",,,Dermatology
+"T2003XD Burn of unspecified degree of chin, subsequent encounter",,,Dermatology
+"T2003XS Burn of unspecified degree of chin, sequela",,,Dermatology
+"T2005XA Burn of unspecified degree of scalp [any part], initial encounter",,,Dermatology
+"T2005XD Burn of unspecified degree of scalp [any part], subsequent encounter",,,Dermatology
+"T2005XS Burn of unspecified degree of scalp [any part], sequela",,,Dermatology
+"T2006XA Burn of unspecified degree of forehead and cheek, initial encounter",,,Dermatology
+"T2006XD Burn of unspecified degree of forehead and cheek, subsequent encounter",,,Dermatology
+"T2006XS Burn of unspecified degree of forehead and cheek, sequela",,,Dermatology
+"T2007XA Burn of unspecified degree of neck, initial encounter",,,Dermatology
+"T2007XD Burn of unspecified degree of neck, subsequent encounter",,,Dermatology
+"T2007XS Burn of unspecified degree of neck, sequela",,,Dermatology
+"T2009XA Burn of unspecified degree of multiple sites of head, face, and neck, initial encounter",,,Dermatology
+"T2009XD Burn of unspecified degree of multiple sites of head, face, and neck, subsequent encounter",,,Dermatology
+"T2009XS Burn of unspecified degree of multiple sites of head, face, and neck, sequela",,,Dermatology
+"T2010XA Burn of first degree of head, face, and neck, unspecified site, initial encounter",,,Dermatology
+"T2010XD Burn of first degree of head, face, and neck, unspecified site, subsequent encounter",,,Dermatology
+"T2010XS Burn of first degree of head, face, and neck, unspecified site, sequela",,,Dermatology
+"T2012XA Burn of first degree of lip(s), initial encounter",,,Dermatology
+"T2012XD Burn of first degree of lip(s), subsequent encounter",,,Dermatology
+"T2012XS Burn of first degree of lip(s), sequela",,,Dermatology
+"T2013XA Burn of first degree of chin, initial encounter",,,Dermatology
+"T2013XD Burn of first degree of chin, subsequent encounter",,,Dermatology
+"T2013XS Burn of first degree of chin, sequela",,,Dermatology
+"T2015XA Burn of first degree of scalp [any part], initial encounter",,,Dermatology
+"T2015XD Burn of first degree of scalp [any part], subsequent encounter",,,Dermatology
+"T2015XS Burn of first degree of scalp [any part], sequela",,,Dermatology
+"T2016XA Burn of first degree of forehead and cheek, initial encounter",,,Dermatology
+"T2016XD Burn of first degree of forehead and cheek, subsequent encounter",,,Dermatology
+"T2016XS Burn of first degree of forehead and cheek, sequela",,,Dermatology
+"T2017XA Burn of first degree of neck, initial encounter",,,Dermatology
+"T2017XD Burn of first degree of neck, subsequent encounter",,,Dermatology
+"T2017XS Burn of first degree of neck, sequela",,,Dermatology
+"T2019XA Burn of first degree of multiple sites of head, face, and neck, initial encounter",,,Dermatology
+"T2019XD Burn of first degree of multiple sites of head, face, and neck, subsequent encounter",,,Dermatology
+"T2019XS Burn of first degree of multiple sites of head, face, and neck, sequela",,,Dermatology
+"T2020XA Burn of second degree of head, face, and neck, unspecified site, initial encounter",,,Dermatology
+"T2020XD Burn of second degree of head, face, and neck, unspecified site, subsequent encounter",,,Dermatology
+"T2020XS Burn of second degree of head, face, and neck, unspecified site, sequela",,,Dermatology
+"T2022XA Burn of second degree of lip(s), initial encounter",,,Dermatology
+"T2022XD Burn of second degree of lip(s), subsequent encounter",,,Dermatology
+"T2022XS Burn of second degree of lip(s), sequela",,,Dermatology
+"T2023XA Burn of second degree of chin, initial encounter",,,Dermatology
+"T2023XD Burn of second degree of chin, subsequent encounter",,,Dermatology
+"T2023XS Burn of second degree of chin, sequela",,,Dermatology
+"T2025XA Burn of second degree of scalp [any part], initial encounter",,,Dermatology
+"T2025XD Burn of second degree of scalp [any part], subsequent encounter",,,Dermatology
+"T2025XS Burn of second degree of scalp [any part], sequela",,,Dermatology
+"T2026XA Burn of second degree of forehead and cheek, initial encounter",,,Dermatology
+"T2026XD Burn of second degree of forehead and cheek, subsequent encounter",,,Dermatology
+"T2026XS Burn of second degree of forehead and cheek, sequela",,,Dermatology
+"T2027XA Burn of second degree of neck, initial encounter",,,Dermatology
+"T2027XD Burn of second degree of neck, subsequent encounter",,,Dermatology
+"T2027XS Burn of second degree of neck, sequela",,,Dermatology
+"T2029XA Burn of second degree of multiple sites of head, face, and neck, initial encounter",,,Dermatology
+"T2029XD Burn of second degree of multiple sites of head, face, and neck, subsequent encounter",,,Dermatology
+"T2029XS Burn of second degree of multiple sites of head, face, and neck, sequela",,,Dermatology
+"T2030XA Burn of third degree of head, face, and neck, unspecified site, initial encounter",,,Dermatology
+"T2030XD Burn of third degree of head, face, and neck, unspecified site, subsequent encounter",,,Dermatology
+"T2030XS Burn of third degree of head, face, and neck, unspecified site, sequela",,,Dermatology
+"T2032XA Burn of third degree of lip(s), initial encounter",,,Dermatology
+"T2032XD Burn of third degree of lip(s), subsequent encounter",,,Dermatology
+"T2032XS Burn of third degree of lip(s), sequela",,,Dermatology
+"T2033XA Burn of third degree of chin, initial encounter",,,Dermatology
+"T2033XD Burn of third degree of chin, subsequent encounter",,,Dermatology
+"T2033XS Burn of third degree of chin, sequela",,,Dermatology
+"T2035XA Burn of third degree of scalp [any part], initial encounter",,,Dermatology
+"T2035XD Burn of third degree of scalp [any part], subsequent encounter",,,Dermatology
+"T2035XS Burn of third degree of scalp [any part], sequela",,,Dermatology
+"T2036XA Burn of third degree of forehead and cheek, initial encounter",,,Dermatology
+"T2036XD Burn of third degree of forehead and cheek, subsequent encounter",,,Dermatology
+"T2036XS Burn of third degree of forehead and cheek, sequela",,,Dermatology
+"T2037XA Burn of third degree of neck, initial encounter",,,Dermatology
+"T2037XD Burn of third degree of neck, subsequent encounter",,,Dermatology
+"T2037XS Burn of third degree of neck, sequela",,,Dermatology
+"T2039XA Burn of third degree of multiple sites of head, face, and neck, initial encounter",,,Dermatology
+"T2039XD Burn of third degree of multiple sites of head, face, and neck, subsequent encounter",,,Dermatology
+"T2039XS Burn of third degree of multiple sites of head, face, and neck, sequela",,,Dermatology
+"T2100XA Burn of unspecified degree of trunk, unspecified site, initial encounter",,,Dermatology
+"T2100XD Burn of unspecified degree of trunk, unspecified site, subsequent encounter",,,Dermatology
+"T2100XS Burn of unspecified degree of trunk, unspecified site, sequela",,,Dermatology
+"T2101XA Burn of unspecified degree of chest wall, initial encounter",,,Dermatology
+"T2101XD Burn of unspecified degree of chest wall, subsequent encounter",,,Dermatology
+"T2101XS Burn of unspecified degree of chest wall, sequela",,,Dermatology
+"T2102XA Burn of unspecified degree of abdominal wall, initial encounter",,,Dermatology
+"T2102XD Burn of unspecified degree of abdominal wall, subsequent encounter",,,Dermatology
+"T2102XS Burn of unspecified degree of abdominal wall, sequela",,,Dermatology
+"T2103XA Burn of unspecified degree of upper back, initial encounter",,,Dermatology
+"T2103XD Burn of unspecified degree of upper back, subsequent encounter",,,Dermatology
+"T2103XS Burn of unspecified degree of upper back, sequela",,,Dermatology
+"T2104XA Burn of unspecified degree of lower back, initial encounter",,,Dermatology
+"T2104XD Burn of unspecified degree of lower back, subsequent encounter",,,Dermatology
+"T2104XS Burn of unspecified degree of lower back, sequela",,,Dermatology
+"T2105XA Burn of unspecified degree of buttock, initial encounter",,,Dermatology
+"T2105XD Burn of unspecified degree of buttock, subsequent encounter",,,Dermatology
+"T2105XS Burn of unspecified degree of buttock, sequela",,,Dermatology
+"T2106XA Burn of unspecified degree of male genital region, initial encounter",,,Dermatology
+"T2106XD Burn of unspecified degree of male genital region, subsequent encounter",,,Dermatology
+"T2106XS Burn of unspecified degree of male genital region, sequela",,,Dermatology
+"T2107XA Burn of unspecified degree of female genital region, initial encounter",,,Dermatology
+"T2107XD Burn of unspecified degree of female genital region, subsequent encounter",,,Dermatology
+"T2107XS Burn of unspecified degree of female genital region, sequela",,,Dermatology
+"T2109XA Burn of unspecified degree of other site of trunk, initial encounter",,,Dermatology
+"T2109XD Burn of unspecified degree of other site of trunk, subsequent encounter",,,Dermatology
+"T2109XS Burn of unspecified degree of other site of trunk, sequela",,,Dermatology
+"T2110XA Burn of first degree of trunk, unspecified site, initial encounter",,,Dermatology
+"T2110XD Burn of first degree of trunk, unspecified site, subsequent encounter",,,Dermatology
+"T2110XS Burn of first degree of trunk, unspecified site, sequela",,,Dermatology
+"T2111XA Burn of first degree of chest wall, initial encounter",,,Dermatology
+"T2111XD Burn of first degree of chest wall, subsequent encounter",,,Dermatology
+"T2111XS Burn of first degree of chest wall, sequela",,,Dermatology
+"T2112XA Burn of first degree of abdominal wall, initial encounter",,,Dermatology
+"T2112XD Burn of first degree of abdominal wall, subsequent encounter",,,Dermatology
+"T2112XS Burn of first degree of abdominal wall, sequela",,,Dermatology
+"T2113XA Burn of first degree of upper back, initial encounter",,,Dermatology
+"T2113XD Burn of first degree of upper back, subsequent encounter",,,Dermatology
+"T2113XS Burn of first degree of upper back, sequela",,,Dermatology
+"T2114XA Burn of first degree of lower back, initial encounter",,,Dermatology
+"T2114XD Burn of first degree of lower back, subsequent encounter",,,Dermatology
+"T2114XS Burn of first degree of lower back, sequela",,,Dermatology
+"T2115XA Burn of first degree of buttock, initial encounter",,,Dermatology
+"T2115XD Burn of first degree of buttock, subsequent encounter",,,Dermatology
+"T2115XS Burn of first degree of buttock, sequela",,,Dermatology
+"T2116XA Burn of first degree of male genital region, initial encounter",,,Dermatology
+"T2116XD Burn of first degree of male genital region, subsequent encounter",,,Dermatology
+"T2116XS Burn of first degree of male genital region, sequela",,,Dermatology
+"T2117XA Burn of first degree of female genital region, initial encounter",,,Dermatology
+"T2117XD Burn of first degree of female genital region, subsequent encounter",,,Dermatology
+"T2117XS Burn of first degree of female genital region, sequela",,,Dermatology
+"T2119XA Burn of first degree of other site of trunk, initial encounter",,,Dermatology
+"T2119XD Burn of first degree of other site of trunk, subsequent encounter",,,Dermatology
+"T2119XS Burn of first degree of other site of trunk, sequela",,,Dermatology
+"T2120XA Burn of second degree of trunk, unspecified site, initial encounter",,,Dermatology
+"T2120XD Burn of second degree of trunk, unspecified site, subsequent encounter",,,Dermatology
+"T2120XS Burn of second degree of trunk, unspecified site, sequela",,,Dermatology
+"T2121XA Burn of second degree of chest wall, initial encounter",,,Dermatology
+"T2121XD Burn of second degree of chest wall, subsequent encounter",,,Dermatology
+"T2121XS Burn of second degree of chest wall, sequela",,,Dermatology
+"T2122XA Burn of second degree of abdominal wall, initial encounter",,,Dermatology
+"T2122XD Burn of second degree of abdominal wall, subsequent encounter",,,Dermatology
+"T2122XS Burn of second degree of abdominal wall, sequela",,,Dermatology
+"T2123XA Burn of second degree of upper back, initial encounter",,,Dermatology
+"T2123XD Burn of second degree of upper back, subsequent encounter",,,Dermatology
+"T2123XS Burn of second degree of upper back, sequela",,,Dermatology
+"T2124XA Burn of second degree of lower back, initial encounter",,,Dermatology
+"T2124XD Burn of second degree of lower back, subsequent encounter",,,Dermatology
+"T2124XS Burn of second degree of lower back, sequela",,,Dermatology
+"T2125XA Burn of second degree of buttock, initial encounter",,,Dermatology
+"T2125XD Burn of second degree of buttock, subsequent encounter",,,Dermatology
+"T2125XS Burn of second degree of buttock, sequela",,,Dermatology
+"T2126XA Burn of second degree of male genital region, initial encounter",,,Dermatology
+"T2126XD Burn of second degree of male genital region, subsequent encounter",,,Dermatology
+"T2126XS Burn of second degree of male genital region, sequela",,,Dermatology
+"T2127XA Burn of second degree of female genital region, initial encounter",,,Dermatology
+"T2127XD Burn of second degree of female genital region, subsequent encounter",,,Dermatology
+"T2127XS Burn of second degree of female genital region, sequela",,,Dermatology
+"T2129XA Burn of second degree of other site of trunk, initial encounter",,,Dermatology
+"T2129XD Burn of second degree of other site of trunk, subsequent encounter",,,Dermatology
+"T2129XS Burn of second degree of other site of trunk, sequela",,,Dermatology
+"T2130XA Burn of third degree of trunk, unspecified site, initial encounter",,,Dermatology
+"T2130XD Burn of third degree of trunk, unspecified site, subsequent encounter",,,Dermatology
+"T2130XS Burn of third degree of trunk, unspecified site, sequela",,,Dermatology
+"T2131XA Burn of third degree of chest wall, initial encounter",,,Dermatology
+"T2131XD Burn of third degree of chest wall, subsequent encounter",,,Dermatology
+"T2131XS Burn of third degree of chest wall, sequela",,,Dermatology
+"T2132XA Burn of third degree of abdominal wall, initial encounter",,,Dermatology
+"T2132XD Burn of third degree of abdominal wall, subsequent encounter",,,Dermatology
+"T2132XS Burn of third degree of abdominal wall, sequela",,,Dermatology
+"T2133XA Burn of third degree of upper back, initial encounter",,,Dermatology
+"T2133XD Burn of third degree of upper back, subsequent encounter",,,Dermatology
+"T2133XS Burn of third degree of upper back, sequela",,,Dermatology
+"T2134XA Burn of third degree of lower back, initial encounter",,,Dermatology
+"T2134XD Burn of third degree of lower back, subsequent encounter",,,Dermatology
+"T2134XS Burn of third degree of lower back, sequela",,,Dermatology
+"T2135XA Burn of third degree of buttock, initial encounter",,,Dermatology
+"T2135XD Burn of third degree of buttock, subsequent encounter",,,Dermatology
+"T2135XS Burn of third degree of buttock, sequela",,,Dermatology
+"T2136XA Burn of third degree of male genital region, initial encounter",,,Dermatology
+"T2136XD Burn of third degree of male genital region, subsequent encounter",,,Dermatology
+"T2136XS Burn of third degree of male genital region, sequela",,,Dermatology
+"T2137XA Burn of third degree of female genital region, initial encounter",,,Dermatology
+"T2137XD Burn of third degree of female genital region, subsequent encounter",,,Dermatology
+"T2137XS Burn of third degree of female genital region, sequela",,,Dermatology
+"T2139XA Burn of third degree of other site of trunk, initial encounter",,,Dermatology
+"T2139XD Burn of third degree of other site of trunk, subsequent encounter",,,Dermatology
+"T2139XS Burn of third degree of other site of trunk, sequela",,,Dermatology
+"T2200XA Burn of unspecified degree of shoulder and upper limb, except wrist and hand, unspecified
+site, initial encounter",,,Dermatology
+"T2200XD Burn of unspecified degree of shoulder and upper limb, except wrist and hand, unspecified
+site, subsequent encounter",,,Dermatology
+"T2200XS Burn of unspecified degree of shoulder and upper limb, except wrist and hand, unspecified site,
+sequela",,,Dermatology
+"T22011A Burn of unspecified degree of right forearm, initial encounter",,,Dermatology
+"T22011D Burn of unspecified degree of right forearm, subsequent encounter",,,Dermatology
+"T22011S Burn of unspecified degree of right forearm, sequela",,,Dermatology
+"T22012A Burn of unspecified degree of left forearm, initial encounter",,,Dermatology
+"T22012D Burn of unspecified degree of left forearm, subsequent encounter",,,Dermatology
+"T22012S Burn of unspecified degree of left forearm, sequela",,,Dermatology
+"T22019A Burn of unspecified degree of unspecified forearm, initial encounter",,,Dermatology
+"T22019D Burn of unspecified degree of unspecified forearm, subsequent encounter",,,Dermatology
+"T22019S Burn of unspecified degree of unspecified forearm, sequela",,,Dermatology
+"T22021A Burn of unspecified degree of right elbow, initial encounter",,,Dermatology
+"T22021D Burn of unspecified degree of right elbow, subsequent encounter",,,Dermatology
+"T22021S Burn of unspecified degree of right elbow, sequela",,,Dermatology
+"T22022A Burn of unspecified degree of left elbow, initial encounter",,,Dermatology
+"T22022D Burn of unspecified degree of left elbow, subsequent encounter",,,Dermatology
+"T22022S Burn of unspecified degree of left elbow, sequela",,,Dermatology
+"T22029A Burn of unspecified degree of unspecified elbow, initial encounter",,,Dermatology
+"T22029D Burn of unspecified degree of unspecified elbow, subsequent encounter",,,Dermatology
+"T22029S Burn of unspecified degree of unspecified elbow, sequela",,,Dermatology
+"T22031A Burn of unspecified degree of right upper arm, initial encounter",,,Dermatology
+"T22031D Burn of unspecified degree of right upper arm, subsequent encounter",,,Dermatology
+"T22031S Burn of unspecified degree of right upper arm, sequela",,,Dermatology
+"T22032A Burn of unspecified degree of left upper arm, initial encounter",,,Dermatology
+"T22032D Burn of unspecified degree of left upper arm, subsequent encounter",,,Dermatology
+"T22032S Burn of unspecified degree of left upper arm, sequela",,,Dermatology
+"T22039A Burn of unspecified degree of unspecified upper arm, initial encounter",,,Dermatology
+"T22039D Burn of unspecified degree of unspecified upper arm, subsequent encounter",,,Dermatology
+"T22039S Burn of unspecified degree of unspecified upper arm, sequela",,,Dermatology
+"T22041A Burn of unspecified degree of right axilla, initial encounter",,,Dermatology
+"T22041D Burn of unspecified degree of right axilla, subsequent encounter",,,Dermatology
+"T22041S Burn of unspecified degree of right axilla, sequela",,,Dermatology
+"T22042A Burn of unspecified degree of left axilla, initial encounter",,,Dermatology
+"T22042D Burn of unspecified degree of left axilla, subsequent encounter",,,Dermatology
+"T22042S Burn of unspecified degree of left axilla, sequela",,,Dermatology
+"T22049A Burn of unspecified degree of unspecified axilla, initial encounter",,,Dermatology
+"T22049D Burn of unspecified degree of unspecified axilla, subsequent encounter",,,Dermatology
+"T22049S Burn of unspecified degree of unspecified axilla, sequela",,,Dermatology
+"T22051A Burn of unspecified degree of right shoulder, initial encounter",,,Dermatology
+"T22051D Burn of unspecified degree of right shoulder, subsequent encounter",,,Dermatology
+"T22051S Burn of unspecified degree of right shoulder, sequela",,,Dermatology
+"T22052A Burn of unspecified degree of left shoulder, initial encounter",,,Dermatology
+"T22052D Burn of unspecified degree of left shoulder, subsequent encounter",,,Dermatology
+"T22052S Burn of unspecified degree of left shoulder, sequela",,,Dermatology
+"T22059A Burn of unspecified degree of unspecified shoulder, initial encounter",,,Dermatology
+"T22059D Burn of unspecified degree of unspecified shoulder, subsequent encounter",,,Dermatology
+"T22059S Burn of unspecified degree of unspecified shoulder, sequela",,,Dermatology
+"T22061A Burn of unspecified degree of right scapular region, initial encounter",,,Dermatology
+"T22061D Burn of unspecified degree of right scapular region, subsequent encounter",,,Dermatology
+"T22061S Burn of unspecified degree of right scapular region, sequela",,,Dermatology
+"T22062A Burn of unspecified degree of left scapular region, initial encounter",,,Dermatology
+"T22062D Burn of unspecified degree of left scapular region, subsequent encounter",,,Dermatology
+"T22062S Burn of unspecified degree of left scapular region, sequela",,,Dermatology
+"T22069A Burn of unspecified degree of unspecified scapular region, initial encounter",,,Dermatology
+"T22069D Burn of unspecified degree of unspecified scapular region, subsequent encounter",,,Dermatology
+"T22069S Burn of unspecified degree of unspecified scapular region, sequela",,,Dermatology
+"T22091A Burn of unspecified degree of multiple sites of right shoulder and upper limb, except wrist and
+hand, initial encounter",,,Dermatology
+"T22091D Burn of unspecified degree of multiple sites of right shoulder and upper limb, except wrist and
+hand, subsequent encounter",,,Dermatology
+"T22091S Burn of unspecified degree of multiple sites of right shoulder and upper limb, except wrist and
+hand, sequela",,,Dermatology
+"T22092A Burn of unspecified degree of multiple sites of left shoulder and upper limb, except wrist and
+hand, initial encounter",,,Dermatology
+"T22092D Burn of unspecified degree of multiple sites of left shoulder and upper limb, except wrist and
+hand, subsequent encounter",,,Dermatology
+"T22092S Burn of unspecified degree of multiple sites of left shoulder and upper limb, except wrist and
+hand, sequela",,,Dermatology
+"T22099A Burn of unspecified degree of multiple sites of unspecified shoulder and upper limb, except
+wrist and hand, initial encounter",,,Dermatology
+"T22099D Burn of unspecified degree of multiple sites of unspecified shoulder and upper limb, except
+wrist and hand, subsequent encounter",,,Dermatology
+"T22099S Burn of unspecified degree of multiple sites of unspecified shoulder and upper limb, except
+wrist and hand, sequela",,,Dermatology
+"T2210XA Burn of first degree of shoulder and upper limb, except wrist and hand, unspecified site, initial
+encounter",,,Dermatology
+"T2210XD Burn of first degree of shoulder and upper limb, except wrist and hand, unspecified site,
+subsequent encounter",,,Dermatology
+"T2210XS Burn of first degree of shoulder and upper limb, except wrist and hand, unspecified site,
+sequela",,,Dermatology
+"T22111A Burn of first degree of right forearm, initial encounter",,,Dermatology
+"T22111D Burn of first degree of right forearm, subsequent encounter",,,Dermatology
+"T22111S Burn of first degree of right forearm, sequela",,,Dermatology
+"T22112A Burn of first degree of left forearm, initial encounter",,,Dermatology
+"T22112D Burn of first degree of left forearm, subsequent encounter",,,Dermatology
+"T22112S Burn of first degree of left forearm, sequela",,,Dermatology
+"T22119A Burn of first degree of unspecified forearm, initial encounter",,,Dermatology
+"T22119D Burn of first degree of unspecified forearm, subsequent encounter",,,Dermatology
+"T22119S Burn of first degree of unspecified forearm, sequela",,,Dermatology
+"T22121A Burn of first degree of right elbow, initial encounter",,,Dermatology
+"T22121D Burn of first degree of right elbow, subsequent encounter",,,Dermatology
+"T22121S Burn of first degree of right elbow, sequela",,,Dermatology
+"T22122A Burn of first degree of left elbow, initial encounter",,,Dermatology
+"T22122D Burn of first degree of left elbow, subsequent encounter",,,Dermatology
+"T22122S Burn of first degree of left elbow, sequela",,,Dermatology
+"T22129A Burn of first degree of unspecified elbow, initial encounter",,,Dermatology
+"T22129D Burn of first degree of unspecified elbow, subsequent encounter",,,Dermatology
+"T22129S Burn of first degree of unspecified elbow, sequela",,,Dermatology
+"T22131A Burn of first degree of right upper arm, initial encounter",,,Dermatology
+"T22131D Burn of first degree of right upper arm, subsequent encounter",,,Dermatology
+"T22131S Burn of first degree of right upper arm, sequela",,,Dermatology
+"T22132A Burn of first degree of left upper arm, initial encounter",,,Dermatology
+"T22132D Burn of first degree of left upper arm, subsequent encounter",,,Dermatology
+"T22132S Burn of first degree of left upper arm, sequela",,,Dermatology
+"T22139A Burn of first degree of unspecified upper arm, initial encounter",,,Dermatology
+"T22139D Burn of first degree of unspecified upper arm, subsequent encounter",,,Dermatology
+"T22139S Burn of first degree of unspecified upper arm, sequela",,,Dermatology
+"T22141A Burn of first degree of right axilla, initial encounter",,,Dermatology
+"T22141D Burn of first degree of right axilla, subsequent encounter",,,Dermatology
+"T22141S Burn of first degree of right axilla, sequela",,,Dermatology
+"T22142A Burn of first degree of left axilla, initial encounter",,,Dermatology
+"T22142D Burn of first degree of left axilla, subsequent encounter",,,Dermatology
+"T22142S Burn of first degree of left axilla, sequela",,,Dermatology
+"T22149A Burn of first degree of unspecified axilla, initial encounter",,,Dermatology
+"T22149D Burn of first degree of unspecified axilla, subsequent encounter",,,Dermatology
+"T22149S Burn of first degree of unspecified axilla, sequela",,,Dermatology
+"T22151A Burn of first degree of right shoulder, initial encounter",,,Dermatology
+"T22151D Burn of first degree of right shoulder, subsequent encounter",,,Dermatology
+"T22151S Burn of first degree of right shoulder, sequela",,,Dermatology
+"T22152A Burn of first degree of left shoulder, initial encounter",,,Dermatology
+"T22152D Burn of first degree of left shoulder, subsequent encounter",,,Dermatology
+"T22152S Burn of first degree of left shoulder, sequela",,,Dermatology
+"T22159A Burn of first degree of unspecified shoulder, initial encounter",,,Dermatology
+"T22159D Burn of first degree of unspecified shoulder, subsequent encounter",,,Dermatology
+"T22159S Burn of first degree of unspecified shoulder, sequela",,,Dermatology
+"T22161A Burn of first degree of right scapular region, initial encounter",,,Dermatology
+"T22161D Burn of first degree of right scapular region, subsequent encounter",,,Dermatology
+"T22161S Burn of first degree of right scapular region, sequela",,,Dermatology
+"T22162A Burn of first degree of left scapular region, initial encounter",,,Dermatology
+"T22162D Burn of first degree of left scapular region, subsequent encounter",,,Dermatology
+"T22162S Burn of first degree of left scapular region, sequela",,,Dermatology
+"T22169A Burn of first degree of unspecified scapular region, initial encounter",,,Dermatology
+"T22169D Burn of first degree of unspecified scapular region, subsequent encounter",,,Dermatology
+"T22169S Burn of first degree of unspecified scapular region, sequela",,,Dermatology
+"T22191A Burn of first degree of multiple sites of right shoulder and upper limb, except wrist and hand,
+initial encounter",,,Dermatology
+"T22191D Burn of first degree of multiple sites of right shoulder and upper limb, except wrist and hand,
+subsequent encounter",,,Dermatology
+"T22191S Burn of first degree of multiple sites of right shoulder and upper limb, except wrist and hand,
+sequela",,,Dermatology
+"T22192A Burn of first degree of multiple sites of left shoulder and upper limb, except wrist and hand,
+initial encounter",,,Dermatology
+"T22192D Burn of first degree of multiple sites of left shoulder and upper limb, except wrist and hand,
+subsequent encounter",,,Dermatology
+"T22192S Burn of first degree of multiple sites of left shoulder and upper limb, except wrist and hand,
+sequela",,,Dermatology
+"T22199A Burn of first degree of multiple sites of unspecified shoulder and upper limb, except wrist and
+hand, initial encounter",,,Dermatology
+"T22199D Burn of first degree of multiple sites of unspecified shoulder and upper limb, except wrist and
+hand, subsequent encounter",,,Dermatology
+"T22199S Burn of first degree of multiple sites of unspecified shoulder and upper limb, except wrist and
+hand, sequela",,,Dermatology
+"T2220XA Burn of second degree of shoulder and upper limb, except wrist and hand, unspecified site,
+initial encounter",,,Dermatology
+"T2220XD Burn of second degree of shoulder and upper limb, except wrist and hand, unspecified site,
+subsequent encounter",,,Dermatology
+"T2220XS Burn of second degree of shoulder and upper limb, except wrist and hand, unspecified site,
+sequela",,,Dermatology
+"T22211A Burn of second degree of right forearm, initial encounter",,,Dermatology
+"T22211D Burn of second degree of right forearm, subsequent encounter",,,Dermatology
+"T22211S Burn of second degree of right forearm, sequela",,,Dermatology
+"T22212A Burn of second degree of left forearm, initial encounter",,,Dermatology
+"T22212D Burn of second degree of left forearm, subsequent encounter",,,Dermatology
+"T22212S Burn of second degree of left forearm, sequela",,,Dermatology
+"T22219A Burn of second degree of unspecified forearm, initial encounter",,,Dermatology
+"T22219D Burn of second degree of unspecified forearm, subsequent encounter",,,Dermatology
+"T22219S Burn of second degree of unspecified forearm, sequela",,,Dermatology
+"T22221A Burn of second degree of right elbow, initial encounter",,,Dermatology
+"T22221D Burn of second degree of right elbow, subsequent encounter",,,Dermatology
+"T22221S Burn of second degree of right elbow, sequela",,,Dermatology
+"T22222A Burn of second degree of left elbow, initial encounter",,,Dermatology
+"T22222D Burn of second degree of left elbow, subsequent encounter",,,Dermatology
+"T22222S Burn of second degree of left elbow, sequela",,,Dermatology
+"T22229A Burn of second degree of unspecified elbow, initial encounter",,,Dermatology
+"T22229D Burn of second degree of unspecified elbow, subsequent encounter",,,Dermatology
+"T22229S Burn of second degree of unspecified elbow, sequela",,,Dermatology
+"T22231A Burn of second degree of right upper arm, initial encounter",,,Dermatology
+"T22231D Burn of second degree of right upper arm, subsequent encounter",,,Dermatology
+"T22231S Burn of second degree of right upper arm, sequela",,,Dermatology
+"T22232A Burn of second degree of left upper arm, initial encounter",,,Dermatology
+"T22232D Burn of second degree of left upper arm, subsequent encounter",,,Dermatology
+"T22232S Burn of second degree of left upper arm, sequela",,,Dermatology
+"T22239A Burn of second degree of unspecified upper arm, initial encounter",,,Dermatology
+"T22239D Burn of second degree of unspecified upper arm, subsequent encounter",,,Dermatology
+"T22239S Burn of second degree of unspecified upper arm, sequela",,,Dermatology
+"T22241A Burn of second degree of right axilla, initial encounter",,,Dermatology
+"T22241D Burn of second degree of right axilla, subsequent encounter",,,Dermatology
+"T22241S Burn of second degree of right axilla, sequela",,,Dermatology
+"T22242A Burn of second degree of left axilla, initial encounter",,,Dermatology
+"T22242D Burn of second degree of left axilla, subsequent encounter",,,Dermatology
+"T22242S Burn of second degree of left axilla, sequela",,,Dermatology
+"T22249A Burn of second degree of unspecified axilla, initial encounter",,,Dermatology
+"T22249D Burn of second degree of unspecified axilla, subsequent encounter",,,Dermatology
+"T22249S Burn of second degree of unspecified axilla, sequela",,,Dermatology
+"T22251A Burn of second degree of right shoulder, initial encounter",,,Dermatology
+"T22251D Burn of second degree of right shoulder, subsequent encounter",,,Dermatology
+"T22251S Burn of second degree of right shoulder, sequela",,,Dermatology
+"T22252A Burn of second degree of left shoulder, initial encounter",,,Dermatology
+"T22252D Burn of second degree of left shoulder, subsequent encounter",,,Dermatology
+"T22252S Burn of second degree of left shoulder, sequela",,,Dermatology
+"T22259A Burn of second degree of unspecified shoulder, initial encounter",,,Dermatology
+"T22259D Burn of second degree of unspecified shoulder, subsequent encounter",,,Dermatology
+"T22259S Burn of second degree of unspecified shoulder, sequela",,,Dermatology
+"T22261A Burn of second degree of right scapular region, initial encounter",,,Dermatology
+"T22261D Burn of second degree of right scapular region, subsequent encounter",,,Dermatology
+"T22261S Burn of second degree of right scapular region, sequela",,,Dermatology
+"T22262A Burn of second degree of left scapular region, initial encounter",,,Dermatology
+"T22262D Burn of second degree of left scapular region, subsequent encounter",,,Dermatology
+"T22262S Burn of second degree of left scapular region, sequela",,,Dermatology
+"T22269A Burn of second degree of unspecified scapular region, initial encounter",,,Dermatology
+"T22269D Burn of second degree of unspecified scapular region, subsequent encounter",,,Dermatology
+"T22269S Burn of second degree of unspecified scapular region, sequela",,,Dermatology
+"T22291A Burn of second degree of multiple sites of right shoulder and upper limb, except wrist and
+hand, initial encounter",,,Dermatology
+"T22291D Burn of second degree of multiple sites of right shoulder and upper limb, except wrist and
+hand, subsequent encounter",,,Dermatology
+"T22291S Burn of second degree of multiple sites of right shoulder and upper limb, except wrist and
+hand, sequela",,,Dermatology
+"T22292A Burn of second degree of multiple sites of left shoulder and upper limb, except wrist and hand,
+initial encounter",,,Dermatology
+"T22292D Burn of second degree of multiple sites of left shoulder and upper limb, except wrist and hand,
+subsequent encounter",,,Dermatology
+"T22292S Burn of second degree of multiple sites of left shoulder and upper limb, except wrist and hand,
+sequela",,,Dermatology
+"T22299A Burn of second degree of multiple sites of unspecified shoulder and upper limb, except wrist
+and hand, initial encounter",,,Dermatology
+"T22299D Burn of second degree of multiple sites of unspecified shoulder and upper limb, except wrist
+and hand, subsequent encounter",,,Dermatology
+"T22299S Burn of second degree of multiple sites of unspecified shoulder and upper limb, except wrist
+and hand, sequela",,,Dermatology
+"T2230XA Burn of third degree of shoulder and upper limb, except wrist and hand, unspecified site, initial
+encounter",,,Dermatology
+"T2230XD Burn of third degree of shoulder and upper limb, except wrist and hand, unspecified site,
+subsequent encounter",,,Dermatology
+"T2230XS Burn of third degree of shoulder and upper limb, except wrist and hand, unspecified site,
+sequela",,,Dermatology
+"T22311A Burn of third degree of right forearm, initial encounter",,,Dermatology
+"T22311D Burn of third degree of right forearm, subsequent encounter",,,Dermatology
+"T22311S Burn of third degree of right forearm, sequela",,,Dermatology
+"T22312A Burn of third degree of left forearm, initial encounter",,,Dermatology
+"T22312D Burn of third degree of left forearm, subsequent encounter",,,Dermatology
+"T22312S Burn of third degree of left forearm, sequela",,,Dermatology
+"T22319A Burn of third degree of unspecified forearm, initial encounter",,,Dermatology
+"T22319D Burn of third degree of unspecified forearm, subsequent encounter",,,Dermatology
+"T22319S Burn of third degree of unspecified forearm, sequela",,,Dermatology
+"T22321A Burn of third degree of right elbow, initial encounter",,,Dermatology
+"T22321D Burn of third degree of right elbow, subsequent encounter",,,Dermatology
+"T22321S Burn of third degree of right elbow, sequela",,,Dermatology
+"T22322A Burn of third degree of left elbow, initial encounter",,,Dermatology
+"T22322D Burn of third degree of left elbow, subsequent encounter",,,Dermatology
+"T22322S Burn of third degree of left elbow, sequela",,,Dermatology
+"T22329A Burn of third degree of unspecified elbow, initial encounter",,,Dermatology
+"T22329D Burn of third degree of unspecified elbow, subsequent encounter",,,Dermatology
+"T22329S Burn of third degree of unspecified elbow, sequela",,,Dermatology
+"T22331A Burn of third degree of right upper arm, initial encounter",,,Dermatology
+"T22331D Burn of third degree of right upper arm, subsequent encounter",,,Dermatology
+"T22331S Burn of third degree of right upper arm, sequela",,,Dermatology
+"T22332A Burn of third degree of left upper arm, initial encounter",,,Dermatology
+"T22332D Burn of third degree of left upper arm, subsequent encounter",,,Dermatology
+"T22332S Burn of third degree of left upper arm, sequela",,,Dermatology
+"T22339A Burn of third degree of unspecified upper arm, initial encounter",,,Dermatology
+"T22339D Burn of third degree of unspecified upper arm, subsequent encounter",,,Dermatology
+"T22339S Burn of third degree of unspecified upper arm, sequela",,,Dermatology
+"T22341A Burn of third degree of right axilla, initial encounter",,,Dermatology
+"T22341D Burn of third degree of right axilla, subsequent encounter",,,Dermatology
+"T22341S Burn of third degree of right axilla, sequela",,,Dermatology
+"T22342A Burn of third degree of left axilla, initial encounter",,,Dermatology
+"T22342D Burn of third degree of left axilla, subsequent encounter",,,Dermatology
+"T22342S Burn of third degree of left axilla, sequela",,,Dermatology
+"T22349A Burn of third degree of unspecified axilla, initial encounter",,,Dermatology
+"T22349D Burn of third degree of unspecified axilla, subsequent encounter",,,Dermatology
+"T22349S Burn of third degree of unspecified axilla, sequela",,,Dermatology
+"T22351A Burn of third degree of right shoulder, initial encounter",,,Dermatology
+"T22351D Burn of third degree of right shoulder, subsequent encounter",,,Dermatology
+"T22351S Burn of third degree of right shoulder, sequela",,,Dermatology
+"T22352A Burn of third degree of left shoulder, initial encounter",,,Dermatology
+"T22352D Burn of third degree of left shoulder, subsequent encounter",,,Dermatology
+"T22352S Burn of third degree of left shoulder, sequela",,,Dermatology
+"T22359A Burn of third degree of unspecified shoulder, initial encounter",,,Dermatology
+"T22359D Burn of third degree of unspecified shoulder, subsequent encounter",,,Dermatology
+"T22359S Burn of third degree of unspecified shoulder, sequela",,,Dermatology
+"T22361A Burn of third degree of right scapular region, initial encounter",,,Dermatology
+"T22361D Burn of third degree of right scapular region, subsequent encounter",,,Dermatology
+"T22361S Burn of third degree of right scapular region, sequela",,,Dermatology
+"T22362A Burn of third degree of left scapular region, initial encounter",,,Dermatology
+"T22362D Burn of third degree of left scapular region, subsequent encounter",,,Dermatology
+"T22362S Burn of third degree of left scapular region, sequela",,,Dermatology
+"T22369A Burn of third degree of unspecified scapular region, initial encounter",,,Dermatology
+"T22369D Burn of third degree of unspecified scapular region, subsequent encounter",,,Dermatology
+"T22369S Burn of third degree of unspecified scapular region, sequela",,,Dermatology
+"T22391A Burn of third degree of multiple sites of right shoulder and upper limb, except wrist and hand,
+initial encounter",,,Dermatology
+"T22391D Burn of third degree of multiple sites of right shoulder and upper limb, except wrist and hand,
+subsequent encounter",,,Dermatology
+"T22391S Burn of third degree of multiple sites of right shoulder and upper limb, except wrist and hand,
+sequela",,,Dermatology
+"T22392A Burn of third degree of multiple sites of left shoulder and upper limb, except wrist and hand,
+initial encounter",,,Dermatology
+"T22392D Burn of third degree of multiple sites of left shoulder and upper limb, except wrist and hand,
+subsequent encounter",,,Dermatology
+"T22392S Burn of third degree of multiple sites of left shoulder and upper limb, except wrist and hand,
+sequela",,,Dermatology
+"T22399A Burn of third degree of multiple sites of unspecified shoulder and upper limb, except wrist and
+hand, initial encounter",,,Dermatology
+"T22399D Burn of third degree of multiple sites of unspecified shoulder and upper limb, except wrist and
+hand, subsequent encounter",,,Dermatology
+"T22399S Burn of third degree of multiple sites of unspecified shoulder and upper limb, except wrist and
+hand, sequela",,,Dermatology
+"T23001A Burn of unspecified degree of right hand, unspecified site, initial encounter",,,Dermatology
+"T23001D Burn of unspecified degree of right hand, unspecified site, subsequent encounter",,,Dermatology
+"T23001S Burn of unspecified degree of right hand, unspecified site, sequela",,,Dermatology
+"T23002A Burn of unspecified degree of left hand, unspecified site, initial encounter",,,Dermatology
+"T23002D Burn of unspecified degree of left hand, unspecified site, subsequent encounter",,,Dermatology
+"T23002S Burn of unspecified degree of left hand, unspecified site, sequela",,,Dermatology
+"T23009A Burn of unspecified degree of unspecified hand, unspecified site, initial encounter",,,Dermatology
+"T23009D Burn of unspecified degree of unspecified hand, unspecified site, subsequent encounter",,,Dermatology
+"T23009S Burn of unspecified degree of unspecified hand, unspecified site, sequela",,,Dermatology
+"T23011A Burn of unspecified degree of right thumb (nail), initial encounter",,,Dermatology
+"T23011D Burn of unspecified degree of right thumb (nail), subsequent encounter",,,Dermatology
+"T23011S Burn of unspecified degree of right thumb (nail), sequela",,,Dermatology
+"T23012A Burn of unspecified degree of left thumb (nail), initial encounter",,,Dermatology
+"T23012D Burn of unspecified degree of left thumb (nail), subsequent encounter",,,Dermatology
+"T23012S Burn of unspecified degree of left thumb (nail), sequela",,,Dermatology
+"T23019A Burn of unspecified degree of unspecified thumb (nail), initial encounter",,,Dermatology
+"T23019D Burn of unspecified degree of unspecified thumb (nail), subsequent encounter",,,Dermatology
+"T23019S Burn of unspecified degree of unspecified thumb (nail), sequela",,,Dermatology
+"T23021A Burn of unspecified degree of single right finger (nail) except thumb, initial encounter",,,Dermatology
+"T23021D Burn of unspecified degree of single right finger (nail) except thumb, subsequent encounter",,,Dermatology
+"T23021S Burn of unspecified degree of single right finger (nail) except thumb, sequela",,,Dermatology
+"T23022A Burn of unspecified degree of single left finger (nail) except thumb, initial encounter",,,Dermatology
+"T23022D Burn of unspecified degree of single left finger (nail) except thumb, subsequent encounter",,,Dermatology
+"T23022S Burn of unspecified degree of single left finger (nail) except thumb, sequela",,,Dermatology
+"T23029A Burn of unspecified degree of unspecified single finger (nail) except thumb, initial encounter",,,Dermatology
+"T23029D Burn of unspecified degree of unspecified single finger (nail) except thumb, subsequent
+encounter",,,Dermatology
+"T23029S Burn of unspecified degree of unspecified single finger (nail) except thumb, sequela",,,Dermatology
+"T23031A Burn of unspecified degree of multiple right fingers (nail), not including thumb, initial
+encounter",,,Dermatology
+"T23031D Burn of unspecified degree of multiple right fingers (nail), not including thumb, subsequent
+encounter",,,Dermatology
+"T23031S Burn of unspecified degree of multiple right fingers (nail), not including thumb, sequela",,,Dermatology
+"T23032A Burn of unspecified degree of multiple left fingers (nail), not including thumb, initial encounter",,,Dermatology
+"T23032D Burn of unspecified degree of multiple left fingers (nail), not including thumb, subsequent
+encounter",,,Dermatology
+"T23032S Burn of unspecified degree of multiple left fingers (nail), not including thumb, sequela",,,Dermatology
+"T23039A Burn of unspecified degree of unspecified multiple fingers (nail), not including thumb, initial
+encounter",,,Dermatology
+"T23039D Burn of unspecified degree of unspecified multiple fingers (nail), not including thumb,
+subsequent encounter",,,Dermatology
+"T23039S Burn of unspecified degree of unspecified multiple fingers (nail), not including thumb, sequela",,,Dermatology
+"T23041A Burn of unspecified degree of multiple right fingers (nail), including thumb, initial encounter",,,Dermatology
+"T23041D Burn of unspecified degree of multiple right fingers (nail), including thumb, subsequent
+encounter",,,Dermatology
+"T23041S Burn of unspecified degree of multiple right fingers (nail), including thumb, sequela",,,Dermatology
+"T23042A Burn of unspecified degree of multiple left fingers (nail), including thumb, initial encounter",,,Dermatology
+"T23042D Burn of unspecified degree of multiple left fingers (nail), including thumb, subsequent
+encounter",,,Dermatology
+"T23042S Burn of unspecified degree of multiple left fingers (nail), including thumb, sequela",,,Dermatology
+"T23049A Burn of unspecified degree of unspecified multiple fingers (nail), including thumb, initial
+encounter",,,Dermatology
+"T23049D Burn of unspecified degree of unspecified multiple fingers (nail), including thumb, subsequent
+encounter",,,Dermatology
+"T23049S Burn of unspecified degree of unspecified multiple fingers (nail), including thumb, sequela",,,Dermatology
+"T23051A Burn of unspecified degree of right palm, initial encounter",,,Dermatology
+"T23051D Burn of unspecified degree of right palm, subsequent encounter",,,Dermatology
+"T23051S Burn of unspecified degree of right palm, sequela",,,Dermatology
+"T23052A Burn of unspecified degree of left palm, initial encounter",,,Dermatology
+"T23052D Burn of unspecified degree of left palm, subsequent encounter",,,Dermatology
+"T23052S Burn of unspecified degree of left palm, sequela",,,Dermatology
+"T23059A Burn of unspecified degree of unspecified palm, initial encounter",,,Dermatology
+"T23059D Burn of unspecified degree of unspecified palm, subsequent encounter",,,Dermatology
+"T23059S Burn of unspecified degree of unspecified palm, sequela",,,Dermatology
+"T23061A Burn of unspecified degree of back of right hand, initial encounter",,,Dermatology
+"T23061D Burn of unspecified degree of back of right hand, subsequent encounter",,,Dermatology
+"T23061S Burn of unspecified degree of back of right hand, sequela",,,Dermatology
+"T23062A Burn of unspecified degree of back of left hand, initial encounter",,,Dermatology
+"T23062D Burn of unspecified degree of back of left hand, subsequent encounter",,,Dermatology
+"T23062S Burn of unspecified degree of back of left hand, sequela",,,Dermatology
+"T23069A Burn of unspecified degree of back of unspecified hand, initial encounter",,,Dermatology
+"T23069D Burn of unspecified degree of back of unspecified hand, subsequent encounter",,,Dermatology
+"T23069S Burn of unspecified degree of back of unspecified hand, sequela",,,Dermatology
+"T23071A Burn of unspecified degree of right wrist, initial encounter",,,Dermatology
+"T23071D Burn of unspecified degree of right wrist, subsequent encounter",,,Dermatology
+"T23071S Burn of unspecified degree of right wrist, sequela",,,Dermatology
+"T23072A Burn of unspecified degree of left wrist, initial encounter",,,Dermatology
+"T23072D Burn of unspecified degree of left wrist, subsequent encounter",,,Dermatology
+"T23072S Burn of unspecified degree of left wrist, sequela",,,Dermatology
+"T23079A Burn of unspecified degree of unspecified wrist, initial encounter",,,Dermatology
+"T23079D Burn of unspecified degree of unspecified wrist, subsequent encounter",,,Dermatology
+"T23079S Burn of unspecified degree of unspecified wrist, sequela",,,Dermatology
+"T23091A Burn of unspecified degree of multiple sites of right wrist and hand, initial encounter",,,Dermatology
+"T23091D Burn of unspecified degree of multiple sites of right wrist and hand, subsequent encounter",,,Dermatology
+"T23091S Burn of unspecified degree of multiple sites of right wrist and hand, sequela",,,Dermatology
+"T23092A Burn of unspecified degree of multiple sites of left wrist and hand, initial encounter",,,Dermatology
+"T23092D Burn of unspecified degree of multiple sites of left wrist and hand, subsequent encounter",,,Dermatology
+"T23092S Burn of unspecified degree of multiple sites of left wrist and hand, sequela",,,Dermatology
+"T23099A Burn of unspecified degree of multiple sites of unspecified wrist and hand, initial encounter",,,Dermatology
+"T23099D Burn of unspecified degree of multiple sites of unspecified wrist and hand, subsequent
+encounter",,,Dermatology
+"T23099S Burn of unspecified degree of multiple sites of unspecified wrist and hand, sequela",,,Dermatology
+"T23101A Burn of first degree of right hand, unspecified site, initial encounter",,,Dermatology
+"T23101D Burn of first degree of right hand, unspecified site, subsequent encounter",,,Dermatology
+"T23101S Burn of first degree of right hand, unspecified site, sequela",,,Dermatology
+"T23102A Burn of first degree of left hand, unspecified site, initial encounter",,,Dermatology
+"T23102D Burn of first degree of left hand, unspecified site, subsequent encounter",,,Dermatology
+"T23102S Burn of first degree of left hand, unspecified site, sequela",,,Dermatology
+"T23109A Burn of first degree of unspecified hand, unspecified site, initial encounter",,,Dermatology
+"T23109D Burn of first degree of unspecified hand, unspecified site, subsequent encounter",,,Dermatology
+"T23109S Burn of first degree of unspecified hand, unspecified site, sequela",,,Dermatology
+"T23111A Burn of first degree of right thumb (nail), initial encounter",,,Dermatology
+"T23111D Burn of first degree of right thumb (nail), subsequent encounter",,,Dermatology
+"T23111S Burn of first degree of right thumb (nail), sequela",,,Dermatology
+"T23112A Burn of first degree of left thumb (nail), initial encounter",,,Dermatology
+"T23112D Burn of first degree of left thumb (nail), subsequent encounter",,,Dermatology
+"T23112S Burn of first degree of left thumb (nail), sequela",,,Dermatology
+"T23119A Burn of first degree of unspecified thumb (nail), initial encounter",,,Dermatology
+"T23119D Burn of first degree of unspecified thumb (nail), subsequent encounter",,,Dermatology
+"T23119S Burn of first degree of unspecified thumb (nail), sequela",,,Dermatology
+"T23121A Burn of first degree of single right finger (nail) except thumb, initial encounter",,,Dermatology
+"T23121D Burn of first degree of single right finger (nail) except thumb, subsequent encounter",,,Dermatology
+"T23121S Burn of first degree of single right finger (nail) except thumb, sequela",,,Dermatology
+"T23122A Burn of first degree of single left finger (nail) except thumb, initial encounter",,,Dermatology
+"T23122D Burn of first degree of single left finger (nail) except thumb, subsequent encounter",,,Dermatology
+"T23122S Burn of first degree of single left finger (nail) except thumb, sequela",,,Dermatology
+"T23129A Burn of first degree of unspecified single finger (nail) except thumb, initial encounter",,,Dermatology
+"T23129D Burn of first degree of unspecified single finger (nail) except thumb, subsequent encounter",,,Dermatology
+"T23129S Burn of first degree of unspecified single finger (nail) except thumb, sequela",,,Dermatology
+"T23131A Burn of first degree of multiple right fingers (nail), not including thumb, initial encounter",,,Dermatology
+"T23131D Burn of first degree of multiple right fingers (nail), not including thumb, subsequent encounter",,,Dermatology
+"T23131S Burn of first degree of multiple right fingers (nail), not including thumb, sequela",,,Dermatology
+"T23132A Burn of first degree of multiple left fingers (nail), not including thumb, initial encounter",,,Dermatology
+"T23132D Burn of first degree of multiple left fingers (nail), not including thumb, subsequent encounter",,,Dermatology
+"T23132S Burn of first degree of multiple left fingers (nail), not including thumb, sequela",,,Dermatology
+"T23139A Burn of first degree of unspecified multiple fingers (nail), not including thumb, initial encounter",,,Dermatology
+"T23139D Burn of first degree of unspecified multiple fingers (nail), not including thumb, subsequent
+encounter",,,Dermatology
+"T23139S Burn of first degree of unspecified multiple fingers (nail), not including thumb, sequela",,,Dermatology
+"T23141A Burn of first degree of multiple right fingers (nail), including thumb, initial encounter",,,Dermatology
+"T23141D Burn of first degree of multiple right fingers (nail), including thumb, subsequent encounter",,,Dermatology
+"T23141S Burn of first degree of multiple right fingers (nail), including thumb, sequela",,,Dermatology
+"T23142A Burn of first degree of multiple left fingers (nail), including thumb, initial encounter",,,Dermatology
+"T23142D Burn of first degree of multiple left fingers (nail), including thumb, subsequent encounter",,,Dermatology
+"T23142S Burn of first degree of multiple left fingers (nail), including thumb, sequela",,,Dermatology
+"T23149A Burn of first degree of unspecified multiple fingers (nail), including thumb, initial encounter",,,Dermatology
+"T23149D Burn of first degree of unspecified multiple fingers (nail), including thumb, subsequent
+encounter",,,Dermatology
+"T23149S Burn of first degree of unspecified multiple fingers (nail), including thumb, sequela",,,Dermatology
+"T23151A Burn of first degree of right palm, initial encounter",,,Dermatology
+"T23151D Burn of first degree of right palm, subsequent encounter",,,Dermatology
+"T23151S Burn of first degree of right palm, sequela",,,Dermatology
+"T23152A Burn of first degree of left palm, initial encounter",,,Dermatology
+"T23152D Burn of first degree of left palm, subsequent encounter",,,Dermatology
+"T23152S Burn of first degree of left palm, sequela",,,Dermatology
+"T23159A Burn of first degree of unspecified palm, initial encounter",,,Dermatology
+"T23159D Burn of first degree of unspecified palm, subsequent encounter",,,Dermatology
+"T23159S Burn of first degree of unspecified palm, sequela",,,Dermatology
+"T23161A Burn of first degree of back of right hand, initial encounter",,,Dermatology
+"T23161D Burn of first degree of back of right hand, subsequent encounter",,,Dermatology
+"T23161S Burn of first degree of back of right hand, sequela",,,Dermatology
+"T23162A Burn of first degree of back of left hand, initial encounter",,,Dermatology
+"T23162D Burn of first degree of back of left hand, subsequent encounter",,,Dermatology
+"T23162S Burn of first degree of back of left hand, sequela",,,Dermatology
+"T23169A Burn of first degree of back of unspecified hand, initial encounter",,,Dermatology
+"T23169D Burn of first degree of back of unspecified hand, subsequent encounter",,,Dermatology
+"T23169S Burn of first degree of back of unspecified hand, sequela",,,Dermatology
+"T23171A Burn of first degree of right wrist, initial encounter",,,Dermatology
+"T23171D Burn of first degree of right wrist, subsequent encounter",,,Dermatology
+"T23171S Burn of first degree of right wrist, sequela",,,Dermatology
+"T23172A Burn of first degree of left wrist, initial encounter",,,Dermatology
+"T23172D Burn of first degree of left wrist, subsequent encounter",,,Dermatology
+"T23172S Burn of first degree of left wrist, sequela",,,Dermatology
+"T23179A Burn of first degree of unspecified wrist, initial encounter",,,Dermatology
+"T23179D Burn of first degree of unspecified wrist, subsequent encounter",,,Dermatology
+"T23179S Burn of first degree of unspecified wrist, sequela",,,Dermatology
+"T23191A Burn of first degree of multiple sites of right wrist and hand, initial encounter",,,Dermatology
+"T23191D Burn of first degree of multiple sites of right wrist and hand, subsequent encounter",,,Dermatology
+"T23191S Burn of first degree of multiple sites of right wrist and hand, sequela",,,Dermatology
+"T23192A Burn of first degree of multiple sites of left wrist and hand, initial encounter",,,Dermatology
+"T23192D Burn of first degree of multiple sites of left wrist and hand, subsequent encounter",,,Dermatology
+"T23192S Burn of first degree of multiple sites of left wrist and hand, sequela",,,Dermatology
+"T23199A Burn of first degree of multiple sites of unspecified wrist and hand, initial encounter",,,Dermatology
+"T23199D Burn of first degree of multiple sites of unspecified wrist and hand, subsequent encounter",,,Dermatology
+"T23199S Burn of first degree of multiple sites of unspecified wrist and hand, sequela",,,Dermatology
+"T23201A Burn of second degree of right hand, unspecified site, initial encounter",,,Dermatology
+"T23201D Burn of second degree of right hand, unspecified site, subsequent encounter",,,Dermatology
+"T23201S Burn of second degree of right hand, unspecified site, sequela",,,Dermatology
+"T23202A Burn of second degree of left hand, unspecified site, initial encounter",,,Dermatology
+"T23202D Burn of second degree of left hand, unspecified site, subsequent encounter",,,Dermatology
+"T23202S Burn of second degree of left hand, unspecified site, sequela",,,Dermatology
+"T23209A Burn of second degree of unspecified hand, unspecified site, initial encounter",,,Dermatology
+"T23209D Burn of second degree of unspecified hand, unspecified site, subsequent encounter",,,Dermatology
+"T23209S Burn of second degree of unspecified hand, unspecified site, sequela",,,Dermatology
+"T23211A Burn of second degree of right thumb (nail), initial encounter",,,Dermatology
+"T23211D Burn of second degree of right thumb (nail), subsequent encounter",,,Dermatology
+"T23211S Burn of second degree of right thumb (nail), sequela",,,Dermatology
+"T23212A Burn of second degree of left thumb (nail), initial encounter",,,Dermatology
+"T23212D Burn of second degree of left thumb (nail), subsequent encounter",,,Dermatology
+"T23212S Burn of second degree of left thumb (nail), sequela",,,Dermatology
+"T23219A Burn of second degree of unspecified thumb (nail), initial encounter",,,Dermatology
+"T23219D Burn of second degree of unspecified thumb (nail), subsequent encounter",,,Dermatology
+"T23219S Burn of second degree of unspecified thumb (nail), sequela",,,Dermatology
+"T23221A Burn of second degree of single right finger (nail) except thumb, initial encounter",,,Dermatology
+"T23221D Burn of second degree of single right finger (nail) except thumb, subsequent encounter",,,Dermatology
+"T23221S Burn of second degree of single right finger (nail) except thumb, sequela",,,Dermatology
+"T23222A Burn of second degree of single left finger (nail) except thumb, initial encounter",,,Dermatology
+"T23222D Burn of second degree of single left finger (nail) except thumb, subsequent encounter",,,Dermatology
+"T23222S Burn of second degree of single left finger (nail) except thumb, sequela",,,Dermatology
+"T23229A Burn of second degree of unspecified single finger (nail) except thumb, initial encounter",,,Dermatology
+"T23229D Burn of second degree of unspecified single finger (nail) except thumb, subsequent encounter",,,Dermatology
+"T23229S Burn of second degree of unspecified single finger (nail) except thumb, sequela",,,Dermatology
+"T23231A Burn of second degree of multiple right fingers (nail), not including thumb, initial encounter",,,Dermatology
+"T23231D Burn of second degree of multiple right fingers (nail), not including thumb, subsequent
+encounter",,,Dermatology
+"T23231S Burn of second degree of multiple right fingers (nail), not including thumb, sequela",,,Dermatology
+"T23232A Burn of second degree of multiple left fingers (nail), not including thumb, initial encounter",,,Dermatology
+"T23232D Burn of second degree of multiple left fingers (nail), not including thumb, subsequent
+encounter",,,Dermatology
+"T23232S Burn of second degree of multiple left fingers (nail), not including thumb, sequela",,,Dermatology
+"T23239A Burn of second degree of unspecified multiple fingers (nail), not including thumb, initial
+encounter",,,Dermatology
+"T23239D Burn of second degree of unspecified multiple fingers (nail), not including thumb, subsequent
+encounter",,,Dermatology
+"T23239S Burn of second degree of unspecified multiple fingers (nail), not including thumb, sequela",,,Dermatology
+"T23241A Burn of second degree of multiple right fingers (nail), including thumb, initial encounter",,,Dermatology
+"T23241D Burn of second degree of multiple right fingers (nail), including thumb, subsequent encounter",,,Dermatology
+"T23241S Burn of second degree of multiple right fingers (nail), including thumb, sequela",,,Dermatology
+"T23242A Burn of second degree of multiple left fingers (nail), including thumb, initial encounter",,,Dermatology
+"T23242D Burn of second degree of multiple left fingers (nail), including thumb, subsequent encounter",,,Dermatology
+"T23242S Burn of second degree of multiple left fingers (nail), including thumb, sequela",,,Dermatology
+"T23249A Burn of second degree of unspecified multiple fingers (nail), including thumb, initial encounter",,,Dermatology
+"T23249D Burn of second degree of unspecified multiple fingers (nail), including thumb, subsequent
+encounter",,,Dermatology
+"T23249S Burn of second degree of unspecified multiple fingers (nail), including thumb, sequela",,,Dermatology
+"T23251A Burn of second degree of right palm, initial encounter",,,Dermatology
+"T23251D Burn of second degree of right palm, subsequent encounter",,,Dermatology
+"T23251S Burn of second degree of right palm, sequela",,,Dermatology
+"T23252A Burn of second degree of left palm, initial encounter",,,Dermatology
+"T23252D Burn of second degree of left palm, subsequent encounter",,,Dermatology
+"T23252S Burn of second degree of left palm, sequela",,,Dermatology
+"T23259A Burn of second degree of unspecified palm, initial encounter",,,Dermatology
+"T23259D Burn of second degree of unspecified palm, subsequent encounter",,,Dermatology
+"T23259S Burn of second degree of unspecified palm, sequela",,,Dermatology
+"T23261A Burn of second degree of back of right hand, initial encounter",,,Dermatology
+"T23261D Burn of second degree of back of right hand, subsequent encounter",,,Dermatology
+"T23261S Burn of second degree of back of right hand, sequela",,,Dermatology
+"T23262A Burn of second degree of back of left hand, initial encounter",,,Dermatology
+"T23262D Burn of second degree of back of left hand, subsequent encounter",,,Dermatology
+"T23262S Burn of second degree of back of left hand, sequela",,,Dermatology
+"T23269A Burn of second degree of back of unspecified hand, initial encounter",,,Dermatology
+"T23269D Burn of second degree of back of unspecified hand, subsequent encounter",,,Dermatology
+"T23269S Burn of second degree of back of unspecified hand, sequela",,,Dermatology
+"T23271A Burn of second degree of right wrist, initial encounter",,,Dermatology
+"T23271D Burn of second degree of right wrist, subsequent encounter",,,Dermatology
+"T23271S Burn of second degree of right wrist, sequela",,,Dermatology
+"T23272A Burn of second degree of left wrist, initial encounter",,,Dermatology
+"T23272D Burn of second degree of left wrist, subsequent encounter",,,Dermatology
+"T23272S Burn of second degree of left wrist, sequela",,,Dermatology
+"T23279A Burn of second degree of unspecified wrist, initial encounter",,,Dermatology
+"T23279D Burn of second degree of unspecified wrist, subsequent encounter",,,Dermatology
+"T23279S Burn of second degree of unspecified wrist, sequela",,,Dermatology
+"T23291A Burn of second degree of multiple sites of right wrist and hand, initial encounter",,,Dermatology
+"T23291D Burn of second degree of multiple sites of right wrist and hand, subsequent encounter",,,Dermatology
+"T23291S Burn of second degree of multiple sites of right wrist and hand, sequela",,,Dermatology
+"T23292A Burn of second degree of multiple sites of left wrist and hand, initial encounter",,,Dermatology
+"T23292D Burn of second degree of multiple sites of left wrist and hand, subsequent encounter",,,Dermatology
+"T23292S Burn of second degree of multiple sites of left wrist and hand, sequela",,,Dermatology
+"T23299A Burn of second degree of multiple sites of unspecified wrist and hand, initial encounter",,,Dermatology
+"T23299D Burn of second degree of multiple sites of unspecified wrist and hand, subsequent encounter",,,Dermatology
+"T23299S Burn of second degree of multiple sites of unspecified wrist and hand, sequela",,,Dermatology
+"T23301A Burn of third degree of right hand, unspecified site, initial encounter",,,Dermatology
+"T23301D Burn of third degree of right hand, unspecified site, subsequent encounter",,,Dermatology
+"T23301S Burn of third degree of right hand, unspecified site, sequela",,,Dermatology
+"T23302A Burn of third degree of left hand, unspecified site, initial encounter",,,Dermatology
+"T23302D Burn of third degree of left hand, unspecified site, subsequent encounter",,,Dermatology
+"T23302S Burn of third degree of left hand, unspecified site, sequela",,,Dermatology
+"T23309A Burn of third degree of unspecified hand, unspecified site, initial encounter",,,Dermatology
+"T23309D Burn of third degree of unspecified hand, unspecified site, subsequent encounter",,,Dermatology
+"T23309S Burn of third degree of unspecified hand, unspecified site, sequela",,,Dermatology
+"T23311A Burn of third degree of right thumb (nail), initial encounter",,,Dermatology
+"T23311D Burn of third degree of right thumb (nail), subsequent encounter",,,Dermatology
+"T23311S Burn of third degree of right thumb (nail), sequela",,,Dermatology
+"T23312A Burn of third degree of left thumb (nail), initial encounter",,,Dermatology
+"T23312D Burn of third degree of left thumb (nail), subsequent encounter",,,Dermatology
+"T23312S Burn of third degree of left thumb (nail), sequela",,,Dermatology
+"T23319A Burn of third degree of unspecified thumb (nail), initial encounter",,,Dermatology
+"T23319D Burn of third degree of unspecified thumb (nail), subsequent encounter",,,Dermatology
+"T23319S Burn of third degree of unspecified thumb (nail), sequela",,,Dermatology
+"T23321A Burn of third degree of single right finger (nail) except thumb, initial encounter",,,Dermatology
+"T23321D Burn of third degree of single right finger (nail) except thumb, subsequent encounter",,,Dermatology
+"T23321S Burn of third degree of single right finger (nail) except thumb, sequela",,,Dermatology
+"T23322A Burn of third degree of single left finger (nail) except thumb, initial encounter",,,Dermatology
+"T23322D Burn of third degree of single left finger (nail) except thumb, subsequent encounter",,,Dermatology
+"T23322S Burn of third degree of single left finger (nail) except thumb, sequela",,,Dermatology
+"T23329A Burn of third degree of unspecified single finger (nail) except thumb, initial encounter",,,Dermatology
+"T23329D Burn of third degree of unspecified single finger (nail) except thumb, subsequent encounter",,,Dermatology
+"T23329S Burn of third degree of unspecified single finger (nail) except thumb, sequela",,,Dermatology
+"T23331A Burn of third degree of multiple right fingers (nail), not including thumb, initial encounter",,,Dermatology
+"T23331D Burn of third degree of multiple right fingers (nail), not including thumb, subsequent
+encounter",,,Dermatology
+"T23331S Burn of third degree of multiple right fingers (nail), not including thumb, sequela",,,Dermatology
+"T23332A Burn of third degree of multiple left fingers (nail), not including thumb, initial encounter",,,Dermatology
+"T23332D Burn of third degree of multiple left fingers (nail), not including thumb, subsequent encounter",,,Dermatology
+"T23332S Burn of third degree of multiple left fingers (nail), not including thumb, sequela",,,Dermatology
+"T23339A Burn of third degree of unspecified multiple fingers (nail), not including thumb, initial
+encounter",,,Dermatology
+"T23339D Burn of third degree of unspecified multiple fingers (nail), not including thumb, subsequent
+encounter",,,Dermatology
+"T23339S Burn of third degree of unspecified multiple fingers (nail), not including thumb, sequela",,,Dermatology
+"T23341A Burn of third degree of multiple right fingers (nail), including thumb, initial encounter",,,Dermatology
+"T23341D Burn of third degree of multiple right fingers (nail), including thumb, subsequent encounter",,,Dermatology
+"T23341S Burn of third degree of multiple right fingers (nail), including thumb, sequela",,,Dermatology
+"T23342A Burn of third degree of multiple left fingers (nail), including thumb, initial encounter",,,Dermatology
+"T23342D Burn of third degree of multiple left fingers (nail), including thumb, subsequent encounter",,,Dermatology
+"T23342S Burn of third degree of multiple left fingers (nail), including thumb, sequela",,,Dermatology
+"T23349A Burn of third degree of unspecified multiple fingers (nail), including thumb, initial encounter",,,Dermatology
+"T23349D Burn of third degree of unspecified multiple fingers (nail), including thumb, subsequent
+encounter",,,Dermatology
+"T23349S Burn of third degree of unspecified multiple fingers (nail), including thumb, sequela",,,Dermatology
+"T23351A Burn of third degree of right palm, initial encounter",,,Dermatology
+"T23351D Burn of third degree of right palm, subsequent encounter",,,Dermatology
+"T23351S Burn of third degree of right palm, sequela",,,Dermatology
+"T23352A Burn of third degree of left palm, initial encounter",,,Dermatology
+"T23352D Burn of third degree of left palm, subsequent encounter",,,Dermatology
+"T23352S Burn of third degree of left palm, sequela",,,Dermatology
+"T23359A Burn of third degree of unspecified palm, initial encounter",,,Dermatology
+"T23359D Burn of third degree of unspecified palm, subsequent encounter",,,Dermatology
+"T23359S Burn of third degree of unspecified palm, sequela",,,Dermatology
+"T23361A Burn of third degree of back of right hand, initial encounter",,,Dermatology
+"T23361D Burn of third degree of back of right hand, subsequent encounter",,,Dermatology
+"T23361S Burn of third degree of back of right hand, sequela",,,Dermatology
+"T23362A Burn of third degree of back of left hand, initial encounter",,,Dermatology
+"T23362D Burn of third degree of back of left hand, subsequent encounter",,,Dermatology
+"T23362S Burn of third degree of back of left hand, sequela",,,Dermatology
+"T23369A Burn of third degree of back of unspecified hand, initial encounter",,,Dermatology
+"T23369D Burn of third degree of back of unspecified hand, subsequent encounter",,,Dermatology
+"T23369S Burn of third degree of back of unspecified hand, sequela",,,Dermatology
+"T23371A Burn of third degree of right wrist, initial encounter",,,Dermatology
+"T23371D Burn of third degree of right wrist, subsequent encounter",,,Dermatology
+"T23371S Burn of third degree of right wrist, sequela",,,Dermatology
+"T23372A Burn of third degree of left wrist, initial encounter",,,Dermatology
+"T23372D Burn of third degree of left wrist, subsequent encounter",,,Dermatology
+"T23372S Burn of third degree of left wrist, sequela",,,Dermatology
+"T23379A Burn of third degree of unspecified wrist, initial encounter",,,Dermatology
+"T23379D Burn of third degree of unspecified wrist, subsequent encounter",,,Dermatology
+"T23379S Burn of third degree of unspecified wrist, sequela",,,Dermatology
+"T23391A Burn of third degree of multiple sites of right wrist and hand, initial encounter",,,Dermatology
+"T23391D Burn of third degree of multiple sites of right wrist and hand, subsequent encounter",,,Dermatology
+"T23391S Burn of third degree of multiple sites of right wrist and hand, sequela",,,Dermatology
+"T23392A Burn of third degree of multiple sites of left wrist and hand, initial encounter",,,Dermatology
+"T23392D Burn of third degree of multiple sites of left wrist and hand, subsequent encounter",,,Dermatology
+"T23392S Burn of third degree of multiple sites of left wrist and hand, sequela",,,Dermatology
+"T23399A Burn of third degree of multiple sites of unspecified wrist and hand, initial encounter",,,Dermatology
+"T23399D Burn of third degree of multiple sites of unspecified wrist and hand, subsequent encounter",,,Dermatology
+"T23399S Burn of third degree of multiple sites of unspecified wrist and hand, sequela",,,Dermatology
+"T24001A Burn of unspecified degree of unspecified site of right lower limb, except ankle and foot, initial
+encounter",,,Dermatology
+"T24001D Burn of unspecified degree of unspecified site of right lower limb, except ankle and foot,
+subsequent encounter",,,Dermatology
+"T24001S Burn of unspecified degree of unspecified site of right lower limb, except ankle and foot,
+sequela",,,Dermatology
+"T24002A Burn of unspecified degree of unspecified site of left lower limb, except ankle and foot, initial
+encounter",,,Dermatology
+"T24002D Burn of unspecified degree of unspecified site of left lower limb, except ankle and foot,
+subsequent encounter",,,Dermatology
+"T24002S Burn of unspecified degree of unspecified site of left lower limb, except ankle and foot, sequela",,,Dermatology
+"T24009A Burn of unspecified degree of unspecified site of unspecified lower limb, except ankle and foot,
+initial encounter",,,Dermatology
+"T24009D Burn of unspecified degree of unspecified site of unspecified lower limb, except ankle and foot,
+subsequent encounter",,,Dermatology
+"T24009S Burn of unspecified degree of unspecified site of unspecified lower limb, except ankle and foot,
+sequela",,,Dermatology
+"T24011A Burn of unspecified degree of right thigh, initial encounter",,,Dermatology
+"T24011D Burn of unspecified degree of right thigh, subsequent encounter",,,Dermatology
+"T24011S Burn of unspecified degree of right thigh, sequela",,,Dermatology
+"T24012A Burn of unspecified degree of left thigh, initial encounter",,,Dermatology
+"T24012D Burn of unspecified degree of left thigh, subsequent encounter",,,Dermatology
+"T24012S Burn of unspecified degree of left thigh, sequela",,,Dermatology
+"T24019A Burn of unspecified degree of unspecified thigh, initial encounter",,,Dermatology
+"T24019D Burn of unspecified degree of unspecified thigh, subsequent encounter",,,Dermatology
+"T24019S Burn of unspecified degree of unspecified thigh, sequela",,,Dermatology
+"T24021A Burn of unspecified degree of right knee, initial encounter",,,Dermatology
+"T24021D Burn of unspecified degree of right knee, subsequent encounter",,,Dermatology
+"T24021S Burn of unspecified degree of right knee, sequela",,,Dermatology
+"T24022A Burn of unspecified degree of left knee, initial encounter",,,Dermatology
+"T24022D Burn of unspecified degree of left knee, subsequent encounter",,,Dermatology
+"T24022S Burn of unspecified degree of left knee, sequela",,,Dermatology
+"T24029A Burn of unspecified degree of unspecified knee, initial encounter",,,Dermatology
+"T24029D Burn of unspecified degree of unspecified knee, subsequent encounter",,,Dermatology
+"T24029S Burn of unspecified degree of unspecified knee, sequela",,,Dermatology
+"T24031A Burn of unspecified degree of right lower leg, initial encounter",,,Dermatology
+"T24031D Burn of unspecified degree of right lower leg, subsequent encounter",,,Dermatology
+"T24031S Burn of unspecified degree of right lower leg, sequela",,,Dermatology
+"T24032A Burn of unspecified degree of left lower leg, initial encounter",,,Dermatology
+"T24032D Burn of unspecified degree of left lower leg, subsequent encounter",,,Dermatology
+"T24032S Burn of unspecified degree of left lower leg, sequela",,,Dermatology
+"T24039A Burn of unspecified degree of unspecified lower leg, initial encounter",,,Dermatology
+"T24039D Burn of unspecified degree of unspecified lower leg, subsequent encounter",,,Dermatology
+"T24039S Burn of unspecified degree of unspecified lower leg, sequela",,,Dermatology
+"T24091A Burn of unspecified degree of multiple sites of right lower limb, except ankle and foot, initial
+encounter",,,Dermatology
+"T24091D Burn of unspecified degree of multiple sites of right lower limb, except ankle and foot,
+subsequent encounter",,,Dermatology
+"T24091S Burn of unspecified degree of multiple sites of right lower limb, except ankle and foot, sequela",,,Dermatology
+"T24092A Burn of unspecified degree of multiple sites of left lower limb, except ankle and foot, initial
+encounter",,,Dermatology
+"T24092D Burn of unspecified degree of multiple sites of left lower limb, except ankle and foot,
+subsequent encounter",,,Dermatology
+"T24092S Burn of unspecified degree of multiple sites of left lower limb, except ankle and foot, sequela",,,Dermatology
+"T24099A Burn of unspecified degree of multiple sites of unspecified lower limb, except ankle and foot,
+initial encounter",,,Dermatology
+"T24099D Burn of unspecified degree of multiple sites of unspecified lower limb, except ankle and foot,
+subsequent encounter",,,Dermatology
+"T24099S Burn of unspecified degree of multiple sites of unspecified lower limb, except ankle and foot,
+sequela",,,Dermatology
+"T24101A Burn of first degree of unspecified site of right lower limb, except ankle and foot, initial
+encounter",,,Dermatology
+"T24101D Burn of first degree of unspecified site of right lower limb, except ankle and foot, subsequent
+encounter",,,Dermatology
+"T24101S Burn of first degree of unspecified site of right lower limb, except ankle and foot, sequela",,,Dermatology
+"T24102A Burn of first degree of unspecified site of left lower limb, except ankle and foot, initial
+encounter",,,Dermatology
+"T24102D Burn of first degree of unspecified site of left lower limb, except ankle and foot, subsequent
+encounter",,,Dermatology
+"T24102S Burn of first degree of unspecified site of left lower limb, except ankle and foot, sequela",,,Dermatology
+"T24109A Burn of first degree of unspecified site of unspecified lower limb, except ankle and foot, initial
+encounter",,,Dermatology
+"T24109D Burn of first degree of unspecified site of unspecified lower limb, except ankle and foot,
+subsequent encounter",,,Dermatology
+"T24109S Burn of first degree of unspecified site of unspecified lower limb, except ankle and foot,
+sequela",,,Dermatology
+"T24111A Burn of first degree of right thigh, initial encounter",,,Dermatology
+"T24111D Burn of first degree of right thigh, subsequent encounter",,,Dermatology
+"T24111S Burn of first degree of right thigh, sequela",,,Dermatology
+"T24112A Burn of first degree of left thigh, initial encounter",,,Dermatology
+"T24112D Burn of first degree of left thigh, subsequent encounter",,,Dermatology
+"T24112S Burn of first degree of left thigh, sequela",,,Dermatology
+"T24119A Burn of first degree of unspecified thigh, initial encounter",,,Dermatology
+"T24119D Burn of first degree of unspecified thigh, subsequent encounter",,,Dermatology
+"T24119S Burn of first degree of unspecified thigh, sequela",,,Dermatology
+"T24121A Burn of first degree of right knee, initial encounter",,,Dermatology
+"T24121D Burn of first degree of right knee, subsequent encounter",,,Dermatology
+"T24121S Burn of first degree of right knee, sequela",,,Dermatology
+"T24122A Burn of first degree of left knee, initial encounter",,,Dermatology
+"T24122D Burn of first degree of left knee, subsequent encounter",,,Dermatology
+"T24122S Burn of first degree of left knee, sequela",,,Dermatology
+"T24129A Burn of first degree of unspecified knee, initial encounter",,,Dermatology
+"T24129D Burn of first degree of unspecified knee, subsequent encounter",,,Dermatology
+"T24129S Burn of first degree of unspecified knee, sequela",,,Dermatology
+"T24131A Burn of first degree of right lower leg, initial encounter",,,Dermatology
+"T24131D Burn of first degree of right lower leg, subsequent encounter",,,Dermatology
+"T24131S Burn of first degree of right lower leg, sequela",,,Dermatology
+"T24132A Burn of first degree of left lower leg, initial encounter",,,Dermatology
+"T24132D Burn of first degree of left lower leg, subsequent encounter",,,Dermatology
+"T24132S Burn of first degree of left lower leg, sequela",,,Dermatology
+"T24139A Burn of first degree of unspecified lower leg, initial encounter",,,Dermatology
+"T24139D Burn of first degree of unspecified lower leg, subsequent encounter",,,Dermatology
+"T24139S Burn of first degree of unspecified lower leg, sequela",,,Dermatology
+"T24191A Burn of first degree of multiple sites of right lower limb, except ankle and foot, initial
+encounter",,,Dermatology
+"T24191D Burn of first degree of multiple sites of right lower limb, except ankle and foot, subsequent
+encounter",,,Dermatology
+"T24191S Burn of first degree of multiple sites of right lower limb, except ankle and foot, sequela",,,Dermatology
+"T24192A Burn of first degree of multiple sites of left lower limb, except ankle and foot, initial encounter",,,Dermatology
+"T24192D Burn of first degree of multiple sites of left lower limb, except ankle and foot, subsequent
+encounter",,,Dermatology
+"T24192S Burn of first degree of multiple sites of left lower limb, except ankle and foot, sequela",,,Dermatology
+"T24199A Burn of first degree of multiple sites of unspecified lower limb, except ankle and foot, initial
+encounter",,,Dermatology
+"T24199D Burn of first degree of multiple sites of unspecified lower limb, except ankle and foot,
+subsequent encounter",,,Dermatology
+"T24199S Burn of first degree of multiple sites of unspecified lower limb, except ankle and foot, sequela",,,Dermatology
+"T24201A Burn of second degree of unspecified site of right lower limb, except ankle and foot, initial
+encounter",,,Dermatology
+"T24201D Burn of second degree of unspecified site of right lower limb, except ankle and foot,
+subsequent encounter",,,Dermatology
+"T24201S Burn of second degree of unspecified site of right lower limb, except ankle and foot, sequela",,,Dermatology
+"T24202A Burn of second degree of unspecified site of left lower limb, except ankle and foot, initial
+encounter",,,Dermatology
+"T24202D Burn of second degree of unspecified site of left lower limb, except ankle and foot, subsequent
+encounter",,,Dermatology
+"T24202S Burn of second degree of unspecified site of left lower limb, except ankle and foot, sequela",,,Dermatology
+"T24209A Burn of second degree of unspecified site of unspecified lower limb, except ankle and foot,
+initial encounter",,,Dermatology
+"T24209D Burn of second degree of unspecified site of unspecified lower limb, except ankle and foot,
+subsequent encounter",,,Dermatology
+"T24209S Burn of second degree of unspecified site of unspecified lower limb, except ankle and foot,
+sequela",,,Dermatology
+"T24211A Burn of second degree of right thigh, initial encounter",,,Dermatology
+"T24211D Burn of second degree of right thigh, subsequent encounter",,,Dermatology
+"T24211S Burn of second degree of right thigh, sequela",,,Dermatology
+"T24212A Burn of second degree of left thigh, initial encounter",,,Dermatology
+"T24212D Burn of second degree of left thigh, subsequent encounter",,,Dermatology
+"T24212S Burn of second degree of left thigh, sequela",,,Dermatology
+"T24219A Burn of second degree of unspecified thigh, initial encounter",,,Dermatology
+"T24219D Burn of second degree of unspecified thigh, subsequent encounter",,,Dermatology
+"T24219S Burn of second degree of unspecified thigh, sequela",,,Dermatology
+"T24221A Burn of second degree of right knee, initial encounter",,,Dermatology
+"T24221D Burn of second degree of right knee, subsequent encounter",,,Dermatology
+"T24221S Burn of second degree of right knee, sequela",,,Dermatology
+"T24222A Burn of second degree of left knee, initial encounter",,,Dermatology
+"T24222D Burn of second degree of left knee, subsequent encounter",,,Dermatology
+"T24222S Burn of second degree of left knee, sequela",,,Dermatology
+"T24229A Burn of second degree of unspecified knee, initial encounter",,,Dermatology
+"T24229D Burn of second degree of unspecified knee, subsequent encounter",,,Dermatology
+"T24229S Burn of second degree of unspecified knee, sequela",,,Dermatology
+"T24231A Burn of second degree of right lower leg, initial encounter",,,Dermatology
+"T24231D Burn of second degree of right lower leg, subsequent encounter",,,Dermatology
+"T24231S Burn of second degree of right lower leg, sequela",,,Dermatology
+"T24232A Burn of second degree of left lower leg, initial encounter",,,Dermatology
+"T24232D Burn of second degree of left lower leg, subsequent encounter",,,Dermatology
+"T24232S Burn of second degree of left lower leg, sequela",,,Dermatology
+"T24239A Burn of second degree of unspecified lower leg, initial encounter",,,Dermatology
+"T24239D Burn of second degree of unspecified lower leg, subsequent encounter",,,Dermatology
+"T24239S Burn of second degree of unspecified lower leg, sequela",,,Dermatology
+"T24291A Burn of second degree of multiple sites of right lower limb, except ankle and foot, initial
+encounter",,,Dermatology
+"T24291D Burn of second degree of multiple sites of right lower limb, except ankle and foot, subsequent
+encounter",,,Dermatology
+"T24291S Burn of second degree of multiple sites of right lower limb, except ankle and foot, sequela",,,Dermatology
+"T24292A Burn of second degree of multiple sites of left lower limb, except ankle and foot, initial
+encounter",,,Dermatology
+"T24292D Burn of second degree of multiple sites of left lower limb, except ankle and foot, subsequent
+encounter",,,Dermatology
+"T24292S Burn of second degree of multiple sites of left lower limb, except ankle and foot, sequela",,,Dermatology
+"T24299A Burn of second degree of multiple sites of unspecified lower limb, except ankle and foot, initial
+encounter",,,Dermatology
+"T24299D Burn of second degree of multiple sites of unspecified lower limb, except ankle and foot,
+subsequent encounter",,,Dermatology
+"T24299S Burn of second degree of multiple sites of unspecified lower limb, except ankle and foot,
+sequela",,,Dermatology
+"T24301A Burn of third degree of unspecified site of right lower limb, except ankle and foot, initial
+encounter",,,Dermatology
+"T24301D Burn of third degree of unspecified site of right lower limb, except ankle and foot, subsequent
+encounter",,,Dermatology
+"T24301S Burn of third degree of unspecified site of right lower limb, except ankle and foot, sequela",,,Dermatology
+"T24302A Burn of third degree of unspecified site of left lower limb, except ankle and foot, initial
+encounter",,,Dermatology
+"T24302D Burn of third degree of unspecified site of left lower limb, except ankle and foot, subsequent
+encounter",,,Dermatology
+"T24302S Burn of third degree of unspecified site of left lower limb, except ankle and foot, sequela",,,Dermatology
+"T24309A Burn of third degree of unspecified site of unspecified lower limb, except ankle and foot, initial
+encounter",,,Dermatology
+"T24309D Burn of third degree of unspecified site of unspecified lower limb, except ankle and foot,
+subsequent encounter",,,Dermatology
+"T24309S Burn of third degree of unspecified site of unspecified lower limb, except ankle and foot,
+sequela",,,Dermatology
+"T24311A Burn of third degree of right thigh, initial encounter",,,Dermatology
+"T24311D Burn of third degree of right thigh, subsequent encounter",,,Dermatology
+"T24311S Burn of third degree of right thigh, sequela",,,Dermatology
+"T24312A Burn of third degree of left thigh, initial encounter",,,Dermatology
+"T24312D Burn of third degree of left thigh, subsequent encounter",,,Dermatology
+"T24312S Burn of third degree of left thigh, sequela",,,Dermatology
+"T24319A Burn of third degree of unspecified thigh, initial encounter",,,Dermatology
+"T24319D Burn of third degree of unspecified thigh, subsequent encounter",,,Dermatology
+"T24319S Burn of third degree of unspecified thigh, sequela",,,Dermatology
+"T24321A Burn of third degree of right knee, initial encounter",,,Dermatology
+"T24321D Burn of third degree of right knee, subsequent encounter",,,Dermatology
+"T24321S Burn of third degree of right knee, sequela",,,Dermatology
+"T24322A Burn of third degree of left knee, initial encounter",,,Dermatology
+"T24322D Burn of third degree of left knee, subsequent encounter",,,Dermatology
+"T24322S Burn of third degree of left knee, sequela",,,Dermatology
+"T24329A Burn of third degree of unspecified knee, initial encounter",,,Dermatology
+"T24329D Burn of third degree of unspecified knee, subsequent encounter",,,Dermatology
+"T24329S Burn of third degree of unspecified knee, sequela",,,Dermatology
+"T24331A Burn of third degree of right lower leg, initial encounter",,,Dermatology
+"T24331D Burn of third degree of right lower leg, subsequent encounter",,,Dermatology
+"T24331S Burn of third degree of right lower leg, sequela",,,Dermatology
+"T24332A Burn of third degree of left lower leg, initial encounter",,,Dermatology
+"T24332D Burn of third degree of left lower leg, subsequent encounter",,,Dermatology
+"T24332S Burn of third degree of left lower leg, sequela",,,Dermatology
+"T24339A Burn of third degree of unspecified lower leg, initial encounter",,,Dermatology
+"T24339D Burn of third degree of unspecified lower leg, subsequent encounter",,,Dermatology
+"T24339S Burn of third degree of unspecified lower leg, sequela",,,Dermatology
+"T24391A Burn of third degree of multiple sites of right lower limb, except ankle and foot, initial
+encounter",,,Dermatology
+"T24391D Burn of third degree of multiple sites of right lower limb, except ankle and foot, subsequent
+encounter",,,Dermatology
+"T24391S Burn of third degree of multiple sites of right lower limb, except ankle and foot, sequela",,,Dermatology
+"T24392A Burn of third degree of multiple sites of left lower limb, except ankle and foot, initial encounter",,,Dermatology
+"T24392D Burn of third degree of multiple sites of left lower limb, except ankle and foot, subsequent
+encounter",,,Dermatology
+"T24392S Burn of third degree of multiple sites of left lower limb, except ankle and foot, sequela",,,Dermatology
+"T24399A Burn of third degree of multiple sites of unspecified lower limb, except ankle and foot, initial
+encounter",,,Dermatology
+"T24399D Burn of third degree of multiple sites of unspecified lower limb, except ankle and foot,
+subsequent encounter",,,Dermatology
+"T24399S Burn of third degree of multiple sites of unspecified lower limb, except ankle and foot, sequela",,,Dermatology
+"T25011A Burn of unspecified degree of right ankle, initial encounter",,,Dermatology
+"T25011D Burn of unspecified degree of right ankle, subsequent encounter",,,Dermatology
+"T25011S Burn of unspecified degree of right ankle, sequela",,,Dermatology
+"T25012A Burn of unspecified degree of left ankle, initial encounter",,,Dermatology
+"T25012D Burn of unspecified degree of left ankle, subsequent encounter",,,Dermatology
+"T25012S Burn of unspecified degree of left ankle, sequela",,,Dermatology
+"T25019A Burn of unspecified degree of unspecified ankle, initial encounter",,,Dermatology
+"T25019D Burn of unspecified degree of unspecified ankle, subsequent encounter",,,Dermatology
+"T25019S Burn of unspecified degree of unspecified ankle, sequela",,,Dermatology
+"T25021A Burn of unspecified degree of right foot, initial encounter",,,Dermatology
+"T25021D Burn of unspecified degree of right foot, subsequent encounter",,,Dermatology
+"T25021S Burn of unspecified degree of right foot, sequela",,,Dermatology
+"T25022A Burn of unspecified degree of left foot, initial encounter",,,Dermatology
+"T25022D Burn of unspecified degree of left foot, subsequent encounter",,,Dermatology
+"T25022S Burn of unspecified degree of left foot, sequela",,,Dermatology
+"T25029A Burn of unspecified degree of unspecified foot, initial encounter",,,Dermatology
+"T25029D Burn of unspecified degree of unspecified foot, subsequent encounter",,,Dermatology
+"T25029S Burn of unspecified degree of unspecified foot, sequela",,,Dermatology
+"T25031A Burn of unspecified degree of right toe(s) (nail), initial encounter",,,Dermatology
+"T25031D Burn of unspecified degree of right toe(s) (nail), subsequent encounter",,,Dermatology
+"T25031S Burn of unspecified degree of right toe(s) (nail), sequela",,,Dermatology
+"T25032A Burn of unspecified degree of left toe(s) (nail), initial encounter",,,Dermatology
+"T25032D Burn of unspecified degree of left toe(s) (nail), subsequent encounter",,,Dermatology
+"T25032S Burn of unspecified degree of left toe(s) (nail), sequela",,,Dermatology
+"T25039A Burn of unspecified degree of unspecified toe(s) (nail), initial encounter",,,Dermatology
+"T25039D Burn of unspecified degree of unspecified toe(s) (nail), subsequent encounter",,,Dermatology
+"T25039S Burn of unspecified degree of unspecified toe(s) (nail), sequela",,,Dermatology
+"T25091A Burn of unspecified degree of multiple sites of right ankle and foot, initial encounter",,,Dermatology
+"T25091D Burn of unspecified degree of multiple sites of right ankle and foot, subsequent encounter",,,Dermatology
+"T25091S Burn of unspecified degree of multiple sites of right ankle and foot, sequela",,,Dermatology
+"T25092A Burn of unspecified degree of multiple sites of left ankle and foot, initial encounter",,,Dermatology
+"T25092D Burn of unspecified degree of multiple sites of left ankle and foot, subsequent encounter",,,Dermatology
+"T25092S Burn of unspecified degree of multiple sites of left ankle and foot, sequela",,,Dermatology
+"T25099A Burn of unspecified degree of multiple sites of unspecified ankle and foot, initial encounter",,,Dermatology
+"T25099D Burn of unspecified degree of multiple sites of unspecified ankle and foot, subsequent
+encounter",,,Dermatology
+"T25099S Burn of unspecified degree of multiple sites of unspecified ankle and foot, sequela",,,Dermatology
+"T25111A Burn of first degree of right ankle, initial encounter",,,Dermatology
+"T25111D Burn of first degree of right ankle, subsequent encounter",,,Dermatology
+"T25111S Burn of first degree of right ankle, sequela",,,Dermatology
+"T25112A Burn of first degree of left ankle, initial encounter",,,Dermatology
+"T25112D Burn of first degree of left ankle, subsequent encounter",,,Dermatology
+"T25112S Burn of first degree of left ankle, sequela",,,Dermatology
+"T25119A Burn of first degree of unspecified ankle, initial encounter",,,Dermatology
+"T25119D Burn of first degree of unspecified ankle, subsequent encounter",,,Dermatology
+"T25119S Burn of first degree of unspecified ankle, sequela",,,Dermatology
+"T25121A Burn of first degree of right foot, initial encounter",,,Dermatology
+"T25121D Burn of first degree of right foot, subsequent encounter",,,Dermatology
+"T25121S Burn of first degree of right foot, sequela",,,Dermatology
+"T25122A Burn of first degree of left foot, initial encounter",,,Dermatology
+"T25122D Burn of first degree of left foot, subsequent encounter",,,Dermatology
+"T25122S Burn of first degree of left foot, sequela",,,Dermatology
+"T25129A Burn of first degree of unspecified foot, initial encounter",,,Dermatology
+"T25129D Burn of first degree of unspecified foot, subsequent encounter",,,Dermatology
+"T25129S Burn of first degree of unspecified foot, sequela",,,Dermatology
+"T25131A Burn of first degree of right toe(s) (nail), initial encounter",,,Dermatology
+"T25131D Burn of first degree of right toe(s) (nail), subsequent encounter",,,Dermatology
+"T25131S Burn of first degree of right toe(s) (nail), sequela",,,Dermatology
+"T25132A Burn of first degree of left toe(s) (nail), initial encounter",,,Dermatology
+"T25132D Burn of first degree of left toe(s) (nail), subsequent encounter",,,Dermatology
+"T25132S Burn of first degree of left toe(s) (nail), sequela",,,Dermatology
+"T25139A Burn of first degree of unspecified toe(s) (nail), initial encounter",,,Dermatology
+"T25139D Burn of first degree of unspecified toe(s) (nail), subsequent encounter",,,Dermatology
+"T25139S Burn of first degree of unspecified toe(s) (nail), sequela",,,Dermatology
+"T25191A Burn of first degree of multiple sites of right ankle and foot, initial encounter",,,Dermatology
+"T25191D Burn of first degree of multiple sites of right ankle and foot, subsequent encounter",,,Dermatology
+"T25191S Burn of first degree of multiple sites of right ankle and foot, sequela",,,Dermatology
+"T25192A Burn of first degree of multiple sites of left ankle and foot, initial encounter",,,Dermatology
+"T25192D Burn of first degree of multiple sites of left ankle and foot, subsequent encounter",,,Dermatology
+"T25192S Burn of first degree of multiple sites of left ankle and foot, sequela",,,Dermatology
+"T25199A Burn of first degree of multiple sites of unspecified ankle and foot, initial encounter",,,Dermatology
+"T25199D Burn of first degree of multiple sites of unspecified ankle and foot, subsequent encounter",,,Dermatology
+"T25199S Burn of first degree of multiple sites of unspecified ankle and foot, sequela",,,Dermatology
+"T25211A Burn of second degree of right ankle, initial encounter",,,Dermatology
+"T25211D Burn of second degree of right ankle, subsequent encounter",,,Dermatology
+"T25211S Burn of second degree of right ankle, sequela",,,Dermatology
+"T25212A Burn of second degree of left ankle, initial encounter",,,Dermatology
+"T25212D Burn of second degree of left ankle, subsequent encounter",,,Dermatology
+"T25212S Burn of second degree of left ankle, sequela",,,Dermatology
+"T25219A Burn of second degree of unspecified ankle, initial encounter",,,Dermatology
+"T25219D Burn of second degree of unspecified ankle, subsequent encounter",,,Dermatology
+"T25219S Burn of second degree of unspecified ankle, sequela",,,Dermatology
+"T25221A Burn of second degree of right foot, initial encounter",,,Dermatology
+"T25221D Burn of second degree of right foot, subsequent encounter",,,Dermatology
+"T25221S Burn of second degree of right foot, sequela",,,Dermatology
+"T25222A Burn of second degree of left foot, initial encounter",,,Dermatology
+"T25222D Burn of second degree of left foot, subsequent encounter",,,Dermatology
+"T25222S Burn of second degree of left foot, sequela",,,Dermatology
+"T25229A Burn of second degree of unspecified foot, initial encounter",,,Dermatology
+"T25229D Burn of second degree of unspecified foot, subsequent encounter",,,Dermatology
+"T25229S Burn of second degree of unspecified foot, sequela",,,Dermatology
+"T25231A Burn of second degree of right toe(s) (nail), initial encounter",,,Dermatology
+"T25231D Burn of second degree of right toe(s) (nail), subsequent encounter",,,Dermatology
+"T25231S Burn of second degree of right toe(s) (nail), sequela",,,Dermatology
+"T25232A Burn of second degree of left toe(s) (nail), initial encounter",,,Dermatology
+"T25232D Burn of second degree of left toe(s) (nail), subsequent encounter",,,Dermatology
+"T25232S Burn of second degree of left toe(s) (nail), sequela",,,Dermatology
+"T25239A Burn of second degree of unspecified toe(s) (nail), initial encounter",,,Dermatology
+"T25239D Burn of second degree of unspecified toe(s) (nail), subsequent encounter",,,Dermatology
+"T25239S Burn of second degree of unspecified toe(s) (nail), sequela",,,Dermatology
+"T25291A Burn of second degree of multiple sites of right ankle and foot, initial encounter",,,Dermatology
+"T25291D Burn of second degree of multiple sites of right ankle and foot, subsequent encounter",,,Dermatology
+"T25291S Burn of second degree of multiple sites of right ankle and foot, sequela",,,Dermatology
+"T25292A Burn of second degree of multiple sites of left ankle and foot, initial encounter",,,Dermatology
+"T25292D Burn of second degree of multiple sites of left ankle and foot, subsequent encounter",,,Dermatology
+"T25292S Burn of second degree of multiple sites of left ankle and foot, sequela",,,Dermatology
+"T25299A Burn of second degree of multiple sites of unspecified ankle and foot, initial encounter",,,Dermatology
+"T25299D Burn of second degree of multiple sites of unspecified ankle and foot, subsequent encounter",,,Dermatology
+"T25299S Burn of second degree of multiple sites of unspecified ankle and foot, sequela",,,Dermatology
+"T25311A Burn of third degree of right ankle, initial encounter",,,Dermatology
+"T25311D Burn of third degree of right ankle, subsequent encounter",,,Dermatology
+"T25311S Burn of third degree of right ankle, sequela",,,Dermatology
+"T25312A Burn of third degree of left ankle, initial encounter",,,Dermatology
+"T25312D Burn of third degree of left ankle, subsequent encounter",,,Dermatology
+"T25312S Burn of third degree of left ankle, sequela",,,Dermatology
+"T25319A Burn of third degree of unspecified ankle, initial encounter",,,Dermatology
+"T25319D Burn of third degree of unspecified ankle, subsequent encounter",,,Dermatology
+"T25319S Burn of third degree of unspecified ankle, sequela",,,Dermatology
+"T25321A Burn of third degree of right foot, initial encounter",,,Dermatology
+"T25321D Burn of third degree of right foot, subsequent encounter",,,Dermatology
+"T25321S Burn of third degree of right foot, sequela",,,Dermatology
+"T25322A Burn of third degree of left foot, initial encounter",,,Dermatology
+"T25322D Burn of third degree of left foot, subsequent encounter",,,Dermatology
+"T25322S Burn of third degree of left foot, sequela",,,Dermatology
+"T25329A Burn of third degree of unspecified foot, initial encounter",,,Dermatology
+"T25329D Burn of third degree of unspecified foot, subsequent encounter",,,Dermatology
+"T25329S Burn of third degree of unspecified foot, sequela",,,Dermatology
+"T25331A Burn of third degree of right toe(s) (nail), initial encounter",,,Dermatology
+"T25331D Burn of third degree of right toe(s) (nail), subsequent encounter",,,Dermatology
+"T25331S Burn of third degree of right toe(s) (nail), sequela",,,Dermatology
+"T25332A Burn of third degree of left toe(s) (nail), initial encounter",,,Dermatology
+"T25332D Burn of third degree of left toe(s) (nail), subsequent encounter",,,Dermatology
+"T25332S Burn of third degree of left toe(s) (nail), sequela",,,Dermatology
+"T25339A Burn of third degree of unspecified toe(s) (nail), initial encounter",,,Dermatology
+"T25339D Burn of third degree of unspecified toe(s) (nail), subsequent encounter",,,Dermatology
+"T25339S Burn of third degree of unspecified toe(s) (nail), sequela",,,Dermatology
+"T25391A Burn of third degree of multiple sites of right ankle and foot, initial encounter",,,Dermatology
+"T25391D Burn of third degree of multiple sites of right ankle and foot, subsequent encounter",,,Dermatology
+"T25391S Burn of third degree of multiple sites of right ankle and foot, sequela",,,Dermatology
+"T25392A Burn of third degree of multiple sites of left ankle and foot, initial encounter",,,Dermatology
+"T25392D Burn of third degree of multiple sites of left ankle and foot, subsequent encounter",,,Dermatology
+"T25392S Burn of third degree of multiple sites of left ankle and foot, sequela",,,Dermatology
+"T25399A Burn of third degree of multiple sites of unspecified ankle and foot, initial encounter",,,Dermatology
+"T25399D Burn of third degree of multiple sites of unspecified ankle and foot, subsequent encounter",,,Dermatology
+"T25399S Burn of third degree of multiple sites of unspecified ankle and foot, sequela",,,Dermatology
+"T2600XA Burn of unspecified eyelid and periocular area, initial encounter",,,Dermatology
+"T2600XD Burn of unspecified eyelid and periocular area, subsequent encounter",,,Dermatology
+"T2600XS Burn of unspecified eyelid and periocular area, sequela",,,Dermatology
+"T2601XA Burn of right eyelid and periocular area, initial encounter",,,Dermatology
+"T2601XD Burn of right eyelid and periocular area, subsequent encounter",,,Dermatology
+"T2601XS Burn of right eyelid and periocular area, sequela",,,Dermatology
+"T2602XA Burn of left eyelid and periocular area, initial encounter",,,Dermatology
+"T2602XD Burn of left eyelid and periocular area, subsequent encounter",,,Dermatology
+"T2602XS Burn of left eyelid and periocular area, sequela",,,Dermatology
+"T2610XA Burn of cornea and conjunctival sac, unspecified eye, initial encounter",,,Dermatology
+"T2610XD Burn of cornea and conjunctival sac, unspecified eye, subsequent encounter",,,Dermatology
+"T2610XS Burn of cornea and conjunctival sac, unspecified eye, sequela",,,Dermatology
+"T2611XA Burn of cornea and conjunctival sac, right eye, initial encounter",,,Dermatology
+"T2611XD Burn of cornea and conjunctival sac, right eye, subsequent encounter",,,Dermatology
+"T2611XS Burn of cornea and conjunctival sac, right eye, sequela",,,Dermatology
+"T2612XA Burn of cornea and conjunctival sac, left eye, initial encounter",,,Dermatology
+"T2612XD Burn of cornea and conjunctival sac, left eye, subsequent encounter",,,Dermatology
+"T2612XS Burn of cornea and conjunctival sac, left eye, sequela",,,Dermatology
+"T2620XA Burn with resulting rupture and destruction of unspecified eyeball, initial encounter",,,Dermatology
+"T2620XD Burn with resulting rupture and destruction of unspecified eyeball, subsequent encounter",,,Dermatology
+"T2620XS Burn with resulting rupture and destruction of unspecified eyeball, sequela",,,Dermatology
+"T2621XA Burn with resulting rupture and destruction of right eyeball, initial encounter",,,Dermatology
+"T2621XD Burn with resulting rupture and destruction of right eyeball, subsequent encounter",,,Dermatology
+"T2621XS Burn with resulting rupture and destruction of right eyeball, sequela",,,Dermatology
+"T2622XA Burn with resulting rupture and destruction of left eyeball, initial encounter",,,Dermatology
+"T2622XD Burn with resulting rupture and destruction of left eyeball, subsequent encounter",,,Dermatology
+"T2622XS Burn with resulting rupture and destruction of left eyeball, sequela",,,Dermatology
+"T2640XA Burn of unspecified eye and adnexa, part unspecified, initial encounter",,,Dermatology
+"T2640XD Burn of unspecified eye and adnexa, part unspecified, subsequent encounter",,,Dermatology
+"T2640XS Burn of unspecified eye and adnexa, part unspecified, sequela",,,Dermatology
+"T2641XA Burn of right eye and adnexa, part unspecified, initial encounter",,,Dermatology
+"T2641XD Burn of right eye and adnexa, part unspecified, subsequent encounter",,,Dermatology
+"T2641XS Burn of right eye and adnexa, part unspecified, sequela",,,Dermatology
+"T2642XA Burn of left eye and adnexa, part unspecified, initial encounter",,,Dermatology
+"T2642XD Burn of left eye and adnexa, part unspecified, subsequent encounter",,,Dermatology
+"T2642XS Burn of left eye and adnexa, part unspecified, sequela",,,Dermatology
+"T270XXA Burn of larynx and trachea, initial encounter",,,Dermatology
+"T270XXD Burn of larynx and trachea, subsequent encounter",,,Dermatology
+"T270XXS Burn of larynx and trachea, sequela",,,Dermatology
+"T271XXA Burn involving larynx and trachea with lung, initial encounter",,,Dermatology
+"T271XXD Burn involving larynx and trachea with lung, subsequent encounter",,,Dermatology
+"T271XXS Burn involving larynx and trachea with lung, sequela",,,Dermatology
+"T272XXA Burn of other parts of respiratory tract, initial encounter",,,Dermatology
+"T272XXD Burn of other parts of respiratory tract, subsequent encounter",,,Dermatology
+"T272XXS Burn of other parts of respiratory tract, sequela",,,Dermatology
+"T273XXA Burn of respiratory tract, part unspecified, initial encounter",,,Dermatology
+"T273XXD Burn of respiratory tract, part unspecified, subsequent encounter",,,Dermatology
+"T273XXS Burn of respiratory tract, part unspecified, sequela",,,Dermatology
+"T280XXA Burn of mouth and pharynx, initial encounter",,,Dermatology
+"T280XXD Burn of mouth and pharynx, subsequent encounter",,,Dermatology
+"T280XXS Burn of mouth and pharynx, sequela",,,Dermatology
+"T281XXA Burn of esophagus, initial encounter",,,Dermatology
+"T281XXD Burn of esophagus, subsequent encounter",,,Dermatology
+"T281XXS Burn of esophagus, sequela",,,Dermatology
+"T282XXA Burn of other parts of alimentary tract, initial encounter",,,Dermatology
+"T282XXD Burn of other parts of alimentary tract, subsequent encounter",,,Dermatology
+"T282XXS Burn of other parts of alimentary tract, sequela",,,Dermatology
+"T283XXA Burn of internal genitourinary organs, initial encounter",,,Dermatology
+"T283XXD Burn of internal genitourinary organs, subsequent encounter",,,Dermatology
+"T283XXS Burn of internal genitourinary organs, sequela",,,Dermatology
+"T2840XA Burn of unspecified internal organ, initial encounter",,,Dermatology
+"T2840XD Burn of unspecified internal organ, subsequent encounter",,,Dermatology
+"T2840XS Burn of unspecified internal organ, sequela",,,Dermatology
+"T2849XA Burn of other internal organ, initial encounter",,,Dermatology
+"T2849XD Burn of other internal organ, subsequent encounter",,,Dermatology
+"T2849XS Burn of other internal organ, sequela",,,Dermatology
+"T300    Burn of unspecified body region, unspecified degree",,,Dermatology
+"T85613A Breakdown (mechanical) of artificial skin graft and decellularized allodermis, initial encounter",,,Dermatology
+"T85613D Breakdown (mechanical) of artificial skin graft and decellularized allodermis, subsequent
+encounter",,,Dermatology
+"T85613S Breakdown (mechanical) of artificial skin graft and decellularized allodermis, sequela",,,Dermatology
+"T85623A Displacement of artificial skin graft and decellularized allodermis, initial encounter",,,Dermatology
+"T85623D Displacement of artificial skin graft and decellularized allodermis, subsequent encounter",,,Dermatology
+"T85623S Displacement of artificial skin graft and decellularized allodermis, sequela",,,Dermatology
+"T85693A Other mechanical complication of artificial skin graft and decellularized allodermis, initial
+encounter",,,Dermatology
+"T85693D Other mechanical complication of artificial skin graft and decellularized allodermis, subsequent
+encounter",,,Dermatology
+"T85693S Other mechanical complication of artificial skin graft and decellularized allodermis, sequela",,,Dermatology
+T86820  Skin graft (allograft) rejection,,,Dermatology
+T86821  Skin graft (allograft) (autograft) failure,,,Dermatology
+T86822  Skin graft (allograft) (autograft) infection,,,Dermatology
+T86828  Other complications of skin graft (allograft) (autograft),,,Dermatology
+T86829  Unspecified complication of skin graft (allograft) (autograft),,,Dermatology
+"V9100XA Burn due to merchant ship on fire, initial encounter",,,Dermatology
+"V9100XD Burn due to merchant ship on fire, subsequent encounter",,,Dermatology
+"V9100XS Burn due to merchant ship on fire, sequela",,,Dermatology
+"V9101XA Burn due to passenger ship on fire, initial encounter",,,Dermatology
+"V9101XD Burn due to passenger ship on fire, subsequent encounter",,,Dermatology
+"V9101XS Burn due to passenger ship on fire, sequela",,,Dermatology
+"V9102XA Burn due to fishing boat on fire, initial encounter",,,Dermatology
+"V9102XD Burn due to fishing boat on fire, subsequent encounter",,,Dermatology
+"V9102XS Burn due to fishing boat on fire, sequela",,,Dermatology
+"V9103XA Burn due to other powered watercraft on fire, initial encounter",,,Dermatology
+"V9103XD Burn due to other powered watercraft on fire, subsequent encounter",,,Dermatology
+"V9103XS Burn due to other powered watercraft on fire, sequela",,,Dermatology
+"V9104XA Burn due to sailboat on fire, initial encounter",,,Dermatology
+"V9104XD Burn due to sailboat on fire, subsequent encounter",,,Dermatology
+"V9104XS Burn due to sailboat on fire, sequela",,,Dermatology
+"V9105XA Burn due to canoe or kayak on fire, initial encounter",,,Dermatology
+"V9105XD Burn due to canoe or kayak on fire, subsequent encounter",,,Dermatology
+"V9105XS Burn due to canoe or kayak on fire, sequela",,,Dermatology
+"V9106XA Burn due to (nonpowered) inflatable craft on fire, initial encounter",,,Dermatology
+"V9106XD Burn due to (nonpowered) inflatable craft on fire, subsequent encounter",,,Dermatology
+"V9106XS Burn due to (nonpowered) inflatable craft on fire, sequela",,,Dermatology
+"V9107XA Burn due to water-skis on fire, initial encounter",,,Dermatology
+"V9107XD Burn due to water-skis on fire, subsequent encounter",,,Dermatology
+"V9107XS Burn due to water-skis on fire, sequela",,,Dermatology
+"V9108XA Burn due to other unpowered watercraft on fire, initial encounter",,,Dermatology
+"V9108XD Burn due to other unpowered watercraft on fire, subsequent encounter",,,Dermatology
+"V9108XS Burn due to other unpowered watercraft on fire, sequela",,,Dermatology
+"V9109XA Burn due to unspecified watercraft on fire, initial encounter",,,Dermatology
+"V9109XD Burn due to unspecified watercraft on fire, subsequent encounter",,,Dermatology
+"V9109XS Burn due to unspecified watercraft on fire, sequela",,,Dermatology
+"V9300XA Burn due to localized fire on board merchant vessel, initial encounter",,,Dermatology
+"V9300XD Burn due to localized fire on board merchant vessel, subsequent encounter",,,Dermatology
+"V9300XS Burn due to localized fire on board merchant vessel, sequela",,,Dermatology
+"V9301XA Burn due to localized fire on board passenger vessel, initial encounter",,,Dermatology
+"V9301XD Burn due to localized fire on board passenger vessel, subsequent encounter",,,Dermatology
+"V9301XS Burn due to localized fire on board passenger vessel, sequela",,,Dermatology
+"V9302XA Burn due to localized fire on board fishing boat, initial encounter",,,Dermatology
+"V9302XD Burn due to localized fire on board fishing boat, subsequent encounter",,,Dermatology
+"V9302XS Burn due to localized fire on board fishing boat, sequela",,,Dermatology
+"V9303XA Burn due to localized fire on board other powered watercraft, initial encounter",,,Dermatology
+"V9303XD Burn due to localized fire on board other powered watercraft, subsequent encounter",,,Dermatology
+"V9303XS Burn due to localized fire on board other powered watercraft, sequela",,,Dermatology
+"V9304XA Burn due to localized fire on board sailboat, initial encounter",,,Dermatology
+"V9304XD Burn due to localized fire on board sailboat, subsequent encounter",,,Dermatology
+"V9304XS Burn due to localized fire on board sailboat, sequela",,,Dermatology
+"V9309XA Burn due to localized fire on board unspecified watercraft, initial encounter",,,Dermatology
+"V9309XD Burn due to localized fire on board unspecified watercraft, subsequent encounter",,,Dermatology
+"V9309XS Burn due to localized fire on board unspecified watercraft, sequela",,,Dermatology
+"V9310XA Other burn on board merchant vessel, initial encounter",,,Dermatology
+"V9310XD Other burn on board merchant vessel, subsequent encounter",,,Dermatology
+"V9310XS Other burn on board merchant vessel, sequela",,,Dermatology
+"V9311XA Other burn on board passenger vessel, initial encounter",,,Dermatology
+"V9311XD Other burn on board passenger vessel, subsequent encounter",,,Dermatology
+"V9311XS Other burn on board passenger vessel, sequela",,,Dermatology
+"V9312XA Other burn on board fishing boat, initial encounter",,,Dermatology
+"V9312XD Other burn on board fishing boat, subsequent encounter",,,Dermatology
+"V9312XS Other burn on board fishing boat, sequela",,,Dermatology
+"V9313XA Other burn on board other powered watercraft, initial encounter",,,Dermatology
+"V9313XD Other burn on board other powered watercraft, subsequent encounter",,,Dermatology
+"V9313XS Other burn on board other powered watercraft, sequela",,,Dermatology
+"V9314XA Other burn on board sailboat, initial encounter",,,Dermatology
+"V9314XD Other burn on board sailboat, subsequent encounter",,,Dermatology
+"V9314XS Other burn on board sailboat, sequela",,,Dermatology
+"V9319XA Other burn on board unspecified watercraft, initial encounter",,,Dermatology
+"V9319XD Other burn on board unspecified watercraft, subsequent encounter",,,Dermatology
+"V9319XS Other burn on board unspecified watercraft, sequela",,,Dermatology
+"W450XXA Nail entering through skin, initial encounter",,,Dermatology
+"W450XXD Nail entering through skin, subsequent encounter",,,Dermatology
+"W450XXS Nail entering through skin, sequela",,,Dermatology
+"W458XXA Other foreign body or object entering through skin, initial encounter",,,Dermatology
+"W458XXD Other foreign body or object entering through skin, subsequent encounter",,,Dermatology
+"W458XXS Other foreign body or object entering through skin, sequela",,,Dermatology
+"Z0571   Observation and evaluation of newborn for suspected skin and subcutaneous tissue condition
+ruled out",,,Dermatology
+Z1283   Encounter for screening for malignant neoplasm of skin,,,Dermatology
+Z48817  Encounter for surgical aftercare following surgery on the skin and subcutaneous tissue,,,Dermatology
+"Z5210   Skin donor, unspecified",,,Dermatology
+"Z5211   Skin donor, autologous",,,Dermatology
+"Z5219   Skin donor, other",,,Dermatology
+Z730    Burn-out,,,Dermatology
+Z840    Family history of diseases of the skin and subcutaneous tissue,,,Dermatology
+Z85820  Personal history of malignant melanoma of skin,,,Dermatology
+Z85828  Personal history of other malignant neoplasm of skin,,,Dermatology
+Z872    Personal history of diseases of the skin and subcutaneous tissue,,,Dermatology
+Z945    Skin transplant status,,,Dermatology
+Z9681   Presence of artificial skin,,,Dermatology

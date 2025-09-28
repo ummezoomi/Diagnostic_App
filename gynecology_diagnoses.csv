@@ -1,0 +1,1490 @@
+Diagnosis,Symptoms,MEDICATION,Specialty
+A1816   Tuberculosis of cervix,,,Gynecology
+A1817   Tuberculous female pelvic inflammatory disease,,,Gynecology
+A5142   Secondary syphilitic female pelvic disease,,,Gynecology
+A5424   Gonococcal female pelvic inflammatory disease,,,Gynecology
+A5611   Chlamydial female pelvic inflammatory disease,,,Gynecology
+"C414    Malignant neoplasm of pelvic bones, sacrum and coccyx",,,Gynecology
+C4352   Malignant melanoma of skin of breast,,,Gynecology
+C4A52   Merkel cell carcinoma of skin of breast,,,Gynecology
+C44501  Unspecified malignant neoplasm of skin of breast,,,Gynecology
+C44511  Basal cell carcinoma of skin of breast,,,Gynecology
+C44521  Squamous cell carcinoma of skin of breast,,,Gynecology
+C44591  Other specified malignant neoplasm of skin of breast,,,Gynecology
+"C50011  Malignant neoplasm of nipple and areola, right female breast",,,Gynecology
+"C50012  Malignant neoplasm of nipple and areola, left female breast",,,Gynecology
+"C50019  Malignant neoplasm of nipple and areola, unspecified female breast",,,Gynecology
+"C50021  Malignant neoplasm of nipple and areola, right male breast",,,Gynecology
+"C50022  Malignant neoplasm of nipple and areola, left male breast",,,Gynecology
+"C50029  Malignant neoplasm of nipple and areola, unspecified male breast",,,Gynecology
+C50111  Malignant neoplasm of central portion of right female breast,,,Gynecology
+C50112  Malignant neoplasm of central portion of left female breast,,,Gynecology
+C50119  Malignant neoplasm of central portion of unspecified female breast,,,Gynecology
+C50121  Malignant neoplasm of central portion of right male breast,,,Gynecology
+C50122  Malignant neoplasm of central portion of left male breast,,,Gynecology
+C50129  Malignant neoplasm of central portion of unspecified male breast,,,Gynecology
+C50211  Malignant neoplasm of upper-inner quadrant of right female breast,,,Gynecology
+C50212  Malignant neoplasm of upper-inner quadrant of left female breast,,,Gynecology
+C50219  Malignant neoplasm of upper-inner quadrant of unspecified female breast,,,Gynecology
+C50221  Malignant neoplasm of upper-inner quadrant of right male breast,,,Gynecology
+C50222  Malignant neoplasm of upper-inner quadrant of left male breast,,,Gynecology
+C50229  Malignant neoplasm of upper-inner quadrant of unspecified male breast,,,Gynecology
+C50311  Malignant neoplasm of lower-inner quadrant of right female breast,,,Gynecology
+C50312  Malignant neoplasm of lower-inner quadrant of left female breast,,,Gynecology
+C50319  Malignant neoplasm of lower-inner quadrant of unspecified female breast,,,Gynecology
+C50321  Malignant neoplasm of lower-inner quadrant of right male breast,,,Gynecology
+C50322  Malignant neoplasm of lower-inner quadrant of left male breast,,,Gynecology
+C50329  Malignant neoplasm of lower-inner quadrant of unspecified male breast,,,Gynecology
+C50411  Malignant neoplasm of upper-outer quadrant of right female breast,,,Gynecology
+C50412  Malignant neoplasm of upper-outer quadrant of left female breast,,,Gynecology
+C50419  Malignant neoplasm of upper-outer quadrant of unspecified female breast,,,Gynecology
+C50421  Malignant neoplasm of upper-outer quadrant of right male breast,,,Gynecology
+C50422  Malignant neoplasm of upper-outer quadrant of left male breast,,,Gynecology
+C50429  Malignant neoplasm of upper-outer quadrant of unspecified male breast,,,Gynecology
+C50511  Malignant neoplasm of lower-outer quadrant of right female breast,,,Gynecology
+C50512  Malignant neoplasm of lower-outer quadrant of left female breast,,,Gynecology
+C50519  Malignant neoplasm of lower-outer quadrant of unspecified female breast,,,Gynecology
+C50521  Malignant neoplasm of lower-outer quadrant of right male breast,,,Gynecology
+C50522  Malignant neoplasm of lower-outer quadrant of left male breast,,,Gynecology
+C50529  Malignant neoplasm of lower-outer quadrant of unspecified male breast,,,Gynecology
+C50611  Malignant neoplasm of axillary tail of right female breast,,,Gynecology
+C50612  Malignant neoplasm of axillary tail of left female breast,,,Gynecology
+C50619  Malignant neoplasm of axillary tail of unspecified female breast,,,Gynecology
+C50621  Malignant neoplasm of axillary tail of right male breast,,,Gynecology
+C50622  Malignant neoplasm of axillary tail of left male breast,,,Gynecology
+C50629  Malignant neoplasm of axillary tail of unspecified male breast,,,Gynecology
+C50811  Malignant neoplasm of overlapping sites of right female breast,,,Gynecology
+C50812  Malignant neoplasm of overlapping sites of left female breast,,,Gynecology
+C50819  Malignant neoplasm of overlapping sites of unspecified female breast,,,Gynecology
+C50821  Malignant neoplasm of overlapping sites of right male breast,,,Gynecology
+C50822  Malignant neoplasm of overlapping sites of left male breast,,,Gynecology
+C50829  Malignant neoplasm of overlapping sites of unspecified male breast,,,Gynecology
+C50911  Malignant neoplasm of unspecified site of right female breast,,,Gynecology
+C50912  Malignant neoplasm of unspecified site of left female breast,,,Gynecology
+C50919  Malignant neoplasm of unspecified site of unspecified female breast,,,Gynecology
+C50921  Malignant neoplasm of unspecified site of right male breast,,,Gynecology
+C50922  Malignant neoplasm of unspecified site of left male breast,,,Gynecology
+C50929  Malignant neoplasm of unspecified site of unspecified male breast,,,Gynecology
+C538    Malignant neoplasm of overlapping sites of cervix uteri,,,Gynecology
+"C539    Malignant neoplasm of cervix uteri, unspecified",,,Gynecology
+"C55     Malignant neoplasm of uterus, part unspecified",,,Gynecology
+C561    Malignant neoplasm of right ovary,,,Gynecology
+C562    Malignant neoplasm of left ovary,,,Gynecology
+C569    Malignant neoplasm of unspecified ovary,,,Gynecology
+C7960   Secondary malignant neoplasm of unspecified ovary,,,Gynecology
+C7961   Secondary malignant neoplasm of right ovary,,,Gynecology
+C7962   Secondary malignant neoplasm of left ovary,,,Gynecology
+C7981   Secondary malignant neoplasm of breast,,,Gynecology
+D0352   Melanoma in situ of breast (skin) (soft tissue),,,Gynecology
+D0500   Lobular carcinoma in situ of unspecified breast,,,Gynecology
+D0501   Lobular carcinoma in situ of right breast,,,Gynecology
+D0502   Lobular carcinoma in situ of left breast,,,Gynecology
+D0510   Intraductal carcinoma in situ of unspecified breast,,,Gynecology
+D0511   Intraductal carcinoma in situ of right breast,,,Gynecology
+D0512   Intraductal carcinoma in situ of left breast,,,Gynecology
+D0580   Other specified type of carcinoma in situ of unspecified breast,,,Gynecology
+D0581   Other specified type of carcinoma in situ of right breast,,,Gynecology
+D0582   Other specified type of carcinoma in situ of left breast,,,Gynecology
+D0590   Unspecified type of carcinoma in situ of unspecified breast,,,Gynecology
+D0591   Unspecified type of carcinoma in situ of right breast,,,Gynecology
+D0592   Unspecified type of carcinoma in situ of left breast,,,Gynecology
+D067    Carcinoma in situ of other parts of cervix,,,Gynecology
+"D069    Carcinoma in situ of cervix, unspecified",,,Gynecology
+"D168    Benign neoplasm of pelvic bones, sacrum and coccyx",,,Gynecology
+D241    Benign neoplasm of right breast,,,Gynecology
+D242    Benign neoplasm of left breast,,,Gynecology
+D249    Benign neoplasm of unspecified breast,,,Gynecology
+D250    Submucous leiomyoma of uterus,,,Gynecology
+D251    Intramural leiomyoma of uterus,,,Gynecology
+D252    Subserosal leiomyoma of uterus,,,Gynecology
+"D259    Leiomyoma of uterus, unspecified",,,Gynecology
+D260    Other benign neoplasm of cervix uteri,,,Gynecology
+D267    Other benign neoplasm of other parts of uterus,,,Gynecology
+"D269    Other benign neoplasm of uterus, unspecified",,,Gynecology
+D270    Benign neoplasm of right ovary,,,Gynecology
+D271    Benign neoplasm of left ovary,,,Gynecology
+D279    Benign neoplasm of unspecified ovary,,,Gynecology
+D390    Neoplasm of uncertain behavior of uterus,,,Gynecology
+D3910   Neoplasm of uncertain behavior of unspecified ovary,,,Gynecology
+D3911   Neoplasm of uncertain behavior of right ovary,,,Gynecology
+D3912   Neoplasm of uncertain behavior of left ovary,,,Gynecology
+D4860   Neoplasm of uncertain behavior of unspecified breast,,,Gynecology
+D4861   Neoplasm of uncertain behavior of right breast,,,Gynecology
+D4862   Neoplasm of uncertain behavior of left breast,,,Gynecology
+D493    Neoplasm of unspecified behavior of breast,,,Gynecology
+I862    Pelvic varices,,,Gynecology
+"M84851  Other disorders of continuity of bone, right pelvic region and thigh",,,Gynecology
+"M84852  Other disorders of continuity of bone, left pelvic region and thigh",,,Gynecology
+"M84859  Other disorders of continuity of bone, unspecified pelvic region and thigh",,,Gynecology
+"M89751  Major osseous defect, right pelvic region and thigh",,,Gynecology
+"M89752  Major osseous defect, left pelvic region and thigh",,,Gynecology
+"M89759  Major osseous defect, unspecified pelvic region and thigh",,,Gynecology
+M9905   Segmental and somatic dysfunction of pelvic region,,,Gynecology
+M9915   Subluxation complex (vertebral) of pelvic region,,,Gynecology
+M9925   Subluxation stenosis of neural canal of pelvic region,,,Gynecology
+M9935   Osseous stenosis of neural canal of pelvic region,,,Gynecology
+M9945   Connective tissue stenosis of neural canal of pelvic region,,,Gynecology
+M9955   Intervertebral disc stenosis of neural canal of pelvic region,,,Gynecology
+M9965   Osseous and subluxation stenosis of intervertebral foramina of pelvic region,,,Gynecology
+M9975   Connective tissue and disc stenosis of intervertebral foramina of pelvic region,,,Gynecology
+M9985   Other biomechanical lesions of pelvic region,,,Gynecology
+N6001   Solitary cyst of right breast,,,Gynecology
+N6002   Solitary cyst of left breast,,,Gynecology
+N6009   Solitary cyst of unspecified breast,,,Gynecology
+N6011   Diffuse cystic mastopathy of right breast,,,Gynecology
+N6012   Diffuse cystic mastopathy of left breast,,,Gynecology
+N6019   Diffuse cystic mastopathy of unspecified breast,,,Gynecology
+N6021   Fibroadenosis of right breast,,,Gynecology
+N6022   Fibroadenosis of left breast,,,Gynecology
+N6029   Fibroadenosis of unspecified breast,,,Gynecology
+N6031   Fibrosclerosis of right breast,,,Gynecology
+N6032   Fibrosclerosis of left breast,,,Gynecology
+N6039   Fibrosclerosis of unspecified breast,,,Gynecology
+N6041   Mammary duct ectasia of right breast,,,Gynecology
+N6042   Mammary duct ectasia of left breast,,,Gynecology
+N6049   Mammary duct ectasia of unspecified breast,,,Gynecology
+N6081   Other benign mammary dysplasias of right breast,,,Gynecology
+N6082   Other benign mammary dysplasias of left breast,,,Gynecology
+N6089   Other benign mammary dysplasias of unspecified breast,,,Gynecology
+N6091   Unspecified benign mammary dysplasia of right breast,,,Gynecology
+N6092   Unspecified benign mammary dysplasia of left breast,,,Gynecology
+N6099   Unspecified benign mammary dysplasia of unspecified breast,,,Gynecology
+N611    Abscess of the breast and nipple,,,Gynecology
+N62     Hypertrophy of breast,,,Gynecology
+N63     Unspecified lump in breast,,,Gynecology
+N641    Fat necrosis of breast,,,Gynecology
+N642    Atrophy of breast,,,Gynecology
+N6451   Induration of breast,,,Gynecology
+N6459   Other signs and symptoms in breast,,,Gynecology
+N6481   Ptosis of breast,,,Gynecology
+N6482   Hypoplasia of breast,,,Gynecology
+N6489   Other specified disorders of breast,,,Gynecology
+"N649    Disorder of breast, unspecified",,,Gynecology
+N650    Deformity of reconstructed breast,,,Gynecology
+N651    Disproportion of reconstructed breast,,,Gynecology
+N710    Acute inflammatory disease of uterus,,,Gynecology
+N711    Chronic inflammatory disease of uterus,,,Gynecology
+"N719    Inflammatory disease of uterus, unspecified",,,Gynecology
+N72     Inflammatory disease of cervix uteri,,,Gynecology
+N730    Acute parametritis and pelvic cellulitis,,,Gynecology
+N731    Chronic parametritis and pelvic cellulitis,,,Gynecology
+N732    Unspecified parametritis and pelvic cellulitis,,,Gynecology
+N733    Female acute pelvic peritonitis,,,Gynecology
+N734    Female chronic pelvic peritonitis,,,Gynecology
+"N735    Female pelvic peritonitis, unspecified",,,Gynecology
+N736    Female pelvic peritoneal adhesions (postinfective),,,Gynecology
+N738    Other specified female pelvic inflammatory diseases,,,Gynecology
+"N739    Female pelvic inflammatory disease, unspecified",,,Gynecology
+N74     Female pelvic inflammatory disorders in diseases classified elsewhere,,,Gynecology
+N800    Endometriosis of uterus,,,Gynecology
+N801    Endometriosis of ovary,,,Gynecology
+N802    Endometriosis of fallopian tube,,,Gynecology
+N803    Endometriosis of pelvic peritoneum,,,Gynecology
+N804    Endometriosis of rectovaginal septum and vagina,,,Gynecology
+N805    Endometriosis of intestine,,,Gynecology
+N806    Endometriosis in cutaneous scar,,,Gynecology
+N808    Other endometriosis,,,Gynecology
+"N809    Endometriosis, unspecified",,,Gynecology
+N8184   Pelvic muscle wasting,,,Gynecology
+"N8300   Follicular cyst of ovary, unspecified side",,,Gynecology
+N8301   Follicular cyst of right ovary,,,Gynecology
+N8302   Follicular cyst of left ovary,,,Gynecology
+"N8310   Corpus luteum cyst of ovary, unspecified side",,,Gynecology
+N8311   Corpus luteum cyst of right ovary,,,Gynecology
+N8312   Corpus luteum cyst of left ovary,,,Gynecology
+N83311  Acquired atrophy of right ovary,,,Gynecology
+N83312  Acquired atrophy of left ovary,,,Gynecology
+"N83319  Acquired atrophy of ovary, unspecified side",,,Gynecology
+N83331  Acquired atrophy of right ovary and fallopian tube,,,Gynecology
+N83332  Acquired atrophy of left ovary and fallopian tube,,,Gynecology
+"N83339  Acquired atrophy of ovary and fallopian tube, unspecified side",,,Gynecology
+"N8340   Prolapse and hernia of ovary and fallopian tube, unspecified side",,,Gynecology
+N8341   Prolapse and hernia of right ovary and fallopian tube,,,Gynecology
+N8342   Prolapse and hernia of left ovary and fallopian tube,,,Gynecology
+N83511  Torsion of right ovary and ovarian pedicle,,,Gynecology
+N83512  Torsion of left ovary and ovarian pedicle,,,Gynecology
+"N83519  Torsion of ovary and ovarian pedicle, unspecified side",,,Gynecology
+"N8353   Torsion of ovary, ovarian pedicle and fallopian tube",,,Gynecology
+"N838    Other noninflammatory disorders of ovary, fallopian tube and broad ligament",,,Gynecology
+"N839    Noninflammatory disorder of ovary, fallopian tube and broad ligament, unspecified",,,Gynecology
+N841    Polyp of cervix uteri,,,Gynecology
+N852    Hypertrophy of uterus,,,Gynecology
+N853    Subinvolution of uterus,,,Gynecology
+N854    Malposition of uterus,,,Gynecology
+N855    Inversion of uterus,,,Gynecology
+N858    Other specified noninflammatory disorders of uterus,,,Gynecology
+"N859    Noninflammatory disorder of uterus, unspecified",,,Gynecology
+N86     Erosion and ectropion of cervix uteri,,,Gynecology
+"N879    Dysplasia of cervix uteri, unspecified",,,Gynecology
+N880    Leukoplakia of cervix uteri,,,Gynecology
+N881    Old laceration of cervix uteri,,,Gynecology
+N882    Stricture and stenosis of cervix uteri,,,Gynecology
+N883    Incompetence of cervix uteri,,,Gynecology
+N884    Hypertrophic elongation of cervix uteri,,,Gynecology
+N888    Other specified noninflammatory disorders of cervix uteri,,,Gynecology
+"N889    Noninflammatory disorder of cervix uteri, unspecified",,,Gynecology
+N920    Excessive and frequent menstruation with regular cycle,,,Gynecology
+N921    Excessive and frequent menstruation with irregular cycle,,,Gynecology
+N922    Excessive menstruation at puberty,,,Gynecology
+N925    Other specified irregular menstruation,,,Gynecology
+"N926    Irregular menstruation, unspecified",,,Gynecology
+N96     Recurrent pregnancy loss,,,Gynecology
+N994    Postprocedural pelvic peritoneal adhesions,,,Gynecology
+N9983   Residual ovary syndrome,,,Gynecology
+O0000   Abdominal pregnancy without intrauterine pregnancy,,,Gynecology
+O0001   Abdominal pregnancy with intrauterine pregnancy,,,Gynecology
+O0010   Tubal pregnancy without intrauterine pregnancy,,,Gynecology
+O0011   Tubal pregnancy with intrauterine pregnancy,,,Gynecology
+O0020   Ovarian pregnancy without intrauterine pregnancy,,,Gynecology
+O0021   Ovarian pregnancy with intrauterine pregnancy,,,Gynecology
+O0080   Other ectopic pregnancy without intrauterine pregnancy,,,Gynecology
+O0081   Other ectopic pregnancy with intrauterine pregnancy,,,Gynecology
+O0090   Unspecified ectopic pregnancy without intrauterine pregnancy,,,Gynecology
+O0091   Unspecified ectopic pregnancy with intrauterine pregnancy,,,Gynecology
+O0281   Inappropriate change in quantitative human chorionic gonadotropin (hCG) in early pregnancy,,,Gynecology
+O030    Genital tract and pelvic infection following incomplete spontaneous abortion,,,Gynecology
+O0334   Damage to pelvic organs following incomplete spontaneous abortion,,,Gynecology
+O035    Genital tract and pelvic infection following complete or unspecified spontaneous abortion,,,Gynecology
+O0384   Damage to pelvic organs following complete or unspecified spontaneous abortion,,,Gynecology
+O045    Genital tract and pelvic infection following (induced) termination of pregnancy,,,Gynecology
+O046    Delayed or excessive hemorrhage following (induced) termination of pregnancy,,,Gynecology
+O047    Embolism following (induced) termination of pregnancy,,,Gynecology
+O0480   (Induced) termination of pregnancy with unspecified complications,,,Gynecology
+O0481   Shock following (induced) termination of pregnancy,,,Gynecology
+O0482   Renal failure following (induced) termination of pregnancy,,,Gynecology
+O0483   Metabolic disorder following (induced) termination of pregnancy,,,Gynecology
+O0484   Damage to pelvic organs following (induced) termination of pregnancy,,,Gynecology
+O0485   Other venous complications following (induced) termination of pregnancy,,,Gynecology
+O0486   Cardiac arrest following (induced) termination of pregnancy,,,Gynecology
+O0487   Sepsis following (induced) termination of pregnancy,,,Gynecology
+O0488   Urinary tract infection following (induced) termination of pregnancy,,,Gynecology
+O0489   (Induced) termination of pregnancy with other complications,,,Gynecology
+O070    Genital tract and pelvic infection following failed attempted termination of pregnancy,,,Gynecology
+O071    Delayed or excessive hemorrhage following failed attempted termination of pregnancy,,,Gynecology
+O072    Embolism following failed attempted termination of pregnancy,,,Gynecology
+O0730   Failed attempted termination of pregnancy with unspecified complications,,,Gynecology
+O0731   Shock following failed attempted termination of pregnancy,,,Gynecology
+O0732   Renal failure following failed attempted termination of pregnancy,,,Gynecology
+O0733   Metabolic disorder following failed attempted termination of pregnancy,,,Gynecology
+O0734   Damage to pelvic organs following failed attempted termination of pregnancy,,,Gynecology
+O0735   Other venous complications following failed attempted termination of pregnancy,,,Gynecology
+O0736   Cardiac arrest following failed attempted termination of pregnancy,,,Gynecology
+O0737   Sepsis following failed attempted termination of pregnancy,,,Gynecology
+O0738   Urinary tract infection following failed attempted termination of pregnancy,,,Gynecology
+O0739   Failed attempted termination of pregnancy with other complications,,,Gynecology
+O074    Failed attempted termination of pregnancy without complication,,,Gynecology
+O080    Genital tract and pelvic infection following ectopic and molar pregnancy,,,Gynecology
+O081    Delayed or excessive hemorrhage following ectopic and molar pregnancy,,,Gynecology
+O082    Embolism following ectopic and molar pregnancy,,,Gynecology
+O083    Shock following ectopic and molar pregnancy,,,Gynecology
+O084    Renal failure following ectopic and molar pregnancy,,,Gynecology
+O085    Metabolic disorders following an ectopic and molar pregnancy,,,Gynecology
+O086    Damage to pelvic organs and tissues following an ectopic and molar pregnancy,,,Gynecology
+O087    Other venous complications following an ectopic and molar pregnancy,,,Gynecology
+O0881   Cardiac arrest following an ectopic and molar pregnancy,,,Gynecology
+O0882   Sepsis following ectopic and molar pregnancy,,,Gynecology
+O0883   Urinary tract infection following an ectopic and molar pregnancy,,,Gynecology
+O0889   Other complications following an ectopic and molar pregnancy,,,Gynecology
+O089    Unspecified complication following an ectopic and molar pregnancy,,,Gynecology
+"O0900   Supervision of pregnancy with history of infertility, unspecified trimester",,,Gynecology
+"O0901   Supervision of pregnancy with history of infertility, first trimester",,,Gynecology
+"O0902   Supervision of pregnancy with history of infertility, second trimester",,,Gynecology
+"O0903   Supervision of pregnancy with history of infertility, third trimester",,,Gynecology
+"O0910   Supervision of pregnancy with history of ectopic pregnancy, unspecified trimester",,,Gynecology
+"O0911   Supervision of pregnancy with history of ectopic pregnancy, first trimester",,,Gynecology
+"O0912   Supervision of pregnancy with history of ectopic pregnancy, second trimester",,,Gynecology
+"O0913   Supervision of pregnancy with history of ectopic pregnancy, third trimester",,,Gynecology
+"O09A0   Supervision of pregnancy with history of molar pregnancy, unspecified trimester",,,Gynecology
+"O09A1   Supervision of pregnancy with history of molar pregnancy, first trimester",,,Gynecology
+"O09A2   Supervision of pregnancy with history of molar pregnancy, second trimester",,,Gynecology
+"O09A3   Supervision of pregnancy with history of molar pregnancy, third trimester",,,Gynecology
+"O09211  Supervision of pregnancy with history of pre-term labor, first trimester",,,Gynecology
+"O09212  Supervision of pregnancy with history of pre-term labor, second trimester",,,Gynecology
+"O09213  Supervision of pregnancy with history of pre-term labor, third trimester",,,Gynecology
+"O09219  Supervision of pregnancy with history of pre-term labor, unspecified trimester",,,Gynecology
+"O09291  Supervision of pregnancy with other poor reproductive or obstetric history, first trimester",,,Gynecology
+"O09292  Supervision of pregnancy with other poor reproductive or obstetric history, second trimester",,,Gynecology
+"O09293  Supervision of pregnancy with other poor reproductive or obstetric history, third trimester",,,Gynecology
+"O09299  Supervision of pregnancy with other poor reproductive or obstetric history, unspecified
+trimester",,,Gynecology
+"O0930   Supervision of pregnancy with insufficient antenatal care, unspecified trimester",,,Gynecology
+"O0931   Supervision of pregnancy with insufficient antenatal care, first trimester",,,Gynecology
+"O0932   Supervision of pregnancy with insufficient antenatal care, second trimester",,,Gynecology
+"O0933   Supervision of pregnancy with insufficient antenatal care, third trimester",,,Gynecology
+"O0940   Supervision of pregnancy with grand multiparity, unspecified trimester",,,Gynecology
+"O0941   Supervision of pregnancy with grand multiparity, first trimester",,,Gynecology
+"O0942   Supervision of pregnancy with grand multiparity, second trimester",,,Gynecology
+"O0943   Supervision of pregnancy with grand multiparity, third trimester",,,Gynecology
+"O0970   Supervision of high risk pregnancy due to social problems, unspecified trimester",,,Gynecology
+"O0971   Supervision of high risk pregnancy due to social problems, first trimester",,,Gynecology
+"O0972   Supervision of high risk pregnancy due to social problems, second trimester",,,Gynecology
+"O0973   Supervision of high risk pregnancy due to social problems, third trimester",,,Gynecology
+"O09811  Supervision of pregnancy resulting from assisted reproductive technology, first trimester",,,Gynecology
+"O09812  Supervision of pregnancy resulting from assisted reproductive technology, second trimester",,,Gynecology
+"O09813  Supervision of pregnancy resulting from assisted reproductive technology, third trimester",,,Gynecology
+"O09819  Supervision of pregnancy resulting from assisted reproductive technology, unspecified
+trimester",,,Gynecology
+"O09821  Supervision of pregnancy with history of in utero procedure during previous pregnancy, first
+trimester",,,Gynecology
+"O09822  Supervision of pregnancy with history of in utero procedure during previous pregnancy, second
+trimester",,,Gynecology
+"O09823  Supervision of pregnancy with history of in utero procedure during previous pregnancy, third
+trimester",,,Gynecology
+"O09829  Supervision of pregnancy with history of in utero procedure during previous pregnancy,
+unspecified trimester",,,Gynecology
+"O0990   Supervision of high risk pregnancy, unspecified, unspecified trimester",,,Gynecology
+"O0991   Supervision of high risk pregnancy, unspecified, first trimester",,,Gynecology
+"O0992   Supervision of high risk pregnancy, unspecified, second trimester",,,Gynecology
+"O0993   Supervision of high risk pregnancy, unspecified, third trimester",,,Gynecology
+"O10011  Pre-existing essential hypertension complicating pregnancy, first trimester",,,Gynecology
+"O10012  Pre-existing essential hypertension complicating pregnancy, second trimester",,,Gynecology
+"O10013  Pre-existing essential hypertension complicating pregnancy, third trimester",,,Gynecology
+"O10019  Pre-existing essential hypertension complicating pregnancy, unspecified trimester",,,Gynecology
+"O10111  Pre-existing hypertensive heart disease complicating pregnancy, first trimester",,,Gynecology
+"O10112  Pre-existing hypertensive heart disease complicating pregnancy, second trimester",,,Gynecology
+"O10113  Pre-existing hypertensive heart disease complicating pregnancy, third trimester",,,Gynecology
+"O10119  Pre-existing hypertensive heart disease complicating pregnancy, unspecified trimester",,,Gynecology
+"O10211  Pre-existing hypertensive chronic kidney disease complicating pregnancy, first trimester",,,Gynecology
+"O10212  Pre-existing hypertensive chronic kidney disease complicating pregnancy, second trimester",,,Gynecology
+"O10213  Pre-existing hypertensive chronic kidney disease complicating pregnancy, third trimester",,,Gynecology
+"O10219  Pre-existing hypertensive chronic kidney disease complicating pregnancy, unspecified trimester",,,Gynecology
+"O10311  Pre-existing hypertensive heart and chronic kidney disease complicating pregnancy, first
+trimester",,,Gynecology
+"O10312  Pre-existing hypertensive heart and chronic kidney disease complicating pregnancy, second
+trimester",,,Gynecology
+"O10313  Pre-existing hypertensive heart and chronic kidney disease complicating pregnancy, third
+trimester",,,Gynecology
+"O10319  Pre-existing hypertensive heart and chronic kidney disease complicating pregnancy, unspecified
+trimester",,,Gynecology
+"O10411  Pre-existing secondary hypertension complicating pregnancy, first trimester",,,Gynecology
+"O10412  Pre-existing secondary hypertension complicating pregnancy, second trimester",,,Gynecology
+"O10413  Pre-existing secondary hypertension complicating pregnancy, third trimester",,,Gynecology
+"O10419  Pre-existing secondary hypertension complicating pregnancy, unspecified trimester",,,Gynecology
+"O10911  Unspecified pre-existing hypertension complicating pregnancy, first trimester",,,Gynecology
+"O10912  Unspecified pre-existing hypertension complicating pregnancy, second trimester",,,Gynecology
+"O10913  Unspecified pre-existing hypertension complicating pregnancy, third trimester",,,Gynecology
+"O10919  Unspecified pre-existing hypertension complicating pregnancy, unspecified trimester",,,Gynecology
+"O131    Gestational [pregnancy-induced] hypertension without significant proteinuria, first trimester",,,Gynecology
+"O132    Gestational [pregnancy-induced] hypertension without significant proteinuria, second trimester",,,Gynecology
+"O133    Gestational [pregnancy-induced] hypertension without significant proteinuria, third trimester",,,Gynecology
+"O134    Gestational [pregnancy-induced] hypertension without significant proteinuria, complicating
+childbirth",,,Gynecology
+"O135    Gestational [pregnancy-induced] hypertension without significant proteinuria, complicating the
+puerperium",,,Gynecology
+"O139    Gestational [pregnancy-induced] hypertension without significant proteinuria, unspecified
+trimester",,,Gynecology
+"O1500   Eclampsia complicating pregnancy, unspecified trimester",,,Gynecology
+"O1502   Eclampsia complicating pregnancy, second trimester",,,Gynecology
+"O1503   Eclampsia complicating pregnancy, third trimester",,,Gynecology
+O208    Other hemorrhage in early pregnancy,,,Gynecology
+"O209    Hemorrhage in early pregnancy, unspecified",,,Gynecology
+O212    Late vomiting of pregnancy,,,Gynecology
+O218    Other vomiting complicating pregnancy,,,Gynecology
+"O219    Vomiting of pregnancy, unspecified",,,Gynecology
+"O2200   Varicose veins of lower extremity in pregnancy, unspecified trimester",,,Gynecology
+"O2201   Varicose veins of lower extremity in pregnancy, first trimester",,,Gynecology
+"O2202   Varicose veins of lower extremity in pregnancy, second trimester",,,Gynecology
+"O2203   Varicose veins of lower extremity in pregnancy, third trimester",,,Gynecology
+"O2210   Genital varices in pregnancy, unspecified trimester",,,Gynecology
+"O2211   Genital varices in pregnancy, first trimester",,,Gynecology
+"O2212   Genital varices in pregnancy, second trimester",,,Gynecology
+"O2213   Genital varices in pregnancy, third trimester",,,Gynecology
+"O2220   Superficial thrombophlebitis in pregnancy, unspecified trimester",,,Gynecology
+"O2221   Superficial thrombophlebitis in pregnancy, first trimester",,,Gynecology
+"O2222   Superficial thrombophlebitis in pregnancy, second trimester",,,Gynecology
+"O2223   Superficial thrombophlebitis in pregnancy, third trimester",,,Gynecology
+"O2230   Deep phlebothrombosis in pregnancy, unspecified trimester",,,Gynecology
+"O2231   Deep phlebothrombosis in pregnancy, first trimester",,,Gynecology
+"O2232   Deep phlebothrombosis in pregnancy, second trimester",,,Gynecology
+"O2233   Deep phlebothrombosis in pregnancy, third trimester",,,Gynecology
+"O2240   Hemorrhoids in pregnancy, unspecified trimester",,,Gynecology
+"O2241   Hemorrhoids in pregnancy, first trimester",,,Gynecology
+"O2242   Hemorrhoids in pregnancy, second trimester",,,Gynecology
+"O2243   Hemorrhoids in pregnancy, third trimester",,,Gynecology
+"O2250   Cerebral venous thrombosis in pregnancy, unspecified trimester",,,Gynecology
+"O2251   Cerebral venous thrombosis in pregnancy, first trimester",,,Gynecology
+"O2252   Cerebral venous thrombosis in pregnancy, second trimester",,,Gynecology
+"O2253   Cerebral venous thrombosis in pregnancy, third trimester",,,Gynecology
+"O228X1  Other venous complications in pregnancy, first trimester",,,Gynecology
+"O228X2  Other venous complications in pregnancy, second trimester",,,Gynecology
+"O228X3  Other venous complications in pregnancy, third trimester",,,Gynecology
+"O228X9  Other venous complications in pregnancy, unspecified trimester",,,Gynecology
+"O2290   Venous complication in pregnancy, unspecified, unspecified trimester",,,Gynecology
+"O2291   Venous complication in pregnancy, unspecified, first trimester",,,Gynecology
+"O2292   Venous complication in pregnancy, unspecified, second trimester",,,Gynecology
+"O2293   Venous complication in pregnancy, unspecified, third trimester",,,Gynecology
+"O2300   Infections of kidney in pregnancy, unspecified trimester",,,Gynecology
+"O2301   Infections of kidney in pregnancy, first trimester",,,Gynecology
+"O2302   Infections of kidney in pregnancy, second trimester",,,Gynecology
+"O2303   Infections of kidney in pregnancy, third trimester",,,Gynecology
+"O2310   Infections of bladder in pregnancy, unspecified trimester",,,Gynecology
+"O2311   Infections of bladder in pregnancy, first trimester",,,Gynecology
+"O2312   Infections of bladder in pregnancy, second trimester",,,Gynecology
+"O2313   Infections of bladder in pregnancy, third trimester",,,Gynecology
+"O2320   Infections of urethra in pregnancy, unspecified trimester",,,Gynecology
+"O2321   Infections of urethra in pregnancy, first trimester",,,Gynecology
+"O2322   Infections of urethra in pregnancy, second trimester",,,Gynecology
+"O2323   Infections of urethra in pregnancy, third trimester",,,Gynecology
+"O2330   Infections of other parts of urinary tract in pregnancy, unspecified trimester",,,Gynecology
+"O2331   Infections of other parts of urinary tract in pregnancy, first trimester",,,Gynecology
+"O2332   Infections of other parts of urinary tract in pregnancy, second trimester",,,Gynecology
+"O2333   Infections of other parts of urinary tract in pregnancy, third trimester",,,Gynecology
+"O2340   Unspecified infection of urinary tract in pregnancy, unspecified trimester",,,Gynecology
+"O2341   Unspecified infection of urinary tract in pregnancy, first trimester",,,Gynecology
+"O2342   Unspecified infection of urinary tract in pregnancy, second trimester",,,Gynecology
+"O2343   Unspecified infection of urinary tract in pregnancy, third trimester",,,Gynecology
+"O23511  Infections of cervix in pregnancy, first trimester",,,Gynecology
+"O23512  Infections of cervix in pregnancy, second trimester",,,Gynecology
+"O23513  Infections of cervix in pregnancy, third trimester",,,Gynecology
+"O23519  Infections of cervix in pregnancy, unspecified trimester",,,Gynecology
+"O23521  Salpingo-oophoritis in pregnancy, first trimester",,,Gynecology
+"O23522  Salpingo-oophoritis in pregnancy, second trimester",,,Gynecology
+"O23523  Salpingo-oophoritis in pregnancy, third trimester",,,Gynecology
+"O23529  Salpingo-oophoritis in pregnancy, unspecified trimester",,,Gynecology
+"O23591  Infection of other part of genital tract in pregnancy, first trimester",,,Gynecology
+"O23592  Infection of other part of genital tract in pregnancy, second trimester",,,Gynecology
+"O23593  Infection of other part of genital tract in pregnancy, third trimester",,,Gynecology
+"O23599  Infection of other part of genital tract in pregnancy, unspecified trimester",,,Gynecology
+"O2390   Unspecified genitourinary tract infection in pregnancy, unspecified trimester",,,Gynecology
+"O2391   Unspecified genitourinary tract infection in pregnancy, first trimester",,,Gynecology
+"O2392   Unspecified genitourinary tract infection in pregnancy, second trimester",,,Gynecology
+"O2393   Unspecified genitourinary tract infection in pregnancy, third trimester",,,Gynecology
+"O24011  Pre-existing type 1 diabetes mellitus, in pregnancy, first trimester",,,Gynecology
+"O24012  Pre-existing type 1 diabetes mellitus, in pregnancy, second trimester",,,Gynecology
+"O24013  Pre-existing type 1 diabetes mellitus, in pregnancy, third trimester",,,Gynecology
+"O24019  Pre-existing type 1 diabetes mellitus, in pregnancy, unspecified trimester",,,Gynecology
+"O24111  Pre-existing type 2 diabetes mellitus, in pregnancy, first trimester",,,Gynecology
+"O24112  Pre-existing type 2 diabetes mellitus, in pregnancy, second trimester",,,Gynecology
+"O24113  Pre-existing type 2 diabetes mellitus, in pregnancy, third trimester",,,Gynecology
+"O24119  Pre-existing type 2 diabetes mellitus, in pregnancy, unspecified trimester",,,Gynecology
+"O24311  Unspecified pre-existing diabetes mellitus in pregnancy, first trimester",,,Gynecology
+"O24312  Unspecified pre-existing diabetes mellitus in pregnancy, second trimester",,,Gynecology
+"O24313  Unspecified pre-existing diabetes mellitus in pregnancy, third trimester",,,Gynecology
+"O24319  Unspecified pre-existing diabetes mellitus in pregnancy, unspecified trimester",,,Gynecology
+"O24410  Gestational diabetes mellitus in pregnancy, diet controlled",,,Gynecology
+"O24414  Gestational diabetes mellitus in pregnancy, insulin controlled",,,Gynecology
+"O24415  Gestational diabetes mellitus in pregnancy, controlled by oral hypoglycemic drugs",,,Gynecology
+"O24419  Gestational diabetes mellitus in pregnancy, unspecified control",,,Gynecology
+"O24811  Other pre-existing diabetes mellitus in pregnancy, first trimester",,,Gynecology
+"O24812  Other pre-existing diabetes mellitus in pregnancy, second trimester",,,Gynecology
+"O24813  Other pre-existing diabetes mellitus in pregnancy, third trimester",,,Gynecology
+"O24819  Other pre-existing diabetes mellitus in pregnancy, unspecified trimester",,,Gynecology
+"O24911  Unspecified diabetes mellitus in pregnancy, first trimester",,,Gynecology
+"O24912  Unspecified diabetes mellitus in pregnancy, second trimester",,,Gynecology
+"O24913  Unspecified diabetes mellitus in pregnancy, third trimester",,,Gynecology
+"O24919  Unspecified diabetes mellitus in pregnancy, unspecified trimester",,,Gynecology
+"O2510   Malnutrition in pregnancy, unspecified trimester",,,Gynecology
+"O2511   Malnutrition in pregnancy, first trimester",,,Gynecology
+"O2512   Malnutrition in pregnancy, second trimester",,,Gynecology
+"O2513   Malnutrition in pregnancy, third trimester",,,Gynecology
+"O2600   Excessive weight gain in pregnancy, unspecified trimester",,,Gynecology
+"O2601   Excessive weight gain in pregnancy, first trimester",,,Gynecology
+"O2602   Excessive weight gain in pregnancy, second trimester",,,Gynecology
+"O2603   Excessive weight gain in pregnancy, third trimester",,,Gynecology
+"O2610   Low weight gain in pregnancy, unspecified trimester",,,Gynecology
+"O2611   Low weight gain in pregnancy, first trimester",,,Gynecology
+"O2612   Low weight gain in pregnancy, second trimester",,,Gynecology
+"O2613   Low weight gain in pregnancy, third trimester",,,Gynecology
+"O2620   Pregnancy care for patient with recurrent pregnancy loss, unspecified trimester",,,Gynecology
+"O2621   Pregnancy care for patient with recurrent pregnancy loss, first trimester",,,Gynecology
+"O2622   Pregnancy care for patient with recurrent pregnancy loss, second trimester",,,Gynecology
+"O2623   Pregnancy care for patient with recurrent pregnancy loss, third trimester",,,Gynecology
+"O2630   Retained intrauterine contraceptive device in pregnancy, unspecified trimester",,,Gynecology
+"O2631   Retained intrauterine contraceptive device in pregnancy, first trimester",,,Gynecology
+"O2632   Retained intrauterine contraceptive device in pregnancy, second trimester",,,Gynecology
+"O2633   Retained intrauterine contraceptive device in pregnancy, third trimester",,,Gynecology
+"O26611  Liver and biliary tract disorders in pregnancy, first trimester",,,Gynecology
+"O26612  Liver and biliary tract disorders in pregnancy, second trimester",,,Gynecology
+"O26613  Liver and biliary tract disorders in pregnancy, third trimester",,,Gynecology
+"O26619  Liver and biliary tract disorders in pregnancy, unspecified trimester",,,Gynecology
+"O26711  Subluxation of symphysis (pubis) in pregnancy, first trimester",,,Gynecology
+"O26712  Subluxation of symphysis (pubis) in pregnancy, second trimester",,,Gynecology
+"O26713  Subluxation of symphysis (pubis) in pregnancy, third trimester",,,Gynecology
+"O26719  Subluxation of symphysis (pubis) in pregnancy, unspecified trimester",,,Gynecology
+"O26811  Pregnancy related exhaustion and fatigue, first trimester",,,Gynecology
+"O26812  Pregnancy related exhaustion and fatigue, second trimester",,,Gynecology
+"O26813  Pregnancy related exhaustion and fatigue, third trimester",,,Gynecology
+"O26819  Pregnancy related exhaustion and fatigue, unspecified trimester",,,Gynecology
+"O26821  Pregnancy related peripheral neuritis, first trimester",,,Gynecology
+"O26822  Pregnancy related peripheral neuritis, second trimester",,,Gynecology
+"O26823  Pregnancy related peripheral neuritis, third trimester",,,Gynecology
+"O26829  Pregnancy related peripheral neuritis, unspecified trimester",,,Gynecology
+"O26831  Pregnancy related renal disease, first trimester",,,Gynecology
+"O26832  Pregnancy related renal disease, second trimester",,,Gynecology
+"O26833  Pregnancy related renal disease, third trimester",,,Gynecology
+"O26839  Pregnancy related renal disease, unspecified trimester",,,Gynecology
+"O26851  Spotting complicating pregnancy, first trimester",,,Gynecology
+"O26852  Spotting complicating pregnancy, second trimester",,,Gynecology
+"O26853  Spotting complicating pregnancy, third trimester",,,Gynecology
+"O26859  Spotting complicating pregnancy, unspecified trimester",,,Gynecology
+O2686   Pruritic urticarial papules and plaques of pregnancy (PUPPP),,,Gynecology
+"O26891  Other specified pregnancy related conditions, first trimester",,,Gynecology
+"O26892  Other specified pregnancy related conditions, second trimester",,,Gynecology
+"O26893  Other specified pregnancy related conditions, third trimester",,,Gynecology
+"O26899  Other specified pregnancy related conditions, unspecified trimester",,,Gynecology
+"O2690   Pregnancy related conditions, unspecified, unspecified trimester",,,Gynecology
+"O2691   Pregnancy related conditions, unspecified, first trimester",,,Gynecology
+"O2692   Pregnancy related conditions, unspecified, second trimester",,,Gynecology
+"O2693   Pregnancy related conditions, unspecified, third trimester",,,Gynecology
+"O29011  Aspiration pneumonitis due to anesthesia during pregnancy, first trimester",,,Gynecology
+"O29012  Aspiration pneumonitis due to anesthesia during pregnancy, second trimester",,,Gynecology
+"O29013  Aspiration pneumonitis due to anesthesia during pregnancy, third trimester",,,Gynecology
+"O29019  Aspiration pneumonitis due to anesthesia during pregnancy, unspecified trimester",,,Gynecology
+"O29021  Pressure collapse of lung due to anesthesia during pregnancy, first trimester",,,Gynecology
+"O29022  Pressure collapse of lung due to anesthesia during pregnancy, second trimester",,,Gynecology
+"O29023  Pressure collapse of lung due to anesthesia during pregnancy, third trimester",,,Gynecology
+"O29029  Pressure collapse of lung due to anesthesia during pregnancy, unspecified trimester",,,Gynecology
+"O29091  Other pulmonary complications of anesthesia during pregnancy, first trimester",,,Gynecology
+"O29092  Other pulmonary complications of anesthesia during pregnancy, second trimester",,,Gynecology
+"O29093  Other pulmonary complications of anesthesia during pregnancy, third trimester",,,Gynecology
+"O29099  Other pulmonary complications of anesthesia during pregnancy, unspecified trimester",,,Gynecology
+"O29111  Cardiac arrest due to anesthesia during pregnancy, first trimester",,,Gynecology
+"O29112  Cardiac arrest due to anesthesia during pregnancy, second trimester",,,Gynecology
+"O29113  Cardiac arrest due to anesthesia during pregnancy, third trimester",,,Gynecology
+"O29119  Cardiac arrest due to anesthesia during pregnancy, unspecified trimester",,,Gynecology
+"O29121  Cardiac failure due to anesthesia during pregnancy, first trimester",,,Gynecology
+"O29122  Cardiac failure due to anesthesia during pregnancy, second trimester",,,Gynecology
+"O29123  Cardiac failure due to anesthesia during pregnancy, third trimester",,,Gynecology
+"O29129  Cardiac failure due to anesthesia during pregnancy, unspecified trimester",,,Gynecology
+"O29191  Other cardiac complications of anesthesia during pregnancy, first trimester",,,Gynecology
+"O29192  Other cardiac complications of anesthesia during pregnancy, second trimester",,,Gynecology
+"O29193  Other cardiac complications of anesthesia during pregnancy, third trimester",,,Gynecology
+"O29199  Other cardiac complications of anesthesia during pregnancy, unspecified trimester",,,Gynecology
+"O29211  Cerebral anoxia due to anesthesia during pregnancy, first trimester",,,Gynecology
+"O29212  Cerebral anoxia due to anesthesia during pregnancy, second trimester",,,Gynecology
+"O29213  Cerebral anoxia due to anesthesia during pregnancy, third trimester",,,Gynecology
+"O29219  Cerebral anoxia due to anesthesia during pregnancy, unspecified trimester",,,Gynecology
+"O29291  Other central nervous system complications of anesthesia during pregnancy, first trimester",,,Gynecology
+"O29292  Other central nervous system complications of anesthesia during pregnancy, second trimester",,,Gynecology
+"O29293  Other central nervous system complications of anesthesia during pregnancy, third trimester",,,Gynecology
+"O29299  Other central nervous system complications of anesthesia during pregnancy, unspecified
+trimester",,,Gynecology
+"O293X1  Toxic reaction to local anesthesia during pregnancy, first trimester",,,Gynecology
+"O293X2  Toxic reaction to local anesthesia during pregnancy, second trimester",,,Gynecology
+"O293X3  Toxic reaction to local anesthesia during pregnancy, third trimester",,,Gynecology
+"O293X9  Toxic reaction to local anesthesia during pregnancy, unspecified trimester",,,Gynecology
+"O2940   Spinal and epidural anesthesia induced headache during pregnancy, unspecified trimester",,,Gynecology
+"O2941   Spinal and epidural anesthesia induced headache during pregnancy, first trimester",,,Gynecology
+"O2942   Spinal and epidural anesthesia induced headache during pregnancy, second trimester",,,Gynecology
+"O2943   Spinal and epidural anesthesia induced headache during pregnancy, third trimester",,,Gynecology
+"O295X1  Other complications of spinal and epidural anesthesia during pregnancy, first trimester",,,Gynecology
+"O295X2  Other complications of spinal and epidural anesthesia during pregnancy, second trimester",,,Gynecology
+"O295X3  Other complications of spinal and epidural anesthesia during pregnancy, third trimester",,,Gynecology
+"O295X9  Other complications of spinal and epidural anesthesia during pregnancy, unspecified trimester",,,Gynecology
+"O2960   Failed or difficult intubation for anesthesia during pregnancy, unspecified trimester",,,Gynecology
+"O2961   Failed or difficult intubation for anesthesia during pregnancy, first trimester",,,Gynecology
+"O2962   Failed or difficult intubation for anesthesia during pregnancy, second trimester",,,Gynecology
+"O2963   Failed or difficult intubation for anesthesia during pregnancy, third trimester",,,Gynecology
+"O298X1  Other complications of anesthesia during pregnancy, first trimester",,,Gynecology
+"O298X2  Other complications of anesthesia during pregnancy, second trimester",,,Gynecology
+"O298X3  Other complications of anesthesia during pregnancy, third trimester",,,Gynecology
+"O298X9  Other complications of anesthesia during pregnancy, unspecified trimester",,,Gynecology
+"O2990   Unspecified complication of anesthesia during pregnancy, unspecified trimester",,,Gynecology
+"O2991   Unspecified complication of anesthesia during pregnancy, first trimester",,,Gynecology
+"O2992   Unspecified complication of anesthesia during pregnancy, second trimester",,,Gynecology
+"O2993   Unspecified complication of anesthesia during pregnancy, third trimester",,,Gynecology
+"O30001  Twin pregnancy, unspecified number of placenta and unspecified number of amniotic sacs, first
+trimester",,,Gynecology
+"O30002  Twin pregnancy, unspecified number of placenta and unspecified number of amniotic sacs,
+second trimester",,,Gynecology
+"O30003  Twin pregnancy, unspecified number of placenta and unspecified number of amniotic sacs,
+third trimester",,,Gynecology
+"O30009  Twin pregnancy, unspecified number of placenta and unspecified number of amniotic sacs,
+unspecified trimester",,,Gynecology
+"O30011  Twin pregnancy, monochorionic/monoamniotic, first trimester",,,Gynecology
+"O30012  Twin pregnancy, monochorionic/monoamniotic, second trimester",,,Gynecology
+"O30013  Twin pregnancy, monochorionic/monoamniotic, third trimester",,,Gynecology
+"O30019  Twin pregnancy, monochorionic/monoamniotic, unspecified trimester",,,Gynecology
+"O30021  Conjoined twin pregnancy, first trimester",,,Gynecology
+"O30022  Conjoined twin pregnancy, second trimester",,,Gynecology
+"O30023  Conjoined twin pregnancy, third trimester",,,Gynecology
+"O30029  Conjoined twin pregnancy, unspecified trimester",,,Gynecology
+"O30031  Twin pregnancy, monochorionic/diamniotic, first trimester",,,Gynecology
+"O30032  Twin pregnancy, monochorionic/diamniotic, second trimester",,,Gynecology
+"O30033  Twin pregnancy, monochorionic/diamniotic, third trimester",,,Gynecology
+"O30039  Twin pregnancy, monochorionic/diamniotic, unspecified trimester",,,Gynecology
+"O30041  Twin pregnancy, dichorionic/diamniotic, first trimester",,,Gynecology
+"O30042  Twin pregnancy, dichorionic/diamniotic, second trimester",,,Gynecology
+"O30043  Twin pregnancy, dichorionic/diamniotic, third trimester",,,Gynecology
+"O30049  Twin pregnancy, dichorionic/diamniotic, unspecified trimester",,,Gynecology
+"O30091  Twin pregnancy, unable to determine number of placenta and number of amniotic sacs, first
+trimester",,,Gynecology
+"O30092  Twin pregnancy, unable to determine number of placenta and number of amniotic sacs, second
+trimester",,,Gynecology
+"O30093  Twin pregnancy, unable to determine number of placenta and number of amniotic sacs, third
+trimester",,,Gynecology
+"O30099  Twin pregnancy, unable to determine number of placenta and number of amniotic sacs,
+unspecified trimester",,,Gynecology
+"O30101  Triplet pregnancy, unspecified number of placenta and unspecified number of amniotic sacs,
+first trimester",,,Gynecology
+"O30102  Triplet pregnancy, unspecified number of placenta and unspecified number of amniotic sacs,
+second trimester",,,Gynecology
+"O30103  Triplet pregnancy, unspecified number of placenta and unspecified number of amniotic sacs,
+third trimester",,,Gynecology
+"O30109  Triplet pregnancy, unspecified number of placenta and unspecified number of amniotic sacs,
+unspecified trimester",,,Gynecology
+"O30111  Triplet pregnancy with two or more monochorionic fetuses, first trimester",,,Gynecology
+"O30112  Triplet pregnancy with two or more monochorionic fetuses, second trimester",,,Gynecology
+"O30113  Triplet pregnancy with two or more monochorionic fetuses, third trimester",,,Gynecology
+"O30119  Triplet pregnancy with two or more monochorionic fetuses, unspecified trimester",,,Gynecology
+"O30121  Triplet pregnancy with two or more monoamniotic fetuses, first trimester",,,Gynecology
+"O30122  Triplet pregnancy with two or more monoamniotic fetuses, second trimester",,,Gynecology
+"O30123  Triplet pregnancy with two or more monoamniotic fetuses, third trimester",,,Gynecology
+"O30129  Triplet pregnancy with two or more monoamniotic fetuses, unspecified trimester",,,Gynecology
+"O30191  Triplet pregnancy, unable to determine number of placenta and number of amniotic sacs, first
+trimester",,,Gynecology
+"O30192  Triplet pregnancy, unable to determine number of placenta and number of amniotic sacs,
+second trimester",,,Gynecology
+"O30193  Triplet pregnancy, unable to determine number of placenta and number of amniotic sacs, third
+trimester",,,Gynecology
+"O30199  Triplet pregnancy, unable to determine number of placenta and number of amniotic sacs,
+unspecified trimester",,,Gynecology
+"O30201  Quadruplet pregnancy, unspecified number of placenta and unspecified number of amniotic
+sacs, first trimester",,,Gynecology
+"O30202  Quadruplet pregnancy, unspecified number of placenta and unspecified number of amniotic
+sacs, second trimester",,,Gynecology
+"O30203  Quadruplet pregnancy, unspecified number of placenta and unspecified number of amniotic
+sacs, third trimester",,,Gynecology
+"O30209  Quadruplet pregnancy, unspecified number of placenta and unspecified number of amniotic
+sacs, unspecified trimester",,,Gynecology
+"O30211  Quadruplet pregnancy with two or more monochorionic fetuses, first trimester",,,Gynecology
+"O30212  Quadruplet pregnancy with two or more monochorionic fetuses, second trimester",,,Gynecology
+"O30213  Quadruplet pregnancy with two or more monochorionic fetuses, third trimester",,,Gynecology
+"O30219  Quadruplet pregnancy with two or more monochorionic fetuses, unspecified trimester",,,Gynecology
+"O30221  Quadruplet pregnancy with two or more monoamniotic fetuses, first trimester",,,Gynecology
+"O30222  Quadruplet pregnancy with two or more monoamniotic fetuses, second trimester",,,Gynecology
+"O30223  Quadruplet pregnancy with two or more monoamniotic fetuses, third trimester",,,Gynecology
+"O30229  Quadruplet pregnancy with two or more monoamniotic fetuses, unspecified trimester",,,Gynecology
+"O30291  Quadruplet pregnancy, unable to determine number of placenta and number of amniotic sacs,
+first trimester",,,Gynecology
+"O30292  Quadruplet pregnancy, unable to determine number of placenta and number of amniotic sacs,
+second trimester",,,Gynecology
+"O30293  Quadruplet pregnancy, unable to determine number of placenta and number of amniotic sacs,
+third trimester",,,Gynecology
+"O30299  Quadruplet pregnancy, unable to determine number of placenta and number of amniotic sacs,
+unspecified trimester",,,Gynecology
+"O3110X0 Continuing pregnancy after spontaneous abortion of one fetus or more, unspecified trimester,
+not applicable or unspecified",,,Gynecology
+"O3110X1 Continuing pregnancy after spontaneous abortion of one fetus or more, unspecified trimester,
+fetus 1",,,Gynecology
+"O3110X2 Continuing pregnancy after spontaneous abortion of one fetus or more, unspecified trimester,
+fetus 2",,,Gynecology
+"O3110X3 Continuing pregnancy after spontaneous abortion of one fetus or more, unspecified trimester,
+fetus 3",,,Gynecology
+"O3110X4 Continuing pregnancy after spontaneous abortion of one fetus or more, unspecified trimester,
+fetus 4",,,Gynecology
+"O3110X5 Continuing pregnancy after spontaneous abortion of one fetus or more, unspecified trimester,
+fetus 5",,,Gynecology
+"O3110X9 Continuing pregnancy after spontaneous abortion of one fetus or more, unspecified trimester,
+other fetus",,,Gynecology
+"O3111X0 Continuing pregnancy after spontaneous abortion of one fetus or more, first trimester, not
+applicable or unspecified",,,Gynecology
+"O3111X1 Continuing pregnancy after spontaneous abortion of one fetus or more, first trimester, fetus 1",,,Gynecology
+"O3111X2 Continuing pregnancy after spontaneous abortion of one fetus or more, first trimester, fetus 2",,,Gynecology
+"O3111X3 Continuing pregnancy after spontaneous abortion of one fetus or more, first trimester, fetus 3",,,Gynecology
+"O3111X4 Continuing pregnancy after spontaneous abortion of one fetus or more, first trimester, fetus 4",,,Gynecology
+"O3111X5 Continuing pregnancy after spontaneous abortion of one fetus or more, first trimester, fetus 5",,,Gynecology
+"O3111X9 Continuing pregnancy after spontaneous abortion of one fetus or more, first trimester, other
+fetus",,,Gynecology
+"O3112X0 Continuing pregnancy after spontaneous abortion of one fetus or more, second trimester, not
+applicable or unspecified",,,Gynecology
+"O3112X1 Continuing pregnancy after spontaneous abortion of one fetus or more, second trimester,
+fetus 1",,,Gynecology
+"O3112X2 Continuing pregnancy after spontaneous abortion of one fetus or more, second trimester,
+fetus 2",,,Gynecology
+"O3112X3 Continuing pregnancy after spontaneous abortion of one fetus or more, second trimester,
+fetus 3",,,Gynecology
+"O3112X4 Continuing pregnancy after spontaneous abortion of one fetus or more, second trimester,
+fetus 4",,,Gynecology
+"O3112X5 Continuing pregnancy after spontaneous abortion of one fetus or more, second trimester,
+fetus 5",,,Gynecology
+"O3112X9 Continuing pregnancy after spontaneous abortion of one fetus or more, second trimester,
+other fetus",,,Gynecology
+"O3113X0 Continuing pregnancy after spontaneous abortion of one fetus or more, third trimester, not
+applicable or unspecified",,,Gynecology
+"O3113X1 Continuing pregnancy after spontaneous abortion of one fetus or more, third trimester, fetus
+1",,,Gynecology
+"O3113X2 Continuing pregnancy after spontaneous abortion of one fetus or more, third trimester, fetus
+2",,,Gynecology
+"O3113X3 Continuing pregnancy after spontaneous abortion of one fetus or more, third trimester, fetus
+3",,,Gynecology
+"O3113X4 Continuing pregnancy after spontaneous abortion of one fetus or more, third trimester, fetus
+4",,,Gynecology
+"O3113X5 Continuing pregnancy after spontaneous abortion of one fetus or more, third trimester, fetus
+5",,,Gynecology
+"O3113X9 Continuing pregnancy after spontaneous abortion of one fetus or more, third trimester, other
+fetus",,,Gynecology
+"O3120X0 Continuing pregnancy after intrauterine death of one fetus or more, unspecified trimester, not
+applicable or unspecified",,,Gynecology
+"O3120X1 Continuing pregnancy after intrauterine death of one fetus or more, unspecified trimester,
+fetus 1",,,Gynecology
+"O3120X2 Continuing pregnancy after intrauterine death of one fetus or more, unspecified trimester,
+fetus 2",,,Gynecology
+"O3120X3 Continuing pregnancy after intrauterine death of one fetus or more, unspecified trimester,
+fetus 3",,,Gynecology
+"O3120X4 Continuing pregnancy after intrauterine death of one fetus or more, unspecified trimester,
+fetus 4",,,Gynecology
+"O3120X5 Continuing pregnancy after intrauterine death of one fetus or more, unspecified trimester,
+fetus 5",,,Gynecology
+"O3120X9 Continuing pregnancy after intrauterine death of one fetus or more, unspecified trimester,
+other fetus",,,Gynecology
+"O3121X0 Continuing pregnancy after intrauterine death of one fetus or more, first trimester, not
+applicable or unspecified",,,Gynecology
+"O3121X1 Continuing pregnancy after intrauterine death of one fetus or more, first trimester, fetus 1",,,Gynecology
+"O3121X2 Continuing pregnancy after intrauterine death of one fetus or more, first trimester, fetus 2",,,Gynecology
+"O3121X3 Continuing pregnancy after intrauterine death of one fetus or more, first trimester, fetus 3",,,Gynecology
+"O3121X4 Continuing pregnancy after intrauterine death of one fetus or more, first trimester, fetus 4",,,Gynecology
+"O3121X5 Continuing pregnancy after intrauterine death of one fetus or more, first trimester, fetus 5",,,Gynecology
+"O3121X9 Continuing pregnancy after intrauterine death of one fetus or more, first trimester, other fetus",,,Gynecology
+"O3122X0 Continuing pregnancy after intrauterine death of one fetus or more, second trimester, not
+applicable or unspecified",,,Gynecology
+"O3122X1 Continuing pregnancy after intrauterine death of one fetus or more, second trimester, fetus 1",,,Gynecology
+"O3122X2 Continuing pregnancy after intrauterine death of one fetus or more, second trimester, fetus 2",,,Gynecology
+"O3122X3 Continuing pregnancy after intrauterine death of one fetus or more, second trimester, fetus 3",,,Gynecology
+"O3122X4 Continuing pregnancy after intrauterine death of one fetus or more, second trimester, fetus 4",,,Gynecology
+"O3122X5 Continuing pregnancy after intrauterine death of one fetus or more, second trimester, fetus 5",,,Gynecology
+"O3122X9 Continuing pregnancy after intrauterine death of one fetus or more, second trimester, other
+fetus",,,Gynecology
+"O3123X0 Continuing pregnancy after intrauterine death of one fetus or more, third trimester, not
+applicable or unspecified",,,Gynecology
+"O3123X1 Continuing pregnancy after intrauterine death of one fetus or more, third trimester, fetus 1",,,Gynecology
+"O3123X2 Continuing pregnancy after intrauterine death of one fetus or more, third trimester, fetus 2",,,Gynecology
+"O3123X3 Continuing pregnancy after intrauterine death of one fetus or more, third trimester, fetus 3",,,Gynecology
+"O3123X4 Continuing pregnancy after intrauterine death of one fetus or more, third trimester, fetus 4",,,Gynecology
+"O3123X5 Continuing pregnancy after intrauterine death of one fetus or more, third trimester, fetus 5",,,Gynecology
+"O3123X9 Continuing pregnancy after intrauterine death of one fetus or more, third trimester, other
+fetus",,,Gynecology
+"O3130X0 Continuing pregnancy after elective fetal reduction of one fetus or more, unspecified
+trimester, not applicable or unspecified",,,Gynecology
+"O3130X1 Continuing pregnancy after elective fetal reduction of one fetus or more, unspecified
+trimester, fetus 1",,,Gynecology
+"O3130X2 Continuing pregnancy after elective fetal reduction of one fetus or more, unspecified
+trimester, fetus 2",,,Gynecology
+"O3130X3 Continuing pregnancy after elective fetal reduction of one fetus or more, unspecified
+trimester, fetus 3",,,Gynecology
+"O3130X4 Continuing pregnancy after elective fetal reduction of one fetus or more, unspecified
+trimester, fetus 4",,,Gynecology
+"O3130X5 Continuing pregnancy after elective fetal reduction of one fetus or more, unspecified
+trimester, fetus 5",,,Gynecology
+"O3130X9 Continuing pregnancy after elective fetal reduction of one fetus or more, unspecified
+trimester, other fetus",,,Gynecology
+"O3131X0 Continuing pregnancy after elective fetal reduction of one fetus or more, first trimester, not
+applicable or unspecified",,,Gynecology
+"O3131X1 Continuing pregnancy after elective fetal reduction of one fetus or more, first trimester, fetus
+1",,,Gynecology
+"O3131X2 Continuing pregnancy after elective fetal reduction of one fetus or more, first trimester, fetus
+2",,,Gynecology
+"O3131X3 Continuing pregnancy after elective fetal reduction of one fetus or more, first trimester, fetus
+3",,,Gynecology
+"O3131X4 Continuing pregnancy after elective fetal reduction of one fetus or more, first trimester, fetus
+4",,,Gynecology
+"O3131X5 Continuing pregnancy after elective fetal reduction of one fetus or more, first trimester, fetus
+5",,,Gynecology
+"O3131X9 Continuing pregnancy after elective fetal reduction of one fetus or more, first trimester, other
+fetus",,,Gynecology
+"O3132X0 Continuing pregnancy after elective fetal reduction of one fetus or more, second trimester, not
+applicable or unspecified",,,Gynecology
+"O3132X1 Continuing pregnancy after elective fetal reduction of one fetus or more, second trimester,
+fetus 1",,,Gynecology
+"O3132X2 Continuing pregnancy after elective fetal reduction of one fetus or more, second trimester,
+fetus 2",,,Gynecology
+"O3132X3 Continuing pregnancy after elective fetal reduction of one fetus or more, second trimester,
+fetus 3",,,Gynecology
+"O3132X4 Continuing pregnancy after elective fetal reduction of one fetus or more, second trimester,
+fetus 4",,,Gynecology
+"O3132X5 Continuing pregnancy after elective fetal reduction of one fetus or more, second trimester,
+fetus 5",,,Gynecology
+"O3132X9 Continuing pregnancy after elective fetal reduction of one fetus or more, second trimester,
+other fetus",,,Gynecology
+"O3133X0 Continuing pregnancy after elective fetal reduction of one fetus or more, third trimester, not
+applicable or unspecified",,,Gynecology
+"O3133X1 Continuing pregnancy after elective fetal reduction of one fetus or more, third trimester, fetus
+1",,,Gynecology
+"O3133X2 Continuing pregnancy after elective fetal reduction of one fetus or more, third trimester, fetus
+2",,,Gynecology
+"O3133X3 Continuing pregnancy after elective fetal reduction of one fetus or more, third trimester, fetus
+3",,,Gynecology
+"O3133X4 Continuing pregnancy after elective fetal reduction of one fetus or more, third trimester, fetus
+4",,,Gynecology
+"O3133X5 Continuing pregnancy after elective fetal reduction of one fetus or more, third trimester, fetus
+5",,,Gynecology
+"O3133X9 Continuing pregnancy after elective fetal reduction of one fetus or more, third trimester, other
+fetus",,,Gynecology
+O330    Maternal care for disproportion due to deformity of maternal pelvic bones,,,Gynecology
+"O3400   Maternal care for unspecified congenital malformation of uterus, unspecified trimester",,,Gynecology
+"O3401   Maternal care for unspecified congenital malformation of uterus, first trimester",,,Gynecology
+"O3402   Maternal care for unspecified congenital malformation of uterus, second trimester",,,Gynecology
+"O3403   Maternal care for unspecified congenital malformation of uterus, third trimester",,,Gynecology
+"O3440   Maternal care for other abnormalities of cervix, unspecified trimester",,,Gynecology
+"O3441   Maternal care for other abnormalities of cervix, first trimester",,,Gynecology
+"O3442   Maternal care for other abnormalities of cervix, second trimester",,,Gynecology
+"O3443   Maternal care for other abnormalities of cervix, third trimester",,,Gynecology
+"O34511  Maternal care for incarceration of gravid uterus, first trimester",,,Gynecology
+"O34512  Maternal care for incarceration of gravid uterus, second trimester",,,Gynecology
+"O34513  Maternal care for incarceration of gravid uterus, third trimester",,,Gynecology
+"O34519  Maternal care for incarceration of gravid uterus, unspecified trimester",,,Gynecology
+"O34521  Maternal care for prolapse of gravid uterus, first trimester",,,Gynecology
+"O34522  Maternal care for prolapse of gravid uterus, second trimester",,,Gynecology
+"O34523  Maternal care for prolapse of gravid uterus, third trimester",,,Gynecology
+"O34529  Maternal care for prolapse of gravid uterus, unspecified trimester",,,Gynecology
+"O34531  Maternal care for retroversion of gravid uterus, first trimester",,,Gynecology
+"O34532  Maternal care for retroversion of gravid uterus, second trimester",,,Gynecology
+"O34533  Maternal care for retroversion of gravid uterus, third trimester",,,Gynecology
+"O34539  Maternal care for retroversion of gravid uterus, unspecified trimester",,,Gynecology
+"O34591  Maternal care for other abnormalities of gravid uterus, first trimester",,,Gynecology
+"O34592  Maternal care for other abnormalities of gravid uterus, second trimester",,,Gynecology
+"O34593  Maternal care for other abnormalities of gravid uterus, third trimester",,,Gynecology
+"O34599  Maternal care for other abnormalities of gravid uterus, unspecified trimester",,,Gynecology
+"O3480   Maternal care for other abnormalities of pelvic organs, unspecified trimester",,,Gynecology
+"O3481   Maternal care for other abnormalities of pelvic organs, first trimester",,,Gynecology
+"O3482   Maternal care for other abnormalities of pelvic organs, second trimester",,,Gynecology
+"O3483   Maternal care for other abnormalities of pelvic organs, third trimester",,,Gynecology
+"O3490   Maternal care for abnormality of pelvic organ, unspecified, unspecified trimester",,,Gynecology
+"O3491   Maternal care for abnormality of pelvic organ, unspecified, first trimester",,,Gynecology
+"O3492   Maternal care for abnormality of pelvic organ, unspecified, second trimester",,,Gynecology
+"O3493   Maternal care for abnormality of pelvic organ, unspecified, third trimester",,,Gynecology
+"O3670X0 Maternal care for viable fetus in abdominal pregnancy, unspecified trimester, not applicable or
+unspecified",,,Gynecology
+"O3670X1 Maternal care for viable fetus in abdominal pregnancy, unspecified trimester, fetus 1",,,Gynecology
+"O3670X2 Maternal care for viable fetus in abdominal pregnancy, unspecified trimester, fetus 2",,,Gynecology
+"O3670X3 Maternal care for viable fetus in abdominal pregnancy, unspecified trimester, fetus 3",,,Gynecology
+"O3670X4 Maternal care for viable fetus in abdominal pregnancy, unspecified trimester, fetus 4",,,Gynecology
+"O3670X5 Maternal care for viable fetus in abdominal pregnancy, unspecified trimester, fetus 5",,,Gynecology
+"O3670X9 Maternal care for viable fetus in abdominal pregnancy, unspecified trimester, other fetus",,,Gynecology
+"O3671X0 Maternal care for viable fetus in abdominal pregnancy, first trimester, not applicable or
+unspecified",,,Gynecology
+"O3671X1 Maternal care for viable fetus in abdominal pregnancy, first trimester, fetus 1",,,Gynecology
+"O3671X2 Maternal care for viable fetus in abdominal pregnancy, first trimester, fetus 2",,,Gynecology
+"O3671X3 Maternal care for viable fetus in abdominal pregnancy, first trimester, fetus 3",,,Gynecology
+"O3671X4 Maternal care for viable fetus in abdominal pregnancy, first trimester, fetus 4",,,Gynecology
+"O3671X5 Maternal care for viable fetus in abdominal pregnancy, first trimester, fetus 5",,,Gynecology
+"O3671X9 Maternal care for viable fetus in abdominal pregnancy, first trimester, other fetus",,,Gynecology
+"O3672X0 Maternal care for viable fetus in abdominal pregnancy, second trimester, not applicable or
+unspecified",,,Gynecology
+"O3672X1 Maternal care for viable fetus in abdominal pregnancy, second trimester, fetus 1",,,Gynecology
+"O3672X2 Maternal care for viable fetus in abdominal pregnancy, second trimester, fetus 2",,,Gynecology
+"O3672X3 Maternal care for viable fetus in abdominal pregnancy, second trimester, fetus 3",,,Gynecology
+"O3672X4 Maternal care for viable fetus in abdominal pregnancy, second trimester, fetus 4",,,Gynecology
+"O3672X5 Maternal care for viable fetus in abdominal pregnancy, second trimester, fetus 5",,,Gynecology
+"O3672X9 Maternal care for viable fetus in abdominal pregnancy, second trimester, other fetus",,,Gynecology
+"O3673X0 Maternal care for viable fetus in abdominal pregnancy, third trimester, not applicable or
+unspecified",,,Gynecology
+"O3673X1 Maternal care for viable fetus in abdominal pregnancy, third trimester, fetus 1",,,Gynecology
+"O3673X2 Maternal care for viable fetus in abdominal pregnancy, third trimester, fetus 2",,,Gynecology
+"O3673X3 Maternal care for viable fetus in abdominal pregnancy, third trimester, fetus 3",,,Gynecology
+"O3673X4 Maternal care for viable fetus in abdominal pregnancy, third trimester, fetus 4",,,Gynecology
+"O3673X5 Maternal care for viable fetus in abdominal pregnancy, third trimester, fetus 5",,,Gynecology
+"O3673X9 Maternal care for viable fetus in abdominal pregnancy, third trimester, other fetus",,,Gynecology
+"O3680X0 Pregnancy with inconclusive fetal viability, not applicable or unspecified",,,Gynecology
+"O3680X1 Pregnancy with inconclusive fetal viability, fetus 1",,,Gynecology
+"O3680X2 Pregnancy with inconclusive fetal viability, fetus 2",,,Gynecology
+"O3680X3 Pregnancy with inconclusive fetal viability, fetus 3",,,Gynecology
+"O3680X4 Pregnancy with inconclusive fetal viability, fetus 4",,,Gynecology
+"O3680X5 Pregnancy with inconclusive fetal viability, fetus 5",,,Gynecology
+"O3680X9 Pregnancy with inconclusive fetal viability, other fetus",,,Gynecology
+O480    Post-term pregnancy,,,Gynecology
+O481    Prolonged pregnancy,,,Gynecology
+O652    Obstructed labor due to pelvic inlet contraction,,,Gynecology
+O653    Obstructed labor due to pelvic outlet and mid-cavity contraction,,,Gynecology
+O655    Obstructed labor due to abnormality of maternal pelvic organs,,,Gynecology
+O658    Obstructed labor due to other maternal pelvic abnormalities,,,Gynecology
+"O659    Obstructed labor due to maternal pelvic abnormality, unspecified",,,Gynecology
+"O7100   Rupture of uterus before onset of labor, unspecified trimester",,,Gynecology
+"O7102   Rupture of uterus before onset of labor, second trimester",,,Gynecology
+"O7103   Rupture of uterus before onset of labor, third trimester",,,Gynecology
+O711    Rupture of uterus during labor,,,Gynecology
+O712    Postpartum inversion of uterus,,,Gynecology
+O713    Obstetric laceration of cervix,,,Gynecology
+O715    Other obstetric injury to pelvic organs,,,Gynecology
+O716    Obstetric damage to pelvic joints and ligaments,,,Gynecology
+"O7181   Laceration of uterus, not elsewhere classified",,,Gynecology
+"O88011  Air embolism in pregnancy, first trimester",,,Gynecology
+"O88012  Air embolism in pregnancy, second trimester",,,Gynecology
+"O88013  Air embolism in pregnancy, third trimester",,,Gynecology
+"O88019  Air embolism in pregnancy, unspecified trimester",,,Gynecology
+"O88111  Amniotic fluid embolism in pregnancy, first trimester",,,Gynecology
+"O88112  Amniotic fluid embolism in pregnancy, second trimester",,,Gynecology
+"O88113  Amniotic fluid embolism in pregnancy, third trimester",,,Gynecology
+"O88119  Amniotic fluid embolism in pregnancy, unspecified trimester",,,Gynecology
+"O88211  Thromboembolism in pregnancy, first trimester",,,Gynecology
+"O88212  Thromboembolism in pregnancy, second trimester",,,Gynecology
+"O88213  Thromboembolism in pregnancy, third trimester",,,Gynecology
+"O88219  Thromboembolism in pregnancy, unspecified trimester",,,Gynecology
+"O88311  Pyemic and septic embolism in pregnancy, first trimester",,,Gynecology
+"O88312  Pyemic and septic embolism in pregnancy, second trimester",,,Gynecology
+"O88313  Pyemic and septic embolism in pregnancy, third trimester",,,Gynecology
+"O88319  Pyemic and septic embolism in pregnancy, unspecified trimester",,,Gynecology
+"O88811  Other embolism in pregnancy, first trimester",,,Gynecology
+"O88812  Other embolism in pregnancy, second trimester",,,Gynecology
+"O88813  Other embolism in pregnancy, third trimester",,,Gynecology
+"O88819  Other embolism in pregnancy, unspecified trimester",,,Gynecology
+"O91011  Infection of nipple associated with pregnancy, first trimester",,,Gynecology
+"O91012  Infection of nipple associated with pregnancy, second trimester",,,Gynecology
+"O91013  Infection of nipple associated with pregnancy, third trimester",,,Gynecology
+"O91019  Infection of nipple associated with pregnancy, unspecified trimester",,,Gynecology
+"O91111  Abscess of breast associated with pregnancy, first trimester",,,Gynecology
+"O91112  Abscess of breast associated with pregnancy, second trimester",,,Gynecology
+"O91113  Abscess of breast associated with pregnancy, third trimester",,,Gynecology
+"O91119  Abscess of breast associated with pregnancy, unspecified trimester",,,Gynecology
+O9112   Abscess of breast associated with the puerperium,,,Gynecology
+O9113   Abscess of breast associated with lactation,,,Gynecology
+"O91211  Nonpurulent mastitis associated with pregnancy, first trimester",,,Gynecology
+"O91212  Nonpurulent mastitis associated with pregnancy, second trimester",,,Gynecology
+"O91213  Nonpurulent mastitis associated with pregnancy, third trimester",,,Gynecology
+"O91219  Nonpurulent mastitis associated with pregnancy, unspecified trimester",,,Gynecology
+"O92011  Retracted nipple associated with pregnancy, first trimester",,,Gynecology
+"O92012  Retracted nipple associated with pregnancy, second trimester",,,Gynecology
+"O92013  Retracted nipple associated with pregnancy, third trimester",,,Gynecology
+"O92019  Retracted nipple associated with pregnancy, unspecified trimester",,,Gynecology
+"O92111  Cracked nipple associated with pregnancy, first trimester",,,Gynecology
+"O92112  Cracked nipple associated with pregnancy, second trimester",,,Gynecology
+"O92113  Cracked nipple associated with pregnancy, third trimester",,,Gynecology
+"O92119  Cracked nipple associated with pregnancy, unspecified trimester",,,Gynecology
+O9220   Unspecified disorder of breast associated with pregnancy and the puerperium,,,Gynecology
+O9229   Other disorders of breast associated with pregnancy and the puerperium,,,Gynecology
+"O94     Sequelae of complication of pregnancy, childbirth, and the puerperium",,,Gynecology
+"O98011  Tuberculosis complicating pregnancy, first trimester",,,Gynecology
+"O98012  Tuberculosis complicating pregnancy, second trimester",,,Gynecology
+"O98013  Tuberculosis complicating pregnancy, third trimester",,,Gynecology
+"O98019  Tuberculosis complicating pregnancy, unspecified trimester",,,Gynecology
+"O98111  Syphilis complicating pregnancy, first trimester",,,Gynecology
+"O98112  Syphilis complicating pregnancy, second trimester",,,Gynecology
+"O98113  Syphilis complicating pregnancy, third trimester",,,Gynecology
+"O98119  Syphilis complicating pregnancy, unspecified trimester",,,Gynecology
+"O98211  Gonorrhea complicating pregnancy, first trimester",,,Gynecology
+"O98212  Gonorrhea complicating pregnancy, second trimester",,,Gynecology
+"O98213  Gonorrhea complicating pregnancy, third trimester",,,Gynecology
+"O98219  Gonorrhea complicating pregnancy, unspecified trimester",,,Gynecology
+"O98311  Other infections with a predominantly sexual mode of transmission complicating pregnancy,
+first trimester",,,Gynecology
+"O98312  Other infections with a predominantly sexual mode of transmission complicating pregnancy,
+second trimester",,,Gynecology
+"O98313  Other infections with a predominantly sexual mode of transmission complicating pregnancy,
+third trimester",,,Gynecology
+"O98319  Other infections with a predominantly sexual mode of transmission complicating pregnancy,
+unspecified trimester",,,Gynecology
+"O98411  Viral hepatitis complicating pregnancy, first trimester",,,Gynecology
+"O98412  Viral hepatitis complicating pregnancy, second trimester",,,Gynecology
+"O98413  Viral hepatitis complicating pregnancy, third trimester",,,Gynecology
+"O98419  Viral hepatitis complicating pregnancy, unspecified trimester",,,Gynecology
+"O98511  Other viral diseases complicating pregnancy, first trimester",,,Gynecology
+"O98512  Other viral diseases complicating pregnancy, second trimester",,,Gynecology
+"O98513  Other viral diseases complicating pregnancy, third trimester",,,Gynecology
+"O98519  Other viral diseases complicating pregnancy, unspecified trimester",,,Gynecology
+"O98611  Protozoal diseases complicating pregnancy, first trimester",,,Gynecology
+"O98612  Protozoal diseases complicating pregnancy, second trimester",,,Gynecology
+"O98613  Protozoal diseases complicating pregnancy, third trimester",,,Gynecology
+"O98619  Protozoal diseases complicating pregnancy, unspecified trimester",,,Gynecology
+"O98711  Human immunodeficiency virus [HIV] disease complicating pregnancy, first trimester",,,Gynecology
+"O98712  Human immunodeficiency virus [HIV] disease complicating pregnancy, second trimester",,,Gynecology
+"O98713  Human immunodeficiency virus [HIV] disease complicating pregnancy, third trimester",,,Gynecology
+"O98719  Human immunodeficiency virus [HIV] disease complicating pregnancy, unspecified trimester",,,Gynecology
+"O98811  Other maternal infectious and parasitic diseases complicating pregnancy, first trimester",,,Gynecology
+"O98812  Other maternal infectious and parasitic diseases complicating pregnancy, second trimester",,,Gynecology
+"O98813  Other maternal infectious and parasitic diseases complicating pregnancy, third trimester",,,Gynecology
+"O98819  Other maternal infectious and parasitic diseases complicating pregnancy, unspecified trimester",,,Gynecology
+"O98911  Unspecified maternal infectious and parasitic disease complicating pregnancy, first trimester",,,Gynecology
+"O98912  Unspecified maternal infectious and parasitic disease complicating pregnancy, second trimester",,,Gynecology
+"O98913  Unspecified maternal infectious and parasitic disease complicating pregnancy, third trimester",,,Gynecology
+"O98919  Unspecified maternal infectious and parasitic disease complicating pregnancy, unspecified
+trimester",,,Gynecology
+"O99011  Anemia complicating pregnancy, first trimester",,,Gynecology
+"O99012  Anemia complicating pregnancy, second trimester",,,Gynecology
+"O99013  Anemia complicating pregnancy, third trimester",,,Gynecology
+"O99019  Anemia complicating pregnancy, unspecified trimester",,,Gynecology
+"O99111  Other diseases of the blood and blood-forming organs and certain disorders involving the
+immune mechanism complicating pregnancy, first trimester",,,Gynecology
+"O99112  Other diseases of the blood and blood-forming organs and certain disorders involving the
+immune mechanism complicating pregnancy, second trimester",,,Gynecology
+"O99113  Other diseases of the blood and blood-forming organs and certain disorders involving the
+immune mechanism complicating pregnancy, third trimester",,,Gynecology
+"O99119  Other diseases of the blood and blood-forming organs and certain disorders involving the
+immune mechanism complicating pregnancy, unspecified trimester",,,Gynecology
+"O99210  Obesity complicating pregnancy, unspecified trimester",,,Gynecology
+"O99211  Obesity complicating pregnancy, first trimester",,,Gynecology
+"O99212  Obesity complicating pregnancy, second trimester",,,Gynecology
+"O99213  Obesity complicating pregnancy, third trimester",,,Gynecology
+"O99280  Endocrine, nutritional and metabolic diseases complicating pregnancy, unspecified trimester",,,Gynecology
+"O99281  Endocrine, nutritional and metabolic diseases complicating pregnancy, first trimester",,,Gynecology
+"O99282  Endocrine, nutritional and metabolic diseases complicating pregnancy, second trimester",,,Gynecology
+"O99283  Endocrine, nutritional and metabolic diseases complicating pregnancy, third trimester",,,Gynecology
+"O99310  Alcohol use complicating pregnancy, unspecified trimester",,,Gynecology
+"O99311  Alcohol use complicating pregnancy, first trimester",,,Gynecology
+"O99312  Alcohol use complicating pregnancy, second trimester",,,Gynecology
+"O99313  Alcohol use complicating pregnancy, third trimester",,,Gynecology
+"O99320  Drug use complicating pregnancy, unspecified trimester",,,Gynecology
+"O99321  Drug use complicating pregnancy, first trimester",,,Gynecology
+"O99322  Drug use complicating pregnancy, second trimester",,,Gynecology
+"O99323  Drug use complicating pregnancy, third trimester",,,Gynecology
+"O99330  Smoking (tobacco) complicating pregnancy, unspecified trimester",,,Gynecology
+"O99331  Smoking (tobacco) complicating pregnancy, first trimester",,,Gynecology
+"O99332  Smoking (tobacco) complicating pregnancy, second trimester",,,Gynecology
+"O99333  Smoking (tobacco) complicating pregnancy, third trimester",,,Gynecology
+"O99340  Other mental disorders complicating pregnancy, unspecified trimester",,,Gynecology
+"O99341  Other mental disorders complicating pregnancy, first trimester",,,Gynecology
+"O99342  Other mental disorders complicating pregnancy, second trimester",,,Gynecology
+"O99343  Other mental disorders complicating pregnancy, third trimester",,,Gynecology
+"O99350  Diseases of the nervous system complicating pregnancy, unspecified trimester",,,Gynecology
+"O99351  Diseases of the nervous system complicating pregnancy, first trimester",,,Gynecology
+"O99352  Diseases of the nervous system complicating pregnancy, second trimester",,,Gynecology
+"O99353  Diseases of the nervous system complicating pregnancy, third trimester",,,Gynecology
+"O99411  Diseases of the circulatory system complicating pregnancy, first trimester",,,Gynecology
+"O99412  Diseases of the circulatory system complicating pregnancy, second trimester",,,Gynecology
+"O99413  Diseases of the circulatory system complicating pregnancy, third trimester",,,Gynecology
+"O99419  Diseases of the circulatory system complicating pregnancy, unspecified trimester",,,Gynecology
+"O99511  Diseases of the respiratory system complicating pregnancy, first trimester",,,Gynecology
+"O99512  Diseases of the respiratory system complicating pregnancy, second trimester",,,Gynecology
+"O99513  Diseases of the respiratory system complicating pregnancy, third trimester",,,Gynecology
+"O99519  Diseases of the respiratory system complicating pregnancy, unspecified trimester",,,Gynecology
+"O99611  Diseases of the digestive system complicating pregnancy, first trimester",,,Gynecology
+"O99612  Diseases of the digestive system complicating pregnancy, second trimester",,,Gynecology
+"O99613  Diseases of the digestive system complicating pregnancy, third trimester",,,Gynecology
+"O99619  Diseases of the digestive system complicating pregnancy, unspecified trimester",,,Gynecology
+"O99711  Diseases of the skin and subcutaneous tissue complicating pregnancy, first trimester",,,Gynecology
+"O99712  Diseases of the skin and subcutaneous tissue complicating pregnancy, second trimester",,,Gynecology
+"O99713  Diseases of the skin and subcutaneous tissue complicating pregnancy, third trimester",,,Gynecology
+"O99719  Diseases of the skin and subcutaneous tissue complicating pregnancy, unspecified trimester",,,Gynecology
+O99810  Abnormal glucose complicating pregnancy,,,Gynecology
+O99820  Streptococcus B carrier state complicating pregnancy,,,Gynecology
+O99830  Other infection carrier state complicating pregnancy,,,Gynecology
+"O99840  Bariatric surgery status complicating pregnancy, unspecified trimester",,,Gynecology
+"O99841  Bariatric surgery status complicating pregnancy, first trimester",,,Gynecology
+"O99842  Bariatric surgery status complicating pregnancy, second trimester",,,Gynecology
+"O99843  Bariatric surgery status complicating pregnancy, third trimester",,,Gynecology
+"O9989   Other specified diseases and conditions complicating pregnancy, childbirth and the puerperium",,,Gynecology
+"O9A111  Malignant neoplasm complicating pregnancy, first trimester",,,Gynecology
+"O9A112  Malignant neoplasm complicating pregnancy, second trimester",,,Gynecology
+"O9A113  Malignant neoplasm complicating pregnancy, third trimester",,,Gynecology
+"O9A119  Malignant neoplasm complicating pregnancy, unspecified trimester",,,Gynecology
+"O9A211  Injury, poisoning and certain other consequences of external causes complicating pregnancy,
+first trimester",,,Gynecology
+"O9A212  Injury, poisoning and certain other consequences of external causes complicating pregnancy,
+second trimester",,,Gynecology
+"O9A213  Injury, poisoning and certain other consequences of external causes complicating pregnancy,
+third trimester",,,Gynecology
+"O9A219  Injury, poisoning and certain other consequences of external causes complicating pregnancy,
+unspecified trimester",,,Gynecology
+"O9A311  Physical abuse complicating pregnancy, first trimester",,,Gynecology
+"O9A312  Physical abuse complicating pregnancy, second trimester",,,Gynecology
+"O9A313  Physical abuse complicating pregnancy, third trimester",,,Gynecology
+"O9A319  Physical abuse complicating pregnancy, unspecified trimester",,,Gynecology
+"O9A411  Sexual abuse complicating pregnancy, first trimester",,,Gynecology
+"O9A412  Sexual abuse complicating pregnancy, second trimester",,,Gynecology
+"O9A413  Sexual abuse complicating pregnancy, third trimester",,,Gynecology
+"O9A419  Sexual abuse complicating pregnancy, unspecified trimester",,,Gynecology
+"O9A511  Psychological abuse complicating pregnancy, first trimester",,,Gynecology
+"O9A512  Psychological abuse complicating pregnancy, second trimester",,,Gynecology
+"O9A513  Psychological abuse complicating pregnancy, third trimester",,,Gynecology
+"O9A519  Psychological abuse complicating pregnancy, unspecified trimester",,,Gynecology
+P010    Newborn affected by incompetent cervix,,,Gynecology
+P014    Newborn affected by ectopic pregnancy,,,Gynecology
+P015    Newborn affected by multiple pregnancy,,,Gynecology
+P018    Newborn affected by other maternal complications of pregnancy,,,Gynecology
+"P019    Newborn affected by maternal complication of pregnancy, unspecified",,,Gynecology
+"P040    Newborn affected by maternal anesthesia and analgesia in pregnancy, labor and delivery",,,Gynecology
+P593    Neonatal jaundice from breast milk inhibitor,,,Gynecology
+P834    Breast engorgement of newborn,,,Gynecology
+P925    Neonatal difficulty in feeding at breast,,,Gynecology
+"Q5001   Congenital absence of ovary, unilateral",,,Gynecology
+"Q5002   Congenital absence of ovary, bilateral",,,Gynecology
+Q502    Congenital torsion of ovary,,,Gynecology
+Q5031   Accessory ovary,,,Gynecology
+Q5039   Other congenital malformation of ovary,,,Gynecology
+Q510    Agenesis and aplasia of uterus,,,Gynecology
+Q5110   Doubling of uterus with doubling of cervix and vagina without obstruction,,,Gynecology
+Q5111   Doubling of uterus with doubling of cervix and vagina with obstruction,,,Gynecology
+Q512    Other doubling of uterus,,,Gynecology
+Q513    Bicornate uterus,,,Gynecology
+Q514    Unicornate uterus,,,Gynecology
+Q515    Agenesis and aplasia of cervix,,,Gynecology
+Q516    Embryonic cyst of cervix,,,Gynecology
+Q517    Congenital fistulae between uterus and digestive and urinary tracts,,,Gynecology
+Q51810  Arcuate uterus,,,Gynecology
+Q51811  Hypoplasia of uterus,,,Gynecology
+Q51818  Other congenital malformations of uterus,,,Gynecology
+Q51821  Hypoplasia of cervix,,,Gynecology
+Q51828  Other congenital malformations of cervix,,,Gynecology
+"Q519    Congenital malformation of uterus and cervix, unspecified",,,Gynecology
+"Q742    Other congenital malformations of lower limb(s), including pelvic girdle",,,Gynecology
+Q830    Congenital absence of breast with absent nipple,,,Gynecology
+Q831    Accessory breast,,,Gynecology
+Q838    Other congenital malformations of breast,,,Gynecology
+"Q839    Congenital malformation of breast, unspecified",,,Gynecology
+R102    Pelvic and perineal pain,,,Gynecology
+"R1900   Intra-abdominal and pelvic swelling, mass and lump, unspecified site",,,Gynecology
+"R1907   Generalized intra-abdominal and pelvic swelling, mass and lump",,,Gynecology
+"R1909   Other intra-abdominal and pelvic swelling, mass and lump",,,Gynecology
+R87610  Atypical squamous cells of undetermined significance on cytologic smear of cervix (ASC-US),,,Gynecology
+"R87611  Atypical squamous cells cannot exclude high grade squamous intraepithelial lesion on cytologic
+smear of cervix (ASC-H)",,,Gynecology
+R87612  Low grade squamous intraepithelial lesion on cytologic smear of cervix (LGSIL),,,Gynecology
+R87613  High grade squamous intraepithelial lesion on cytologic smear of cervix (HGSIL),,,Gynecology
+R87614  Cytologic evidence of malignancy on smear of cervix,,,Gynecology
+R87615  Unsatisfactory cytologic smear of cervix,,,Gynecology
+R87618  Other abnormal cytological findings on specimens from cervix uteri,,,Gynecology
+R87619  Unspecified abnormal cytological findings in specimens from cervix uteri,,,Gynecology
+R920    Mammographic microcalcification found on diagnostic imaging of breast,,,Gynecology
+R921    Mammographic calcification found on diagnostic imaging of breast,,,Gynecology
+R928    Other abnormal and inconclusive findings on diagnostic imaging of breast,,,Gynecology
+"S2000XA Contusion of breast, unspecified breast, initial encounter",,,Gynecology
+"S2000XD Contusion of breast, unspecified breast, subsequent encounter",,,Gynecology
+"S2000XS Contusion of breast, unspecified breast, sequela",,,Gynecology
+"S2001XA Contusion of right breast, initial encounter",,,Gynecology
+"S2001XD Contusion of right breast, subsequent encounter",,,Gynecology
+"S2001XS Contusion of right breast, sequela",,,Gynecology
+"S2002XA Contusion of left breast, initial encounter",,,Gynecology
+"S2002XD Contusion of left breast, subsequent encounter",,,Gynecology
+"S2002XS Contusion of left breast, sequela",,,Gynecology
+"S20101A Unspecified superficial injuries of breast, right breast, initial encounter",,,Gynecology
+"S20101D Unspecified superficial injuries of breast, right breast, subsequent encounter",,,Gynecology
+"S20101S Unspecified superficial injuries of breast, right breast, sequela",,,Gynecology
+"S20102A Unspecified superficial injuries of breast, left breast, initial encounter",,,Gynecology
+"S20102D Unspecified superficial injuries of breast, left breast, subsequent encounter",,,Gynecology
+"S20102S Unspecified superficial injuries of breast, left breast, sequela",,,Gynecology
+"S20109A Unspecified superficial injuries of breast, unspecified breast, initial encounter",,,Gynecology
+"S20109D Unspecified superficial injuries of breast, unspecified breast, subsequent encounter",,,Gynecology
+"S20109S Unspecified superficial injuries of breast, unspecified breast, sequela",,,Gynecology
+"S20111A Abrasion of breast, right breast, initial encounter",,,Gynecology
+"S20111D Abrasion of breast, right breast, subsequent encounter",,,Gynecology
+"S20111S Abrasion of breast, right breast, sequela",,,Gynecology
+"S20112A Abrasion of breast, left breast, initial encounter",,,Gynecology
+"S20112D Abrasion of breast, left breast, subsequent encounter",,,Gynecology
+"S20112S Abrasion of breast, left breast, sequela",,,Gynecology
+"S20119A Abrasion of breast, unspecified breast, initial encounter",,,Gynecology
+"S20119D Abrasion of breast, unspecified breast, subsequent encounter",,,Gynecology
+"S20119S Abrasion of breast, unspecified breast, sequela",,,Gynecology
+"S20121A Blister (nonthermal) of breast, right breast, initial encounter",,,Gynecology
+"S20121D Blister (nonthermal) of breast, right breast, subsequent encounter",,,Gynecology
+"S20121S Blister (nonthermal) of breast, right breast, sequela",,,Gynecology
+"S20122A Blister (nonthermal) of breast, left breast, initial encounter",,,Gynecology
+"S20122D Blister (nonthermal) of breast, left breast, subsequent encounter",,,Gynecology
+"S20122S Blister (nonthermal) of breast, left breast, sequela",,,Gynecology
+"S20129A Blister (nonthermal) of breast, unspecified breast, initial encounter",,,Gynecology
+"S20129D Blister (nonthermal) of breast, unspecified breast, subsequent encounter",,,Gynecology
+"S20129S Blister (nonthermal) of breast, unspecified breast, sequela",,,Gynecology
+"S20141A External constriction of part of breast, right breast, initial encounter",,,Gynecology
+"S20141D External constriction of part of breast, right breast, subsequent encounter",,,Gynecology
+"S20141S External constriction of part of breast, right breast, sequela",,,Gynecology
+"S20142A External constriction of part of breast, left breast, initial encounter",,,Gynecology
+"S20142D External constriction of part of breast, left breast, subsequent encounter",,,Gynecology
+"S20142S External constriction of part of breast, left breast, sequela",,,Gynecology
+"S20149A External constriction of part of breast, unspecified breast, initial encounter",,,Gynecology
+"S20149D External constriction of part of breast, unspecified breast, subsequent encounter",,,Gynecology
+"S20149S External constriction of part of breast, unspecified breast, sequela",,,Gynecology
+"S20151A Superficial foreign body of breast, right breast, initial encounter",,,Gynecology
+"S20151D Superficial foreign body of breast, right breast, subsequent encounter",,,Gynecology
+"S20151S Superficial foreign body of breast, right breast, sequela",,,Gynecology
+"S20152A Superficial foreign body of breast, left breast, initial encounter",,,Gynecology
+"S20152D Superficial foreign body of breast, left breast, subsequent encounter",,,Gynecology
+"S20152S Superficial foreign body of breast, left breast, sequela",,,Gynecology
+"S20159A Superficial foreign body of breast, unspecified breast, initial encounter",,,Gynecology
+"S20159D Superficial foreign body of breast, unspecified breast, subsequent encounter",,,Gynecology
+"S20159S Superficial foreign body of breast, unspecified breast, sequela",,,Gynecology
+"S20161A Insect bite (nonvenomous) of breast, right breast, initial encounter",,,Gynecology
+"S20161D Insect bite (nonvenomous) of breast, right breast, subsequent encounter",,,Gynecology
+"S20161S Insect bite (nonvenomous) of breast, right breast, sequela",,,Gynecology
+"S20162A Insect bite (nonvenomous) of breast, left breast, initial encounter",,,Gynecology
+"S20162D Insect bite (nonvenomous) of breast, left breast, subsequent encounter",,,Gynecology
+"S20162S Insect bite (nonvenomous) of breast, left breast, sequela",,,Gynecology
+"S20169A Insect bite (nonvenomous) of breast, unspecified breast, initial encounter",,,Gynecology
+"S20169D Insect bite (nonvenomous) of breast, unspecified breast, subsequent encounter",,,Gynecology
+"S20169S Insect bite (nonvenomous) of breast, unspecified breast, sequela",,,Gynecology
+"S20171A Other superficial bite of breast, right breast, initial encounter",,,Gynecology
+"S20171D Other superficial bite of breast, right breast, subsequent encounter",,,Gynecology
+"S20171S Other superficial bite of breast, right breast, sequela",,,Gynecology
+"S20172A Other superficial bite of breast, left breast, initial encounter",,,Gynecology
+"S20172D Other superficial bite of breast, left breast, subsequent encounter",,,Gynecology
+"S20172S Other superficial bite of breast, left breast, sequela",,,Gynecology
+"S20179A Other superficial bite of breast, unspecified breast, initial encounter",,,Gynecology
+"S20179D Other superficial bite of breast, unspecified breast, subsequent encounter",,,Gynecology
+"S20179S Other superficial bite of breast, unspecified breast, sequela",,,Gynecology
+"S21001A Unspecified open wound of right breast, initial encounter",,,Gynecology
+"S21001D Unspecified open wound of right breast, subsequent encounter",,,Gynecology
+"S21001S Unspecified open wound of right breast, sequela",,,Gynecology
+"S21002A Unspecified open wound of left breast, initial encounter",,,Gynecology
+"S21002D Unspecified open wound of left breast, subsequent encounter",,,Gynecology
+"S21002S Unspecified open wound of left breast, sequela",,,Gynecology
+"S21009A Unspecified open wound of unspecified breast, initial encounter",,,Gynecology
+"S21009D Unspecified open wound of unspecified breast, subsequent encounter",,,Gynecology
+"S21009S Unspecified open wound of unspecified breast, sequela",,,Gynecology
+"S21011A Laceration without foreign body of right breast, initial encounter",,,Gynecology
+"S21011D Laceration without foreign body of right breast, subsequent encounter",,,Gynecology
+"S21011S Laceration without foreign body of right breast, sequela",,,Gynecology
+"S21012A Laceration without foreign body of left breast, initial encounter",,,Gynecology
+"S21012D Laceration without foreign body of left breast, subsequent encounter",,,Gynecology
+"S21012S Laceration without foreign body of left breast, sequela",,,Gynecology
+"S21019A Laceration without foreign body of unspecified breast, initial encounter",,,Gynecology
+"S21019D Laceration without foreign body of unspecified breast, subsequent encounter",,,Gynecology
+"S21019S Laceration without foreign body of unspecified breast, sequela",,,Gynecology
+"S21021A Laceration with foreign body of right breast, initial encounter",,,Gynecology
+"S21021D Laceration with foreign body of right breast, subsequent encounter",,,Gynecology
+"S21021S Laceration with foreign body of right breast, sequela",,,Gynecology
+"S21022A Laceration with foreign body of left breast, initial encounter",,,Gynecology
+"S21022D Laceration with foreign body of left breast, subsequent encounter",,,Gynecology
+"S21022S Laceration with foreign body of left breast, sequela",,,Gynecology
+"S21029A Laceration with foreign body of unspecified breast, initial encounter",,,Gynecology
+"S21029D Laceration with foreign body of unspecified breast, subsequent encounter",,,Gynecology
+"S21029S Laceration with foreign body of unspecified breast, sequela",,,Gynecology
+"S21031A Puncture wound without foreign body of right breast, initial encounter",,,Gynecology
+"S21031D Puncture wound without foreign body of right breast, subsequent encounter",,,Gynecology
+"S21031S Puncture wound without foreign body of right breast, sequela",,,Gynecology
+"S21032A Puncture wound without foreign body of left breast, initial encounter",,,Gynecology
+"S21032D Puncture wound without foreign body of left breast, subsequent encounter",,,Gynecology
+"S21032S Puncture wound without foreign body of left breast, sequela",,,Gynecology
+"S21039A Puncture wound without foreign body of unspecified breast, initial encounter",,,Gynecology
+"S21039D Puncture wound without foreign body of unspecified breast, subsequent encounter",,,Gynecology
+"S21039S Puncture wound without foreign body of unspecified breast, sequela",,,Gynecology
+"S21041A Puncture wound with foreign body of right breast, initial encounter",,,Gynecology
+"S21041D Puncture wound with foreign body of right breast, subsequent encounter",,,Gynecology
+"S21041S Puncture wound with foreign body of right breast, sequela",,,Gynecology
+"S21042A Puncture wound with foreign body of left breast, initial encounter",,,Gynecology
+"S21042D Puncture wound with foreign body of left breast, subsequent encounter",,,Gynecology
+"S21042S Puncture wound with foreign body of left breast, sequela",,,Gynecology
+"S21049A Puncture wound with foreign body of unspecified breast, initial encounter",,,Gynecology
+"S21049D Puncture wound with foreign body of unspecified breast, subsequent encounter",,,Gynecology
+"S21049S Puncture wound with foreign body of unspecified breast, sequela",,,Gynecology
+"S21051A Open bite of right breast, initial encounter",,,Gynecology
+"S21051D Open bite of right breast, subsequent encounter",,,Gynecology
+"S21051S Open bite of right breast, sequela",,,Gynecology
+"S21052A Open bite of left breast, initial encounter",,,Gynecology
+"S21052D Open bite of left breast, subsequent encounter",,,Gynecology
+"S21052S Open bite of left breast, sequela",,,Gynecology
+"S21059A Open bite of unspecified breast, initial encounter",,,Gynecology
+"S21059D Open bite of unspecified breast, subsequent encounter",,,Gynecology
+"S21059S Open bite of unspecified breast, sequela",,,Gynecology
+"S281XXA Traumatic amputation (partial) of part of thorax, except breast, initial encounter",,,Gynecology
+"S281XXD Traumatic amputation (partial) of part of thorax, except breast, subsequent encounter",,,Gynecology
+"S281XXS Traumatic amputation (partial) of part of thorax, except breast, sequela",,,Gynecology
+"S28211A Complete traumatic amputation of right breast, initial encounter",,,Gynecology
+"S28211D Complete traumatic amputation of right breast, subsequent encounter",,,Gynecology
+"S28211S Complete traumatic amputation of right breast, sequela",,,Gynecology
+"S28212A Complete traumatic amputation of left breast, initial encounter",,,Gynecology
+"S28212D Complete traumatic amputation of left breast, subsequent encounter",,,Gynecology
+"S28212S Complete traumatic amputation of left breast, sequela",,,Gynecology
+"S28219A Complete traumatic amputation of unspecified breast, initial encounter",,,Gynecology
+"S28219D Complete traumatic amputation of unspecified breast, subsequent encounter",,,Gynecology
+"S28219S Complete traumatic amputation of unspecified breast, sequela",,,Gynecology
+"S28221A Partial traumatic amputation of right breast, initial encounter",,,Gynecology
+"S28221D Partial traumatic amputation of right breast, subsequent encounter",,,Gynecology
+"S28221S Partial traumatic amputation of right breast, sequela",,,Gynecology
+"S28222A Partial traumatic amputation of left breast, initial encounter",,,Gynecology
+"S28222D Partial traumatic amputation of left breast, subsequent encounter",,,Gynecology
+"S28222S Partial traumatic amputation of left breast, sequela",,,Gynecology
+"S28229A Partial traumatic amputation of unspecified breast, initial encounter",,,Gynecology
+"S28229D Partial traumatic amputation of unspecified breast, subsequent encounter",,,Gynecology
+"S28229S Partial traumatic amputation of unspecified breast, sequela",,,Gynecology
+"S32810A Multiple fractures of pelvis with stable disruption of pelvic ring, initial encounter for closed
+fracture",,,Gynecology
+"S32810B Multiple fractures of pelvis with stable disruption of pelvic ring, initial encounter for open
+fracture",,,Gynecology
+"S32810D Multiple fractures of pelvis with stable disruption of pelvic ring, subsequent encounter for
+fracture with routine healing",,,Gynecology
+"S32810G Multiple fractures of pelvis with stable disruption of pelvic ring, subsequent encounter for
+fracture with delayed healing",,,Gynecology
+"S32810K Multiple fractures of pelvis with stable disruption of pelvic ring, subsequent encounter for
+fracture with nonunion",,,Gynecology
+"S32810S Multiple fractures of pelvis with stable disruption of pelvic ring, sequela",,,Gynecology
+"S32811A Multiple fractures of pelvis with unstable disruption of pelvic ring, initial encounter for closed
+fracture",,,Gynecology
+"S32811B Multiple fractures of pelvis with unstable disruption of pelvic ring, initial encounter for open
+fracture",,,Gynecology
+"S32811D Multiple fractures of pelvis with unstable disruption of pelvic ring, subsequent encounter for
+fracture with routine healing",,,Gynecology
+"S32811G Multiple fractures of pelvis with unstable disruption of pelvic ring, subsequent encounter for
+fracture with delayed healing",,,Gynecology
+"S32811K Multiple fractures of pelvis with unstable disruption of pelvic ring, subsequent encounter for
+fracture with nonunion",,,Gynecology
+"S32811S Multiple fractures of pelvis with unstable disruption of pelvic ring, sequela",,,Gynecology
+"S3282XA Multiple fractures of pelvis without disruption of pelvic ring, initial encounter for closed
+fracture",,,Gynecology
+"S3282XB Multiple fractures of pelvis without disruption of pelvic ring, initial encounter for open fracture",,,Gynecology
+"S3282XD Multiple fractures of pelvis without disruption of pelvic ring, subsequent encounter for
+fracture with routine healing",,,Gynecology
+"S3282XG Multiple fractures of pelvis without disruption of pelvic ring, subsequent encounter for
+fracture with delayed healing",,,Gynecology
+"S3282XK Multiple fractures of pelvis without disruption of pelvic ring, subsequent encounter for fracture
+with nonunion",,,Gynecology
+"S3282XS Multiple fractures of pelvis without disruption of pelvic ring, sequela",,,Gynecology
+"S345XXA Injury of lumbar, sacral and pelvic sympathetic nerves, initial encounter",,,Gynecology
+"S345XXD Injury of lumbar, sacral and pelvic sympathetic nerves, subsequent encounter",,,Gynecology
+"S345XXS Injury of lumbar, sacral and pelvic sympathetic nerves, sequela",,,Gynecology
+"S37401A Unspecified injury of ovary, unilateral, initial encounter",,,Gynecology
+"S37401D Unspecified injury of ovary, unilateral, subsequent encounter",,,Gynecology
+"S37401S Unspecified injury of ovary, unilateral, sequela",,,Gynecology
+"S37402A Unspecified injury of ovary, bilateral, initial encounter",,,Gynecology
+"S37402D Unspecified injury of ovary, bilateral, subsequent encounter",,,Gynecology
+"S37402S Unspecified injury of ovary, bilateral, sequela",,,Gynecology
+"S37409A Unspecified injury of ovary, unspecified, initial encounter",,,Gynecology
+"S37409D Unspecified injury of ovary, unspecified, subsequent encounter",,,Gynecology
+"S37409S Unspecified injury of ovary, unspecified, sequela",,,Gynecology
+"S37421A Contusion of ovary, unilateral, initial encounter",,,Gynecology
+"S37421D Contusion of ovary, unilateral, subsequent encounter",,,Gynecology
+"S37421S Contusion of ovary, unilateral, sequela",,,Gynecology
+"S37422A Contusion of ovary, bilateral, initial encounter",,,Gynecology
+"S37422D Contusion of ovary, bilateral, subsequent encounter",,,Gynecology
+"S37422S Contusion of ovary, bilateral, sequela",,,Gynecology
+"S37429A Contusion of ovary, unspecified, initial encounter",,,Gynecology
+"S37429D Contusion of ovary, unspecified, subsequent encounter",,,Gynecology
+"S37429S Contusion of ovary, unspecified, sequela",,,Gynecology
+"S37431A Laceration of ovary, unilateral, initial encounter",,,Gynecology
+"S37431D Laceration of ovary, unilateral, subsequent encounter",,,Gynecology
+"S37431S Laceration of ovary, unilateral, sequela",,,Gynecology
+"S37432A Laceration of ovary, bilateral, initial encounter",,,Gynecology
+"S37432D Laceration of ovary, bilateral, subsequent encounter",,,Gynecology
+"S37432S Laceration of ovary, bilateral, sequela",,,Gynecology
+"S37439A Laceration of ovary, unspecified, initial encounter",,,Gynecology
+"S37439D Laceration of ovary, unspecified, subsequent encounter",,,Gynecology
+"S37439S Laceration of ovary, unspecified, sequela",,,Gynecology
+"S37491A Other injury of ovary, unilateral, initial encounter",,,Gynecology
+"S37491D Other injury of ovary, unilateral, subsequent encounter",,,Gynecology
+"S37491S Other injury of ovary, unilateral, sequela",,,Gynecology
+"S37492A Other injury of ovary, bilateral, initial encounter",,,Gynecology
+"S37492D Other injury of ovary, bilateral, subsequent encounter",,,Gynecology
+"S37492S Other injury of ovary, bilateral, sequela",,,Gynecology
+"S37499A Other injury of ovary, unspecified, initial encounter",,,Gynecology
+"S37499D Other injury of ovary, unspecified, subsequent encounter",,,Gynecology
+"S37499S Other injury of ovary, unspecified, sequela",,,Gynecology
+"S3760XA Unspecified injury of uterus, initial encounter",,,Gynecology
+"S3760XD Unspecified injury of uterus, subsequent encounter",,,Gynecology
+"S3760XS Unspecified injury of uterus, sequela",,,Gynecology
+"S3762XA Contusion of uterus, initial encounter",,,Gynecology
+"S3762XD Contusion of uterus, subsequent encounter",,,Gynecology
+"S3762XS Contusion of uterus, sequela",,,Gynecology
+"S3763XA Laceration of uterus, initial encounter",,,Gynecology
+"S3763XD Laceration of uterus, subsequent encounter",,,Gynecology
+"S3763XS Laceration of uterus, sequela",,,Gynecology
+"S3769XA Other injury of uterus, initial encounter",,,Gynecology
+"S3769XD Other injury of uterus, subsequent encounter",,,Gynecology
+"S3769XS Other injury of uterus, sequela",,,Gynecology
+"S37892A Contusion of other urinary and pelvic organ, initial encounter",,,Gynecology
+"S37892D Contusion of other urinary and pelvic organ, subsequent encounter",,,Gynecology
+"S37892S Contusion of other urinary and pelvic organ, sequela",,,Gynecology
+"S37893A Laceration of other urinary and pelvic organ, initial encounter",,,Gynecology
+"S37893D Laceration of other urinary and pelvic organ, subsequent encounter",,,Gynecology
+"S37893S Laceration of other urinary and pelvic organ, sequela",,,Gynecology
+"S37898A Other injury of other urinary and pelvic organ, initial encounter",,,Gynecology
+"S37898D Other injury of other urinary and pelvic organ, subsequent encounter",,,Gynecology
+"S37898S Other injury of other urinary and pelvic organ, sequela",,,Gynecology
+"S37899A Unspecified injury of other urinary and pelvic organ, initial encounter",,,Gynecology
+"S37899D Unspecified injury of other urinary and pelvic organ, subsequent encounter",,,Gynecology
+"S37899S Unspecified injury of other urinary and pelvic organ, sequela",,,Gynecology
+"S3790XA Unspecified injury of unspecified urinary and pelvic organ, initial encounter",,,Gynecology
+"S3790XD Unspecified injury of unspecified urinary and pelvic organ, subsequent encounter",,,Gynecology
+"S3790XS Unspecified injury of unspecified urinary and pelvic organ, sequela",,,Gynecology
+"S3792XA Contusion of unspecified urinary and pelvic organ, initial encounter",,,Gynecology
+"S3792XD Contusion of unspecified urinary and pelvic organ, subsequent encounter",,,Gynecology
+"S3792XS Contusion of unspecified urinary and pelvic organ, sequela",,,Gynecology
+"S3793XA Laceration of unspecified urinary and pelvic organ, initial encounter",,,Gynecology
+"S3793XD Laceration of unspecified urinary and pelvic organ, subsequent encounter",,,Gynecology
+"S3793XS Laceration of unspecified urinary and pelvic organ, sequela",,,Gynecology
+"S3799XA Other injury of unspecified urinary and pelvic organ, initial encounter",,,Gynecology
+"S3799XD Other injury of unspecified urinary and pelvic organ, subsequent encounter",,,Gynecology
+"S3799XS Other injury of unspecified urinary and pelvic organ, sequela",,,Gynecology
+"T193XXA Foreign body in uterus, initial encounter",,,Gynecology
+"T193XXD Foreign body in uterus, subsequent encounter",,,Gynecology
+"T193XXS Foreign body in uterus, sequela",,,Gynecology
+"T8541XA Breakdown (mechanical) of breast prosthesis and implant, initial encounter",,,Gynecology
+"T8541XD Breakdown (mechanical) of breast prosthesis and implant, subsequent encounter",,,Gynecology
+"T8541XS Breakdown (mechanical) of breast prosthesis and implant, sequela",,,Gynecology
+"T8542XA Displacement of breast prosthesis and implant, initial encounter",,,Gynecology
+"T8542XD Displacement of breast prosthesis and implant, subsequent encounter",,,Gynecology
+"T8542XS Displacement of breast prosthesis and implant, sequela",,,Gynecology
+"T8543XA Leakage of breast prosthesis and implant, initial encounter",,,Gynecology
+"T8543XD Leakage of breast prosthesis and implant, subsequent encounter",,,Gynecology
+"T8543XS Leakage of breast prosthesis and implant, sequela",,,Gynecology
+"T8544XA Capsular contracture of breast implant, initial encounter",,,Gynecology
+"T8544XD Capsular contracture of breast implant, subsequent encounter",,,Gynecology
+"T8544XS Capsular contracture of breast implant, sequela",,,Gynecology
+"T8549XA Other mechanical complication of breast prosthesis and implant, initial encounter",,,Gynecology
+"T8549XD Other mechanical complication of breast prosthesis and implant, subsequent encounter",,,Gynecology
+"T8549XS Other mechanical complication of breast prosthesis and implant, sequela",,,Gynecology
+Z1231   Encounter for screening mammogram for malignant neoplasm of breast,,,Gynecology
+Z1239   Encounter for other screening for malignant neoplasm of breast,,,Gynecology
+Z124    Encounter for screening for malignant neoplasm of cervix,,,Gynecology
+Z1273   Encounter for screening for malignant neoplasm of ovary,,,Gynecology
+Z1501   Genetic susceptibility to malignant neoplasm of breast,,,Gynecology
+Z1502   Genetic susceptibility to malignant neoplasm of ovary,,,Gynecology
+Z3002   Counseling and instruction in natural family planning to avoid pregnancy,,,Gynecology
+Z31441  Encounter for testing of male partner of patient with recurrent pregnancy loss,,,Gynecology
+"Z3200   Encounter for pregnancy test, result unknown",,,Gynecology
+"Z3201   Encounter for pregnancy test, result positive",,,Gynecology
+"Z3202   Encounter for pregnancy test, result negative",,,Gynecology
+Z332    Encounter for elective termination of pregnancy,,,Gynecology
+"Z3400   Encounter for supervision of normal first pregnancy, unspecified trimester",,,Gynecology
+"Z3401   Encounter for supervision of normal first pregnancy, first trimester",,,Gynecology
+"Z3402   Encounter for supervision of normal first pregnancy, second trimester",,,Gynecology
+"Z3403   Encounter for supervision of normal first pregnancy, third trimester",,,Gynecology
+"Z3480   Encounter for supervision of other normal pregnancy, unspecified trimester",,,Gynecology
+"Z3481   Encounter for supervision of other normal pregnancy, first trimester",,,Gynecology
+"Z3482   Encounter for supervision of other normal pregnancy, second trimester",,,Gynecology
+"Z3483   Encounter for supervision of other normal pregnancy, third trimester",,,Gynecology
+"Z3490   Encounter for supervision of normal pregnancy, unspecified, unspecified trimester",,,Gynecology
+"Z3491   Encounter for supervision of normal pregnancy, unspecified, first trimester",,,Gynecology
+"Z3492   Encounter for supervision of normal pregnancy, unspecified, second trimester",,,Gynecology
+"Z3493   Encounter for supervision of normal pregnancy, unspecified, third trimester",,,Gynecology
+Z3A00   Weeks of gestation of pregnancy not specified,,,Gynecology
+Z3A01   Less than 8 weeks gestation of pregnancy,,,Gynecology
+Z3A08   8 weeks gestation of pregnancy,,,Gynecology
+Z3A09   9 weeks gestation of pregnancy,,,Gynecology
+Z3A10   10 weeks gestation of pregnancy,,,Gynecology
+Z3A11   11 weeks gestation of pregnancy,,,Gynecology
+Z3A12   12 weeks gestation of pregnancy,,,Gynecology
+Z3A13   13 weeks gestation of pregnancy,,,Gynecology
+Z3A14   14 weeks gestation of pregnancy,,,Gynecology
+Z3A15   15 weeks gestation of pregnancy,,,Gynecology
+Z3A16   16 weeks gestation of pregnancy,,,Gynecology
+Z3A17   17 weeks gestation of pregnancy,,,Gynecology
+Z3A18   18 weeks gestation of pregnancy,,,Gynecology
+Z3A19   19 weeks gestation of pregnancy,,,Gynecology
+Z3A20   20 weeks gestation of pregnancy,,,Gynecology
+Z3A21   21 weeks gestation of pregnancy,,,Gynecology
+Z3A22   22 weeks gestation of pregnancy,,,Gynecology
+Z3A23   23 weeks gestation of pregnancy,,,Gynecology
+Z3A24   24 weeks gestation of pregnancy,,,Gynecology
+Z3A25   25 weeks gestation of pregnancy,,,Gynecology
+Z3A26   26 weeks gestation of pregnancy,,,Gynecology
+Z3A27   27 weeks gestation of pregnancy,,,Gynecology
+Z3A28   28 weeks gestation of pregnancy,,,Gynecology
+Z3A29   29 weeks gestation of pregnancy,,,Gynecology
+Z3A30   30 weeks gestation of pregnancy,,,Gynecology
+Z3A31   31 weeks gestation of pregnancy,,,Gynecology
+Z3A32   32 weeks gestation of pregnancy,,,Gynecology
+Z3A33   33 weeks gestation of pregnancy,,,Gynecology
+Z3A34   34 weeks gestation of pregnancy,,,Gynecology
+Z3A35   35 weeks gestation of pregnancy,,,Gynecology
+Z3A36   36 weeks gestation of pregnancy,,,Gynecology
+Z3A37   37 weeks gestation of pregnancy,,,Gynecology
+Z3A38   38 weeks gestation of pregnancy,,,Gynecology
+Z3A39   39 weeks gestation of pregnancy,,,Gynecology
+Z3A40   40 weeks gestation of pregnancy,,,Gynecology
+Z3A41   41 weeks gestation of pregnancy,,,Gynecology
+Z3A42   42 weeks gestation of pregnancy,,,Gynecology
+Z3A49   Greater than 42 weeks gestation of pregnancy,,,Gynecology
+Z4001   Encounter for prophylactic removal of breast,,,Gynecology
+Z4002   Encounter for prophylactic removal of ovary,,,Gynecology
+Z421    Encounter for breast reconstruction following mastectomy,,,Gynecology
+"Z4430   Encounter for fitting and adjustment of external breast prosthesis, unspecified breast",,,Gynecology
+Z4431   Encounter for fitting and adjustment of external right breast prosthesis,,,Gynecology
+Z4432   Encounter for fitting and adjustment of external left breast prosthesis,,,Gynecology
+Z45811  Encounter for adjustment or removal of right breast implant,,,Gynecology
+Z45812  Encounter for adjustment or removal of left breast implant,,,Gynecology
+Z45819  Encounter for adjustment or removal of unspecified breast implant,,,Gynecology
+Z640    Problems related to unwanted pregnancy,,,Gynecology
+Z803    Family history of malignant neoplasm of breast,,,Gynecology
+Z8041   Family history of malignant neoplasm of ovary,,,Gynecology
+Z853    Personal history of malignant neoplasm of breast,,,Gynecology
+Z8541   Personal history of malignant neoplasm of cervix uteri,,,Gynecology
+Z8542   Personal history of malignant neoplasm of other parts of uterus,,,Gynecology
+Z8543   Personal history of malignant neoplasm of ovary,,,Gynecology
+Z86000  Personal history of in-situ neoplasm of breast,,,Gynecology
+Z86001  Personal history of in-situ neoplasm of cervix uteri,,,Gynecology
+"Z8759   Personal history of other complications of pregnancy, childbirth and the puerperium",,,Gynecology
+Z9010   Acquired absence of unspecified breast and nipple,,,Gynecology
+Z9011   Acquired absence of right breast and nipple,,,Gynecology
+Z9012   Acquired absence of left breast and nipple,,,Gynecology
+Z90710  Acquired absence of both cervix and uterus,,,Gynecology
+Z90711  Acquired absence of uterus with remaining cervical stump,,,Gynecology
+Z90712  Acquired absence of cervix with remaining uterus,,,Gynecology
+Z9882   Breast implant status,,,Gynecology
+Z9886   Personal history of breast implant removal,,,Gynecology
+Z98870  Personal history of in utero procedure during pregnancy,,,Gynecology

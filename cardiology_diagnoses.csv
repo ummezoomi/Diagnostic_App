@@ -1,0 +1,608 @@
+Diagnosis,Symptoms,MEDICATION,Specialty
+A0102   Typhoid fever with heart involvement,A0102   Typhoid fever with heart involvement,"Azithromycin, Ceftriaxone, Chloramphenicol, Co-trimoxazole",Cardiology
+A1884   Tuberculosis of heart,,,Cardiology
+A381    Scarlet fever with myocarditis,,,Cardiology
+A3952   Meningococcal myocarditis,,,Cardiology
+A3953   Meningococcal pericarditis,,,Cardiology
+A5206   Other syphilitic heart involvement,,,Cardiology
+A5483   Gonococcal heart infection,,,Cardiology
+B2682   Mumps myocarditis,,,Cardiology
+B3322   Viral myocarditis,,,Cardiology
+B3323   Viral pericarditis,,,Cardiology
+B570    Acute Chagas' disease with heart involvement,,,Cardiology
+B571    Acute Chagas' disease without heart involvement,,,Cardiology
+B572    Chagas' disease (chronic) with heart involvement,,,Cardiology
+B5881   Toxoplasma myocarditis,,,Cardiology
+C380    Malignant neoplasm of heart,,,Cardiology
+"C388    Malignant neoplasm of overlapping sites of heart, mediastinum and pleura",,,Cardiology
+D151    Benign neoplasm of heart,,,Cardiology
+D8685   Sarcoid myocarditis,,,Cardiology
+G932    Benign intracranial hypertension,,,Cardiology
+"H40051  Ocular hypertension, right eye",,,Cardiology
+"H40052  Ocular hypertension, left eye",,,Cardiology
+"H40053  Ocular hypertension, bilateral",,,Cardiology
+"H40059  Ocular hypertension, unspecified eye",,,Cardiology
+I00     Rheumatic fever without heart involvement,,,Cardiology
+I010    Acute rheumatic pericarditis,,,Cardiology
+I012    Acute rheumatic myocarditis,,,Cardiology
+I018    Other acute rheumatic heart disease,,,Cardiology
+"I019    Acute rheumatic heart disease, unspecified",,,Cardiology
+I020    Rheumatic chorea with heart involvement,,,Cardiology
+I029    Rheumatic chorea without heart involvement,,,Cardiology
+I090    Rheumatic myocarditis,,,Cardiology
+I092    Chronic rheumatic pericarditis,,,Cardiology
+I0981   Rheumatic heart failure,,,Cardiology
+I0989   Other specified rheumatic heart diseases,,,Cardiology
+"I099    Rheumatic heart disease, unspecified",,,Cardiology
+I10     Essential (primary) hypertension,,,Cardiology
+I110    Hypertensive heart disease with heart failure,,,Cardiology
+I119    Hypertensive heart disease without heart failure,,,Cardiology
+"I130    Hypertensive heart and chronic kidney disease with heart failure and stage 1 through stage 4
+chronic kidney disease, or unspecified chronic kidney disease",,,Cardiology
+"I1310   Hypertensive heart and chronic kidney disease without heart failure, with stage 1 through stage
+4 chronic kidney disease, or unspecified chronic kidney disease",,,Cardiology
+"I1311   Hypertensive heart and chronic kidney disease without heart failure, with stage 5 chronic kidney
+disease, or end stage renal disease",,,Cardiology
+"I132    Hypertensive heart and chronic kidney disease with heart failure and with stage 5 chronic kidney
+disease, or end stage renal disease",,,Cardiology
+I150    Renovascular hypertension,,,Cardiology
+I151    Hypertension secondary to other renal disorders,,,Cardiology
+I152    Hypertension secondary to endocrine disorders,,,Cardiology
+I158    Other secondary hypertension,,,Cardiology
+"I159    Secondary hypertension, unspecified",,,Cardiology
+I200    Unstable angina,,,Cardiology
+I201    Angina pectoris with documented spasm,,,Cardiology
+I208    Other forms of angina pectoris,,,Cardiology
+"I209    Angina pectoris, unspecified",,,Cardiology
+I2101   ST elevation (STEMI) myocardial infarction involving left main coronary artery,,,Cardiology
+I2102   ST elevation (STEMI) myocardial infarction involving left anterior descending coronary artery,,,Cardiology
+I2109   ST elevation (STEMI) myocardial infarction involving other coronary artery of anterior wall,,,Cardiology
+I2111   ST elevation (STEMI) myocardial infarction involving right coronary artery,,,Cardiology
+I2119   ST elevation (STEMI) myocardial infarction involving other coronary artery of inferior wall,,,Cardiology
+I2121   ST elevation (STEMI) myocardial infarction involving left circumflex coronary artery,,,Cardiology
+"I233    Rupture of cardiac wall without hemopericardium as current complication following acute
+myocardial infarction",,,Cardiology
+I237    Postinfarction angina,,,Cardiology
+I240    Acute coronary thrombosis not resulting in myocardial infarction,,,Cardiology
+I248    Other forms of acute ischemic heart disease,,,Cardiology
+"I249    Acute ischemic heart disease, unspecified",,,Cardiology
+I2510   Atherosclerotic heart disease of native coronary artery without angina pectoris,,,Cardiology
+I25110  Atherosclerotic heart disease of native coronary artery with unstable angina pectoris,,,Cardiology
+"I25111  Atherosclerotic heart disease of native coronary artery with angina pectoris with documented
+spasm",,,Cardiology
+I25118  Atherosclerotic heart disease of native coronary artery with other forms of angina pectoris,,,Cardiology
+I25119  Atherosclerotic heart disease of native coronary artery with unspecified angina pectoris,,,Cardiology
+I253    Aneurysm of heart,,,Cardiology
+I2541   Coronary artery aneurysm,,,Cardiology
+I2542   Coronary artery dissection,,,Cardiology
+"I25700  Atherosclerosis of coronary artery bypass graft(s), unspecified, with unstable angina pectoris",,,Cardiology
+"I25701  Atherosclerosis of coronary artery bypass graft(s), unspecified, with angina pectoris with
+documented spasm",,,Cardiology
+"I25708  Atherosclerosis of coronary artery bypass graft(s), unspecified, with other forms of angina
+pectoris",,,Cardiology
+"I25709  Atherosclerosis of coronary artery bypass graft(s), unspecified, with unspecified angina pectoris",,,Cardiology
+I25710  Atherosclerosis of autologous vein coronary artery bypass graft(s) with unstable angina pectoris,,,Cardiology
+"I25711  Atherosclerosis of autologous vein coronary artery bypass graft(s) with angina pectoris with
+documented spasm",,,Cardiology
+"I25718  Atherosclerosis of autologous vein coronary artery bypass graft(s) with other forms of angina
+pectoris",,,Cardiology
+"I25719  Atherosclerosis of autologous vein coronary artery bypass graft(s) with unspecified angina
+pectoris",,,Cardiology
+"I25720  Atherosclerosis of autologous artery coronary artery bypass graft(s) with unstable angina
+pectoris",,,Cardiology
+"I25721  Atherosclerosis of autologous artery coronary artery bypass graft(s) with angina pectoris with
+documented spasm",,,Cardiology
+"I25728  Atherosclerosis of autologous artery coronary artery bypass graft(s) with other forms of angina
+pectoris",,,Cardiology
+"I25729  Atherosclerosis of autologous artery coronary artery bypass graft(s) with unspecified angina
+pectoris",,,Cardiology
+"I25730  Atherosclerosis of nonautologous biological coronary artery bypass graft(s) with unstable angina
+pectoris",,,Cardiology
+"I25731  Atherosclerosis of nonautologous biological coronary artery bypass graft(s) with angina pectoris
+with documented spasm",,,Cardiology
+"I25738  Atherosclerosis of nonautologous biological coronary artery bypass graft(s) with other forms of
+angina pectoris",,,Cardiology
+"I25739  Atherosclerosis of nonautologous biological coronary artery bypass graft(s) with unspecified
+angina pectoris",,,Cardiology
+I25750  Atherosclerosis of native coronary artery of transplanted heart with unstable angina,,,Cardiology
+"I25751  Atherosclerosis of native coronary artery of transplanted heart with angina pectoris with
+documented spasm",,,Cardiology
+"I25758  Atherosclerosis of native coronary artery of transplanted heart with other forms of angina
+pectoris",,,Cardiology
+I25759  Atherosclerosis of native coronary artery of transplanted heart with unspecified angina pectoris,,,Cardiology
+I25760  Atherosclerosis of bypass graft of coronary artery of transplanted heart with unstable angina,,,Cardiology
+"I25761  Atherosclerosis of bypass graft of coronary artery of transplanted heart with angina pectoris
+with documented spasm",,,Cardiology
+"I25768  Atherosclerosis of bypass graft of coronary artery of transplanted heart with other forms of
+angina pectoris",,,Cardiology
+"I25769  Atherosclerosis of bypass graft of coronary artery of transplanted heart with unspecified angina
+pectoris",,,Cardiology
+I25790  Atherosclerosis of other coronary artery bypass graft(s) with unstable angina pectoris,,,Cardiology
+"I25791  Atherosclerosis of other coronary artery bypass graft(s) with angina pectoris with documented
+spasm",,,Cardiology
+I25798  Atherosclerosis of other coronary artery bypass graft(s) with other forms of angina pectoris,,,Cardiology
+I25799  Atherosclerosis of other coronary artery bypass graft(s) with unspecified angina pectoris,,,Cardiology
+I25810  Atherosclerosis of coronary artery bypass graft(s) without angina pectoris,,,Cardiology
+I25811  Atherosclerosis of native coronary artery of transplanted heart without angina pectoris,,,Cardiology
+I25812  Atherosclerosis of bypass graft of coronary artery of transplanted heart without angina pectoris,,,Cardiology
+I2582   Chronic total occlusion of coronary artery,,,Cardiology
+I2583   Coronary atherosclerosis due to lipid rich plaque,,,Cardiology
+I2584   Coronary atherosclerosis due to calcified coronary lesion,,,Cardiology
+I2589   Other forms of chronic ischemic heart disease,,,Cardiology
+"I259    Chronic ischemic heart disease, unspecified",,,Cardiology
+I270    Primary pulmonary hypertension,,,Cardiology
+I271    Kyphoscoliotic heart disease,,,Cardiology
+I272    Other secondary pulmonary hypertension,,,Cardiology
+I2789   Other specified pulmonary heart diseases,,,Cardiology
+"I279    Pulmonary heart disease, unspecified",,,Cardiology
+I300    Acute nonspecific idiopathic pericarditis,,,Cardiology
+I301    Infective pericarditis,,,Cardiology
+I308    Other forms of acute pericarditis,,,Cardiology
+"I309    Acute pericarditis, unspecified",,,Cardiology
+I310    Chronic adhesive pericarditis,,,Cardiology
+I311    Chronic constrictive pericarditis,,,Cardiology
+I314    Cardiac tamponade,,,Cardiology
+I32     Pericarditis in diseases classified elsewhere,,,Cardiology
+I39     Endocarditis and heart valve disorders in diseases classified elsewhere,,,Cardiology
+I400    Infective myocarditis,,,Cardiology
+I401    Isolated myocarditis,,,Cardiology
+I408    Other acute myocarditis,,,Cardiology
+"I409    Acute myocarditis, unspecified",,,Cardiology
+I41     Myocarditis in diseases classified elsewhere,,,Cardiology
+I455    Other specified heart block,,,Cardiology
+I462    Cardiac arrest due to underlying cardiac condition,,,Cardiology
+I468    Cardiac arrest due to other underlying condition,,,Cardiology
+"I469    Cardiac arrest, cause unspecified",,,Cardiology
+I470    Re-entry ventricular arrhythmia,,,Cardiology
+I498    Other specified cardiac arrhythmias,,,Cardiology
+"I499    Cardiac arrhythmia, unspecified",,,Cardiology
+I5020   Unspecified systolic (congestive) heart failure,,,Cardiology
+I5021   Acute systolic (congestive) heart failure,,,Cardiology
+I5022   Chronic systolic (congestive) heart failure,,,Cardiology
+I5023   Acute on chronic systolic (congestive) heart failure,,,Cardiology
+I5030   Unspecified diastolic (congestive) heart failure,,,Cardiology
+I5031   Acute diastolic (congestive) heart failure,,,Cardiology
+I5032   Chronic diastolic (congestive) heart failure,,,Cardiology
+I5033   Acute on chronic diastolic (congestive) heart failure,,,Cardiology
+I5040   Unspecified combined systolic (congestive) and diastolic (congestive) heart failure,,,Cardiology
+I5041   Acute combined systolic (congestive) and diastolic (congestive) heart failure,,,Cardiology
+I5042   Chronic combined systolic (congestive) and diastolic (congestive) heart failure,,,Cardiology
+I5043   Acute on chronic combined systolic (congestive) and diastolic (congestive) heart failure,,,Cardiology
+"I509    Heart failure, unspecified",,,Cardiology
+"I510    Cardiac septal defect, acquired",,,Cardiology
+"I514    Myocarditis, unspecified",,,Cardiology
+I5189   Other ill-defined heart diseases,,,Cardiology
+"I519    Heart disease, unspecified",,,Cardiology
+I52     Other heart disorders in diseases classified elsewhere,,,Cardiology
+I87301  Chronic venous hypertension (idiopathic) without complications of right lower extremity,,,Cardiology
+I87302  Chronic venous hypertension (idiopathic) without complications of left lower extremity,,,Cardiology
+I87303  Chronic venous hypertension (idiopathic) without complications of bilateral lower extremity,,,Cardiology
+I87309  Chronic venous hypertension (idiopathic) without complications of unspecified lower extremity,,,Cardiology
+I87321  Chronic venous hypertension (idiopathic) with inflammation of right lower extremity,,,Cardiology
+I87322  Chronic venous hypertension (idiopathic) with inflammation of left lower extremity,,,Cardiology
+I87323  Chronic venous hypertension (idiopathic) with inflammation of bilateral lower extremity,,,Cardiology
+I87329  Chronic venous hypertension (idiopathic) with inflammation of unspecified lower extremity,,,Cardiology
+I87391  Chronic venous hypertension (idiopathic) with other complications of right lower extremity,,,Cardiology
+I87392  Chronic venous hypertension (idiopathic) with other complications of left lower extremity,,,Cardiology
+I87393  Chronic venous hypertension (idiopathic) with other complications of bilateral lower extremity,,,Cardiology
+"I87399  Chronic venous hypertension (idiopathic) with other complications of unspecified lower
+extremity",,,Cardiology
+I97110  Postprocedural cardiac insufficiency following cardiac surgery,,,Cardiology
+I97111  Postprocedural cardiac insufficiency following other surgery,,,Cardiology
+I97120  Postprocedural cardiac arrest following cardiac surgery,,,Cardiology
+I97121  Postprocedural cardiac arrest following other surgery,,,Cardiology
+I97130  Postprocedural heart failure following cardiac surgery,,,Cardiology
+I97131  Postprocedural heart failure following other surgery,,,Cardiology
+I97190  Other postprocedural cardiac functional disturbances following cardiac surgery,,,Cardiology
+I97191  Other postprocedural cardiac functional disturbances following other surgery,,,Cardiology
+I973    Postprocedural hypertension,,,Cardiology
+"I97410  Intraoperative hemorrhage and hematoma of a circulatory system organ or structure
+complicating a cardiac catheterization",,,Cardiology
+"I97411  Intraoperative hemorrhage and hematoma of a circulatory system organ or structure
+complicating a cardiac bypass",,,Cardiology
+"I97610  Postprocedural hemorrhage of a circulatory system organ or structure following a cardiac
+catheterization",,,Cardiology
+I97611  Postprocedural hemorrhage of a circulatory system organ or structure following cardiac bypass,,,Cardiology
+"I97630  Postprocedural hematoma of a circulatory system organ or structure following a cardiac
+catheterization",,,Cardiology
+I97631  Postprocedural hematoma of a circulatory system organ or structure following cardiac bypass,,,Cardiology
+"I97640  Postprocedural seroma of a circulatory system organ or structure following a cardiac
+catheterization",,,Cardiology
+I97641  Postprocedural seroma of a circulatory system organ or structure following cardiac bypass,,,Cardiology
+I97710  Intraoperative cardiac arrest during cardiac surgery,,,Cardiology
+I97711  Intraoperative cardiac arrest during other surgery,,,Cardiology
+I97790  Other intraoperative cardiac functional disturbances during cardiac surgery,,,Cardiology
+I97791  Other intraoperative cardiac functional disturbances during other surgery,,,Cardiology
+I97810  Intraoperative cerebrovascular infarction during cardiac surgery,,,Cardiology
+I97820  Postprocedural cerebrovascular infarction following cardiac surgery,,,Cardiology
+J1082   Influenza due to other identified influenza virus with myocarditis,,,Cardiology
+J1182   Influenza due to unidentified influenza virus with myocarditis,,,Cardiology
+K766    Portal hypertension,,,Cardiology
+M0530   Rheumatoid heart disease with rheumatoid arthritis of unspecified site,,,Cardiology
+M05311  Rheumatoid heart disease with rheumatoid arthritis of right shoulder,,,Cardiology
+M05312  Rheumatoid heart disease with rheumatoid arthritis of left shoulder,,,Cardiology
+M05319  Rheumatoid heart disease with rheumatoid arthritis of unspecified shoulder,,,Cardiology
+M05321  Rheumatoid heart disease with rheumatoid arthritis of right elbow,,,Cardiology
+M05322  Rheumatoid heart disease with rheumatoid arthritis of left elbow,,,Cardiology
+M05329  Rheumatoid heart disease with rheumatoid arthritis of unspecified elbow,,,Cardiology
+M05331  Rheumatoid heart disease with rheumatoid arthritis of right wrist,,,Cardiology
+M05332  Rheumatoid heart disease with rheumatoid arthritis of left wrist,,,Cardiology
+M05339  Rheumatoid heart disease with rheumatoid arthritis of unspecified wrist,,,Cardiology
+M05341  Rheumatoid heart disease with rheumatoid arthritis of right hand,,,Cardiology
+M05342  Rheumatoid heart disease with rheumatoid arthritis of left hand,,,Cardiology
+M05349  Rheumatoid heart disease with rheumatoid arthritis of unspecified hand,,,Cardiology
+M05351  Rheumatoid heart disease with rheumatoid arthritis of right hip,,,Cardiology
+M05352  Rheumatoid heart disease with rheumatoid arthritis of left hip,,,Cardiology
+M05359  Rheumatoid heart disease with rheumatoid arthritis of unspecified hip,,,Cardiology
+M05361  Rheumatoid heart disease with rheumatoid arthritis of right knee,,,Cardiology
+M05362  Rheumatoid heart disease with rheumatoid arthritis of left knee,,,Cardiology
+M05369  Rheumatoid heart disease with rheumatoid arthritis of unspecified knee,,,Cardiology
+M05371  Rheumatoid heart disease with rheumatoid arthritis of right ankle and foot,,,Cardiology
+M05372  Rheumatoid heart disease with rheumatoid arthritis of left ankle and foot,,,Cardiology
+M05379  Rheumatoid heart disease with rheumatoid arthritis of unspecified ankle and foot,,,Cardiology
+M0539   Rheumatoid heart disease with rheumatoid arthritis of multiple sites,,,Cardiology
+M3212   Pericarditis in systemic lupus erythematosus,,,Cardiology
+O0336   Cardiac arrest following incomplete spontaneous abortion,,,Cardiology
+O0386   Cardiac arrest following complete or unspecified spontaneous abortion,,,Cardiology
+O1002   Pre-existing essential hypertension complicating childbirth,,,Cardiology
+O1003   Pre-existing essential hypertension complicating the puerperium,,,Cardiology
+O1012   Pre-existing hypertensive heart disease complicating childbirth,,,Cardiology
+O1013   Pre-existing hypertensive heart disease complicating the puerperium,,,Cardiology
+O1032   Pre-existing hypertensive heart and chronic kidney disease complicating childbirth,,,Cardiology
+O1033   Pre-existing hypertensive heart and chronic kidney disease complicating the puerperium,,,Cardiology
+O1042   Pre-existing secondary hypertension complicating childbirth,,,Cardiology
+O1043   Pre-existing secondary hypertension complicating the puerperium,,,Cardiology
+O1092   Unspecified pre-existing hypertension complicating childbirth,,,Cardiology
+O1093   Unspecified pre-existing hypertension complicating the puerperium,,,Cardiology
+"O111    Pre-existing hypertension with pre-eclampsia, first trimester",,,Cardiology
+"O112    Pre-existing hypertension with pre-eclampsia, second trimester",,,Cardiology
+"O113    Pre-existing hypertension with pre-eclampsia, third trimester",,,Cardiology
+"O114    Pre-existing hypertension with pre-eclampsia, complicating childbirth",,,Cardiology
+"O115    Pre-existing hypertension with pre-eclampsia, complicating the puerperium",,,Cardiology
+"O119    Pre-existing hypertension with pre-eclampsia, unspecified trimester",,,Cardiology
+"O161    Unspecified maternal hypertension, first trimester",,,Cardiology
+"O162    Unspecified maternal hypertension, second trimester",,,Cardiology
+"O163    Unspecified maternal hypertension, third trimester",,,Cardiology
+"O164    Unspecified maternal hypertension, complicating childbirth",,,Cardiology
+"O165    Unspecified maternal hypertension, complicating the puerperium",,,Cardiology
+"O169    Unspecified maternal hypertension, unspecified trimester",,,Cardiology
+O742    Cardiac complications of anesthesia during labor and delivery,,,Cardiology
+O76     Abnormality in fetal heart rate and rhythm complicating labor and delivery,,,Cardiology
+O891    Cardiac complications of anesthesia during the puerperium,,,Cardiology
+"P03810  Newborn affected by abnormality in fetal (intrauterine) heart rate or rhythm before the onset
+of labor",,,Cardiology
+P03811  Newborn affected by abnormality in fetal (intrauterine) heart rate or rhythm during labor,,,Cardiology
+"P03819  Newborn affected by abnormality in fetal (intrauterine) heart rate or rhythm, unspecified as to
+time of onset",,,Cardiology
+P290    Neonatal cardiac failure,,,Cardiology
+P292    Neonatal hypertension,,,Cardiology
+P2981   Cardiac arrest of newborn,,,Cardiology
+Q208    Other congenital malformations of cardiac chambers and connections,,,Cardiology
+"Q209    Congenital malformation of cardiac chambers and connections, unspecified",,,Cardiology
+Q218    Other congenital malformations of cardiac septa,,,Cardiology
+"Q219    Congenital malformation of cardiac septum, unspecified",,,Cardiology
+Q226    Hypoplastic right heart syndrome,,,Cardiology
+Q234    Hypoplastic left heart syndrome,,,Cardiology
+Q245    Malformation of coronary vessels,,,Cardiology
+Q246    Congenital heart block,,,Cardiology
+Q248    Other specified congenital malformations of heart,,,Cardiology
+"Q249    Congenital malformation of heart, unspecified",,,Cardiology
+R008    Other abnormalities of heart beat,,,Cardiology
+R009    Unspecified abnormalities of heart beat,,,Cardiology
+R010    Benign and innocent cardiac murmurs,,,Cardiology
+"R011    Cardiac murmur, unspecified",,,Cardiology
+R012    Other cardiac sounds,,,Cardiology
+"R030    Elevated blood-pressure reading, without diagnosis of hypertension",,,Cardiology
+R931    Abnormal findings on diagnostic imaging of heart and coronary circulation,,,Cardiology
+"S2600XA Unspecified injury of heart with hemopericardium, initial encounter",,,Cardiology
+"S2600XD Unspecified injury of heart with hemopericardium, subsequent encounter",,,Cardiology
+"S2600XS Unspecified injury of heart with hemopericardium, sequela",,,Cardiology
+"S2601XA Contusion of heart with hemopericardium, initial encounter",,,Cardiology
+"S2601XD Contusion of heart with hemopericardium, subsequent encounter",,,Cardiology
+"S2601XS Contusion of heart with hemopericardium, sequela",,,Cardiology
+"S26020A Mild laceration of heart with hemopericardium, initial encounter",,,Cardiology
+"S26020D Mild laceration of heart with hemopericardium, subsequent encounter",,,Cardiology
+"S26020S Mild laceration of heart with hemopericardium, sequela",,,Cardiology
+"S26021A Moderate laceration of heart with hemopericardium, initial encounter",,,Cardiology
+"S26021D Moderate laceration of heart with hemopericardium, subsequent encounter",,,Cardiology
+"S26021S Moderate laceration of heart with hemopericardium, sequela",,,Cardiology
+"S26022A Major laceration of heart with hemopericardium, initial encounter",,,Cardiology
+"S26022D Major laceration of heart with hemopericardium, subsequent encounter",,,Cardiology
+"S26022S Major laceration of heart with hemopericardium, sequela",,,Cardiology
+"S2609XA Other injury of heart with hemopericardium, initial encounter",,,Cardiology
+"S2609XD Other injury of heart with hemopericardium, subsequent encounter",,,Cardiology
+"S2609XS Other injury of heart with hemopericardium, sequela",,,Cardiology
+"S2610XA Unspecified injury of heart without hemopericardium, initial encounter",,,Cardiology
+"S2610XD Unspecified injury of heart without hemopericardium, subsequent encounter",,,Cardiology
+"S2610XS Unspecified injury of heart without hemopericardium, sequela",,,Cardiology
+"S2611XA Contusion of heart without hemopericardium, initial encounter",,,Cardiology
+"S2611XD Contusion of heart without hemopericardium, subsequent encounter",,,Cardiology
+"S2611XS Contusion of heart without hemopericardium, sequela",,,Cardiology
+"S2612XA Laceration of heart without hemopericardium, initial encounter",,,Cardiology
+"S2612XD Laceration of heart without hemopericardium, subsequent encounter",,,Cardiology
+"S2612XS Laceration of heart without hemopericardium, sequela",,,Cardiology
+"S2619XA Other injury of heart without hemopericardium, initial encounter",,,Cardiology
+"S2619XD Other injury of heart without hemopericardium, subsequent encounter",,,Cardiology
+"S2619XS Other injury of heart without hemopericardium, sequela",,,Cardiology
+"S2690XA Unspecified injury of heart, unspecified with or without hemopericardium, initial encounter",,,Cardiology
+"S2690XD Unspecified injury of heart, unspecified with or without hemopericardium, subsequent
+encounter",,,Cardiology
+"S2690XS Unspecified injury of heart, unspecified with or without hemopericardium, sequela",,,Cardiology
+"S2691XA Contusion of heart, unspecified with or without hemopericardium, initial encounter",,,Cardiology
+"S2691XD Contusion of heart, unspecified with or without hemopericardium, subsequent encounter",,,Cardiology
+"S2691XS Contusion of heart, unspecified with or without hemopericardium, sequela",,,Cardiology
+"S2692XA Laceration of heart, unspecified with or without hemopericardium, initial encounter",,,Cardiology
+"S2692XD Laceration of heart, unspecified with or without hemopericardium, subsequent encounter",,,Cardiology
+"S2692XS Laceration of heart, unspecified with or without hemopericardium, sequela",,,Cardiology
+"S2699XA Other injury of heart, unspecified with or without hemopericardium, initial encounter",,,Cardiology
+"S2699XD Other injury of heart, unspecified with or without hemopericardium, subsequent encounter",,,Cardiology
+"S2699XS Other injury of heart, unspecified with or without hemopericardium, sequela",,,Cardiology
+"T460X1A Poisoning by cardiac-stimulant glycosides and drugs of similar action, accidental
+(unintentional), initial encounter",,,Cardiology
+"T460X1D Poisoning by cardiac-stimulant glycosides and drugs of similar action, accidental
+(unintentional), subsequent encounter",,,Cardiology
+"T460X1S Poisoning by cardiac-stimulant glycosides and drugs of similar action, accidental
+(unintentional), sequela",,,Cardiology
+"T460X2A Poisoning by cardiac-stimulant glycosides and drugs of similar action, intentional self-harm,
+initial encounter",,,Cardiology
+"T460X2D Poisoning by cardiac-stimulant glycosides and drugs of similar action, intentional self-harm,
+subsequent encounter",,,Cardiology
+"T460X2S Poisoning by cardiac-stimulant glycosides and drugs of similar action, intentional self-harm,
+sequela",,,Cardiology
+"T460X3A Poisoning by cardiac-stimulant glycosides and drugs of similar action, assault, initial encounter",,,Cardiology
+"T460X3D Poisoning by cardiac-stimulant glycosides and drugs of similar action, assault, subsequent
+encounter",,,Cardiology
+"T460X3S Poisoning by cardiac-stimulant glycosides and drugs of similar action, assault, sequela",,,Cardiology
+"T460X4A Poisoning by cardiac-stimulant glycosides and drugs of similar action, undetermined, initial
+encounter",,,Cardiology
+"T460X4D Poisoning by cardiac-stimulant glycosides and drugs of similar action, undetermined,
+subsequent encounter",,,Cardiology
+"T460X4S Poisoning by cardiac-stimulant glycosides and drugs of similar action, undetermined, sequela",,,Cardiology
+"T460X5A Adverse effect of cardiac-stimulant glycosides and drugs of similar action, initial encounter",,,Cardiology
+"T460X5D Adverse effect of cardiac-stimulant glycosides and drugs of similar action, subsequent
+encounter",,,Cardiology
+"T460X5S Adverse effect of cardiac-stimulant glycosides and drugs of similar action, sequela",,,Cardiology
+"T460X6A Underdosing of cardiac-stimulant glycosides and drugs of similar action, initial encounter",,,Cardiology
+"T460X6D Underdosing of cardiac-stimulant glycosides and drugs of similar action, subsequent encounter",,,Cardiology
+"T460X6S Underdosing of cardiac-stimulant glycosides and drugs of similar action, sequela",,,Cardiology
+"T463X1A Poisoning by coronary vasodilators, accidental (unintentional), initial encounter",,,Cardiology
+"T463X1D Poisoning by coronary vasodilators, accidental (unintentional), subsequent encounter",,,Cardiology
+"T463X1S Poisoning by coronary vasodilators, accidental (unintentional), sequela",,,Cardiology
+"T463X2A Poisoning by coronary vasodilators, intentional self-harm, initial encounter",,,Cardiology
+"T463X2D Poisoning by coronary vasodilators, intentional self-harm, subsequent encounter",,,Cardiology
+"T463X2S Poisoning by coronary vasodilators, intentional self-harm, sequela",,,Cardiology
+"T463X3A Poisoning by coronary vasodilators, assault, initial encounter",,,Cardiology
+"T463X3D Poisoning by coronary vasodilators, assault, subsequent encounter",,,Cardiology
+"T463X3S Poisoning by coronary vasodilators, assault, sequela",,,Cardiology
+"T463X4A Poisoning by coronary vasodilators, undetermined, initial encounter",,,Cardiology
+"T463X4D Poisoning by coronary vasodilators, undetermined, subsequent encounter",,,Cardiology
+"T463X4S Poisoning by coronary vasodilators, undetermined, sequela",,,Cardiology
+"T463X5A Adverse effect of coronary vasodilators, initial encounter",,,Cardiology
+"T463X5D Adverse effect of coronary vasodilators, subsequent encounter",,,Cardiology
+"T463X5S Adverse effect of coronary vasodilators, sequela",,,Cardiology
+"T463X6A Underdosing of coronary vasodilators, initial encounter",,,Cardiology
+"T463X6D Underdosing of coronary vasodilators, subsequent encounter",,,Cardiology
+"T463X6S Underdosing of coronary vasodilators, sequela",,,Cardiology
+"T81505A Unspecified complication of foreign body accidentally left in body following heart
+catheterization, initial encounter",,,Cardiology
+"T81505D Unspecified complication of foreign body accidentally left in body following heart
+catheterization, subsequent encounter",,,Cardiology
+"T81505S Unspecified complication of foreign body accidentally left in body following heart
+catheterization, sequela",,,Cardiology
+"T81515A Adhesions due to foreign body accidentally left in body following heart catheterization, initial
+encounter",,,Cardiology
+"T81515D Adhesions due to foreign body accidentally left in body following heart catheterization,
+subsequent encounter",,,Cardiology
+"T81515S Adhesions due to foreign body accidentally left in body following heart catheterization, sequela",,,Cardiology
+"T81525A Obstruction due to foreign body accidentally left in body following heart catheterization, initial
+encounter",,,Cardiology
+"T81525D Obstruction due to foreign body accidentally left in body following heart catheterization,
+subsequent encounter",,,Cardiology
+"T81525S Obstruction due to foreign body accidentally left in body following heart catheterization,
+sequela",,,Cardiology
+"T81535A Perforation due to foreign body accidentally left in body following heart catheterization, initial
+encounter",,,Cardiology
+"T81535D Perforation due to foreign body accidentally left in body following heart catheterization,
+subsequent encounter",,,Cardiology
+"T81535S Perforation due to foreign body accidentally left in body following heart catheterization,
+sequela",,,Cardiology
+"T81595A Other complications of foreign body accidentally left in body following heart catheterization,
+initial encounter",,,Cardiology
+"T81595D Other complications of foreign body accidentally left in body following heart catheterization,
+subsequent encounter",,,Cardiology
+"T81595S Other complications of foreign body accidentally left in body following heart catheterization,
+sequela",,,Cardiology
+"T8201XA Breakdown (mechanical) of heart valve prosthesis, initial encounter",,,Cardiology
+"T8201XD Breakdown (mechanical) of heart valve prosthesis, subsequent encounter",,,Cardiology
+"T8201XS Breakdown (mechanical) of heart valve prosthesis, sequela",,,Cardiology
+"T8202XA Displacement of heart valve prosthesis, initial encounter",,,Cardiology
+"T8202XD Displacement of heart valve prosthesis, subsequent encounter",,,Cardiology
+"T8202XS Displacement of heart valve prosthesis, sequela",,,Cardiology
+"T8203XA Leakage of heart valve prosthesis, initial encounter",,,Cardiology
+"T8203XD Leakage of heart valve prosthesis, subsequent encounter",,,Cardiology
+"T8203XS Leakage of heart valve prosthesis, sequela",,,Cardiology
+"T8209XA Other mechanical complication of heart valve prosthesis, initial encounter",,,Cardiology
+"T8209XD Other mechanical complication of heart valve prosthesis, subsequent encounter",,,Cardiology
+"T8209XS Other mechanical complication of heart valve prosthesis, sequela",,,Cardiology
+"T82110A Breakdown (mechanical) of cardiac electrode, initial encounter",,,Cardiology
+"T82110D Breakdown (mechanical) of cardiac electrode, subsequent encounter",,,Cardiology
+"T82110S Breakdown (mechanical) of cardiac electrode, sequela",,,Cardiology
+"T82111A Breakdown (mechanical) of cardiac pulse generator (battery), initial encounter",,,Cardiology
+"T82111D Breakdown (mechanical) of cardiac pulse generator (battery), subsequent encounter",,,Cardiology
+"T82111S Breakdown (mechanical) of cardiac pulse generator (battery), sequela",,,Cardiology
+"T82118A Breakdown (mechanical) of other cardiac electronic device, initial encounter",,,Cardiology
+"T82118D Breakdown (mechanical) of other cardiac electronic device, subsequent encounter",,,Cardiology
+"T82118S Breakdown (mechanical) of other cardiac electronic device, sequela",,,Cardiology
+"T82119A Breakdown (mechanical) of unspecified cardiac electronic device, initial encounter",,,Cardiology
+"T82119D Breakdown (mechanical) of unspecified cardiac electronic device, subsequent encounter",,,Cardiology
+"T82119S Breakdown (mechanical) of unspecified cardiac electronic device, sequela",,,Cardiology
+"T82120A Displacement of cardiac electrode, initial encounter",,,Cardiology
+"T82120D Displacement of cardiac electrode, subsequent encounter",,,Cardiology
+"T82120S Displacement of cardiac electrode, sequela",,,Cardiology
+"T82121A Displacement of cardiac pulse generator (battery), initial encounter",,,Cardiology
+"T82121D Displacement of cardiac pulse generator (battery), subsequent encounter",,,Cardiology
+"T82121S Displacement of cardiac pulse generator (battery), sequela",,,Cardiology
+"T82128A Displacement of other cardiac electronic device, initial encounter",,,Cardiology
+"T82128D Displacement of other cardiac electronic device, subsequent encounter",,,Cardiology
+"T82128S Displacement of other cardiac electronic device, sequela",,,Cardiology
+"T82129A Displacement of unspecified cardiac electronic device, initial encounter",,,Cardiology
+"T82129D Displacement of unspecified cardiac electronic device, subsequent encounter",,,Cardiology
+"T82129S Displacement of unspecified cardiac electronic device, sequela",,,Cardiology
+"T82190A Other mechanical complication of cardiac electrode, initial encounter",,,Cardiology
+"T82190D Other mechanical complication of cardiac electrode, subsequent encounter",,,Cardiology
+"T82190S Other mechanical complication of cardiac electrode, sequela",,,Cardiology
+"T82191A Other mechanical complication of cardiac pulse generator (battery), initial encounter",,,Cardiology
+"T82191D Other mechanical complication of cardiac pulse generator (battery), subsequent encounter",,,Cardiology
+"T82191S Other mechanical complication of cardiac pulse generator (battery), sequela",,,Cardiology
+"T82198A Other mechanical complication of other cardiac electronic device, initial encounter",,,Cardiology
+"T82198D Other mechanical complication of other cardiac electronic device, subsequent encounter",,,Cardiology
+"T82198S Other mechanical complication of other cardiac electronic device, sequela",,,Cardiology
+"T82199A Other mechanical complication of unspecified cardiac device, initial encounter",,,Cardiology
+"T82199D Other mechanical complication of unspecified cardiac device, subsequent encounter",,,Cardiology
+"T82199S Other mechanical complication of unspecified cardiac device, sequela",,,Cardiology
+"T82211A Breakdown (mechanical) of coronary artery bypass graft, initial encounter",,,Cardiology
+"T82211D Breakdown (mechanical) of coronary artery bypass graft, subsequent encounter",,,Cardiology
+"T82211S Breakdown (mechanical) of coronary artery bypass graft, sequela",,,Cardiology
+"T82212A Displacement of coronary artery bypass graft, initial encounter",,,Cardiology
+"T82212D Displacement of coronary artery bypass graft, subsequent encounter",,,Cardiology
+"T82212S Displacement of coronary artery bypass graft, sequela",,,Cardiology
+"T82213A Leakage of coronary artery bypass graft, initial encounter",,,Cardiology
+"T82213D Leakage of coronary artery bypass graft, subsequent encounter",,,Cardiology
+"T82213S Leakage of coronary artery bypass graft, sequela",,,Cardiology
+"T82218A Other mechanical complication of coronary artery bypass graft, initial encounter",,,Cardiology
+"T82218D Other mechanical complication of coronary artery bypass graft, subsequent encounter",,,Cardiology
+"T82218S Other mechanical complication of coronary artery bypass graft, sequela",,,Cardiology
+"T82221A Breakdown (mechanical) of biological heart valve graft, initial encounter",,,Cardiology
+"T82221D Breakdown (mechanical) of biological heart valve graft, subsequent encounter",,,Cardiology
+"T82221S Breakdown (mechanical) of biological heart valve graft, sequela",,,Cardiology
+"T82222A Displacement of biological heart valve graft, initial encounter",,,Cardiology
+"T82222D Displacement of biological heart valve graft, subsequent encounter",,,Cardiology
+"T82222S Displacement of biological heart valve graft, sequela",,,Cardiology
+"T82223A Leakage of biological heart valve graft, initial encounter",,,Cardiology
+"T82223D Leakage of biological heart valve graft, subsequent encounter",,,Cardiology
+"T82223S Leakage of biological heart valve graft, sequela",,,Cardiology
+"T82228A Other mechanical complication of biological heart valve graft, initial encounter",,,Cardiology
+"T82228D Other mechanical complication of biological heart valve graft, subsequent encounter",,,Cardiology
+"T82228S Other mechanical complication of biological heart valve graft, sequela",,,Cardiology
+"T82512A Breakdown (mechanical) of artificial heart, initial encounter",,,Cardiology
+"T82512D Breakdown (mechanical) of artificial heart, subsequent encounter",,,Cardiology
+"T82512S Breakdown (mechanical) of artificial heart, sequela",,,Cardiology
+"T82518A Breakdown (mechanical) of other cardiac and vascular devices and implants, initial encounter",,,Cardiology
+"T82518D Breakdown (mechanical) of other cardiac and vascular devices and implants, subsequent
+encounter",,,Cardiology
+"T82518S Breakdown (mechanical) of other cardiac and vascular devices and implants, sequela",,,Cardiology
+"T82519A Breakdown (mechanical) of unspecified cardiac and vascular devices and implants, initial
+encounter",,,Cardiology
+"T82519D Breakdown (mechanical) of unspecified cardiac and vascular devices and implants, subsequent
+encounter",,,Cardiology
+"T82519S Breakdown (mechanical) of unspecified cardiac and vascular devices and implants, sequela",,,Cardiology
+"T82522A Displacement of artificial heart, initial encounter",,,Cardiology
+"T82522D Displacement of artificial heart, subsequent encounter",,,Cardiology
+"T82522S Displacement of artificial heart, sequela",,,Cardiology
+"T82528A Displacement of other cardiac and vascular devices and implants, initial encounter",,,Cardiology
+"T82528D Displacement of other cardiac and vascular devices and implants, subsequent encounter",,,Cardiology
+"T82528S Displacement of other cardiac and vascular devices and implants, sequela",,,Cardiology
+"T82529A Displacement of unspecified cardiac and vascular devices and implants, initial encounter",,,Cardiology
+"T82529D Displacement of unspecified cardiac and vascular devices and implants, subsequent encounter",,,Cardiology
+"T82529S Displacement of unspecified cardiac and vascular devices and implants, sequela",,,Cardiology
+"T82532A Leakage of artificial heart, initial encounter",,,Cardiology
+"T82532D Leakage of artificial heart, subsequent encounter",,,Cardiology
+"T82532S Leakage of artificial heart, sequela",,,Cardiology
+"T82538A Leakage of other cardiac and vascular devices and implants, initial encounter",,,Cardiology
+"T82538D Leakage of other cardiac and vascular devices and implants, subsequent encounter",,,Cardiology
+"T82538S Leakage of other cardiac and vascular devices and implants, sequela",,,Cardiology
+"T82539A Leakage of unspecified cardiac and vascular devices and implants, initial encounter",,,Cardiology
+"T82539D Leakage of unspecified cardiac and vascular devices and implants, subsequent encounter",,,Cardiology
+"T82539S Leakage of unspecified cardiac and vascular devices and implants, sequela",,,Cardiology
+"T82592A Other mechanical complication of artificial heart, initial encounter",,,Cardiology
+"T82592D Other mechanical complication of artificial heart, subsequent encounter",,,Cardiology
+"T82592S Other mechanical complication of artificial heart, sequela",,,Cardiology
+"T82598A Other mechanical complication of other cardiac and vascular devices and implants, initial
+encounter",,,Cardiology
+"T82598D Other mechanical complication of other cardiac and vascular devices and implants, subsequent
+encounter",,,Cardiology
+"T82598S Other mechanical complication of other cardiac and vascular devices and implants, sequela",,,Cardiology
+"T82599A Other mechanical complication of unspecified cardiac and vascular devices and implants, initial
+encounter",,,Cardiology
+"T82599D Other mechanical complication of unspecified cardiac and vascular devices and implants,
+subsequent encounter",,,Cardiology
+"T82599S Other mechanical complication of unspecified cardiac and vascular devices and implants,
+sequela",,,Cardiology
+"T826XXA Infection and inflammatory reaction due to cardiac valve prosthesis, initial encounter",,,Cardiology
+"T826XXD Infection and inflammatory reaction due to cardiac valve prosthesis, subsequent encounter",,,Cardiology
+"T826XXS Infection and inflammatory reaction due to cardiac valve prosthesis, sequela",,,Cardiology
+"T827XXA Infection and inflammatory reaction due to other cardiac and vascular devices, implants and
+grafts, initial encounter",,,Cardiology
+"T827XXD Infection and inflammatory reaction due to other cardiac and vascular devices, implants and
+grafts, subsequent encounter",,,Cardiology
+"T827XXS Infection and inflammatory reaction due to other cardiac and vascular devices, implants and
+grafts, sequela",,,Cardiology
+"T82817A Embolism due to cardiac prosthetic devices, implants and grafts, initial encounter",,,Cardiology
+"T82817D Embolism due to cardiac prosthetic devices, implants and grafts, subsequent encounter",,,Cardiology
+"T82817S Embolism due to cardiac prosthetic devices, implants and grafts, sequela",,,Cardiology
+"T82827A Fibrosis due to cardiac prosthetic devices, implants and grafts, initial encounter",,,Cardiology
+"T82827D Fibrosis due to cardiac prosthetic devices, implants and grafts, subsequent encounter",,,Cardiology
+"T82827S Fibrosis due to cardiac prosthetic devices, implants and grafts, sequela",,,Cardiology
+"T82837A Hemorrhage due to cardiac prosthetic devices, implants and grafts, initial encounter",,,Cardiology
+"T82837D Hemorrhage due to cardiac prosthetic devices, implants and grafts, subsequent encounter",,,Cardiology
+"T82837S Hemorrhage due to cardiac prosthetic devices, implants and grafts, sequela",,,Cardiology
+"T82847A Pain due to cardiac prosthetic devices, implants and grafts, initial encounter",,,Cardiology
+"T82847D Pain due to cardiac prosthetic devices, implants and grafts, subsequent encounter",,,Cardiology
+"T82847S Pain due to cardiac prosthetic devices, implants and grafts, sequela",,,Cardiology
+"T82855A Stenosis of coronary artery stent, initial encounter",,,Cardiology
+"T82855D Stenosis of coronary artery stent, subsequent encounter",,,Cardiology
+"T82855S Stenosis of coronary artery stent, sequela",,,Cardiology
+"T82857A Stenosis of other cardiac prosthetic devices, implants and grafts, initial encounter",,,Cardiology
+"T82857D Stenosis of other cardiac prosthetic devices, implants and grafts, subsequent encounter",,,Cardiology
+"T82857S Stenosis of other cardiac prosthetic devices, implants and grafts, sequela",,,Cardiology
+"T82867A Thrombosis due to cardiac prosthetic devices, implants and grafts, initial encounter",,,Cardiology
+"T82867D Thrombosis due to cardiac prosthetic devices, implants and grafts, subsequent encounter",,,Cardiology
+"T82867S Thrombosis due to cardiac prosthetic devices, implants and grafts, sequela",,,Cardiology
+"T82897A Other specified complication of cardiac prosthetic devices, implants and grafts, initial
+encounter",,,Cardiology
+"T82897D Other specified complication of cardiac prosthetic devices, implants and grafts, subsequent
+encounter",,,Cardiology
+"T82897S Other specified complication of cardiac prosthetic devices, implants and grafts, sequela",,,Cardiology
+"T829XXA Unspecified complication of cardiac and vascular prosthetic device, implant and graft, initial
+encounter",,,Cardiology
+"T829XXD Unspecified complication of cardiac and vascular prosthetic device, implant and graft,
+subsequent encounter",,,Cardiology
+"T829XXS Unspecified complication of cardiac and vascular prosthetic device, implant and graft, sequela",,,Cardiology
+T8620   Unspecified complication of heart transplant,,,Cardiology
+T8621   Heart transplant rejection,,,Cardiology
+T8622   Heart transplant failure,,,Cardiology
+T8623   Heart transplant infection,,,Cardiology
+T86290  Cardiac allograft vasculopathy,,,Cardiology
+T86298  Other complications of heart transplant,,,Cardiology
+T8630   Unspecified complication of heart-lung transplant,,,Cardiology
+T8631   Heart-lung transplant rejection,,,Cardiology
+T8632   Heart-lung transplant failure,,,Cardiology
+T8633   Heart-lung transplant infection,,,Cardiology
+T8639   Other complications of heart-lung transplant,,,Cardiology
+Y625    Failure of sterile precautions during heart catheterization,,,Cardiology
+"Y840    Cardiac catheterization as the cause of abnormal reaction of the patient, or of later complication,
+without mention of misadventure at the time of the procedure",,,Cardiology
+Z050    Observation and evaluation of newborn for suspected cardiac condition ruled out,,,Cardiology
+Z45010  Encounter for checking and testing of cardiac pacemaker pulse generator [battery],,,Cardiology
+Z45018  Encounter for adjustment and management of other part of cardiac pacemaker,,,Cardiology
+Z4502   Encounter for adjustment and management of automatic implantable cardiac defibrillator,,,Cardiology
+Z4509   Encounter for adjustment and management of other cardiac device,,,Cardiology
+Z4821   Encounter for aftercare following heart transplant,,,Cardiology
+Z48280  Encounter for aftercare following heart-lung transplant,,,Cardiology
+Z8241   Family history of sudden cardiac death,,,Cardiology
+Z8249   Family history of ischemic heart disease and other diseases of the circulatory system,,,Cardiology
+Z8674   Personal history of sudden cardiac arrest,,,Cardiology
+Z8774   Personal history of (corrected) congenital malformations of heart and circulatory system,,,Cardiology
+Z941    Heart transplant status,,,Cardiology
+Z943    Heart and lungs transplant status,,,Cardiology
+Z950    Presence of cardiac pacemaker,,,Cardiology
+Z952    Presence of prosthetic heart valve,,,Cardiology
+Z953    Presence of xenogenic heart valve,,,Cardiology
+Z954    Presence of other heart-valve replacement,,,Cardiology
+Z955    Presence of coronary angioplasty implant and graft,,,Cardiology
+Z95810  Presence of automatic (implantable) cardiac defibrillator,,,Cardiology
+Z95811  Presence of heart assist device,,,Cardiology
+Z95812  Presence of fully implantable artificial heart,,,Cardiology
+Z95818  Presence of other cardiac implants and grafts,,,Cardiology
+"Z959    Presence of cardiac and vascular implant and graft, unspecified",,,Cardiology
+Z9861   Coronary angioplasty status,,,Cardiology
