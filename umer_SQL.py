@@ -359,5 +359,3 @@ with tab3:
     else:
         st.info("No patient records found. Save a patient record first in Patient Entry tab.")
 
-
-#streamlit run C:\Users\Administrator\Desktop\DIAGNOSTIC\check.py

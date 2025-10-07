@@ -90,7 +90,7 @@ if "final_reps" not in st.session_state:
     st.session_state["final_reps"] = []
 
 st.title("Medical Camp Diagnostic App")
-st.write("Select gender, then choose up to 8 symptoms to see possible diagnoses and medicines with probabilities.")
+st.write("Select gender, then body part, then choose up to 8 symptoms to see possible diagnoses and medicines with probabilities.")
 
 # Tabs
 tab1, tab2 = st.tabs(["Diagnosis & Treatment", "Patient Records"])
@@ -116,7 +116,8 @@ with tab1:
     gender = st.selectbox("Select Gender", ["Male", "Female"])
 
     # Body part
-    age = st.number_input("Age", min_value=0, max_value=120, step=1)
+    body_parts = list(body_part_map.keys())
+    selected_part = st.selectbox("Select Body Part", body_parts)
 
     # Symptom selection
     st.subheader("Symptom Selection (Cross-System)")
@@ -138,24 +139,6 @@ with tab1:
                 match_count = len(matched)
                 if match_count > 0:
                     probability = round((match_count / len(selected_symptoms)) * 100, 2)
-                    age_groups = [str(row[col]) for col in df.columns if "Age_Group" in col and pd.notna(row[col])]
-                    age_match=False
-                    if age > 0:
-                        if "Children" in " ".join(age_groups) and age <= 12:
-                            age_match = True
-                        elif "Adolescents" in " ".join(age_groups) and 13 <= age <= 17:
-                            age_match = True
-                        elif "Adults" in " ".join(age_groups) and 18 <= age <= 59:
-                            age_match = True
-                        elif "Elderly" in " ".join(age_groups) and age >= 60:
-                            age_match = True
-                        elif "Postmenopausal" in " ".join(age_groups) and gender == "Female" and age >= 45:
-                            age_match = True
-
-                    if age_match:
-                        probability *= 1.2 # +20% weight if gender matches
-                    if str(row.get("Gender", "All")).lower() in ["all", gender.lower()]:
-                        probability *= 1.1  # +10% weight if gender matches
                     indications = [str(row[col]) for col in df.columns if "Indication" in col and pd.notna(row[col])]
                     medicine = row["Generic_Name"] if "Generic_Name" in df.columns else "N/A"
                     results.append({
@@ -250,7 +233,7 @@ with tab1:
                     "BP": f"{bp_sys}/{bp_dia}",
                     "Heart Rate": heart_rate,
                     "Gender": gender,
-                    "Age": age,
+                    "Body Part": selected_part,
                     "Selected Symptoms": "; ".join(selected_symptoms),
                     "Given Medicines": "; ".join(given_meds),
                 }
