@@ -1,4 +1,0 @@
-Patient ID,Patient Name,History,BP,Heart Rate,Gender,Age,Symptoms,Indications,Medicines,Dispensed,Dispensed Details
-11,Shaheen,Mentally ill,120/80,90,Male,34,Headache; Fever,Diarrhea; Weakness,"Co-Amoxiclav [Clav-D] (3, Evening, 1)",Yes,Co-Amoxiclav — Clav-D (Powd Sus 312.5/5ml) => 1 (remaining 1)
-2,Sidra,,120/110,70,Female,63,Chest conjestion; Chest pain; Shortness of breath,COPD,"Levocetirizine Dihydrochloride [Alvigo] (2, Morning, 3)",Yes,Levocetirizine Dihydrochloride — Alvigo (Syp 5ml) => 3 (remaining 60)
-3,Salah,,50/50,100,Male,50,Fever; Stomachache,Epigastic pain,"Loratidine [Lorgy] (2, Morning, 2)",Yes,Loratidine — Lorgy (Syp 5mg/5ml) => 2 (remaining 7)

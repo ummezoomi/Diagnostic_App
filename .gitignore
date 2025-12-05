@@ -1,0 +1,19 @@
+# Ignore the database
+*.db
+
+# Ignore python cache files
+__pycache__/
+*.pyc
+
+# Ignore virtual environments
+.venv/
+venv/
+ENV/
+
+# Ignore build folders (from your untracked list)
+dist/
+build/
+*.spec
+
+# Ignore specific secrets or data
+*.xlsx
