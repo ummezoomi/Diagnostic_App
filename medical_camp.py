@@ -1,7 +1,7 @@
 # main_app.py
 import pandas as pd
 import streamlit as st
-import sqlite3
+import mysql.connector
 import os
 import re
 
@@ -13,7 +13,6 @@ if "username" not in st.session_state:
     st.session_state["username"] = ""
 
 # --------- Config ----------
-DB_FILE = "emr.db"
 EXCEL_FILE = "ERR Drug Audit.csv"
 def load_icd_diagnosis():
     try:
@@ -32,9 +31,22 @@ def load_icd_diagnosis():
 if "icd_df" not in st.session_state:
     st.session_state["icd_df"] = load_icd_diagnosis()
 
+
 def get_connection():
-    conn = sqlite3.connect(DB_FILE, check_same_thread=False)
-    return conn
+    try:
+        conn = mysql.connector.connect(
+            host="localhost",
+            user="root",
+            port=3306,
+            password="umerEMR123@",
+            database="emr_system",
+            connection_timeout=5
+        )
+        return conn
+    except mysql.connector.Error as e:
+        st.error(f"MySQL connection failed: {e}")
+        st.stop()
+
 def load_icd_symptoms():
     try:
         df = pd.read_csv("ICD10_Symptom_List_All.csv")
@@ -54,55 +66,72 @@ if "icd_symptoms_df" not in st.session_state:
 def init_db():
     conn = get_connection()
     c = conn.cursor()
-    # patients (extended with CNIC, nationality, address, phone, doctor_type)
+    # registration (personal info only)
     c.execute("""
     CREATE TABLE IF NOT EXISTS patients (
-        patient_id TEXT PRIMARY KEY,
-        patient_name TEXT,
-        cnic TEXT,
-        nationality TEXT,
+        patient_id INT AUTO_INCREMENT PRIMARY KEY,
+        patient_name VARCHAR(255),
+        cnic VARCHAR(20) UNIQUE,
+        nationality VARCHAR(100),
         address TEXT,
-        phone TEXT,
-        doctor_type TEXT,
+        phone VARCHAR(20),
+        gender VARCHAR(10),
+        age INT
+    )
+    """)
+
+    c.execute("""
+    CREATE TABLE IF NOT EXISTS visits (
+        visit_id INT AUTO_INCREMENT PRIMARY KEY,
+        patient_id INT,
+        doctor_type VARCHAR(100),
+        visit_date DATETIME,
         history TEXT,
-        bp TEXT,
-        heart_rate INTEGER,
-        gender TEXT,
-        age INTEGER,
+        bp VARCHAR(20),
+        heart_rate INT,
+        sat_o2 FLOAT,
+        temp FLOAT,
+        rr INT,
+        blood_glucose FLOAT,
+        gender VARCHAR(10),
+        age INT,
         symptoms TEXT,
         indications TEXT,
         medicines TEXT,
-        dispensed TEXT,
-        dispensed_details TEXT
+        dispensed VARCHAR(10),
+        dispensed_details TEXT,
+        FOREIGN KEY (patient_id) REFERENCES patients(patient_id)
     )
     """)
-    # stock table
+
     c.execute("""
     CREATE TABLE IF NOT EXISTS stock (
-        key TEXT PRIMARY KEY,
-        generic TEXT,
-        brand TEXT,
-        dosage_form TEXT,
-        dose TEXT,
-        expiry TEXT,
-        unit TEXT,
-        stock_qty INTEGER
+        `key` VARCHAR(255) PRIMARY KEY,
+        generic VARCHAR(255),
+        brand VARCHAR(255),
+        dosage_form VARCHAR(255),
+        dose VARCHAR(100),
+        expiry DATE,
+        unit VARCHAR(50),
+        stock_qty INT
     )
     """)
+
     conn.commit()
     conn.close()
+
+
 
 # initialize DB on import
 init_db()
 
+
 # --------- Stock helpers ----------
 def load_stock():
     conn = get_connection()
-    try:
-        stock_count = pd.read_sql("SELECT COUNT(*) as cnt FROM stock", conn).iloc[0,0]
-    except Exception:
-        stock_count = 0
-    if stock_count == 0 and os.path.exists(EXCEL_FILE):
+
+    # Always import CSV if it exists
+    if os.path.exists(EXCEL_FILE):
         try:
             stock = pd.read_csv(EXCEL_FILE)
             stock.columns = stock.columns.str.strip()
@@ -111,36 +140,99 @@ def load_stock():
             stock["Brand"] = stock["Brand"].fillna("").str.strip().str.title()
             stock["Dosage Form"] = stock["Dosage Form"].fillna("").str.strip().str.title()
             stock["Dose"] = stock["Dose"].fillna("").str.strip()
-            stock["Expiry"] = stock["Expiry"].fillna("").str.strip()
+            stock["Expiry"] = pd.to_datetime(stock["Expiry"], errors="coerce").dt.date
             stock["Unit"] = stock.get("Unit","").fillna("").str.strip().str.lower()
             stock = stock[(stock["Generic"]!="") | (stock["Brand"]!="")].copy()
             stock["Key"] = stock["Generic"].str.lower() + "||" + stock["Brand"].str.lower()
-            conn.cursor().executemany("""
-                INSERT OR REPLACE INTO stock (key,generic,brand,dosage_form,dose,expiry,unit,stock_qty)
-                VALUES (?,?,?,?,?,?,?,?)
+
+            cur = conn.cursor()
+            cur.executemany("""
+                INSERT INTO stock (`key`, generic, brand, dosage_form, dose, expiry, unit, stock_qty)
+                VALUES (%s,%s,%s,%s,%s,%s,%s,%s)
+                ON DUPLICATE KEY UPDATE
+                    generic=VALUES(generic),
+                    brand=VALUES(brand),
+                    dosage_form=VALUES(dosage_form),
+                    dose=VALUES(dose),
+                    expiry=VALUES(expiry),
+                    unit=VALUES(unit),
+                    stock_qty=VALUES(stock_qty)
             """, stock[["Key","Generic","Brand","Dosage Form","Dose","Expiry","Unit","StockQty"]].values.tolist())
             conn.commit()
+
         except Exception as e:
-            # CSV import failure should not crash the app
             print("Error importing CSV:", e)
-    stock_df = pd.read_sql("SELECT * FROM stock", conn)
+
+    # Fetch stock using cursor (instead of pd.read_sql)
+    cur = conn.cursor(dictionary=True)
+    cur.execute("SELECT * FROM stock")
+    rows = cur.fetchall()
+    stock_df = pd.DataFrame(rows)  # convert to DataFrame
     conn.close()
     return stock_df
 
+
 def save_stock(df):
     conn = get_connection()
-    df.to_sql("stock", conn, if_exists="replace", index=False)
-    conn.close()
+    cur = conn.cursor()
+    cur.execute("DELETE FROM stock")
+    for _, row in df.iterrows():
+        cur.execute("""
+            INSERT INTO stock (`key`, generic, brand, dosage_form, dose, expiry, unit, stock_qty)
+            VALUES (%s,%s,%s,%s,%s,%s,%s,%s)
+        """, tuple(row))
+    conn.commit()
 
 # session stock init helper
+@st.cache_data
+def load_stock_df():
+    conn = get_connection()
+    df = pd.read_sql("SELECT * FROM stock", conn)
+    conn.close()
+    return df
+
 if "stock_df" not in st.session_state:
-    st.session_state["stock_df"] = load_stock()
+    st.session_state["stock_df"] = load_stock_df()
+
 
 def refresh_stock():
     conn = get_connection()
     latest_stock = pd.read_sql("SELECT * FROM stock", conn)
     conn.close()
     st.session_state["stock_df"] = latest_stock.copy()
+# --------- Input Validation Helpers ----------
+def validate_patient_inputs(name, cnic, nationality, phone, gender, age):
+    """
+    Validate patient registration inputs.
+    Returns (True, "") if all valid, else (False, "error message").
+    """
+    # Validate name: should be alphabetic (with spaces allowed)
+    if not name or not re.match(r"^[A-Za-z\s]+$", name):
+        return False, "Patient name must contain only letters and spaces (no numbers or symbols)."
+
+    # Validate CNIC: only digits, typically 13 or so
+    if not cnic.isdigit():
+        return False, "CNIC must contain digits only."
+    if len(cnic) not in [13, 14, 15]:  # flexible, in case of minor format differences
+        return False, "CNIC must be 13 digits (or close to that length)."
+
+    # Nationality: letters only
+    if nationality and not re.match(r"^[A-Za-z\s]+$", nationality):
+        return False, "Nationality must contain only letters and spaces."
+
+    # Phone number: digits + optional '+' sign
+    if phone and not re.match(r"^[0-9+]+$", phone):
+        return False, "Phone number must contain only digits (and '+' if international)."
+
+    # Gender: ensure selected
+    if gender not in ["Male", "Female", "Other"]:
+        return False, "Please select a valid gender."
+
+    # Age: numeric and reasonable range
+    if not isinstance(age, int) or age < 0 or age > 120:
+        return False, "Age must be a valid integer between 0 and 120."
+
+    return True, ""
 
 # --------- Main App ----------
 def run_app():
@@ -187,7 +279,10 @@ def run_app():
     def get_next_patient_id():
         conn = get_connection()
         try:
-            last = conn.execute("SELECT patient_id FROM patients ORDER BY ROWID DESC LIMIT 1").fetchone()
+            cur = conn.cursor()
+            cur.execute("SELECT patient_id FROM patients ORDER BY patient_id DESC LIMIT 1")
+            last = cur.fetchone()
+
             conn.close()
             if last and last[0]:
                 try:
@@ -205,34 +300,89 @@ def run_app():
     # ---------- PATIENT ENTRY TAB ----------
     if "Patient Entry" in tabs:
         with tab_objs[tabs.index("Patient Entry")]:
-            st.header("Patient Information")
-            # ensure stock is available in session
-            if "stock_df" not in st.session_state:
-                refresh_stock()
-            stock_df = st.session_state["stock_df"]
+            st.header("Patient Visit Entry")
 
-            # Auto ID
-            next_id = get_next_patient_id()
-            st.text_input("Patient ID (auto)", value=next_id, key="p_patient_id", disabled=True)
-            patient_id = st.session_state.get("p_patient_id", next_id)
+            if role == "doctor":
+                st.write("")  # small spacing
+                if st.button("🔄 Refresh Patient List"):
+                    st.rerun()
 
-            # Personal details
+            conn = get_connection()
+            patients_df = pd.read_sql("SELECT patient_id, patient_name, cnic FROM patients ORDER BY patient_id DESC", conn)
+            conn.close()
+
+            # Build selection: register new OR choose existing
+            conn = get_connection()
+            patients_df = pd.read_sql("SELECT patient_id, patient_name, cnic FROM patients ORDER BY patient_id DESC", conn)
+            conn.close()
+
+            patient_options = []
+
+            # Only admin and registration users can register new patients
+            if role in ["admin", "registration"]:
+                patient_options.append("+ Register New Patient")
+
+            # Add all existing patients
+            for _, r in patients_df.iterrows():
+                label = f"{int(r['patient_id'])} - {r['patient_name']} ({r['cnic']})"
+                patient_options.append(label)
+
+            if len(patient_options) == 0:
+                st.info("No patients available. Please contact the registration desk to add new patients.")
+                st.stop()
+
+            selected_patient_label = st.selectbox("Select Registered Patient", options=patient_options, index=0)
+
+            registering_new = (selected_patient_label == "+ Register New Patient")
+
+            # Prevent doctors/pharmacy from adding new patients
+            if registering_new and role not in ["admin", "registration"]:
+                st.error("You do not have permission to register new patients.")
+                st.stop()
+
+
+    # Personal details (either register new - editable, OR display selected patient's info read-only)
             st.subheader("Personal Details")
-            col1, col2 = st.columns(2)
-            with col1:
-                patient_name = st.text_input("Patient Name", key="p_patient_name")
-                cnic = st.text_input("CNIC", key="p_cnic")
-                nationality = st.text_input("Nationality", key="p_nationality")
-            with col2:
-                address = st.text_area("Address", key="p_address")
-                phone = st.text_input("Phone Number", key="p_phone")
-                # Doctor type selection
-                doctor_type = st.selectbox("Doctor Type", ["General Physician", "Gynecologist", "Pediatrician", "Dermatologist", "Others"], key="doctor_type")
+            if registering_new:
+                p_name = st.text_input("Patient Name", key="reg_p_name")
+                p_cnic = st.text_input("CNIC", key="reg_p_cnic")
+                p_nationality = st.text_input("Nationality", key="reg_p_nationality")
+                p_address = st.text_area("Address", key="reg_p_address")
+                p_phone = st.text_input("Phone Number", key="reg_p_phone")
+                p_gender = st.selectbox("Select Gender", ["", "Male", "Female", "Other"], key="reg_p_gender")
+                p_age = st.number_input("Age", min_value=0, max_value=120, step=1, key="reg_p_age")
+            else:
+                # parse patient_id from label
+                pid = int(selected_patient_label.split(" - ")[0])
+                conn = get_connection()
+                cur = conn.cursor()
+                cur.execute("SELECT * FROM patients WHERE patient_id=%s", (pid,))
+                row = cur.fetchone()
+                conn.close()
+                # row order: patient_id, patient_name, cnic, nationality, address, phone, gender, age
+                if row:
+                    st.text_input("Patient Name", value=row[1], disabled=True)
+                    st.text_input("CNIC", value=row[2], disabled=True)
+                    st.text_input("Nationality", value=row[3] or "", disabled=True)
+                    st.text_area("Address", value=row[4] or "", disabled=True)
+                    st.text_input("Phone Number", value=row[5] or "", disabled=True)
+                    st.text_input("Gender", value=row[6] or "", disabled=True)
+                    st.text_input("Age", value=str(row[7]) if row[7] is not None else "", disabled=True)
+                # store for later
+                p_name, p_cnic, p_nationality, p_address, p_phone, p_gender, p_age = row[1], row[2], row[3], row[4], row[5], row[6], row[7]
+            # Doctor Information
+            st.subheader("Doctor Information")
+            doctor_type = st.selectbox(
+                "Doctor Type",
+                ["Dermatologist", "Gynecologist", "Cardiologist", "General Physician", "Pediatrician", "Other"],
+                key="doctor_type"
+            )
+            doctor_name = st.text_input("Doctor Name", key="doctor_name")
 
-            patient_history = st.text_area("History", key="p_history")
-
+            # Visit Notes / History
+            st.subheader("Patient History / Notes")
+            patient_history = st.text_area("Enter relevant patient history, observations, or complaints", key="patient_history")
             st.subheader("Vitals")
-            # Row 1: BP and Heart Rate
             col1, col2, col3 = st.columns(3)
             with col1:
                 bp_sys = st.number_input("BP Systolic", min_value=0, step=1, key="bp_sys")
@@ -241,7 +391,6 @@ def run_app():
             with col3:
                 heart_rate = st.number_input("Heart Rate (BPM)", min_value=0, step=1, key="heart_rate")
 
-            # Row 2: Optional vitals
             col4, col5, col6, col7 = st.columns(4)
             with col4:
                 sat_o2 = st.number_input("SatO2 (%)", min_value=0, max_value=100, step=1, key="sat_o2")
@@ -251,9 +400,6 @@ def run_app():
                 rr = st.number_input("Respiration Rate (RR)", min_value=0, step=1, key="rr")
             with col7:
                 blood_glucose = st.number_input("Blood Glucose (mg/dL)", min_value=0, step=1, key="blood_glucose")
-
-            gender = st.selectbox("Select Gender", ["Male", "Female", "Other"], key="p_gender")
-            age = st.number_input("Age", min_value=0, max_value=120, step=1, key="p_age")
 
             st.subheader("Symptoms (Up to 8)")
             symptoms = []
@@ -267,38 +413,41 @@ def run_app():
                 )
                 if selected_symptom:
                     symptoms.append(selected_symptom)
-            st.subheader("Possible Indications (Up to 4)")
 
-            # --- Load ICD Diagnoses once from session state ---
-            icd_df = st.session_state.get("icd_df")
+            st.subheader("Possible Indications (Up to 4)")
             icd_df = st.session_state.get("icd_df")
             if icd_df is not None and not icd_df.empty and "Diagnosis" in icd_df.columns:
                 diagnosis_options = icd_df["Diagnosis"].dropna().unique().tolist()
             else:
-                st.warning("ICD diagnosis file not loaded or missing 'Diagnosis' column.")
+                diagnosis_options = []
+                st.warning("ICD diagnosis list missing or empty.")
+
             indications = []
-            for i in range(1,5):
+            for i in range(1, 5):
                 selected_icd = st.selectbox(
                     f"Select ICD Diagnosis {i}",
                     options=[""] + diagnosis_options,
                     key=f"icd_diag_{i}"
                 )
+                if selected_icd:
+                    indications.append(selected_icd)   # <-- fixed: append selected ICDs
 
-            # Medicines selection
             st.subheader("Medicines (Up to 10)")
             medicines = []
+            # keep your medicines UI mostly same (uses stock_df)
+            stock_df = st.session_state.get("stock_df", pd.DataFrame())
             for i in range(1, 11):
                 st.markdown(f"**Medicine {i}**")
-                med_options = stock_df["generic"].dropna().unique().tolist()
+                med_options = stock_df["generic"].dropna().unique().tolist() if not stock_df.empty else []
                 sel_generic = st.selectbox(f"Pick medicine [{i}]", [""] + med_options, key=f"med_sel_{i}")
                 if sel_generic:
                     row = stock_df[stock_df["generic"] == sel_generic].iloc[0]
                     generic = row["generic"]
                     brand = row["brand"]
                     form = row["dosage_form"]
-                    dose = row["dose"]
-                    expiry = row["expiry"]
-                    stockqty = row["stock_qty"]
+                    dose = row.get("dose","")
+                    expiry = row.get("expiry","")
+                    stockqty = row.get("stock_qty",0)
                     col1, col2, col3 = st.columns([1,1,1])
                     with col1:
                         freq = st.text_input(f"Frequency [{i}]", key=f"med_freq_{i}", label_visibility="collapsed", placeholder="Frequency")
@@ -319,100 +468,154 @@ def run_app():
                         "amount": amount.strip()
                     })
 
-            if st.button("Save Patient Record"):
-                # minimal validation
-                if not patient_id or not patient_name:
-                    st.error("Please ensure Patient ID and Patient Name are provided.")
+            if st.button("Save Visit Record"):
+                # validation: must have patient information and some content
+                if registering_new:
+                    is_valid, msg = validate_patient_inputs(p_name.strip(), p_cnic.strip(), p_nationality.strip(), p_phone.strip(), p_gender, int(p_age))
+                    if not is_valid:
+                        st.error("For new patients, Patient Name and CNIC are required.")
+                        st.stop()
+                # ensure patient exists or get patient_id
+                conn = get_connection()
+                cur = conn.cursor()
+                if registering_new:
+                    # insert or update (if CNIC exists, update)
+                    cur.execute("SELECT patient_id FROM patients WHERE cnic=%s", (p_cnic.strip(),))
+                    existing = cur.fetchone()
+                    if existing:
+                        patient_id = int(existing[0])
+                        cur.execute("""
+                            UPDATE patients SET patient_name=%s, nationality=%s, address=%s, phone=%s, gender=%s, age=%s
+                            WHERE patient_id=%s
+                        """, (p_name.strip(), p_nationality.strip(), p_address.strip(), p_phone.strip(), p_gender, int(p_age), patient_id))
+                    else:
+                        cur.execute("""
+                            INSERT INTO patients (patient_name, cnic, nationality, address, phone, gender, age) 
+                            VALUES (%s, %s, %s, %s, %s, %s, %s)
+                        """, (p_name.strip(), p_cnic.strip(), p_nationality.strip(), p_address.strip(), p_phone.strip(), p_gender, int(p_age)))
+                        patient_id = cur.lastrowid
                 else:
-                    record = {
-                        "patient_id": patient_id,
-                        "patient_name": patient_name,
-                        "cnic": cnic,
-                        "nationality": nationality,
-                        "address": address,
-                        "phone": phone,
-                        "doctor_type": doctor_type,
-                        "history": patient_history,
-                        "bp": f"{bp_sys}/{bp_dia}",
-                        "heart_rate": heart_rate,
-                        "sat_o2": sat_o2,
-                        "temp": temp,
-                        "rr": rr,
-                        "blood_glucose": blood_glucose,
-                        "gender": gender,
-                        "age": age,
-                        "symptoms": "; ".join(symptoms),
-                        "indications": "; ".join(indications),
-                        "medicines": "; ".join([f"{m['generic']} [{m['brand']}] ({m['frequency']}, {m['time']}, {m['amount']})" for m in medicines]),
-                        "dispensed": "No",
-                        "dispensed_details": ""
-                    }
-                    conn = get_connection()
-                    placeholders = ", ".join(["?"]*len(record))
-                    columns = ", ".join(record.keys())
-                    values = list(record.values())
-                    conn.cursor().execute(f"INSERT OR REPLACE INTO patients ({columns}) VALUES ({placeholders})", values)
-                    conn.commit()
-                    conn.close()
-                    st.success("Patient record saved successfully!")
-                    st.json(record)
-                    # clear some keys so next id/autofill works
-                    try:
-                        del st.session_state["p_patient_name"]
-                        del st.session_state["p_cnic"]
-                    except Exception:
-                        pass
+                    patient_id = int(selected_patient_label.split(" - ")[0])
 
-    # ---------- PATIENT RECORDS TAB ----------
+                # prepare visit record
+                visit_record = (
+                    patient_id,
+                    doctor_type,  # from your existing selectbox variable, ensure you keep it in your larger code
+                    str(pd.Timestamp.now()),
+                    patient_history if 'patient_history' in locals() else "",  # if you have history variable
+                    f"{bp_sys}/{bp_dia}",
+                    int(heart_rate),
+                    float(sat_o2),
+                    float(temp),
+                    int(rr),
+                    float(blood_glucose),
+                    p_gender,
+                    int(p_age) if p_age is not None else None,
+                    "; ".join(symptoms),
+                    "; ".join(indications),
+                    "; ".join([f"{m['generic']} [{m['brand']}] ({m['frequency']}, {m['time']}, {m['amount']})" for m in medicines]),
+                    "No",
+                    "",
+                )
+                cur.execute("""
+                    INSERT INTO visits
+                    (patient_id, doctor_type, visit_date, history, bp, heart_rate, sat_o2, temp, resp_rate, blood_glucose, gender, age, symptoms, indications, medicines, dispensed, dispensed_details)
+                    VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+                """, visit_record)
+                conn.commit()
+                conn.close()
+                st.success("Visit saved successfully (linked to patient).")
+                # Optionally show what was saved:
+                st.json({
+                    "patient_id": patient_id,
+                    "symptoms": "; ".join(symptoms),
+                    "indications": "; ".join(indications),
+                    "medicines": visit_record[13]
+                })
+
+
+# ---------- PATIENT RECORDS TAB ----------
     if "Patient Records" in tabs:
         with tab_objs[tabs.index("Patient Records")]:
-            st.header("Patient Records")
+            st.header("All Patient Records")
+
             conn = get_connection()
-            records_df = pd.read_sql("SELECT * FROM patients", conn)
+            df = pd.read_sql("""
+                SELECT 
+                    p.patient_id,
+                    p.patient_name,
+                    p.cnic,
+                    v.visit_id,
+                    v.doctor_type,
+                    v.visit_date,
+                    v.history,
+                    v.bp,
+                    v.heart_rate,
+                    v.symptoms,
+                    v.indications,
+                    v.medicines,
+                    v.dispensed,
+                    v.dispensed_details
+                FROM patients p
+                LEFT JOIN visits v ON p.patient_id = v.patient_id
+                ORDER BY p.patient_id DESC
+            """, conn)
             conn.close()
 
-            if records_df.empty:
-                st.info("No patient records found. Save some records first.")
+            if df.empty:
+                st.info("No patients or visits recorded yet.")
             else:
-                # For doctors & admin -> editable, for pharmacy -> view-only
-                if role in ["doctor", "admin"]:
-                    edited_df = st.data_editor(records_df, num_rows="dynamic")
-                    col1, col2 = st.columns(2)
-                    with col1:
-                        if st.button("Update Records"):
-                            conn = get_connection()
-                            # replace table with edited data
-                            edited_df.to_sql("patients", conn, if_exists="replace", index=False)
-                            conn.close()
-                            st.success("Records updated successfully!")
-                    with col2:
-                        del_id = st.selectbox("Select Patient ID to Delete", options=[""] + records_df["patient_id"].tolist(), index=0)
-                        if st.button("Delete Record"):
-                            if del_id:
-                                conn = get_connection()
-                                conn.cursor().execute("DELETE FROM patients WHERE patient_id=?", (del_id,))
-                                conn.commit()
-                                conn.close()
-                                st.success(f"Record with Patient ID '{del_id}' deleted.")
-                                st.rerun()
-                    st.dataframe(records_df, use_container_width=True)
-                else:
-                    # pharmacy or others: view only
-                    st.dataframe(records_df, use_container_width=True)
+                st.dataframe(df, use_container_width=True)
 
-                # Statistics: patients per doctor type + total
-                st.subheader("Statistics")
-                try:
-                    stats_df = records_df.groupby("doctor_type").size().reset_index(name="total_patients")
-                    st.table(stats_df)
-                    st.info(f"**Total patients treated by all doctors:** {int(stats_df['total_patients'].sum())}")
-                except Exception:
-                    st.write("No statistics available.")
+            # --- Deletion Options ---
+            if role in ["admin", "doctor"]:
+                st.subheader("Manage Records")
+
+                # ----- Option 1: Delete Visit -----
+                if "visit_id" in df.columns and df["visit_id"].notna().any():
+                    del_visit = st.selectbox(
+                        "Select Visit ID to delete",
+                        options=[""] + df["visit_id"].dropna().astype(str).tolist(),
+                        index=0,
+                        key="delete_visit"
+                    )
+                    if st.button("🗑️ Delete Visit"):
+                        if del_visit:
+                            conn = get_connection()
+                            cur = conn.cursor()
+                            cur.execute("DELETE FROM visits WHERE visit_id=%s", (int(del_visit),))
+                            conn.commit()
+                            conn.close()
+                            st.success(f"✅ Visit ID {del_visit} deleted successfully.")
+                            st.rerun()
+                        else:
+                            st.warning("Please select a valid Visit ID.")
+
+                # ----- Option 2: Delete Patient -----
+                del_patient = st.selectbox(
+                    "Select Patient ID to delete",
+                    options=[""] + df["patient_id"].dropna().astype(str).tolist(),
+                    index=0,
+                    key="delete_patient"
+                )
+                if st.button("🧹 Delete Patient Record"):
+                    if del_patient:
+                        conn = get_connection()
+                        cur = conn.cursor()
+                        # Delete any related visits first (to avoid foreign key conflicts)
+                        cur.execute("DELETE FROM visits WHERE patient_id=%s", (int(del_patient),))
+                        cur.execute("DELETE FROM patients WHERE patient_id=%s", (int(del_patient),))
+                        conn.commit()
+                        conn.close()
+                        st.success(f"✅ Patient ID {del_patient} and their visits deleted successfully.")
+                        st.rerun()
+                    else:
+                        st.warning("Please select a valid Patient ID.")
+
 
     # ---------- PHARMACY DISPENSATION TAB ----------
     if "Pharmacy Dispensation" in tabs:
         with tab_objs[tabs.index("Pharmacy Dispensation")]:
-            # pharmacist & admin allowed here
             st.header("Pharmacy Dispensation")
             if st.button("🔄 Refresh Stock"):
                 refresh_stock()
@@ -441,130 +644,154 @@ def run_app():
                     save_stock(st.session_state["stock_df"])
                     st.success("Stock saved to database.")
 
-            # Dispense for patient
+            # Dispense for patient: load patients and their visits
             conn = get_connection()
             patients_df = pd.read_sql("SELECT * FROM patients", conn)
-            conn.close()
             if patients_df.empty:
+                conn.close()
                 st.info("No patient records found. Save a patient record first in Patient Entry tab.")
             else:
+                # select patient
                 patient_ids = patients_df["patient_id"].tolist()
                 selected_patient = st.selectbox("Select Patient ID to Dispense For", options=[""] + patient_ids, index=0)
                 if selected_patient:
-                    patient_row = patients_df[patients_df["patient_id"] == selected_patient].iloc[0]
-                    st.subheader(f"Medicines prescribed for {patient_row['patient_name']}")
-                    raw_meds = str(patient_row.get("medicines", "")).split(";")
-                    dispense_plan = []
-
-                    for i, raw in enumerate(raw_meds):
-                        med_text = raw.strip()
-                        if med_text == "":
-                            continue
-                        brand_match = re.search(r"\[([^\]]+)\]", med_text)
-                        brand = brand_match.group(1).strip() if brand_match else ""
-                        generic = med_text.split("[")[0].strip()
-                        generic_norm = generic.lower()
-
-                        # 🟩 NEW — find all brands for this generic
-                        possible_brands = stock_df[stock_df["generic"].str.lower() == generic_norm]
-                        brand_options = possible_brands["brand"].unique().tolist()
-
-                        # 🟩 NEW — if more than one brand, ask pharmacist which one to use
-                        selected_brand = ""
-                        if len(brand_options) > 1:
-                            selected_brand = st.selectbox(
-                                f"Select brand for {generic} ({i+1})",
-                                options=brand_options,
-                                key=f"brand_select_{i}"
-                            )
-                        elif len(brand_options) == 1:
-                            selected_brand = brand_options[0]
+                    # load visits for this patient (most recent first)
+                    visits_df = pd.read_sql(
+                        "SELECT visit_id, visit_date, doctor_type, medicines, dispensed FROM visits WHERE patient_id=%s ORDER BY visit_date DESC",
+                        conn, params=(int(selected_patient),)
+                    )
+                    if visits_df.empty:
+                        st.info("No visits found for this patient. Ask doctor to save visit with medicines.")
+                    else:
+                        # allow filter: pending/ all / dispensed
+                        filter_mode = st.radio("Show visits:", ["Pending (not dispensed)", "All", "Dispensed"], index=0, horizontal=True)
+                        if filter_mode == "Pending (not dispensed)":
+                            view_df = visits_df[visits_df["dispensed"].fillna("No") != "Yes"]
+                        elif filter_mode == "Dispensed":
+                            view_df = visits_df[visits_df["dispensed"].fillna("No") == "Yes"]
                         else:
-                            selected_brand = brand  # fallback if none found
+                            view_df = visits_df
 
-                        matched = stock_df[
-                            (stock_df["generic"].str.strip().str.lower() == generic_norm) &
-                            (stock_df["brand"].str.strip().str.lower() == selected_brand.lower())
-                            ]
+                        # present visits to choose from
+                        visit_options = [f"{int(r.visit_id)} — {r.visit_date} ({r.doctor_type})" for r in view_df.itertuples()] if not view_df.empty else []
+                        selected_visit_label = st.selectbox("Select Visit", options=[""] + visit_options, index=0)
+                        if selected_visit_label:
+                            visit_id = int(selected_visit_label.split(" — ")[0])
+                            visit_row = view_df[view_df["visit_id"] == visit_id].iloc[0]
+                            # read medicines text from visit (not patients)
+                            raw_meds = str(visit_row.get("medicines", "")).split(";")
+                            st.subheader(f"Medicines prescribed for visit {visit_id}")
+                            dispense_plan = []
 
-                        stock_qty = int(matched.iloc[0]["stock_qty"]) if not matched.empty else 0
-                        display_name = matched.iloc[0]["generic"] + " — " + matched.iloc[0]["brand"] if not matched.empty else generic
-
-                        prescribed_match = re.search(r"\(([^)]*)\)", med_text)
-                        prescribed_amount = ""
-                        if prescribed_match:
-                            parts = prescribed_match.group(1).split(",")
-                            if len(parts) == 3:
-                                prescribed_amount = parts[2].strip()
-
-                        c1,c2,c3,c4,c5,c6,c7 = st.columns([3,1,1,1,1,1,1])
-                        with c1: st.write(display_name)
-                        with c2: st.write(generic)
-                        with c3: st.write(selected_brand)
-                        with c4: st.write(stock_qty)
-                        with c5: st.write(prescribed_amount)
-                        with c6:
-                            qty_to_dispense = st.number_input(
-                                f"Dispense units for {i}",
-                                min_value=0,
-                                max_value=stock_qty,
-                                value=0,
-                                step=1,
-                                key=f"dispense_input_{i}"
-                            )
-                        with c7:
-                            st.write(f"Remaining: {stock_qty - qty_to_dispense}")
-
-                        dispense_plan.append({
-                            "raw": med_text,
-                            "display": display_name,
-                            "generic": generic,
-                            "brand": selected_brand,
-                            "stock_qty": stock_qty,
-                            "dispense_qty": int(qty_to_dispense),
-                            "matched_index": matched.index[0] if not matched.empty else None
-                        })
-
-                    if st.button("Confirm Dispensation for Selected Patient"):
-                        to_dispense = [d for d in dispense_plan if d["dispense_qty"] > 0]
-                        if not to_dispense:
-                            st.warning("No dispense quantities greater than zero selected.")
-                        else:
-                            updated_stock = stock_df.copy()
-                            dispensed_summary = []
-                            for d in to_dispense:
-                                qty = d["dispense_qty"]
-                                if d["matched_index"] is not None:
-                                    idx = d["matched_index"]
-                                    updated_stock.at[idx, "stock_qty"] -= qty
-                                    new_stock_val = updated_stock.at[idx, "stock_qty"]
-                                else:
-                                    st.error(f"Cannot dispense {d['display']}: no stock entry found.")
+                            for i, raw in enumerate(raw_meds):
+                                med_text = raw.strip()
+                                if med_text == "":
                                     continue
-                                dispensed_summary.append({
-                                    "Medicine": d["display"],
-                                    "Generic": d["generic"],
-                                    "Brand": d["brand"],
-                                    "QuantityDispensed": qty,
-                                    "RemainingStock": new_stock_val
+                                brand_match = re.search(r"\[([^\]]+)\]", med_text)
+                                brand = brand_match.group(1).strip() if brand_match else ""
+                                generic = med_text.split("[")[0].strip()
+                                generic_norm = generic.lower()
+
+                                # find brands for this generic
+                                possible_brands = stock_df[stock_df["generic"].str.lower() == generic_norm]
+                                brand_options = possible_brands["brand"].unique().tolist()
+
+                                selected_brand = ""
+                                if len(brand_options) > 1:
+                                    selected_brand = st.selectbox(
+                                        f"Select brand for {generic} ({i+1})",
+                                        options=brand_options,
+                                        key=f"brand_select_{visit_id}_{i}"
+                                    )
+                                elif len(brand_options) == 1:
+                                    selected_brand = brand_options[0]
+                                else:
+                                    selected_brand = brand  # fallback if none found
+
+                                matched = stock_df[
+                                    (stock_df["generic"].str.strip().str.lower() == generic_norm) &
+                                    (stock_df["brand"].str.strip().str.lower() == selected_brand.lower())
+                                    ]
+
+                                stock_qty = int(matched.iloc[0]["stock_qty"]) if not matched.empty else 0
+                                display_name = matched.iloc[0]["generic"] + " — " + matched.iloc[0]["brand"] if not matched.empty else generic
+
+                                prescribed_match = re.search(r"\(([^)]*)\)", med_text)
+                                prescribed_amount = ""
+                                if prescribed_match:
+                                    parts = prescribed_match.group(1).split(",")
+                                    if len(parts) == 3:
+                                        prescribed_amount = parts[2].strip()
+
+                                c1,c2,c3,c4,c5,c6,c7 = st.columns([3,1,1,1,1,1,1])
+                                with c1: st.write(display_name)
+                                with c2: st.write(generic)
+                                with c3: st.write(selected_brand)
+                                with c4: st.write(stock_qty)
+                                with c5: st.write(prescribed_amount)
+                                with c6:
+                                    qty_to_dispense = st.number_input(
+                                        f"Dispense units for {i}",
+                                        min_value=0,
+                                        max_value=stock_qty,
+                                        value=0,
+                                        step=1,
+                                        key=f"dispense_input_{visit_id}_{i}"
+                                    )
+                                with c7:
+                                    st.write(f"Remaining: {stock_qty - qty_to_dispense}")
+
+                                dispense_plan.append({
+                                    "raw": med_text,
+                                    "display": display_name,
+                                    "generic": generic,
+                                    "brand": selected_brand,
+                                    "stock_qty": stock_qty,
+                                    "dispense_qty": int(qty_to_dispense),
+                                    "matched_index": matched.index[0] if not matched.empty else None
                                 })
 
-                            st.session_state["stock_df"] = updated_stock.copy()
-                            save_stock(updated_stock)
-                            refresh_stock()
+                            if st.button("Confirm Dispensation for Selected Visit"):
+                                to_dispense = [d for d in dispense_plan if d["dispense_qty"] > 0]
+                                if not to_dispense:
+                                    st.warning("No dispense quantities greater than zero selected.")
+                                else:
+                                    updated_stock = stock_df.copy()
+                                    dispensed_summary = []
+                                    for d in to_dispense:
+                                        qty = d["dispense_qty"]
+                                        if d["matched_index"] is not None:
+                                            idx = d["matched_index"]
+                                            updated_stock.at[idx, "stock_qty"] -= qty
+                                            new_stock_val = updated_stock.at[idx, "stock_qty"]
+                                        else:
+                                            st.error(f"Cannot dispense {d['display']}: no stock entry found.")
+                                            continue
+                                        dispensed_summary.append({
+                                            "Medicine": d["display"],
+                                            "Generic": d["generic"],
+                                            "Brand": d["brand"],
+                                            "QuantityDispensed": qty,
+                                            "RemainingStock": new_stock_val
+                                        })
 
-                            conn = get_connection()
-                            dd = "; ".join([f"{s['Medicine']} => {s['QuantityDispensed']} (remaining {s['RemainingStock']})" for s in dispensed_summary])
-                            conn.cursor().execute(
-                                "UPDATE patients SET dispensed='Yes', dispensed_details=? WHERE patient_id=?",
-                                (dd, selected_patient)
-                            )
-                            conn.commit()
-                            conn.close()
+                                    # save updated stock
+                                    st.session_state["stock_df"] = updated_stock.copy()
+                                    save_stock(updated_stock)
+                                    refresh_stock()
 
-                            st.success("Dispensation recorded and stock updated.")
-                            st.subheader("Dispensed summary")
-                            st.table(pd.DataFrame(dispensed_summary))
+                                    # update visits table (not patients)
+                                    conn.cursor().execute(
+                                        "UPDATE visits SET dispensed='Yes', dispensed_details=%s WHERE visit_id=%s",
+                                        ("; ".join([f"{s['Medicine']} => {s['QuantityDispensed']} (remaining {s['RemainingStock']})" for s in dispensed_summary]), visit_id)
+                                    )
+                                    conn.commit()
+                                    conn.close()
+
+                                    st.success("Dispensation recorded and stock updated.")
+                                    st.subheader("Dispensed summary")
+                                    st.table(pd.DataFrame(dispensed_summary))
+
 
 
 if __name__ == "__main__":
