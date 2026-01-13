@@ -3,6 +3,7 @@ import streamlit as st
 import mysql.connector
 import pandas as pd
 import os
+from mysql.connector.pooling import MySQLConnectionPool
 import re
 DB_FILE = "emr.db"
 
@@ -59,18 +60,26 @@ def validate_patient_inputs(name, cnic, nationality, address, phone, gender, age
 
     return True, formatted_cnic
 
+# Initialize a pool (do this globally, outside the function)
+db_config = {
+    "host": "localhost",
+    "user": "root",
+    "port": 3306,
+    "password": "umerEMR123@",
+    "database": "emr_system",
+    "connection_timeout": 5
+}
+
+@st.cache_resource
+def get_db_pool():
+    # This creates a pool of connections that stays open
+    return MySQLConnectionPool(pool_name="emr_pool", pool_size=20, **db_config)
+
 def get_connection():
     try:
-        conn = mysql.connector.connect(
-            host="localhost",
-            user="root",
-            port=3306,
-            password="umerEMR123@",
-            database="emr_system",
-            connection_timeout=5
-        )
-        return conn
-    except mysql.connector.Error as e:
+        pool = get_db_pool()
+        return pool.get_connection()
+    except Exception as e:
         st.error(f"MySQL connection failed: {e}")
         st.stop()
 

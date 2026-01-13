@@ -15,7 +15,7 @@ st.set_page_config(layout="centered", page_title="EMR Login")
 
 # --- Hardcoded users and roles ---
 USERS = {
-    "admin": {"password": "12345", "role": "admin"},
+    "admin": {"password": "admin", "role": "admin"},
     "doctor": {"password": "d1234", "role": "doctor"},
     "pharmacy": {"password": "p1234", "role": "pharmacy"},
     "registration": {"password": "r1234", "role": "registration"}
@@ -79,7 +79,8 @@ if st.session_state.get("logged_in", False):
 # --- Helper info for testing ---
 st.markdown("---")
 st.write("**Login Credentials (for demo):**")
-st.write("- 🧑‍💼 admin / 12345 → full access (all tabs)")
 st.write("- 👨‍⚕️ doctor / d1234 → patient entry + records (edit allowed)")
 st.write("- 💊 pharmacy / p1234 → pharmacy dispensation + patient records (view-only)")
 st.write("- registration / r1234 -> Register and  view only")
+
+#streamlit run check.py --server.port 8501 --server.enableCORS true --server.enableXsrfProtection false

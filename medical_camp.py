@@ -2,9 +2,10 @@
 import pandas as pd
 import streamlit as st
 import mysql.connector
+from mysql.connector.pooling import MySQLConnectionPool
 import os
 import re
-
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 if "logged_in" not in st.session_state:
     st.session_state["logged_in"] = False
 if "role" not in st.session_state:
@@ -13,7 +14,7 @@ if "username" not in st.session_state:
     st.session_state["username"] = ""
 
 # --------- Config ----------
-EXCEL_FILE = "ERR Drug Audit.csv"
+EXCEL_FILE = "New_drug_list.csv"
 def load_icd_diagnosis():
     try:
         # Change this based on your file format
@@ -32,18 +33,27 @@ if "icd_df" not in st.session_state:
     st.session_state["icd_df"] = load_icd_diagnosis()
 
 
+# Initialize a pool (do this globally, outside the function)
+db_config = {
+    "host": "127.0.0.1",
+    "user": "root",
+    "port": 3306,
+    "password": "umerEMR123@",
+    "database": "emr_system",
+    "connection_timeout": 5,
+    "auth_plugin" : "mysql_native_password"
+}
+
+@st.cache_resource
+def get_db_pool():
+    # This creates a pool of connections that stays open
+    return MySQLConnectionPool(pool_name="emr_pool", pool_size=20, **db_config)
+
 def get_connection():
     try:
-        conn = mysql.connector.connect(
-            host="localhost",
-            user="root",
-            port=3306,
-            password="umerEMR123@",
-            database="emr_system",
-            connection_timeout=5
-        )
-        return conn
-    except mysql.connector.Error as e:
+        pool = get_db_pool()
+        return pool.get_connection()
+    except Exception as e:
         st.error(f"MySQL connection failed: {e}")
         st.stop()
 
@@ -62,6 +72,66 @@ def load_icd_symptoms():
 # Load once at start
 if "icd_symptoms_df" not in st.session_state:
     st.session_state["icd_symptoms_df"] = load_icd_symptoms()
+
+# --------- Stock helpers ----------
+def load_stock(force_reload=False):
+    conn = get_connection()
+    cur = conn.cursor(dictionary=True)
+
+    # Absolute path setup
+    stock_file_path = os.path.join(BASE_DIR, EXCEL_FILE)
+
+    # Check if table has data
+    cur.execute("SELECT count(*) as cnt FROM stock")
+    result = cur.fetchone()
+    count = result['cnt']
+
+    # LOGIC: Load if table is empty OR if force_reload is True
+    if count == 0 or force_reload:
+        if os.path.exists(stock_file_path):
+            try:
+                # 1. If forcing, wipe the table first
+                if force_reload:
+                    cur.execute("TRUNCATE TABLE stock")
+                    st.warning("⚠️ Old stock data wiped.")
+
+                # 2. Load CSV
+                stock = pd.read_csv(stock_file_path)
+
+                # ... (Your existing data cleaning logic) ...
+                stock.columns = stock.columns.str.strip()
+                stock["StockQty"] = stock.get("Quantity", 0).fillna(0).astype(int)
+                stock["Generic"] = stock["Generic"].fillna("").str.strip().str.title()
+                stock["Brand"] = stock["Brand"].fillna("").str.strip().str.title()
+                stock["Dosage Form"] = stock["Dosage Form"].fillna("").str.strip().str.title()
+                stock["Dose"] = stock["Dose"].fillna("").str.strip()
+                stock["Expiry"] = pd.to_datetime(stock["Expiry"], errors="coerce").dt.date
+                stock["Unit"] = stock.get("Unit","").fillna("").str.strip().str.lower()
+                stock = stock[(stock["Generic"]!="") | (stock["Brand"]!="")].copy()
+                stock["Key"] = stock["Generic"].str.lower() + "||" + stock["Brand"].str.lower()
+
+                # 3. Insert
+                cur.executemany("""
+                    INSERT INTO stock (`key`, generic, brand, dosage_form, dose, expiry, unit, stock_qty)
+                    VALUES (%s,%s,%s,%s,%s,%s,%s,%s)
+                """, stock[["Key","Generic","Brand","Dosage Form","Dose","Expiry","Unit","StockQty"]].values.tolist())
+
+                conn.commit()
+                st.success(f"✅ Successfully imported {len(stock)} medicines from CSV!")
+
+            except Exception as e:
+                st.error(f"❌ Error importing CSV: {e}")
+        else:
+            st.error(f"❌ CSV File not found at: {stock_file_path}")
+    else:
+        # Debug message (so you know why it skipped)
+        print(f"Skipped CSV import: Database already has {count} records.")
+
+    # Always return the fresh dataframe
+    cur.execute("SELECT * FROM stock")
+    rows = cur.fetchall()
+    conn.close()
+    return pd.DataFrame(rows)
 
 def init_db():
     conn = get_connection()
@@ -124,52 +194,10 @@ def init_db():
 
 # initialize DB on import
 init_db()
-
-
-# --------- Stock helpers ----------
-def load_stock():
-    conn = get_connection()
-
-    # Always import CSV if it exists
-    if os.path.exists(EXCEL_FILE):
-        try:
-            stock = pd.read_csv(EXCEL_FILE)
-            stock.columns = stock.columns.str.strip()
-            stock["StockQty"] = stock.get("Quantity", 0).fillna(0).astype(int)
-            stock["Generic"] = stock["Generic"].fillna("").str.strip().str.title()
-            stock["Brand"] = stock["Brand"].fillna("").str.strip().str.title()
-            stock["Dosage Form"] = stock["Dosage Form"].fillna("").str.strip().str.title()
-            stock["Dose"] = stock["Dose"].fillna("").str.strip()
-            stock["Expiry"] = pd.to_datetime(stock["Expiry"], errors="coerce").dt.date
-            stock["Unit"] = stock.get("Unit","").fillna("").str.strip().str.lower()
-            stock = stock[(stock["Generic"]!="") | (stock["Brand"]!="")].copy()
-            stock["Key"] = stock["Generic"].str.lower() + "||" + stock["Brand"].str.lower()
-
-            cur = conn.cursor()
-            cur.executemany("""
-                INSERT INTO stock (`key`, generic, brand, dosage_form, dose, expiry, unit, stock_qty)
-                VALUES (%s,%s,%s,%s,%s,%s,%s,%s)
-                ON DUPLICATE KEY UPDATE
-                    generic=VALUES(generic),
-                    brand=VALUES(brand),
-                    dosage_form=VALUES(dosage_form),
-                    dose=VALUES(dose),
-                    expiry=VALUES(expiry),
-                    unit=VALUES(unit),
-                    stock_qty=VALUES(stock_qty)
-            """, stock[["Key","Generic","Brand","Dosage Form","Dose","Expiry","Unit","StockQty"]].values.tolist())
-            conn.commit()
-
-        except Exception as e:
-            print("Error importing CSV:", e)
-
-    # Fetch stock using cursor (instead of pd.read_sql)
-    cur = conn.cursor(dictionary=True)
-    cur.execute("SELECT * FROM stock")
-    rows = cur.fetchall()
-    stock_df = pd.DataFrame(rows)  # convert to DataFrame
-    conn.close()
-    return stock_df
+# Automatically load CSV into DB if "stock_df" isn't in session yet
+if "stock_loaded" not in st.session_state:
+    load_stock()
+    st.session_state["stock_loaded"] = True
 
 
 def save_stock(df):
@@ -184,7 +212,7 @@ def save_stock(df):
     conn.commit()
 
 # session stock init helper
-@st.cache_data
+#@st.cache_data
 def load_stock_df():
     conn = get_connection()
     df = pd.read_sql("SELECT * FROM stock", conn)
@@ -298,6 +326,18 @@ def run_app():
             return "1"
 
     # ---------- PATIENT ENTRY TAB ----------
+    st.write("---")
+    st.subheader("⚠️ Admin Zone")
+
+    col1, col2 = st.columns([1, 4])
+    with col1:
+        if st.button("🚨 FORCE RELOAD STOCK"):
+            # This calls the function with force_reload=True
+            new_df = load_stock(force_reload=True)
+            st.session_state["stock_df"] = new_df
+            st.rerun()
+    with col2:
+        st.info("Click this ONLY if you updated 'Drug list.csv' and need to reset the database.")
     if "Patient Entry" in tabs:
         with tab_objs[tabs.index("Patient Entry")]:
             st.header("Patient Visit Entry")
