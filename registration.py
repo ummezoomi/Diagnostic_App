@@ -70,15 +70,11 @@ db_config = {
     "connection_timeout": 5
 }
 
-@st.cache_resource
-def get_db_pool():
-    # This creates a pool of connections that stays open
-    return MySQLConnectionPool(pool_name="emr_pool", pool_size=20, **db_config)
 
 def get_connection():
     try:
-        pool = get_db_pool()
-        return pool.get_connection()
+        # Just create a fresh connection. It's fast and reliable.
+        return mysql.connector.connect(**db_config)
     except Exception as e:
         st.error(f"MySQL connection failed: {e}")
         st.stop()
