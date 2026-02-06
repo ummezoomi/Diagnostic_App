@@ -1,9 +1,9 @@
 # check.py
-
 import streamlit as st
-import medical_camp  # import your main app file (must be in same folder)
-import registration
-# --- Persistent session setup (shared across reruns & pages) ---
+import medical_camp  # Ensure medical_camp.py is in the same folder
+import registration  # Ensure registration.py is in the same folder
+
+# --- Persistent session setup ---
 if "logged_in" not in st.session_state:
     st.session_state["logged_in"] = False
 if "role" not in st.session_state:
@@ -21,66 +21,77 @@ USERS = {
     "registration": {"password": "r1234", "role": "registration"}
 }
 
-# --- Login UI ---
-st.title("🔒 Medical Camp EMR — Login")
+# =========================================================
+# 1. AUTO-LOGIN LOGIC (Check URL on Refresh)
+# =========================================================
+if not st.session_state["logged_in"]:
+    qp = st.query_params  # Get URL parameters
 
-with st.form("login_form"):
-    username = st.text_input("Username")
-    password = st.text_input("Password", type="password")
-    submitted = st.form_submit_button("Login")
+    # If URL has credentials, try to auto-login
+    if "role" in qp and "username" in qp:
+        u_name = qp["username"]
+        u_role = qp["role"]
 
-# --- Login logic ---
-if submitted:
-    if username in USERS and USERS[username]["password"] == password:
-        st.session_state.logged_in = True
-        st.session_state.role = USERS[username]["role"]
-        st.session_state.username = username
-        st.success(f"Welcome, {username}! Role: {st.session_state['role']}")
-        st.rerun()  # rerun to go directly into the main app
-    else:
-        st.error("❌ Invalid username or password")
+        # Security check: verify the role matches your hardcoded list
+        if u_name in USERS and USERS[u_name]["role"] == u_role:
+            st.session_state["logged_in"] = True
+            st.session_state["role"] = u_role
+            st.session_state["username"] = u_name
+            st.rerun()
 
+# =========================================================
+# 2. LOGIN FORM (Only show if not logged in)
+# =========================================================
+if not st.session_state["logged_in"]:
+    st.title("🔒 Medical Camp EMR — Login")
+
+    with st.form("login_form"):
+        username = st.text_input("Username")
+        password = st.text_input("Password", type="password")
+        submitted = st.form_submit_button("Login")
+
+    if submitted:
+        if username in USERS and USERS[username]["password"] == password:
+            st.session_state.logged_in = True
+            st.session_state.role = USERS[username]["role"]
+            st.session_state.username = username
+
+            # --- SAVE TO URL FOR PERSISTENCE ---
+            st.query_params["role"] = USERS[username]["role"]
+            st.query_params["username"] = username
+
+            st.success(f"Welcome, {username}! Role: {st.session_state['role']}")
+            st.rerun()
+        else:
+            st.error("❌ Invalid username or password")
+
+# =========================================================
+# 3. ROUTING LOGIC (If logged in, run the app)
+# =========================================================
 if st.session_state.get("logged_in", False):
     role = st.session_state["role"]
 
+    # Add a global logout button in the sidebar
+    # This acts as a "Hard Logout" that clears the URL too
+    if st.sidebar.button("Logout", key="main_app_logout"):
+        st.session_state.clear()
+        st.query_params.clear() # Clear URL so refresh doesn't auto-login
+        st.rerun()
+
     # ADMIN
     if role == "admin":
-        st.success("👑 Admin access granted — full system access.")
         medical_camp.run_app()
 
     # DOCTOR
     elif role == "doctor":
-        st.success("👨‍⚕️ Doctor access granted — EMR only.")
         medical_camp.run_app()
 
     # PHARMACY
     elif role == "pharmacy":
-        st.success("💊 Pharmacy access granted — EMR (view only).")
         medical_camp.run_app()
 
     # REGISTRATION STAFF
     elif role == "registration":
-        st.success("📝 Registration access granted — patient registration only.")
         registration.run_registration()
-
-    st.stop()
-
-
-
-
-
-
-# --- If user is already logged in, skip login page ---
-if st.session_state.get("logged_in", False):
-    medical_camp.run_app()
-    st.stop()  # prevent re-rendering login form below
-
-
-# --- Helper info for testing ---
-st.markdown("---")
-st.write("**Login Credentials (for demo):**")
-st.write("- 👨‍⚕️ doctor / d1234 → patient entry + records (edit allowed)")
-st.write("- 💊 pharmacy / p1234 → pharmacy dispensation + patient records (view-only)")
-st.write("- registration / r1234 -> Register and  view only")
 
 #streamlit run check.py --server.port 8501 --server.enableCORS true --server.enableXsrfProtection false

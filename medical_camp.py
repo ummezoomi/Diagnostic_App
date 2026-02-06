@@ -434,36 +434,73 @@ def run_app():
 
             # --- SQL BASED SYMPTOMS (Updated with +/- options) ---
             st.subheader("Symptoms")
-            symptom_df = st.session_state.get("icd_symptoms_df")
-            symptom_list = symptom_df["Symptom"].dropna().unique().tolist() if symptom_df is not None else []
 
-            # 1. Select Number of Rows
-            num_symptoms = st.number_input("Number of Symptoms", min_value=1, max_value=10, value=1, key="num_sym_input")
-            symptoms_selected = []
+            # 1. Initialize selection list in session state if missing
+            if "selected_symptoms" not in st.session_state:
+                st.session_state.selected_symptoms = []
 
-            # 2. Loop to create dropdowns
-            for i in range(int(num_symptoms)):
-                col1, col2 = st.columns([3, 1]) # Optional: Add a column for notes later if you want
-                with col1:
-                    # We add [""] so the box starts empty and looks cleaner
-                    sym = st.selectbox(f"Symptom {i+1}", options=[""] + symptom_list, key=f"sym_select_{i}")
-                    if sym:
-                        symptoms_selected.append(sym)
+            # 2. Search Box
+            sym_search = st.text_input("🔍 Search Symptoms (Type 3+ letters)", key="sym_search_box")
 
+            # 3. Dynamic Filtering (Only runs if input > 3 chars)
+            sym_options = []
+            if len(sym_search) >= 3:
+                full_sym_df = st.session_state.get("icd_symptoms_df")
+                if full_sym_df is not None and not full_sym_df.empty:
+                    # Filter locally
+                    mask = full_sym_df["Symptom"].str.contains(sym_search, case=False, na=False)
+                    sym_options = full_sym_df[mask]["Symptom"].head(20).tolist() # Limit to 20 results for speed
+
+            # 4. Picker (Only shows filtered options)
+            new_sym = st.selectbox("Select Result", [""] + sym_options, key="sym_picker")
+
+            # 5. Add to list logic
+            if new_sym and new_sym not in st.session_state.selected_symptoms:
+                st.session_state.selected_symptoms.append(new_sym)
+
+            # 6. Display Selected items with Remove buttons
+            if st.session_state.selected_symptoms:
+                st.write("**Selected:**")
+                for s in st.session_state.selected_symptoms:
+                    col_a, col_b = st.columns([8, 1])
+                    col_a.text(s)
+                    if col_b.button("❌", key=f"del_sym_{s}"):
+                        st.session_state.selected_symptoms.remove(s)
+                        st.rerun()
+
+            # IMPORTANT: Map this list to the variable your Save button expects
+            symptoms_selected = st.session_state.selected_symptoms
             # --- SQL BASED DIAGNOSIS (Updated with +/- options) ---
             st.subheader("Diagnosis (ICD-10)")
-            icd_df = st.session_state.get("icd_df")
-            diag_list = icd_df["Diagnosis"].dropna().unique().tolist() if icd_df is not None else []
 
-            # 1. Select Number of Rows
-            num_diag = st.number_input("Number of Indications", min_value=1, max_value=10, value=1, key="num_diag_input")
-            indications_selected = []
+            if "selected_diagnosis" not in st.session_state:
+                st.session_state.selected_diagnosis = []
 
-            # 2. Loop to create dropdowns
-            for i in range(int(num_diag)):
-                diag = st.selectbox(f"Indication {i+1}", options=[""] + diag_list, key=f"diag_select_{i}")
-                if diag:
-                    indications_selected.append(diag)
+            diag_search = st.text_input("🔍 Search Diagnosis (Type 3+ letters)", key="diag_search_box")
+
+            diag_options = []
+            if len(diag_search) >= 3:
+                full_diag_df = st.session_state.get("icd_df")
+                if full_diag_df is not None and not full_diag_df.empty:
+                    mask = full_diag_df["Diagnosis"].str.contains(diag_search, case=False, na=False)
+                    diag_options = full_diag_df[mask]["Diagnosis"].head(20).tolist()
+
+            new_diag = st.selectbox("Select Result", [""] + diag_options, key="diag_picker")
+
+            if new_diag and new_diag not in st.session_state.selected_diagnosis:
+                st.session_state.selected_diagnosis.append(new_diag)
+
+            if st.session_state.selected_diagnosis:
+                st.write("**Selected:**")
+                for d in st.session_state.selected_diagnosis:
+                    col_a, col_b = st.columns([8, 1])
+                    col_a.text(d)
+                    if col_b.button("❌", key=f"del_diag_{d}"):
+                        st.session_state.selected_diagnosis.remove(d)
+                        st.rerun()
+
+            # IMPORTANT: Map this list to the variable your Save button expects
+            indications_selected = st.session_state.selected_diagnosis
 
             # Medicine Entry
             st.subheader("Prescription")
@@ -531,6 +568,11 @@ def run_app():
                 conn.commit()
                 conn.close()
                 st.success("Visit Saved Successfully!")
+
+                # --- NEW: Clear selections for next patient ---
+                st.session_state.selected_symptoms = []
+                st.session_state.selected_diagnosis = []
+                st.rerun()
 
     # ---------- PATIENT RECORDS TAB (The "Good" Version) ----------
     if "Patient Records" in tabs:

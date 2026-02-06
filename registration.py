@@ -1,20 +1,16 @@
-# registration.py
 import streamlit as st
 import mysql.connector
 import pandas as pd
 import os
-from mysql.connector.pooling import MySQLConnectionPool
+import random
 import re
-DB_FILE = "emr.db"
 
-# ------------------- Input Validation Helper -------------------
 # ------------------- Input Validation Helper -------------------
 def validate_patient_inputs(name, cnic, nationality, address, phone, gender, age):
     """
-    Validate and auto-clean patient registration inputs.
-    Returns (True, "cleaned_cnic") if valid, else (False, "error message").
+    Validate inputs. 
+    Allows empty CNIC (auto-generates a placeholder).
     """
-
     # --- Basic cleanup ---
     name = name.strip().title()
     cnic = cnic.strip().replace("-", "").replace(" ", "")
@@ -23,44 +19,39 @@ def validate_patient_inputs(name, cnic, nationality, address, phone, gender, age
     phone = phone.strip()
     gender = gender.strip()
 
-    # --- Name: alphabetic only (spaces allowed) ---
+    # --- Name Validation ---
     if not name or not re.match(r"^[A-Za-z\s]+$", name):
         return False, "Patient name must contain only letters and spaces."
 
-    # --- CNIC: digits only, must be 13 digits ---
-    if not cnic.isdigit():
-        return False, "CNIC must contain digits only."
-    if len(cnic) != 13:
-        return False, "CNIC must be exactly 13 digits long."
+    # --- CNIC Logic (Camp Friendly) ---
+    # If CNIC is empty or just "0", we generate a unique dummy ID
+    if not cnic or cnic == "0":
+        # Generate a random 6 digit number for internal tracking
+        rand_id = random.randint(100000, 999999)
+        formatted_cnic = f"NO-ID-{rand_id}"
+    else:
+        # If they typed something, verify it contains only digits
+        if not cnic.isdigit():
+            return False, "CNIC must contain digits only."
 
-    # Auto-format CNIC to XXXXX-XXXXXXX-X
-    formatted_cnic = f"{cnic[:5]}-{cnic[5:12]}-{cnic[12:]}"
+        # Optional: You can remove the length check if you want to allow 
+        # incomplete CNICs, but standard is 13.
+        if len(cnic) != 13:
+            return False, "CNIC must be 13 digits (or leave empty for patients without ID)."
 
-    # --- Nationality: letters only (optional) ---
-    if nationality and not re.match(r"^[A-Za-z\s]+$", nationality):
-        return False, "Nationality must contain only letters and spaces."
+        # Auto-format
+        formatted_cnic = f"{cnic[:5]}-{cnic[5:12]}-{cnic[12:]}"
 
-    # --- Address: reasonable length ---
-    if address and len(address) < 5:
-        return False, "Address seems too short. Please enter a complete address."
-
-    # --- Phone: digits + optional '+' allowed ---
-    if phone and not re.match(r"^[0-9+]+$", phone):
-        return False, "Phone number must contain only digits (and '+' if international)."
-    if phone and len(phone) < 7:
-        return False, "Phone number is too short."
-
-    # --- Gender: must be selected ---
+    # --- Other Validations ---
     if gender not in ["Male", "Female", "Other"]:
         return False, "Please select a valid gender."
 
-    # --- Age: must be within range ---
-    if not isinstance(age, int) or age <= 0 or age > 120:
-        return False, "Age must be a valid integer between 1 and 120."
+    if not isinstance(age, int) or age < 0 or age > 120:
+        return False, "Age must be a valid integer."
 
     return True, formatted_cnic
 
-# Initialize a pool (do this globally, outside the function)
+# Database Configuration
 db_config = {
     "host": "localhost",
     "user": "root",
@@ -70,10 +61,8 @@ db_config = {
     "connection_timeout": 5
 }
 
-
 def get_connection():
     try:
-        # Just create a fresh connection. It's fast and reliable.
         return mysql.connector.connect(**db_config)
     except Exception as e:
         st.error(f"MySQL connection failed: {e}")
@@ -82,11 +71,12 @@ def get_connection():
 def init_db():
     conn = get_connection()
     c = conn.cursor()
+    # REMOVED "UNIQUE" constraint from cnic definition for future setup
     c.execute("""
     CREATE TABLE IF NOT EXISTS patients (
         patient_id INT AUTO_INCREMENT PRIMARY KEY,
         patient_name VARCHAR(255),
-        cnic VARCHAR(20) UNIQUE,
+        cnic VARCHAR(20), 
         nationality VARCHAR(100),
         address TEXT,
         phone VARCHAR(20),
@@ -98,90 +88,87 @@ def init_db():
     conn.close()
 
 def run_registration():
-    # Ensure DB exists
     init_db()
 
-    # Prevent showing login form again
     if not st.session_state.get("logged_in", False):
         st.warning("Please login to access this page.")
         st.stop()
 
-    # Only allow registration or admin
     role = st.session_state.get("role", "")
     if role not in ["registration", "admin"]:
         st.error("You do not have permission to access patient registration.")
         st.stop()
 
-    # Page settings
     st.set_page_config(layout="centered", page_title="Patient Registration")
     st.title("🧾 Patient Registration")
 
-    with st.form("reg_form", clear_on_submit=False):
-        name = st.text_input("Patient Name")
-        cnic = st.text_input("CNIC")
-        nationality = st.text_input("Nationality")
-        address = st.text_area("Address")
-        phone = st.text_input("Phone Number")
-        gender = st.selectbox("Gender", ["", "Male", "Female", "Other"])
-        age = st.number_input("Age", min_value=0, max_value=120, step=1, value=0)
+    # --- Input Form ---
+    with st.form("reg_form", clear_on_submit=True):
+        col1, col2 = st.columns(2)
+        with col1:
+            name = st.text_input("Patient Name")
+            nationality = st.text_input("Nationality", value="Pakistani")
+            phone = st.text_input("Phone Number")
+            age = st.number_input("Age", min_value=0, max_value=120, step=1, value=0)
 
-        submitted = st.form_submit_button("Register / Update Patient")
+        with col2:
+            # Added help text for the camp scenario
+            cnic = st.text_input("CNIC (Leave empty if no ID)")
+            gender = st.selectbox("Gender", ["", "Male", "Female", "Other"])
+            address = st.text_area("Address")
+
+        submitted = st.form_submit_button("Register Patient")
 
     if submitted:
-        if not name.strip() or not cnic.strip():
-            st.warning("Please provide at least Patient Name and CNIC.")
+        if not name.strip():
+            st.warning("Patient Name is required.")
         else:
-            # Run input validation
+            # Validate
             is_valid, result = validate_patient_inputs(
-                name,
-                cnic,
-                nationality,
-                address,
-                phone,
-                gender,
-                int(age)
+                name, cnic, nationality, address, phone, gender, int(age)
             )
 
             if not is_valid:
                 st.error(f"❌ Validation failed: {result}")
-                st.stop()
             else:
-                cnic = result
+                final_cnic = result
 
-            conn = get_connection()
-            c = conn.cursor()
+                # --- SAVE LOGIC (ALWAYS INSERT) ---
+                conn = get_connection()
+                c = conn.cursor()
+                try:
+                    # We removed the Check/Update logic. We ONLY Insert now.
+                    # This allows duplicates or default CNICs.
+                    c.execute("""
+                        INSERT INTO patients (patient_name, cnic, nationality, address, phone, gender, age)
+                        VALUES (%s, %s, %s, %s, %s, %s, %s)
+                    """, (name.strip(), final_cnic, nationality.strip(), address.strip(), phone.strip(), gender, int(age)))
 
-            c.execute("SELECT patient_id FROM patients WHERE cnic=%s", (cnic.strip(),))
-            existing = c.fetchone()
-            if existing:
-                c.execute("""
-                    UPDATE patients
-                    SET patient_name=%s, nationality=%s, address=%s, phone=%s, gender=%s, age=%s
-                    WHERE cnic=%s
-                """, (name.strip(), nationality.strip(), address.strip(), phone.strip(), gender, int(age), cnic.strip()))
-                st.success(f"Updated patient (CNIC: {cnic}).")
-            else:
-                c.execute("""
-                    INSERT INTO patients (patient_name, cnic, nationality, address, phone, gender, age)
-                    VALUES (%s, %s, %s, %s, %s, %s, %s)
-                """, (name.strip(), cnic.strip(), nationality.strip(), address.strip(), phone.strip(), gender, int(age)))
-                st.success(f"Registered new patient: {name} (CNIC: {cnic}).")
-            conn.commit()
-            conn.close()
+                    conn.commit()
+                    new_id = c.lastrowid
+                    st.success(f"✅ Registered: {name} (ID: {new_id}) - CNIC: {final_cnic}")
+
+                except mysql.connector.Error as err:
+                    # If you forgot to run the SQL command in Step 1, this error will pop up
+                    if err.errno == 1062: # Duplicate entry error code
+                        st.error("⚠️ Database Error: The 'CNIC' column is still set to UNIQUE in MySQL.")
+                        st.code("ALTER TABLE patients DROP INDEX cnic;")
+                        st.info("Run the code above in MySQL Workbench to fix this.")
+                    else:
+                        st.error(f"Database Error: {err}")
+                finally:
+                    conn.close()
 
     st.markdown("---")
-    st.subheader("Registered Patients")
+    st.subheader("Registered Patients (Latest 10)")
 
     conn = get_connection()
     try:
         df = pd.read_sql("""
-            SELECT patient_id, patient_name, cnic, nationality, phone, gender, age, address 
-            FROM patients ORDER BY patient_id DESC
+            SELECT patient_id, patient_name, cnic, gender, age, phone 
+            FROM patients ORDER BY patient_id DESC LIMIT 10
         """, conn)
-        if df.empty:
-            st.info("No registered patients yet.")
-        else:
-            st.dataframe(df, use_container_width=True)
+        st.dataframe(df, use_container_width=True)
     except Exception as e:
         st.error(f"Error loading patients: {e}")
     finally:
