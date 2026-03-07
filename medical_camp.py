@@ -1,7 +1,6 @@
 import pandas as pd
 import streamlit as st
 import mysql.connector
-from mysql.connector.pooling import MySQLConnectionPool
 import os
 import re
 
@@ -279,7 +278,7 @@ def validate_patient_inputs(name, cnic, nationality, phone, gender, age):
 
 # --------- Main App ----------
 def run_app():
-    st.set_page_config(layout="centered", page_title="Medical Camp EMR & Pharmacy")
+    st.set_page_config(layout="wide", page_title="Medical Camp EMR & Pharmacy")
 
     auth = st.session_state.get("logged_in", False) or st.session_state.get("authenticated", False)
     role = st.session_state.get("role", None)
@@ -470,6 +469,7 @@ def run_app():
 
             # IMPORTANT: Map this list to the variable your Save button expects
             symptoms_selected = st.session_state.selected_symptoms
+
             # --- SQL BASED DIAGNOSIS (Updated with +/- options) ---
             st.subheader("Diagnosis (ICD-10)")
 
@@ -577,7 +577,7 @@ def run_app():
     # ---------- PATIENT RECORDS TAB (The "Good" Version) ----------
     if "Patient Records" in tabs:
         with tab_objs[tabs.index("Patient Records")]:
-            st.header("All Patient Records")
+            st.header("All Patient Records & Analytics")
 
             # 1. Refresh Button
             if st.button("🔄 Refresh Records"):
@@ -588,20 +588,10 @@ def run_app():
             try:
                 df = pd.read_sql("""
                     SELECT 
-                        p.patient_id,
-                        p.patient_name,
-                        p.cnic,
-                        v.visit_id,
-                        v.doctor_type,
-                        v.visit_date,
-                        v.history,
-                        v.bp,
-                        v.heart_rate,
-                        v.symptoms,
-                        v.indications,
-                        v.medicines,
-                        v.dispensed,
-                        v.dispensed_details
+                        p.patient_id, p.patient_name, p.cnic, p.age, p.gender,
+                        v.visit_id, v.doctor_type, v.visit_date, v.history,
+                        v.bp, v.heart_rate, v.symptoms, v.indications,
+                        v.medicines, v.dispensed, v.dispensed_details
                     FROM patients p
                     LEFT JOIN visits v ON p.patient_id = v.patient_id
                     ORDER BY v.visit_date DESC, p.patient_id DESC
@@ -612,10 +602,178 @@ def run_app():
             finally:
                 conn.close()
 
-            # 3. Display the Big Table
             if df.empty:
                 st.info("No patients or visits recorded yet.")
             else:
+                import streamlit.components.v1 as components
+
+                # ==========================================
+                # NEW FEATURE 1: ANALYTICS DASHBOARD
+                # ==========================================
+                with st.expander("📊 View Analytics & Dashboard", expanded=False):
+                    st.subheader("Camp Statistics")
+
+                    c1, c2, c3 = st.columns(3)
+                    total_visits = len(df["visit_id"].dropna())
+                    unique_patients = df["patient_id"].nunique()
+                    c1.metric("Total Visits", total_visits)
+                    c2.metric("Unique Patients", unique_patients)
+
+                    if total_visits > 0:
+                        st.markdown("---")
+                        col_a, col_b, col_c = st.columns(3)
+
+                        with col_a:
+                            st.markdown("**Visits by Doctor Type**")
+                            doc_counts = df["doctor_type"].value_counts()
+                            st.bar_chart(doc_counts)
+
+                        with col_b:
+                            st.markdown("**Patient Age Distribution**")
+                            bins = [0, 10, 20, 30, 40, 50, 60, 120]
+                            labels = ['0-10', '11-20', '21-30', '31-40', '41-50', '51-60', '60+']
+                            age_groups = pd.cut(df["age"].fillna(0), bins=bins, labels=labels, right=False).value_counts().sort_index()
+                            st.bar_chart(age_groups)
+
+                        with col_c:
+                            st.markdown("**Gender Distribution**")
+                            gender_counts = df["gender"].fillna("Unknown").value_counts()
+                            st.bar_chart(gender_counts)
+
+                        st.markdown("---")
+                        st.markdown("**Top Medical Trends**")
+                        c_sym, c_diag, c_med = st.columns(3)
+
+                        s_series = df['symptoms'].dropna().astype(str)
+                        s_list = [s.strip() for sub in s_series.str.split(';') for s in sub if s.strip()]
+                        top_sym = pd.Series(s_list).value_counts().head(5)
+
+                        i_series = df['indications'].dropna().astype(str)
+                        i_list = [i.strip() for sub in i_series.str.split(';') for i in sub if i.strip()]
+                        top_diag = pd.Series(i_list).value_counts().head(5)
+
+                        m_series = df['medicines'].dropna().astype(str)
+                        m_list = []
+                        for m_str in m_series:
+                            for m in m_str.split(';'):
+                                m = m.strip()
+                                if m:
+                                    gen = m.split('[')[0].strip() if '[' in m else m
+                                    m_list.append(gen)
+                        top_meds = pd.Series(m_list).value_counts().head(5)
+
+                        with c_sym:
+                            st.caption("Most Common Symptoms")
+                            st.dataframe(top_sym, column_config={"count": "Freq"}, use_container_width=True)
+                        with c_diag:
+                            st.caption("Most Common Diagnosis")
+                            st.dataframe(top_diag, column_config={"count": "Freq"}, use_container_width=True)
+                        with c_med:
+                            st.caption("Most Prescribed Medicines")
+                            st.dataframe(top_meds, column_config={"count": "Freq"}, use_container_width=True)
+
+                # ==========================================
+                # NEW FEATURE 2: PRINT RECORDS (100% STABLE DOWNLOAD APPROACH)
+                # ==========================================
+                st.write("---")
+                with st.expander("🖨️ Print Records", expanded=False):
+                    print_mode = st.selectbox("Select Print Mode:", ["None", "Print Specific Visit", "Print Entire Database"])
+
+                    if print_mode == "Print Specific Visit":
+                        valid_visits = df["visit_id"].dropna().unique().astype(int).astype(str).tolist()
+                        selected_v = st.selectbox("Select Visit ID to Print", [""] + valid_visits)
+
+                        if selected_v:
+                            v_data = df[df["visit_id"] == int(selected_v)].iloc[0]
+
+                            # Formatted strictly in light-mode colors for the printer
+                            html_receipt = f"""
+                            <div style="max-width: 800px; margin: 0 auto; background-color: white; color: black; padding: 20px; font-family: Arial, sans-serif;">
+                                <h2 style="text-align: center; border-bottom: 2px solid #333; padding-bottom: 10px; color: black;">Medical Camp - Patient Record</h2>
+                                <table style="width: 100%; font-size: 14px; color: black;">
+                                    <tr>
+                                        <td><strong>Visit ID:</strong> {v_data['visit_id']}</td>
+                                        <td style="text-align: right;"><strong>Date:</strong> {v_data['visit_date']}</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Patient Name:</strong> {v_data['patient_name']} (ID: {v_data['patient_id']})</td>
+                                        <td style="text-align: right;"><strong>Doctor:</strong> {v_data['doctor_type']}</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Age / Gender:</strong> {v_data['age']} / {v_data['gender']}</td>
+                                        <td></td>
+                                    </tr>
+                                </table>
+                                <br>
+                                <h3 style="color: black;">Clinical Information</h3>
+                                <p><strong>Vitals:</strong> BP: {v_data['bp']} &nbsp;|&nbsp; HR: {v_data['heart_rate']}</p>
+                                <p><strong>History / Complaints:</strong> {v_data['history']}</p>
+                                <p><strong>Symptoms:</strong> {v_data['symptoms']}</p>
+                                <p><strong>Diagnosis:</strong> {v_data['indications']}</p>
+                                <br>
+                                <h3 style="color: black;">Prescription (Rx)</h3>
+                                <p style="line-height: 1.6;">{str(v_data['medicines']).replace(';', '<br>')}</p>
+                                <br><br><br>
+                                <p style="text-align: right; border-top: 1px solid #000; display: inline-block; float: right; padding-top: 5px;">Doctor's Signature</p>
+                                <div style="clear: both;"></div>
+                            </div>
+                            """
+
+                            # 1. Render actual visual preview (Not Code)
+                            st.markdown("### 📄 Visual Print Preview")
+                            components.html(html_receipt, height=450, scrolling=True)
+
+                            # 2. Package for safe download and auto-print
+                            printable_file = f"""
+                            <html><head><title>Print Visit {v_data['visit_id']}</title></head>
+                            <body onload="window.print()">
+                            {html_receipt}
+                            </body></html>
+                            """
+
+                            st.download_button(
+                                label="🖨️ Download & Print Visit",
+                                data=printable_file,
+                                file_name=f"Visit_{v_data['visit_id']}_Print.html",
+                                mime="text/html",
+                                type="primary"
+                            )
+                            st.info("💡 **Instructions:** Click the blue button above. The browser will download a file. Click that downloaded file to open it, and your printer menu will pop up automatically!")
+
+                    elif print_mode == "Print Entire Database":
+                        clean_df = df.drop(columns=['dispensed_details'], errors='ignore')
+                        html_table = f"""
+                        <div style="background-color: white; color: black; padding: 20px; font-family: Arial, sans-serif;">
+                            <h2 style="text-align: center; color: black;">Full Medical Camp Patient Records</h2>
+                            <p style="text-align: center; color: black;">Generated on: {pd.Timestamp.now().strftime("%Y-%m-%d %H:%M")}</p>
+                            {clean_df.to_html(index=False, border=1)}
+                        </div>
+                        """
+
+                        st.markdown("### 📄 Visual Print Preview")
+                        components.html(html_table, height=450, scrolling=True)
+
+                        printable_file = f"""
+                        <html><head><title>Print All Records</title></head>
+                        <body onload="window.print()">
+                        {html_table}
+                        </body></html>
+                        """
+
+                        st.download_button(
+                            label="🖨️ Download & Print All Records",
+                            data=printable_file,
+                            file_name="All_Patient_Records.html",
+                            mime="text/html",
+                            type="primary"
+                        )
+                        st.info("💡 **Instructions:** Click the blue button above to download the printable records file.")
+
+                # ==========================================
+                # 3. Display the Big Table
+                # ==========================================
+                st.write("---")
+                st.markdown("### Record Table")
                 st.dataframe(df, use_container_width=True)
 
             # 4. Management / Deletion Tools
@@ -625,18 +783,11 @@ def run_app():
 
                 c1, c2 = st.columns(2)
 
-                # ----- Column 1: Delete Single Visit -----
                 with c1:
                     st.markdown("##### 🗑️ Delete Specific Visit")
                     if "visit_id" in df.columns and df["visit_id"].notna().any():
-                        # Filter out None/NaN visit IDs (from patients with no visits)
                         valid_visits = df["visit_id"].dropna().unique().astype(int).astype(str).tolist()
-
-                        del_visit = st.selectbox(
-                            "Select Visit ID",
-                            options=[""] + valid_visits,
-                            key="delete_visit_select"
-                        )
+                        del_visit = st.selectbox("Select Visit ID", options=[""] + valid_visits, key="delete_visit_select")
 
                         if st.button("Confirm Delete Visit", type="primary"):
                             if del_visit:
@@ -652,25 +803,17 @@ def run_app():
                     else:
                         st.info("No visits to delete.")
 
-                # ----- Column 2: Delete Entire Patient -----
                 with c2:
                     st.markdown("##### 🧹 Delete Patient (and all their visits)")
                     if "patient_id" in df.columns:
                         all_patients = df["patient_id"].unique().astype(str).tolist()
-
-                        del_patient = st.selectbox(
-                            "Select Patient ID",
-                            options=[""] + all_patients,
-                            key="delete_patient_select"
-                        )
+                        del_patient = st.selectbox("Select Patient ID", options=[""] + all_patients, key="delete_patient_select")
 
                         if st.button("Confirm Delete Patient", type="primary"):
                             if del_patient:
                                 conn = get_connection()
                                 cur = conn.cursor()
-                                # 1. Delete visits first (Foreign Key constraint)
                                 cur.execute("DELETE FROM visits WHERE patient_id=%s", (int(del_patient),))
-                                # 2. Delete patient
                                 cur.execute("DELETE FROM patients WHERE patient_id=%s", (int(del_patient),))
                                 conn.commit()
                                 conn.close()
@@ -680,6 +823,7 @@ def run_app():
                                 st.warning("Select a Patient ID first.")
 
             conn.close()
+
     # ---------- PHARMACY DISPENSATION TAB (RESTORED) ----------
     if "Pharmacy Dispensation" in tabs:
         with tab_objs[tabs.index("Pharmacy Dispensation")]:
