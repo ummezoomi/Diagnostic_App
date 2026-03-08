@@ -278,7 +278,7 @@ def validate_patient_inputs(name, cnic, nationality, phone, gender, age):
 
 # --------- Main App ----------
 def run_app():
-    st.set_page_config(layout="wide", page_title="Medical Camp EMR & Pharmacy")
+    st.set_page_config(layout="centered", page_title="Medical Camp EMR & Pharmacy")
 
     auth = st.session_state.get("logged_in", False) or st.session_state.get("authenticated", False)
     role = st.session_state.get("role", None)
@@ -333,7 +333,8 @@ def run_app():
         st.error("Unknown role. Contact admin.")
         st.stop()
 
-    tab_objs = st.tabs(tabs)
+    st.sidebar.markdown("---")
+    selected_page = st.sidebar.radio("📌 Main Menu", tabs)
 
     # ---------- PATIENT ENTRY TAB ----------
 
@@ -350,8 +351,8 @@ def run_app():
             with col2:
                 st.info("Re-reads 'New_drug_list.csv' and wipes current DB stock.")
 
-    if "Patient Entry" in tabs:
-        with tab_objs[tabs.index("Patient Entry")]:
+    if selected_page == "Patient Entry":
+        with st.container():
             st.header("Patient Visit Entry")
 
             if role == "doctor":
@@ -575,8 +576,8 @@ def run_app():
                 st.rerun()
 
     # ---------- PATIENT RECORDS TAB (The "Good" Version) ----------
-    if "Patient Records" in tabs:
-        with tab_objs[tabs.index("Patient Records")]:
+    if selected_page == "Patient Records":
+        with st.container():
             st.header("All Patient Records & Analytics")
 
             # 1. Refresh Button
@@ -677,11 +678,11 @@ def run_app():
                 # ==========================================
                 st.write("---")
                 with st.expander("🖨️ Print Records", expanded=False):
-                    print_mode = st.selectbox("Select Print Mode:", ["None", "Print Specific Visit", "Print Entire Database"])
+                    print_mode = st.selectbox("Select Print Mode:", ["None", "Print Specific Visit", "Print Entire Database"], key="print_mode_selector_key")
 
                     if print_mode == "Print Specific Visit":
                         valid_visits = df["visit_id"].dropna().unique().astype(int).astype(str).tolist()
-                        selected_v = st.selectbox("Select Visit ID to Print", [""] + valid_visits)
+                        selected_v = st.selectbox("Select Visit ID to Print", [""] + valid_visits, key="specific_visit_selector_key")
 
                         if selected_v:
                             v_data = df[df["visit_id"] == int(selected_v)].iloc[0]
@@ -732,11 +733,12 @@ def run_app():
                             """
 
                             st.download_button(
-                                label="🖨️ Download & Print Visit",
+                                label="🖨️ Download & Print All Records",
                                 data=printable_file,
-                                file_name=f"Visit_{v_data['visit_id']}_Print.html",
+                                file_name="All_Patient_Records.html",
                                 mime="text/html",
-                                type="primary"
+                                type="primary",
+                                key="download_all_records_key"
                             )
                             st.info("💡 **Instructions:** Click the blue button above. The browser will download a file. Click that downloaded file to open it, and your printer menu will pop up automatically!")
 
@@ -825,8 +827,8 @@ def run_app():
             conn.close()
 
     # ---------- PHARMACY DISPENSATION TAB (RESTORED) ----------
-    if "Pharmacy Dispensation" in tabs:
-        with tab_objs[tabs.index("Pharmacy Dispensation")]:
+    if selected_page == "Pharmacy Dispensation":
+        with st.container():
             st.header("Pharmacy Dispensation")
 
             # 1. Refresh Stock Button
@@ -851,7 +853,7 @@ def run_app():
                 patient_ids = patients_df["patient_id"].tolist()
                 patient_labels = [f"{row['patient_id']} - {row['patient_name']}" for _, row in patients_df.iterrows()]
 
-                selected_patient_label = st.selectbox("Select Patient to Dispense For", options=[""] + patient_labels, index=0)
+                selected_patient_label = st.selectbox("Select Patient to Dispense For", options=[""] + patient_labels, index=0, key="pharmacy_patient_selector")
 
                 if selected_patient_label:
                     # Extract ID from string "101 - John Doe"
@@ -868,7 +870,7 @@ def run_app():
                         st.info("No visits found for this patient.")
                     else:
                         # 4. Filter Mode (Pending vs All)
-                        filter_mode = st.radio("Show visits:", ["Pending (not dispensed)", "All", "Dispensed"], index=0, horizontal=True)
+                        filter_mode = st.radio("Show visits:", ["Pending (not dispensed)", "All", "Dispensed"], index=0, horizontal=True, key="pharmacy_filter_radio")
 
                         if filter_mode == "Pending (not dispensed)":
                             view_df = visits_df[visits_df["dispensed"].fillna("No") != "Yes"]
@@ -883,7 +885,7 @@ def run_app():
                         if not visit_options:
                             st.warning("No visits match this filter.")
                         else:
-                            selected_visit_label = st.selectbox("Select Visit", options=[""] + visit_options, index=0)
+                            selected_visit_label = st.selectbox("Select Visit", options=[""] + visit_options, index=0, key="pharmacy_visit_selector")
 
                             if selected_visit_label:
                                 visit_id = int(selected_visit_label.split(" — ")[0])
